@@ -16,7 +16,10 @@
   .marca{display:flex;align-items:center;gap:22px;padding:70px 90px 0}
   .marca .logo{width:74px;height:74px;border-radius:18px;background:var(--acento);
     display:grid;place-items:center;font-weight:800;color:var(--tinta);font-size:40px}
-  .marca .logo-img{width:74px;height:74px;border-radius:18px;object-fit:contain;display:block}
+  /* logo por extenso (wordmark): mostrado como lockup num chip preto.
+     Slide escuro: o chip funde no fundo. Slide claro: vira uma barra preta arredondada. */
+  .marca .logo-lockup{height:96px;width:auto;max-width:620px;object-fit:contain;display:block;
+    background:var(--tinta);border-radius:16px;padding:18px 26px}
   .marca .nome{font-size:34px;font-weight:700}
   .slide.escuro .marca .nome{color:var(--papel)}
 

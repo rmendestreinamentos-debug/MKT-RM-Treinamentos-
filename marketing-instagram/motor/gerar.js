@@ -38,15 +38,17 @@ function resolveMarca(dados){                     // nome vem da peça; logo por
   }
   return { nome, inicial };                       // sem arquivo -> inicial estilizada
 }
-function seloHTML(marca){
+function marcaHTML(marca){
+  // Logo por extenso já traz o nome escrito — mostra só o lockup, sem repetir o texto.
+  // Sem arquivo: inicial estilizada + nome ao lado.
   return marca.logoData
-    ? `<img class="logo-img" src="${marca.logoData}" alt="">`
-    : `<span class="logo">${marca.inicial}</span>`;
+    ? `<img class="logo-lockup" src="${marca.logoData}" alt="${marca.nome}">`
+    : `<span class="logo">${marca.inicial}</span><span class="nome">${marca.nome}</span>`;
 }
 function slideHTML(d, marca){
   return `<div class="slide ${d.tema === "escuro" ? "escuro" : "claro"}">
     ${d.pagina ? `<span class="paginador">${d.pagina}</span>` : ""}
-    <div class="marca">${seloHTML(marca)}<span class="nome">${marca.nome}</span></div>
+    <div class="marca">${marcaHTML(marca)}</div>
     <div class="corpo">
       ${d.eyebrow ? `<span class="eyebrow">${d.eyebrow}</span>` : ""}
       <div class="titulo" style="font-size:${ajustaTitulo((d.titulo||"").length)}px">${d.titulo || ""}</div>
@@ -61,7 +63,8 @@ function slideHTML(d, marca){
   if(!entrada){ console.error("Informe o arquivo: node motor/gerar.js conteudo/<arquivo>.json"); process.exit(1); }
 
   const dados = JSON.parse(fs.readFileSync(entrada, "utf8"));
-  const marca = resolveMarca(dados);   // nome + logo saem da própria peça (campos "marca"/"logo")
+  // Marca padrão vem do topo do arquivo; cada slide pode sobrescrever marca/logo/inicial.
+  const marcaBase = resolveMarca(dados);
   const css = fs.readFileSync(path.join(BASE, "motor/template.html"), "utf8")
                 .match(/<style>([\s\S]*?)<\/style>/)[1];
   const tokens = fs.readFileSync(path.join(BASE, "marca/tokens.css"), "utf8");
@@ -73,6 +76,10 @@ function slideHTML(d, marca){
   let i = 0;
   for(const slide of dados.slides){
     i++;
+    // slide declara marca/logo próprios? resolve por slide; senão usa o padrão do arquivo.
+    const marca = (slide.marca || slide.logo || slide.inicial)
+      ? resolveMarca({ marca: slide.marca || dados.marca, logo: slide.logo || dados.logo, inicial: slide.inicial || dados.inicial })
+      : marcaBase;
     const html = `<!doctype html><meta charset="utf-8">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

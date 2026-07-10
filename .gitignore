@@ -9,6 +9,9 @@ saida/
 *.env
 gabriel gay/
 
+# Logos brutos (fonte) — os tratados ficam em marketing-instagram/marca/
+LOGO MASTER MAT (2)/
+
 # Config local do Claude Code
 .claude/settings.local.json
 
