@@ -16,9 +16,14 @@ logo, o **nome em texto não aparece** (o logo já traz o nome).
 | Mapa da Advocacia Previdenciária | `"marca": "Mapa da Advocacia Previdenciária", "logo": "mapa-previdenciaria.png"` |
 | Mapa da Advocacia Trabalhista | `"marca": "Mapa da Advocacia Trabalhista", "logo": "mapa-trabalhista.png"` |
 
-## Ainda falta
-- **Logo da casa** (`logo.png` — Rafael Mendes Advogados). Sem ele, peças que não
-  declaram `logo` caem na inicial "R" estilizada. Solte um `logo.png` aqui pra resolver.
+## Logo da casa (Rafael Mendes Advogados) — NÃO é o default
+Os produtos acima são marcas próprias e **não entram na narrativa do Rafael Mendes
+Advogados**. Por isso o logo da casa NÃO deve virar `logo.png` (que seria carimbado
+automaticamente em qualquer peça sem `logo` declarado). Ele entra como slug explícito
+(`rafael-mendes.png`) e só aparece quando a peça pedir: `"logo": "rafael-mendes.png"`.
+
+Peça sem `logo` declarado cai na **inicial neutra** — de propósito, pra nunca marcar
+um produto com a marca errada. Cada peça declara sua marca.
 
 ## Por slide
 O `logo`/`marca` pode ser declarado por slide (sobrescreve o do topo do arquivo) —
