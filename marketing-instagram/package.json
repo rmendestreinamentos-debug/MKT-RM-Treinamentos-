@@ -1,0 +1,11 @@
+{
+  "name": "marketing-instagram",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "gerar": "node motor/gerar.js"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}

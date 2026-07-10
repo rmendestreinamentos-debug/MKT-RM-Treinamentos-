@@ -1,0 +1,28 @@
+{
+  "tipo": "carrossel",
+  "marca": "Rafael Mendes Advogados",
+  "arquivo_saida": "guia-trafego",
+  "slides": [
+    {
+      "tema": "claro",
+      "pagina": "1/3",
+      "eyebrow": "Guia rápido",
+      "titulo": "3 erros que derrubam seu tráfego pago",
+      "texto": "E como corrigir cada um antes de queimar orçamento."
+    },
+    {
+      "tema": "claro",
+      "pagina": "2/3",
+      "eyebrow": "Erro nº1",
+      "titulo": "Público amplo demais",
+      "texto": "Você paga pra falar com quem nunca vai comprar. Estreite antes de escalar."
+    },
+    {
+      "tema": "escuro",
+      "eyebrow": "Bora?",
+      "titulo": "Quer o guia completo?",
+      "texto": "O passo a passo dos 3 erros está no link.",
+      "cta": { "tipo": "link", "acao": "Saiba mais", "obs": "link na bio · vagas limitadas" }
+    }
+  ]
+}

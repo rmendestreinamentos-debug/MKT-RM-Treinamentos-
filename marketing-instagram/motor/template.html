@@ -1,0 +1,40 @@
+<!doctype html>
+<meta charset="utf-8">
+<!-- Montserrat via Google Fonts (pesos 400/700/800) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap">
+<link rel="stylesheet" href="../marca/tokens.css">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  /* dimensão real de publicação */
+  .slide{width:1080px;height:1350px;position:relative;display:flex;flex-direction:column;
+    font-family:var(--corpo);overflow:hidden}
+  .slide.claro{background:var(--papel);color:var(--tinta)}
+  .slide.escuro{background:var(--tinta);color:var(--papel)}
+
+  .marca{display:flex;align-items:center;gap:22px;padding:70px 90px 0}
+  .marca .logo{width:74px;height:74px;border-radius:18px;background:var(--acento);
+    display:grid;place-items:center;font-weight:800;color:var(--tinta);font-size:40px}
+  .marca .logo-img{width:74px;height:74px;border-radius:18px;object-fit:contain;display:block}
+  .marca .nome{font-size:34px;font-weight:700}
+  .slide.escuro .marca .nome{color:var(--papel)}
+
+  .corpo{flex:1;display:flex;flex-direction:column;justify-content:center;padding:90px}
+  .eyebrow{font-size:32px;letter-spacing:.14em;text-transform:uppercase;color:var(--apoio);font-weight:700;margin-bottom:34px}
+  .slide.escuro .eyebrow{color:var(--acento)}
+  .titulo{font-family:var(--display);font-weight:700;line-height:1.04}
+  .texto{margin-top:40px;font-size:42px;color:var(--suave);line-height:1.5;max-width:850px}
+  .slide.escuro .texto{color:#c4c1b4}
+
+  .cta{padding:0 90px 90px}
+  .cta .pill{display:inline-flex;background:var(--acento);color:var(--tinta);
+    font-weight:800;font-size:40px;padding:26px 44px;border-radius:999px}
+  .cta.link .pill{background:var(--apoio);color:#fff}
+  .cta .obs{display:block;font-size:32px;color:var(--suave);margin-top:26px}
+  .slide.escuro .cta .obs{color:#b0ad9f}
+
+  .paginador{position:absolute;top:70px;right:90px;font-size:32px;font-weight:700;color:var(--suave)}
+  .slide.escuro .paginador{color:#b0ad9f}
+</style>
+<div id="slide"></div>

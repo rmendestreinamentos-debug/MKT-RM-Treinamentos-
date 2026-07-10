@@ -1,0 +1,15 @@
+/* ============================================================
+   TOKENS DE MARCA — preencha UMA vez com a sua identidade real.
+   Todo o resto do projeto lê daqui. Não espalhe cor/fonte solta
+   pelo código; mude só aqui e tudo acompanha.
+   ============================================================ */
+:root{
+  --tinta:  #000000;   /* preto — texto forte / fundo escuro   */
+  --papel:  #ffffff;   /* branco — fundo claro                 */
+  --acento: #f4b661;   /* dourado quente — destaque / CTA      */
+  --apoio:  #f3c223;   /* dourado vibrante — cor secundária    */
+  --suave:  #5a5a5a;   /* cinza neutro — texto de apoio        */
+
+  --display: "Montserrat", sans-serif;   /* fonte de título */
+  --corpo:   "Montserrat", sans-serif;   /* fonte de corpo  */
+}
