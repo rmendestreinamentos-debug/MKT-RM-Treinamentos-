@@ -18,9 +18,10 @@ logo, o **nome em texto não aparece** (o logo já traz o nome).
 
 ## Logo da casa (Rafael Mendes Advogados) — NÃO é o default
 Os produtos acima são marcas próprias e **não entram na narrativa do Rafael Mendes
-Advogados**. Por isso o logo da casa NÃO deve virar `logo.png` (que seria carimbado
-automaticamente em qualquer peça sem `logo` declarado). Ele entra como slug explícito
-(`rafael-mendes.png`) e só aparece quando a peça pedir: `"logo": "rafael-mendes.png"`.
+Advogados**. Por isso o logo da casa NÃO virou `logo.png` (que seria carimbado
+automaticamente em qualquer peça sem `logo` declarado). Ele está como slug explícito
+**`rafael-mendes.png`** (branco no preto) e só aparece quando a peça pedir:
+`"marca": "Rafael Mendes Advogados", "logo": "rafael-mendes.png"`.
 
 Peça sem `logo` declarado cai na **inicial neutra** — de propósito, pra nunca marcar
 um produto com a marca errada. Cada peça declara sua marca.
