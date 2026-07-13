@@ -1,0 +1,12 @@
+{
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp.png",
+  "arquivo_saida": "summit-provocacao-escritorio",
+  "tipo": "provocacao",
+  "slides": [
+    {
+      "titulo": "Você tem um escritório ou um *emprego* que você mesmo criou?",
+      "cta": { "tipo": "organico", "acao": "Leia a legenda" }
+    }
+  ]
+}

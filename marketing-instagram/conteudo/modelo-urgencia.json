@@ -1,0 +1,13 @@
+{
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp.png",
+  "arquivo_saida": "modelo-urgencia",
+  "tipo": "urgencia",
+  "slides": [
+    {
+      "eyebrow": "Mood do dia",
+      "titulo": "*97%* dos ingressos do 3º lote esgotados!",
+      "cta": { "tipo": "link", "acao": "Garanta seu ingresso no link da bio" }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp.png",
+  "arquivo_saida": "modelo-provocacao",
+  "tipo": "provocacao",
+  "slides": [
+    {
+      "titulo": "Você travaria *2 dias* da sua agenda para mudar *2 anos* do seu escritório?",
+      "cta": { "tipo": "organico", "acao": "Leia a legenda" }
+    }
+  ]
+}

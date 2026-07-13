@@ -1,0 +1,18 @@
+{
+  "marca": "RM Summit",
+  "logo": "rm-summit-bh.png",
+  "arquivo_saida": "modelo-contagem",
+  "tipo": "contagem",
+  "slides": [
+    {
+      "foto": "FOTOS/SEM ROSTO/v2_9fc7d508-f514-47b9-aaa7-9d2b8a572ffb.jpg",
+      "veu": "medio",
+      "prefixo": "Faltam",
+      "numero": "10",
+      "unidade": "dias",
+      "texto": "TROCAR: a frase de apoio vem de você.",
+      "data": "TROCAR: data · cidade",
+      "cta": { "tipo": "link", "acao": "TROCAR: chamada do link" }
+    }
+  ]
+}

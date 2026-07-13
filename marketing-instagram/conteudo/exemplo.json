@@ -1,6 +1,6 @@
 {
-  "tipo": "carrossel",
   "marca": "Rafael Mendes Advogados",
+  "logo": "rafael-mendes.png",
   "arquivo_saida": "guia-trafego",
   "slides": [
     {

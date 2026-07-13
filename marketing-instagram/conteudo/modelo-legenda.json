@@ -1,0 +1,21 @@
+{
+  "arquivo_saida": "modelo-legenda",
+  "tipo": "legenda",
+  "slides": [
+    {
+      "paineis": [
+        { "foto": "eu-filho.jpg", "legenda": "Eu nunca quis ir para o Legendários." },
+        { "foto": "marcal.jpg", "legenda": "Mas o Pablo Marçal já foi." }
+      ]
+    },
+    {
+      "paineis": [
+        { "foto": "eu-telefone.jpg", "legenda": "Eu não penso em conquistar o universo." },
+        { "foto": "musk.jpg", "legenda": "O Elon Musk está mirando em Marte." }
+      ]
+    },
+    {
+      "texto": "Qual foi a “camisa pesada” que colocaram em você?\n\nComenta aqui. 👇"
+    }
+  ]
+}

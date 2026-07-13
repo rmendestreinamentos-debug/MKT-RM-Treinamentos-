@@ -1,0 +1,16 @@
+{
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp.png",
+  "arquivo_saida": "modelo-depoimento",
+  "tipo": "depoimento",
+  "slides": [
+    {
+      "foto": "larissa.jpg",
+      "citacao": "O Summit foi um *divisor de águas* na minha vida.",
+      "autor": "Larissa",
+      "cargo": "Coordenadora Comercial",
+      "obs": "(participante de edições anteriores)",
+      "cta": { "tipo": "link", "acao": "Clique em saiba mais" }
+    }
+  ]
+}

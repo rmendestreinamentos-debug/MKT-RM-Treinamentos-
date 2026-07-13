@@ -12,4 +12,10 @@
 
   --display: "Montserrat", sans-serif;   /* fonte de título */
   --corpo:   "Montserrat", sans-serif;   /* fonte de corpo  */
+
+  /* Carrossel nativo (thread / foto com legenda): NÃO usa a fonte da casa de
+     propósito — a peça só funciona se parecer print de verdade, não peça de
+     marketing. Grotesca de sistema, igual à do X. Ver CLAUDE.md.            */
+  --nativo:  "Roboto", "Segoe UI", Helvetica, Arial, sans-serif;
+  --marcador: #f4212e;                   /* vermelho do marca-texto na thread */
 }

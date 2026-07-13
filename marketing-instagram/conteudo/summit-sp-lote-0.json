@@ -1,0 +1,17 @@
+{
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp.png",
+  "arquivo_saida": "summit-sp-lote-0",
+  "tipo": "urgencia",
+  "slides": [
+    {
+      "foto": "FOTOS/DIA 1/0108_v2_bda7dbb3-dc7d-4f03-9a31-1ede0a9d7bbd.jpg",
+      "veu": "medio",
+      "foco": "baixo",
+      "titulo": "O *Lote 0* está chegando ao fim.",
+      "texto": "Essa pode ser a sua última oportunidade de garantir o ingresso pelo menor valor.",
+      "data": "07, 08 e 09 de outubro · Espaço Acelerador — Alphaville",
+      "cta": { "tipo": "link", "acao": "Garanta o seu ingresso no link da bio" }
+    }
+  ]
+}

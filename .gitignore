@@ -4,6 +4,11 @@ node_modules/
 # Saída gerada pelo motor (PNGs)
 saida/
 
+# Acervo de fotos (~3 GB do evento) — NUNCA versionar. Fica só na máquina.
+# O LEIA-ME é a exceção: ele documenta a pasta e precisa estar no repo.
+marketing-instagram/fotos/*
+!marketing-instagram/fotos/LEIA-ME.md
+
 # Segredos — NUNCA versionar
 .env
 *.env
@@ -12,8 +17,16 @@ gabriel gay/
 # Logos brutos (fonte) — os tratados ficam em marketing-instagram/marca/
 LOGO MASTER MAT (2)/
 
-# Config local do Claude Code
+# Modelos brutos enviados pelo dono (fonte). Os curados/rotulados vivem em
+# marketing-instagram/exemplos/. A barra inicial ancora na RAIZ: não confundir
+# com marketing-instagram/exemplos/ (no Windows o git ignora maiúsculas).
+/Exemplos/
+# ZIPs de ~90 e ~140 MB — o GitHub rejeita arquivo acima de 100 MB
+/Exemplos Carrosseis/
+
+# Config local do Claude Code. skills/ traz repos git aninhados (gitlink quebrado).
 .claude/settings.local.json
+.claude/skills/
 
 # Sistema operacional
 Thumbs.db

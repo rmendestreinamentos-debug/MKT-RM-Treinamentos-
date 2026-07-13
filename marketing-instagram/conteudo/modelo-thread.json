@@ -1,0 +1,25 @@
+{
+  "arquivo_saida": "modelo-thread",
+  "tipo": "thread",
+  "perfil": {
+    "nome": "João Vitor | Advogado Trabalhista",
+    "handle": "@joaovitormadv",
+    "avatar": "joao-vitor.jpg",
+    "verificado": true
+  },
+  "slides": [
+    {
+      "titulo": "Globo x CazéTV",
+      "gancho": "De qual lado você está?",
+      "imagem": "thread-capa.png"
+    },
+    {
+      "texto": "De um lado, a *Globo.*\n\nA transmissão tradicional, histórica, aquela que durante décadas foi praticamente sinônimo de Copa do Mundo no Brasil.\n\nPara muita gente, Copa na Globo tem memória afetiva, família reunida, TV ligada e jogo parando o país.",
+      "imagem": "thread-pele.png"
+    },
+    {
+      "tema": "escuro",
+      "texto": "A pergunta não é se você tem coragem de abandonar tudo. É se você continua onde está por escolha ou porque sua gaiola é bonita demais para parecer prisão. 😉"
+    }
+  ]
+}
