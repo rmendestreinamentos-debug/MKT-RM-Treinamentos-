@@ -1,0 +1,16 @@
+{
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp.png",
+  "arquivo_saida": "summit-sp-3-dias",
+  "tipo": "provocacao",
+  "slides": [
+    {
+      "foto": "FOTOS/DIA 1/0102_v2_caa8c8aa-1a23-4393-9fd7-c7b552bdd9f1.jpg",
+      "veu": "medio",
+      "foco": "baixo",
+      "titulo": "Você travaria *3 dias* da sua agenda para mudar os próximos *5 anos* do seu escritório?",
+      "data": "07, 08 e 09 de outubro · Espaço Acelerador — Alphaville",
+      "cta": { "tipo": "link", "acao": "Garanta seu ingresso clicando no link da bio" }
+    }
+  ]
+}

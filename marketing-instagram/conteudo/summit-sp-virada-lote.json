@@ -1,0 +1,23 @@
+{
+  "arquivo_saida": "summit-sp-virada-lote",
+  "tipo": "lote",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "titulo": "Virada\nde lote",
+      "texto": "Garanta seu ingresso antes da mudança de valor:",
+      "foto": "AV PAULISTA DE FUNDO.jpg",
+      "veu": "medio",
+      "foco": "baixo",
+      "alerta": 170,
+      "ingressos": [
+        { "nome": "Master", "por": "R$ 597,00", "parcelas": "ou 12x R$ 61,75" },
+        { "nome": "Classic", "por": "R$ 397,00", "parcelas": "ou 12x R$ 41,06" }
+      ],
+      "nota": "Na compra de 2 ingressos Classic, o 2º sai com 50% de desconto.",
+      "rodape": "07, 08 e 09 de Outubro",
+      "cta": { "acao": "Garanta seu ingresso pelo link na bio" }
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "tema": "summit",
+  "marca": "Comercial 24hrs",
+  "logo": "comercial-24hrs-sem-fundo.png",
+  "aula": "Aula 11 · Treinamento para SDR",
+  "titulo": "Treinamento para SDR",
+  "arquivo_saida": "aula-11-treinamento-sdr",
+  "slides": [
+    {
+      "layout": "capa",
+      "moldura": true,
+      "foto": "FOTOS/GABRIEL/v2_630bcefe-b07c-443d-ae67-993e4c3c76ab.jpg",
+      "foco": "topo",
+      "eyebrow": "Aula 11",
+      "titulo": "Treinamento\npara SDR",
+      "texto": "Como transformar um lead em uma\noportunidade de atendimento."
+    },
+    {
+      "layout": "texto",
+      "titulo": "A missão do SDR",
+      "linhas": [
+        "O SDR não vende contratos.",
+        "O SDR *gera oportunidades*.",
+        "Seu papel é conduzir o cliente até o atendimento com o Closer."
+      ]
+    },
+    {
+      "layout": "fluxo",
+      "titulo": "O impacto do SDR",
+      "etapas": ["Lead", "SDR", "Closer", "Contrato"],
+      "linhas": [
+        "Sem um bom SDR, não existe uma boa agenda.",
+        "Sem agenda, *não existe contrato*."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "O perfil ideal do SDR",
+      "marca_item": "check",
+      "itens": [
+        "Comunicativo", "Ágil", "Boa dicção", "Boa energia", "Competitivo",
+        "Organizado", "Resiliente", "Aprende rápido", "Desembolado"
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Quem normalmente tem dificuldade",
+      "marca_item": "x",
+      "itens": [
+        "Muito tímido",
+        "Muito lento",
+        "Inseguro",
+        "Medo de telefone",
+        "Espera o cliente tomar iniciativa"
+      ]
+    },
+    {
+      "layout": "cards",
+      "titulo": "As 5 características do SDR campeão",
+      "itens": ["Velocidade", "Comunicação", "Ritmo", "Voz", "Execução"]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "Velocidade é\n*vantagem competitiva*",
+      "linhas": [
+        "Lead quente esfria rapidamente.",
+        "Quanto menor o tempo de resposta, maior será a taxa de conversão."
+      ]
+    },
+    {
+      "layout": "fluxo",
+      "titulo": "Ligue antes de responder",
+      "intro": "Fluxo ideal:",
+      "etapas": ["Ligação", "WhatsApp", "Nova ligação", "Áudio", "Follow Up"]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Por que ligar primeiro?",
+      "marca_item": "check",
+      "itens": [
+        "Cria vínculo rapidamente.",
+        "Demonstra agilidade.",
+        "Qualifica em menos tempo.",
+        "Gera confiança.",
+        "Agenda no mesmo contato."
+      ],
+      "fecho": "Uma ligação de dois minutos vale mais do que vinte mensagens."
+    },
+    {
+      "layout": "lista",
+      "titulo": "O poder da voz",
+      "intro": "Sua voz transmite:",
+      "marca_item": "check",
+      "itens": ["Confiança", "Acolhimento", "Entusiasmo", "Segurança"],
+      "fecho": "Antes de ouvir sua proposta, o cliente sente sua energia."
+    },
+    {
+      "layout": "fluxo",
+      "titulo": "O fluxo do SDR",
+      "etapas": ["Lead", "Ligação", "Qualificação", "Agendamento", "CRM", "Closer"],
+      "por_fila": 3,
+      "intro2": "Se não houver contato:",
+      "etapas2": ["Ligação", "WhatsApp", "Nova ligação", "Áudio", "Follow Up"],
+      "por_fila2": 5
+    },
+    {
+      "layout": "lista",
+      "titulo": "A demanda principal sempre vem primeiro",
+      "intro": "Primeiro, resolva a demanda que trouxe o cliente.",
+      "marca_item": "check",
+      "itens": ["Se houver viabilidade: *agende imediatamente*."],
+      "fecho": "As novas oportunidades serão exploradas pelo Closer durante o atendimento."
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "E se a demanda\n*não for viável*?",
+      "linhas": [
+        "A conversa não termina.",
+        "Agora começa o verdadeiro trabalho do SDR. Antes de encerrar o atendimento, explore novas oportunidades."
+      ]
+    },
+    {
+      "layout": "numeros",
+      "titulo": "As 3 prospecções obrigatórias",
+      "itens": [
+        "Verificar outros *contratos de trabalho*.",
+        "Ofertar uma oportunidade *previdenciária*.",
+        "Identificar *colegas* na mesma situação."
+      ]
+    },
+    {
+      "layout": "citacao",
+      "titulo": "Prospecção 01 — Outros contratos",
+      "pergunta": "Você trabalhou em outro lugar nos últimos dois anos?",
+      "objetivo": "Encontrar uma nova oportunidade trabalhista *antes da prescrição*."
+    },
+    {
+      "layout": "lista",
+      "titulo": "Prospecção 02 — Previdenciário",
+      "intro": "Sempre avalie uma oportunidade previdenciária. Exemplos:",
+      "marca_item": "bullet",
+      "itens": ["Auxílio-acidente", "Auxílio-doença", "BPC/LOAS"],
+      "fecho": "Uma demanda inviável pode esconder outra totalmente viável."
+    },
+    {
+      "layout": "citacao",
+      "titulo": "Prospecção 03 — Colegas",
+      "pergunta": "Mais alguém da empresa passou pela mesma situação?",
+      "objetivo": "Gerar novas oportunidades através de pessoas que *vivem o mesmo problema*."
+    },
+    {
+      "layout": "lista",
+      "titulo": "O SDR nunca termina uma conversa sem...",
+      "marca_item": "check",
+      "itens": [
+        "Agendar um atendimento.",
+        "Definir um próximo passo.",
+        "Explorar novas oportunidades."
+      ],
+      "fecho": "Toda conversa precisa gerar movimento."
+    },
+    {
+      "layout": "lista",
+      "titulo": "CRM",
+      "intro": "Após cada atendimento, registre:",
+      "marca_item": "check",
+      "itens": [
+        "Resumo da conversa.",
+        "Demanda principal.",
+        "Objeções.",
+        "Melhor horário.",
+        "Próximo passo.",
+        "Observações importantes.",
+        "Possíveis novas demandas."
+      ],
+      "fecho": "O CRM deve lembrar daquilo que você não pode esquecer."
+    },
+    {
+      "layout": "fluxo",
+      "titulo": "Funil",
+      "intro": "Atualize o funil imediatamente.",
+      "etapas": [
+        "Nova Demanda", "Lead Qualificado", "Lead Desqualificado",
+        "Aguardando Atendimento", "Reagendamento", "Closer"
+      ],
+      "por_fila": 3,
+      "linhas": ["Funil desatualizado gera *desorganização*."]
+    },
+    {
+      "layout": "lista",
+      "titulo": "A passagem de bastão",
+      "intro": "O Closer precisa receber contexto. Informe:",
+      "marca_item": "check",
+      "itens": [
+        "Dor principal.",
+        "Objeções.",
+        "Preferências.",
+        "Observações importantes.",
+        "Possíveis novas demandas."
+      ],
+      "fecho": "Quanto melhor a passagem, maior a conversão."
+    },
+    {
+      "layout": "ranking",
+      "titulo": "Ordem de prioridade",
+      "itens": ["Cliente Virtual", "Cliente Orgânico", "Indicações", "Parceiros"],
+      "fecho": "Priorizar não é atender melhor. É atender primeiro quem perde temperatura mais rápido."
+    },
+    {
+      "layout": "colunas",
+      "titulo": "O dia perfeito de um SDR",
+      "grupos": [
+        { "titulo": "Início do expediente", "itens": [
+          "Verificar novos leads.", "Priorizar clientes virtuais.", "Ligar imediatamente."] },
+        { "titulo": "Durante o dia", "itens": [
+          "Qualificar.", "Agendar.", "Alimentar CRM.", "Atualizar funil.", "Passar bastão."] },
+        { "titulo": "Sem novos leads", "itens": [
+          "Fazer Follow Up.", "Reativar CRM.", "Organizar tarefas.", "Fazer ligações."] },
+        { "titulo": "Final do expediente", "itens": [
+          "Conferir indicadores.", "Revisar pendências.",
+          "Garantir que nenhum lead fique sem próximo passo."] }
+      ]
+    },
+    {
+      "layout": "colunas",
+      "titulo": "Os indicadores do SDR",
+      "grupos": [
+        { "titulo": "Produtividade", "itens": [
+          "Tempo até a primeira ligação.", "Ligações realizadas.",
+          "Contatos efetivos.", "Tempo até o agendamento."] },
+        { "titulo": "Conversão", "itens": [
+          "Leads qualificados.", "Agendamentos.", "Comparecimento.",
+          "No Show.", "Reagendamentos."] },
+        { "titulo": "Organização", "itens": [
+          "CRM atualizado.", "Funil atualizado.", "Passagem de bastão."] }
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "O placar do SDR",
+      "intro": "Acompanhe diariamente:",
+      "marca_item": "check",
+      "itens": [
+        "Ligações realizadas.",
+        "Agendamentos.",
+        "Comparecimento.",
+        "No Show.",
+        "Reagendamentos.",
+        "Tempo até a primeira ligação.",
+        "Conversão de agendamentos."
+      ],
+      "fecho": "Quem acompanha diariamente melhora diariamente."
+    },
+    {
+      "layout": "lista",
+      "titulo": "O SDR é cobrado pelo processo",
+      "intro": "O SDR controla:",
+      "marca_item": "check",
+      "itens": [
+        "Rapidez.", "Ligações.", "Qualificação.", "Agendamentos.",
+        "CRM.", "Funil.", "Passagem de bastão."
+      ],
+      "fecho": "O contrato é consequência de um processo bem executado."
+    },
+    {
+      "layout": "fluxo",
+      "titulo": "O ciclo do SDR campeão",
+      "etapas": [
+        "Receber Lead", "Ligar", "Qualificar", "Agendar",
+        "Registrar", "Passar Bastão", "Acompanhar", "Prospectar de novo"
+      ],
+      "por_fila": 4,
+      "linhas": ["O cliente *nunca pode ficar parado* no funil."]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Os 10 mandamentos do SDR",
+      "marca_item": "numero",
+      "itens": [
+        "Ligue antes de escrever.",
+        "Seja rápido.",
+        "Conduza a conversa.",
+        "Explore todas as oportunidades.",
+        "Atualize o CRM.",
+        "Atualize o funil.",
+        "Faça muitas ligações.",
+        "Nunca deixe um lead parado.",
+        "Faça uma passagem de bastão completa.",
+        "Sempre defina o próximo passo."
+      ]
+    },
+    {
+      "layout": "colunas",
+      "titulo": "Dever de casa",
+      "grupos": [
+        { "titulo": "Durante uma semana, acompanhe", "itens": [
+          "Tempo até a primeira ligação.",
+          "Quantidade de ligações.",
+          "Tempo até o agendamento.",
+          "Comparecimento.",
+          "No Show.",
+          "Reagendamentos."] },
+        { "titulo": "Além disso, registre", "itens": [
+          "Quantos clientes inicialmente inviáveis geraram outro vínculo trabalhista.",
+          "Quantos geraram uma oportunidade previdenciária.",
+          "Quantos indicaram colegas."] }
+      ]
+    },
+    {
+      "layout": "final",
+      "foto": "FOTOS/GABRIEL/v2_ee68e31e-2bc0-402b-b922-6e92db8111c3.jpg",
+      "foco": "topo",
+      "titulo": "Todo contrato fechado começou com um SDR que decidiu *agir rápido*."
+    }
+  ]
+}

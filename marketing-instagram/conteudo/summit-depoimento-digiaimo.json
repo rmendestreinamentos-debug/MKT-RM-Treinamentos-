@@ -1,0 +1,16 @@
+{
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp.png",
+  "arquivo_saida": "summit-depoimento-digiaimo",
+  "tipo": "depoimento",
+  "slides": [
+    {
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_ae4d9df6-51c9-4dfd-a5f8-00cccd8f7a2d.jpg",
+      "veu": "forte",
+      "foco": "baixo",
+      "citacao": "Sensacional. Você é diferenciado porque ensina aquilo que vive. Sem dúvida alguma, *o maior e melhor evento para advogados*.",
+      "autor": "@luisdigiaimo.adv",
+      "cta": { "tipo": "link", "acao": "Garanta seu ingresso no link da bio" }
+    }
+  ]
+}

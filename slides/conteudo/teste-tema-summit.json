@@ -1,0 +1,41 @@
+{
+  "_nota": "TESTE de fidelidade do tema 'summit' — reproduz páginas do modelo Modelos/O proposito.pdf. Serve pra conferir com o olho, não pra publicar. As fotos em imagens/teste/ foram extraídas do próprio PDF.",
+  "tema": "summit",
+  "marca": "RM Summit",
+  "logo": "rm-summit-bh-sem-fundo.png",
+  "arquivo_saida": "teste-tema-summit",
+  "slides": [
+    {
+      "layout": "capa",
+      "moldura": true,
+      "foto": "teste/prop-p01.jpg",
+      "foco": "topo",
+      "titulo": "O propósito",
+      "texto": "Quando **a** *dor encontra*\numa **causa**,",
+      "fecho": "ela deixa de ser apenas peso."
+    },
+    {
+      "layout": "foto",
+      "foto": "teste/prop-p02.jpg",
+      "titulo": "Nossa **história**\n**começou** antes\ndele *nascer*",
+      "texto": "**Por sete anos, eu carreguei o sonho**\n**de ter um filho chamado Enrico.**"
+    },
+    {
+      "layout": "duas-fotos",
+      "fotos": ["teste/prop-p04.jpg", "teste/prop-p05.jpg"],
+      "titulo": "O dia em que eu **descobri**\nque *não resolvia* **tudo**",
+      "linhas": [
+        "Até aquele momento, eu achava que força era controlar.",
+        "Depois do Enrico, entendi que força também é aceitar o que não controlo."
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "O **luto também** pode\n**virar** *propósito*",
+      "linhas": [
+        "Nem sempre a dor passa.",
+        "Às vezes, ela encontra um lugar para servir."
+      ]
+    }
+  ]
+}

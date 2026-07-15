@@ -1,0 +1,55 @@
+{
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp.png",
+  "arquivo_saida": "summit-depoimentos-2",
+  "slides": [
+    {
+      "tipo": "urgencia",
+      "foto": "FOTOS/DIA 2/0065_v2_2a5ae89c-355e-4e59-b146-647c8c8f2fbf.jpg",
+      "veu": "forte",
+      "foco": "baixo",
+      "eyebrow": "Direto de quem viveu",
+      "titulo": "As mensagens que chegaram *depois do RM Summit*",
+      "cta": { "tipo": "organico", "acao": "Arraste para ler" }
+    },
+    {
+      "tipo": "depoimento",
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_c4ee535d-120a-4c57-8585-b0b3878564d8.jpg",
+      "veu": "forte",
+      "foco": "baixo",
+      "citacao": "Ainda estou extasiada com tudo o que vivi nesse evento. Vocês conseguiram transmitir *essência, verdade, propósito e muito conhecimento*.",
+      "autor": "@kamillalacerda.advogada"
+    },
+    {
+      "tipo": "depoimento",
+      "foto": "FOTOS/DIA 1/0073_v2_a7a8cb1a-95de-47f0-aa47-27eafc95208c.jpg",
+      "veu": "forte",
+      "citacao": "*Máximo respeito* pelo que você criou e entregou nesses dias. Parabéns de coração.",
+      "autor": "@renanfmoreira"
+    },
+    {
+      "tipo": "depoimento",
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_6ef828fa-a178-41eb-bcaf-d6700d5b255c.jpg",
+      "veu": "forte",
+      "foco": "baixo",
+      "citacao": "Você é fera, Rafael! A *admiração pós evento aumentou muito*!",
+      "autor": "@luizhenriquerib_"
+    },
+    {
+      "tipo": "depoimento",
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_763e3126-a484-4aaa-bbc5-81ede57c23d4.jpg",
+      "veu": "forte",
+      "citacao": "Foi *indescritível* fazer parte disso.",
+      "autor": "@advitalomoreira"
+    },
+    {
+      "tipo": "depoimento",
+      "foto": "FOTOS/DIA 1/0259_v2_52da08c8-a47c-4d42-9b53-0eb4d98b7b33.jpg",
+      "veu": "medio",
+      "foco": "topo",
+      "citacao": "Aconteceu e vocês entregaram TUDOOOOO! *Melhor evento!*",
+      "autor": "@dra_wanaarvelos",
+      "cta": { "tipo": "link", "acao": "Garanta seu ingresso no link da bio" }
+    }
+  ]
+}

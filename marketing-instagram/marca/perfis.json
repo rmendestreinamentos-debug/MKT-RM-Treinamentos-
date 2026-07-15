@@ -1,0 +1,37 @@
+{
+  "_leia-me": "Quem ASSINA um carrossel nativo (tipo 'thread'). No JSON da peça use o slug: \"perfil\": \"rm-summit\". O motor puxa nome/handle/avatar daqui. Handle com null = ainda não confirmado pelo dono; o motor para e pede. 'encaixe': 'contain' pra avatar que é LOGO (encaixa inteiro num disco preto); 'cover' pra foto de rosto.",
+
+  "rm-summit": {
+    "nome": "RM Summit SP",
+    "handle": "@rmsummit_",
+    "avatar": "rm-summit-sp.png",
+    "encaixe": "contain",
+    "verificado": false
+  },
+
+  "rafael-mendes": {
+    "nome": "Rafael Mendes",
+    "handle": "@rafaelmendesadv",
+    "avatar": "avatar-rafael-mendes.png",
+    "encaixe": "cover",
+    "verificado": true,
+    "_obs": "O perfil pessoal é VERIFICADO no Instagram (selo azul) — por isso o selo aparece no card."
+  },
+
+  "rafael-mendes-advogados": {
+    "nome": "Rafael Mendes Advogados",
+    "handle": "@rafaelmendesadvogados",
+    "avatar": "avatar-rm-advogados.png",
+    "encaixe": "cover",
+    "verificado": false
+  },
+
+  "joao-vitor": {
+    "nome": "João Vitor",
+    "handle": "@joaovitormadv",
+    "avatar": "avatar-joao-vitor.png",
+    "encaixe": "cover",
+    "verificado": false,
+    "_obs": "Conta PESSOAL do dono (confirmado por ele em 2026-07-14) — as outras três são do trabalho. É deste perfil que saiu o modelo do tipo 'thread' (ver exemplos/thread-x/). Nome e ausência de selo vieram do print de referência; o avatar foi recortado dele."
+  }
+}

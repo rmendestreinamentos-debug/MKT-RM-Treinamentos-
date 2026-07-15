@@ -1,0 +1,16 @@
+{
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp.png",
+  "arquivo_saida": "summit-sp-buffett",
+  "tipo": "depoimento",
+  "slides": [
+    {
+      "foto": "FOTOS/SEM ROSTO/v2_a6ccf950-efd5-4225-acf4-a49718e471cb.jpg",
+      "veu": "forte",
+      "citacao": "*Investir em você mesmo* é a melhor coisa que você pode fazer. Qualquer coisa que melhore seus talentos.",
+      "autor": "Warren Buffett",
+      "data": "07, 08 e 09 de outubro · Espaço Acelerador — Alphaville",
+      "cta": { "tipo": "marca-dagua", "acao": "Garanta seu ingresso no link da bio" }
+    }
+  ]
+}

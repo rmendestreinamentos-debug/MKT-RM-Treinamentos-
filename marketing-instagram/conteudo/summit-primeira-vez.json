@@ -1,0 +1,55 @@
+{
+  "arquivo_saida": "summit-primeira-vez",
+  "tipo": "estreia",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "titulo": "Pela primeira vez\nno RM Summit.",
+      "texto": "Conheça alguns dos grandes nomes que estarão no palco desta edição:",
+      "grade": [
+        { "nome": "Rafa Brito",     "foto": "Rafa Brito.jpg" },
+        { "nome": "Samer Agi",      "foto": "Samer Agi.jpeg" },
+        { "nome": "Lásaro do Carmo Jr.", "foto": "Lásaro Carmo.png" },
+        { "nome": "João Menna",     "foto": "João Menna.jpeg", "recorte": false },
+        { "nome": "Rafael Gonçalves", "foto": "Rafael Gonçalves.jpeg" },
+        { "nome": "Janaína Bastos", "foto": "Janaína Bastos.jpeg" }
+      ]
+    },
+    {
+      "fundo": "kv-plateia.jpg",
+      "palestrante": { "nome": "Rafa Brito", "foto": "Rafa Brito.jpg" },
+      "texto": "Empresário e estrategista digital, tornou-se uma das principais referências do país em posicionamento, comunicação e crescimento por meio do conteúdo.\n\nCom mais de 30 mil alunos em 19 países, ensina empresários a transformarem as redes sociais em uma ferramenta para gerar autoridade, construir audiência e aumentar o faturamento."
+    },
+    {
+      "fundo": "kv-plateia.jpg",
+      "palestrante": { "nome": "Samer Agi", "foto": "Samer Agi.jpeg" },
+      "texto": "Advogado, ex-juiz de Direito e ex-delegado, deixou a magistratura para se dedicar ao desenvolvimento humano, à comunicação e à formação de pessoas.\n\nProfessor, escritor e fundador da escola Ser Mais Criativo, levará ao palco uma visão prática sobre propósito, comunicação e construção de uma vida equilibrada e de alta performance."
+    },
+    {
+      "fundo": "kv-plateia.jpg",
+      "palestrante": { "nome": "Lásaro do Carmo Jr.", "foto": "Lásaro Carmo.png" },
+      "texto": "Ex-vice-presidente do Grupo Silvio Santos e ex-presidente de grandes empresas no Brasil e na América Latina.\n\nHoje, é empresário, conselheiro e uma das maiores referências do país em liderança, estratégia, vendas e cultura empresarial."
+    },
+    {
+      "fundo": "kv-plateia.jpg",
+      "palestrante": { "nome": "João Menna", "foto": "João Menna.jpeg", "recorte": false },
+      "texto": "Empresário, mentor e uma das maiores autoridades em marca pessoal do Brasil.\n\nCom mais de 40 mil alunos no Brasil e no exterior, ensina profissionais a construírem marcas fortes, respeitadas e duradouras por meio de estratégia, imagem e narrativa."
+    },
+    {
+      "fundo": "kv-plateia.jpg",
+      "palestrante": { "nome": "Rafael Gonçalves", "foto": "Rafael Gonçalves.jpeg" },
+      "texto": "Advogado, professor e CEO do Rafael Gonçalves Advocacia, construiu uma trajetória de destaque nas áreas de Direito de Família, Sucessões, Violência Doméstica e Direito Empresarial.\n\nReconhecido nacional e internacionalmente, levará ao palco a experiência de quem transformou conhecimento jurídico em autoridade, posicionamento e crescimento profissional."
+    },
+    {
+      "fundo": "kv-plateia.jpg",
+      "palestrante": { "nome": "Janaína Bastos", "foto": "Janaína Bastos.jpeg" },
+      "texto": "Advogada trabalhista há 20 anos, CEO de um escritório que atende mais de 1.000 empresas e autora de dois livros.\n\nCom uma comunidade de mais de 3,7 milhões de seguidores, levará ao palco a visão prática de quem conhece os desafios da advocacia empresarial e sabe o que pode proteger ou comprometer um negócio."
+    },
+    {
+      "titulo": "RM Summit São Paulo\n07, 08 e 09 de outubro",
+      "texto": "Três dias de conteúdo, estratégia, negócios e conexões com grandes referências do mercado.",
+      "cta": { "acao": "Garanta seu ingresso pelo link na bio." }
+    }
+  ]
+}

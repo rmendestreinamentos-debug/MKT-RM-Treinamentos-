@@ -29,3 +29,18 @@ um produto com a marca errada. Cada peça declara sua marca.
 ## Por slide
 O `logo`/`marca` pode ser declarado por slide (sobrescreve o do topo do arquivo) —
 útil pra fechar um carrossel com o selo de outro produto no CTA.
+
+## Logo SOBRE FOTO: use a versão `-sem-fundo`
+Os arquivos originais têm o **fundo preto chapado dentro do PNG**. Isso nunca
+apareceu porque o selo sempre caiu em fundo escuro — preto sobre preto. Nas peças de
+tráfego (`anuncio`, `caricato`) o selo cai **sobre a foto**, e aí o fundo do arquivo
+vira um retângulo preto sem pé nem cabeça. Não dá pra resolver no CSS: o preto está
+nos pixels.
+
+```
+node motor/logo-sem-fundo.js rm-summit-sp.png   ->  marca/rm-summit-sp-sem-fundo.png
+```
+
+Ele lê o brilho de cada pixel como opacidade, então a borda sai suave e o degradê do
+dourado se mantém — um corte por limiar serrilharia a letra. O original **não** é
+tocado: rode pro logo que precisar e declare o `-sem-fundo` na peça.

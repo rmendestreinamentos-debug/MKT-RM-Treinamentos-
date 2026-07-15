@@ -19,8 +19,12 @@ Os originais são pesados (ZIPs de ~90 e ~140 MB) e ficam **fora do repo**, em
 
 | Modelo | Tipo no motor | Estrutura |
 |---|---|---|
-| *Prisões* (29 slides) | `thread` | Print de thread do X: perfil no topo, texto em negrito, marca-texto vermelho, imagem embutida. Capa = título + gancho. Último slide vira **escuro** pro remate. |
+| *Odisseia / gaiola de ouro* (@joaovitormadv) | `thread` | Print de tweet no dark mode: perfil no topo, texto em **peso normal**, imagem embutida opcional. Sem negrito, sem marca-texto, sem capa. Fecha em slide só texto, card centrado no preto. **Frames e anatomia em `thread-x/`** — é o modelo canônico. |
 | *Eu só visto fantasia em casa* (25 slides) | `legenda` | Foto em tela cheia, muitas vezes **duas lado a lado** fazendo o contraste ("eu" × "o Pablo Marçal"), com caixa branca de legenda. Fecha num slide branco com CTA de comentário. |
+
+⚠️ A descrição antiga do `thread` (negrito + marca-texto vermelho + capa em caixa
+alta) foi corrigida em 2026-07-14 contra o modelo real. Os ganchos continuam no
+motor pra quem quiser, mas **o padrão é o print limpo**.
 
 ⚠️ Ambos passam de **20 slides**, o teto do Instagram — o motor avisa ao gerar.
 
@@ -35,6 +39,12 @@ Os originais são pesados (ZIPs de ~90 e ~140 MB) e ficam **fora do repo**, em
 | `provocacao-2-dias-2-anos.png` | Provocação | Só copy. Contraste numérico (2 dias × 2 anos) carrega a peça. CTA manda pra legenda — orgânico. |
 | `urgencia-97-lote.png` | Urgência / escassez | Número da escassez destacado; CTA em pílula, link na bio — peça de tráfego. |
 | `institucional-patrocinador.png` | Institucional | Crachá como moldura. **Ainda não virou modo do motor** — pendente. |
+| `Tráfego pago.jpeg` | `anuncio` | Anúncio de captação (CAUP/Capital Upgrade). A peça é um funil: promessa → **chip que filtra o lead** → prova (foto) → botão → ressalva. O chip ("acima de R$ 2 milhões/ano", "mais de 10 funcionários") é o que faz o formato: ele desqualifica quem não é o cliente **antes** do clique. |
+| `Tráfego págo (caricato).jpeg` | `caricato` | Imagem caricata (gerada) sangrando na peça inteira; texto só no rodapé — setup em peso normal, remate em display com a palavra-chave em outra cor. Fecha imitando o **"Saiba Mais" nativo** do Instagram. O original não tem logo; **na nossa versão tem** (selo no alto), por decisão do dono em 2026-07-14. |
+
+⚠️ As duas de tráfego **desenham interface do Meta** (botão falso, "Toque em Saiba
+Mais"). É o que os originais fazem e funciona, mas é a categoria de criativo que o
+Meta mais reprova. Anúncio recusado: o botão é o primeiro suspeito, não a copy.
 
 ## O que foi absorvido para os tokens/motor
 - Título em **caixa alta, peso alto, entrelinha curta** — impacto a 1 segundo.

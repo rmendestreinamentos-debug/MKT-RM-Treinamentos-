@@ -1,0 +1,16 @@
+{
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp.png",
+  "arquivo_saida": "summit-sp-steve-jobs",
+  "tipo": "depoimento",
+  "slides": [
+    {
+      "foto": "FOTOS/SEM ROSTO/v2_2a354041-7402-4822-a631-35569258bae8.jpg",
+      "veu": "forte",
+      "citacao": "Não deixe o barulho da opinião dos outros abafar *sua voz interior*. E mais importante, tenha a coragem de seguir seu coração e sua intuição. Eles de alguma forma já sabem o que você realmente quer se tornar. Tudo o mais é secundário.",
+      "autor": "Steve Jobs",
+      "data": "07, 08 e 09 de outubro · Espaço Acelerador — Alphaville",
+      "cta": { "tipo": "marca-dagua", "acao": "Garanta seu ingresso no link da bio" }
+    }
+  ]
+}

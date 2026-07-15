@@ -1,0 +1,41 @@
+{
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp.png",
+  "arquivo_saida": "summit-sp-nao-e-so-palestra",
+  "tipo": "carrossel",
+  "slides": [
+    {
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_09ef31f8-5aa2-419e-942e-b59cda7f0fa7.jpg",
+      "veu": "forte",
+      "foco": "topo",
+      "pagina": "1/4",
+      "titulo": "Não é só um evento para *assistir palestras*.",
+      "texto": "O RM Summit SP é para o advogado que quer sair da rotina do escritório, olhar para o próprio negócio com mais clareza e voltar com decisões práticas para crescer."
+    },
+    {
+      "foto": "FOTOS/DIA 2/0046_v2_651623a2-7ea0-4e82-b357-b3fd1a02a8ca.jpg",
+      "veu": "medio",
+      "foco": "direita",
+      "pagina": "2/4",
+      "titulo": "Durante 3 dias, você estará no mesmo ambiente que *advogados de todo o Brasil*.",
+      "texto": "Gente que vive os mesmos desafios que você: captar clientes, organizar equipe, vender melhor, liderar pessoas e transformar conhecimento jurídico em resultado."
+    },
+    {
+      "foto": "FOTOS/DIA 1/0191_v2_6e74c929-a11a-4356-b250-78cd2515e260.jpg",
+      "veu": "forte",
+      "pagina": "3/4",
+      "titulo": "O que muda um escritório, muitas vezes, *não é apenas uma palestra*.",
+      "texto": "É uma conversa no intervalo, uma conexão certa, uma ideia anotada no momento certo ou uma decisão que você vinha adiando há meses."
+    },
+    {
+      "foto": "FOTOS/DIA 2/0070_v2_e8131092-93c2-40e2-b49f-9d1e5dd9bb78.jpg",
+      "veu": "medio",
+      "foco": "direita",
+      "pagina": "4/4",
+      "eyebrow": "RM Summit São Paulo",
+      "titulo": "O próximo passo do seu escritório pode começar nesses *3 dias*.",
+      "texto": "Dias 07, 08 e 09 de outubro\nEspaço Acelerador — Alphaville",
+      "cta": { "tipo": "link", "acao": "Garanta seu ingresso pelo link da bio" }
+    }
+  ]
+}

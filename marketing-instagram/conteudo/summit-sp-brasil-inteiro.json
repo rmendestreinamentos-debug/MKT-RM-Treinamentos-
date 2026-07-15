@@ -1,0 +1,31 @@
+{
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp.png",
+  "arquivo_saida": "summit-sp-brasil-inteiro",
+  "tipo": "carrossel",
+  "slides": [
+    {
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_f1ffd616-4577-4034-bc7f-9ef55d3c317c.jpg",
+      "veu": "forte",
+      "foco": "baixo",
+      "pagina": "1/3",
+      "titulo": "*O Brasil inteiro* está vindo para o RM Summit SP",
+      "texto": "Advogados de vários estados reunidos em um só lugar, com um objetivo claro: sair do improviso e construir escritórios mais fortes, lucrativos e organizados."
+    },
+    {
+      "foto": "FOTOS/DIA 1/0055_v2_1b203060-9940-4320-b34e-1183d23027c9.jpg",
+      "veu": "medio",
+      "pagina": "2/3",
+      "titulo": "Durante 3 dias, você estará cercado por quem vive a advocacia *na prática*.",
+      "texto": "Gestão, comercial, escala, liderança, posicionamento e networking com advogados que estão buscando o próximo nível."
+    },
+    {
+      "foto": "FOTOS/DIA 1/0281_v2_3a3d24e6-4dd8-4336-8783-c4acd3884cb6.jpg",
+      "veu": "forte",
+      "pagina": "3/3",
+      "titulo": "O Brasil inteiro se encontra em *São Paulo* em outubro.",
+      "texto": "Dias 07, 08 e 09 de outubro\nEspaço Acelerador — Alphaville",
+      "cta": { "tipo": "link", "acao": "Garanta seu ingresso pelo link da bio" }
+    }
+  ]
+}

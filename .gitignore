@@ -9,6 +9,10 @@ saida/
 marketing-instagram/fotos/*
 !marketing-instagram/fotos/LEIA-ME.md
 
+# Imagens avulsas que o dono despeja pro carrossel. Mesma regra: ficam na máquina.
+marketing-instagram/imagens/*
+!marketing-instagram/imagens/LEIA-ME.md
+
 # Segredos — NUNCA versionar
 .env
 *.env

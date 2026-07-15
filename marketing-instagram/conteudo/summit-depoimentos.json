@@ -1,0 +1,42 @@
+{
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp.png",
+  "arquivo_saida": "summit-depoimentos",
+  "slides": [
+    {
+      "tipo": "urgencia",
+      "foto": "FOTOS/DIA 3/0144_v2_d7805ad2-4a31-4c81-b80e-92265a7869ff.jpg",
+      "veu": "forte",
+      "foco": "direita",
+      "eyebrow": "Quem esteve lá",
+      "titulo": "O que os advogados falaram do *RM Summit*",
+      "cta": { "tipo": "organico", "acao": "Arraste para ver" }
+    },
+    {
+      "tipo": "depoimento",
+      "citacao": "Sensacional. Você é diferenciado porque ensina aquilo que vive. Sem dúvida alguma, *o maior e melhor evento para advogados*.",
+      "autor": "@luisdigiaimo.adv"
+    },
+    {
+      "tipo": "depoimento",
+      "citacao": "O evento nos conectou com *pessoas que lutam as mesmas batalhas* e isso nos dá força para continuar. Foi de longe uma grande entrega de todos.",
+      "autor": "@priscilaspiandon_"
+    },
+    {
+      "tipo": "depoimento",
+      "citacao": "Sem dúvida, *o melhor evento para advogados* que já participei.",
+      "autor": "@adv.filipieler"
+    },
+    {
+      "tipo": "depoimento",
+      "citacao": "*Evento de milhões.* Energia transbordando. Ansioso para conhecer a nova turma do MAT.",
+      "autor": "@leonardomourao.adv"
+    },
+    {
+      "tipo": "depoimento",
+      "citacao": "*O maior de todos!*",
+      "autor": "@advogadaraquellacerda",
+      "cta": { "tipo": "link", "acao": "Garanta seu ingresso no link da bio" }
+    }
+  ]
+}

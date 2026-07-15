@@ -1,0 +1,48 @@
+{
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp.png",
+  "arquivo_saida": "summit-sp-carrossel",
+  "tipo": "carrossel",
+  "slides": [
+    {
+      "foto": "FOTOS/DIA 3/0014_v2_d193c830-af72-43ed-ae33-a3ba02f5258b.jpg",
+      "veu": "medio",
+      "foco": "topo",
+      "pagina": "1/5",
+      "titulo": "Você travaria *3 dias* da sua agenda para mudar os próximos *5 anos* do seu escritório?",
+      "texto": "Nos dias 07, 08 e 09 de outubro, advogados de todo o Brasil estarão reunidos em São Paulo para viver uma experiência que vai muito além de palestras."
+    },
+    {
+      "foto": "FOTOS/SEM ROSTO/v2_147cea55-c037-49cd-a0b9-56e42f939ac2.jpg",
+      "veu": "forte",
+      "pagina": "2/5",
+      "titulo": "O RM Summit São Paulo foi criado para o advogado que não quer mais crescer no *improviso*.",
+      "texto": "É para quem entendeu que conhecimento técnico importa, mas não sustenta sozinho um escritório que precisa vender, gerir, liderar e escalar."
+    },
+    {
+      "foto": "FOTOS/DIA 2/0123_v2_42488faf-c6e3-4bdf-bea6-e6978b5d46e8.jpg",
+      "veu": "medio",
+      "foco": "baixo",
+      "pagina": "3/5",
+      "titulo": "Durante 3 dias, você estará cercado por advogados, empresários e palestrantes que vivem a advocacia *na prática*.",
+      "texto": "Gente que sabe o que é captar cliente, montar time, organizar processo, melhorar o comercial e transformar escritório em negócio."
+    },
+    {
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_3b06539d-2ee1-4206-88c5-d13ab2145c09.jpg",
+      "veu": "forte",
+      "foco": "baixo",
+      "pagina": "4/5",
+      "titulo": "O maior valor do RM Summit *não está apenas no palco*.",
+      "texto": "Está nas conexões, nas conversas de corredor, nos insights que surgem entre uma palestra e outra e nas pessoas que podem abrir novas possibilidades para o seu escritório."
+    },
+    {
+      "foto": "FOTOS/DIA 1/0268_v2_080fa8c8-6ab0-47df-84fd-5d798d892cd8.jpg",
+      "veu": "forte",
+      "foco": "baixo",
+      "pagina": "5/5",
+      "titulo": "Essa pode ser a sua última chance de garantir o ingresso no *Lote 0* do RM Summit São Paulo.",
+      "texto": "Dias 07, 08 e 09 de outubro, no Espaço Acelerador, em Alphaville.",
+      "cta": { "tipo": "link", "acao": "Clique no link da bio e garanta o seu" }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "arquivo_saida": "trafego-proximo-nivel",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "tipo": "anuncio",
+      "eyebrow": "RM SUMMIT · SÃO PAULO",
+      "titulo": "O próximo nível do seu escritório\ncomeça pelas decisões\n*que você toma agora.*",
+      "texto": "*Três dias* para ampliar sua visão, fortalecer sua gestão e construir conexões estratégicas.",
+      "foto": "FOTOS/DIA 1/0101_v2_b09201ec-4e0a-42e3-80e0-31a8b54b4f24.jpg",
+      "cta": {
+        "acao": "GARANTA O SEU INGRESSO"
+      }
+    },
+    {
+      "tipo": "caricato",
+      "imagem": "FOTOS/RENAN/v2_13d3f917-fb7e-466d-b353-e13e0811fdba.jpg",
+      "apoio": "O próximo nível do seu escritório começa",
+      "titulo": "pelas decisões que você toma *agora.*",
+      "cta": {
+        "acao": "Clique em *Saiba Mais* e garanta o seu ingresso."
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "arquivo_saida": "summit-sp-lineup",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "tipo": "palestrantes",
+      "eyebrow": "NOMES CONFIRMADOS",
+      "titulo": "Os nomes que estão transformando o mercado\ne a advocacia estarão no *mesmo palco.*",
+      "fundo": "kv-plateia.jpg",
+      "palestrantes": [
+        {
+          "nome": "Rafa Brito",
+          "foto": "Rafa Brito (estudio).png"
+        },
+        {
+          "nome": "Lásaro Carmo",
+          "foto": "Lásaro Carmo (estudio).png"
+        },
+        {
+          "nome": "Rafael Mendes",
+          "foto": "Rafael Mendes (estudio).png",
+          "escala": 1.05,
+          "z": 12
+        },
+        {
+          "nome": "João Menna",
+          "foto": "João Menna (estudio).png"
+        },
+        {
+          "nome": "Janaína Bastos",
+          "foto": "Janaína Bastos (estudio).png"
+        },
+        {
+          "nome": "Samer Agi",
+          "foto": "Samer Agi (estudio).png"
+        }
+      ],
+      "info": [
+        {
+          "icone": "calendario",
+          "texto": "07, 08 e 09 de Outubro"
+        },
+        {
+          "icone": "local",
+          "texto": "Alphaville — SP"
+        }
+      ],
+      "cta": {
+        "acao": "Garanta sua vaga",
+        "obs": "Toque em Saiba Mais"
+      }
+    }
+  ]
+}

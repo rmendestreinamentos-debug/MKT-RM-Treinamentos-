@@ -1,0 +1,41 @@
+{
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp.png",
+  "arquivo_saida": "summit-sp-energia",
+  "tipo": "carrossel",
+  "slides": [
+    {
+      "foto": "FOTOS/DIA 1/0056_v2_96119dcc-dc7a-4ab3-b96c-6239082c299c.jpg",
+      "veu": "leve",
+      "foco": "topo",
+      "pagina": "1/5",
+      "titulo": "A energia que move o RM Summit não se explica. *Se vive.*"
+    },
+    {
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_24e5fc6b-e492-4c34-9c0e-2d27bc73715c.jpg",
+      "veu": "medio",
+      "pagina": "2/5",
+      "titulo": "Três dias que tiram advogados da *rotina*..."
+    },
+    {
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_3ad0f6c0-c68b-4d34-9a00-7f44144bc225.jpg",
+      "veu": "medio",
+      "pagina": "3/5",
+      "titulo": "...e colocam eles no centro de um *ambiente de crescimento real*."
+    },
+    {
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_2558b012-6e87-4d28-acd2-729eb251d790.jpg",
+      "veu": "forte",
+      "foco": "topo",
+      "pagina": "4/5",
+      "titulo": "Aqui, cada conversa pode virar uma *parceria*. Cada insight pode virar uma chave."
+    },
+    {
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_258849c9-6995-453f-a9ac-e79bba3b7d2c.jpg",
+      "veu": "medio",
+      "foco": "topo",
+      "pagina": "5/5",
+      "titulo": "O RM Summit é muito mais que um simples evento. É um *ponto de virada* de quem decide crescer."
+    }
+  ]
+}

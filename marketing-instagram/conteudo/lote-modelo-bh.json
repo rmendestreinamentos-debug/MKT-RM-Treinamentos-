@@ -1,0 +1,20 @@
+{
+  "_nota": "REPRODUÇÃO do modelo que o dono subiu (Exemplos Estáticos/Captura de tela 2026-07-14 150823.png). Existe só pra conferir a fidelidade do tipo 'lote' contra o print. As peças de verdade são as de SÃO PAULO.",
+  "arquivo_saida": "lote-modelo-bh",
+  "tipo": "lote",
+  "marca": "RM Summit",
+  "logo": "rm-summit-bh-sem-fundo.png",
+  "slides": [
+    {
+      "titulo": "Virada\nde lote",
+      "aviso": "Dia 30/04",
+      "foto": "FOTOS/DIA 1/0061_v2_c3a09a10-f85d-45d3-9189-8b1f0f869557.jpg",
+      "veu": "forte",
+      "ingressos": [
+        { "nome": "Ingresso\nClassic", "de": "R$ 497,00", "por": "R$ 597,00" },
+        { "nome": "Ingresso\nMaster", "de": "R$ 997,00", "por": "R$ 1.497,00" }
+      ],
+      "rodape": "Dias 28, 29 e 30 de Maio"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "_nota": "TESTE de fidelidade do tema 'mat' — reproduz páginas do modelo Modelos/Comercial para Motoristas.pdf. Serve pra conferir com o olho, não pra publicar.",
+  "tema": "mat",
+  "marca": "Mapa da Advocacia Trabalhista",
+  "logo": "mapa-trabalhista-sem-fundo.png",
+  "arquivo_saida": "teste-tema-mat",
+  "slides": [
+    {
+      "layout": "capa",
+      "cenario": "teste/p01-1.jpg",
+      "foto": "teste/p01-5.jpg",
+      "foco": "topo",
+      "titulo": "Comercial\npara motoristas",
+      "texto": "Como fechar mais contratos entendendo\no cliente de verdade."
+    },
+    {
+      "layout": "lista",
+      "cenario": "teste/p03-10.jpg",
+      "foto": "teste/p03-11.jpg",
+      "foco": "baixo",
+      "titulo": "O erro da maioria\ndos escritórios",
+      "itens": [
+        "Atendimento *robotizado*",
+        "Linguagem *jurídica*",
+        "Falta de *conexão*"
+      ],
+      "fecho": "Ou você fala a língua dele, ou ele te ignora"
+    },
+    {
+      "layout": "lista",
+      "cenario": "teste/p26-87.jpg",
+      "foto": "teste/p26-88.jpg",
+      "foco": "baixo",
+      "titulo": "No final do dia,\né isso",
+      "itens": [
+        "Motorista não quer *conversa*",
+        "Motorista quer *solução*",
+        "Se você não conduz, ele *some*",
+        "Se você não entende, ele *não confia*",
+        "Se você demora, outro fecha"
+      ],
+      "fecho": "No comercial de motorista, quem conduz... fecha."
+    }
+  ]
+}

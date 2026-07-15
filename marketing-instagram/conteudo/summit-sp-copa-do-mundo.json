@@ -1,0 +1,42 @@
+{
+  "arquivo_saida": "copa-do-mundo",
+  "perfil": "rm-summit",
+  "pasta": "copa-do-mundo",
+  "slides": [
+    {
+      "tipo": "thread",
+      "texto": "A Copa do Mundo acontece de quatro em quatro anos.\n\nTalvez seja justamente isso que torne cada edição tão especial.",
+      "imagem": "02.jpg"
+    },
+    {
+      "tipo": "thread",
+      "texto": "Para muitos jogadores, aquela pode ser a única chance de viver o maior palco do futebol.\n\nPor isso, cada jogo carrega um peso diferente.",
+      "imagem": "06.jpg"
+    },
+    {
+      "tipo": "thread",
+      "texto": "São anos de preparação para poucos dias que podem mudar uma carreira inteira.\n\nQuando a oportunidade é rara, ninguém quer desperdiçá-la.",
+      "imagem": "01.jpg"
+    },
+    {
+      "tipo": "thread",
+      "texto": "Na advocacia, alguns encontros também concentram em poucos dias aquilo que poderia levar anos para acontecer.\n\nUma conversa certa pode mudar o rumo de um escritório.",
+      "imagem": "FOTOS/DIA 1/0322_v2_752d6872-ad46-4137-8a36-c43eb8f76fed.jpg"
+    },
+    {
+      "tipo": "thread",
+      "texto": "Uma palestra pode trazer a resposta que faltava.\n\nUma conexão pode abrir uma oportunidade que você não encontraria sozinho.",
+      "imagem": "FOTOS/DIA 1/0101_v2_b09201ec-4e0a-42e3-80e0-31a8b54b4f24.jpg"
+    },
+    {
+      "tipo": "thread",
+      "texto": "O RM Summit São Paulo reúne advogados de todo o Brasil durante três dias de conteúdo, estratégia e networking.\n\nUm ambiente criado para quem decidiu crescer.",
+      "imagem": "FOTOS/DIA 1/0061_v2_c3a09a10-f85d-45d3-9189-8b1f0f869557.jpg",
+      "foco": "topo"
+    },
+    {
+      "tipo": "thread",
+      "texto": "Você não precisa esperar quatro anos para viver uma experiência capaz de mudar os próximos anos do seu escritório.\n\n07, 08 e 09 de outubro\nEspaço Acelerador — Alphaville\nGaranta seu ingresso pelo link da bio."
+    }
+  ]
+}
