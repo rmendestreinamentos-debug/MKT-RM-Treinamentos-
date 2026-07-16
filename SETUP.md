@@ -18,7 +18,8 @@ git clone https://github.com/rmendestreinamentos-debug/MKT-RM-Treinamentos-.git
 |---|---|---|
 | **Acervo de fotos (~5,8 GB)** | `marketing-instagram/fotos/` | Grande demais pro Git |
 | **Imagens avulsas** | `marketing-instagram/imagens/` | Idem — despejo do dono pro carrossel |
-| **Chave de API** | `API KEY/.env` | Segredo — nunca versionar |
+| **Material bruto (~240 MB)** | `_bruto/` | Fonte enviada pelo dono: prints, PSD, ZIPs, logos editáveis. Nenhum motor lê daqui |
+| **Chave de API** | `_bruto/API KEY/.env` | Segredo — nunca versionar |
 
 > ⚠️ Sem o acervo, o motor dá **"imagem não encontrada"** em qualquer peça que use
 > foto do acervo — incluindo os decks. Copie a pasta inteira, preservando a estrutura.

@@ -4,8 +4,8 @@ Modelo capturado do perfil **@joaovitormadv** — que é a **conta pessoal do do
 (as outras três de `marca/perfis.json` são do trabalho). Não é referência de
 terceiro: é peça dele, e ele assina carrossel com ela (slug `joao-vitor`).
 Carrossel da Odisseia / "gaiola de ouro", 19 slides + os finais de *Prisões*. Três
-frames curadas aqui — a pasta cheia fica em `Exemplos Carrosseis Twitter/` na raiz
-do projeto, fora do repo.
+frames curadas aqui — a pasta cheia fica em `_bruto/Exemplos Carrosseis Twitter/` na
+raiz do projeto, fora do repo.
 
 | Frame | O que ensina |
 |---|---|

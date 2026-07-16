@@ -15,7 +15,7 @@ a identidade sai sempre de `marca/tokens.css` (**dourado/preto**) e de `marca/`.
 
 ## Modelos de CARROSSEL
 Os originais são pesados (ZIPs de ~90 e ~140 MB) e ficam **fora do repo**, em
-`Exemplos Carrosseis/` na pasta do projeto. Não subir pro git. Os dois modelos:
+`_bruto/Exemplos Carrosseis/` na raiz do projeto. Não subir pro git. Os dois modelos:
 
 | Modelo | Tipo no motor | Estrutura |
 |---|---|---|

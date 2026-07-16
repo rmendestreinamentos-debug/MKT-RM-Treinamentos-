@@ -18,15 +18,13 @@ marketing-instagram/imagens/*
 *.env
 gabriel gay/
 
-# Logos brutos (fonte) — os tratados ficam em marketing-instagram/marca/
-LOGO MASTER MAT (2)/
-
-# Modelos brutos enviados pelo dono (fonte). Os curados/rotulados vivem em
-# marketing-instagram/exemplos/. A barra inicial ancora na RAIZ: não confundir
-# com marketing-instagram/exemplos/ (no Windows o git ignora maiúsculas).
-/Exemplos/
-# ZIPs de ~90 e ~140 MB — o GitHub rejeita arquivo acima de 100 MB
-/Exemplos Carrosseis/
+# MATERIAL BRUTO — tudo que o dono enviou como fonte: prints, logos editáveis,
+# ZIPs, PSD e a chave de API. Nenhum motor lê daqui; é arquivo morto de consulta.
+# O que o motor usa é a versão TRATADA, que vive dentro da ferramenta que a usa
+# (marketing-instagram/marca/, marketing-instagram/exemplos/).
+# Fica só na máquina — junto com fotos/ e imagens/, pela mesma razão: peso.
+# ⚠️ Não é backup. Se a máquina morrer, isto morre junto.
+/_bruto/
 
 # Config local do Claude Code. skills/ traz repos git aninhados (gitlink quebrado).
 .claude/settings.local.json
