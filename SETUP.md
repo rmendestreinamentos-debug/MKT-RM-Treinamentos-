@@ -31,6 +31,14 @@ git clone https://github.com/rmendestreinamentos-debug/MKT-RM-Treinamentos-.git
 - **Fontes do deck**: **Montserrat** (Light, ExtraBold, Black) e **Rubik One**.
   Não são nativas do Windows. Se faltarem, o PowerPoint substitui e **o layout do deck
   dança** (título muda de tamanho, quebra em mais linhas).
+- **Gabarito de trabalho** — copiar `GABARITO.md` (raiz do repo) pra `~/.claude/CLAUDE.md`:
+  ```
+  copy GABARITO.md "%USERPROFILE%\.claude\CLAUDE.md"
+  ```
+  É o modo de trabalho em dez diretrizes (transcrito do PDF em
+  `marketing-instagram/motor/ADAPTA - PDF GABARITO.pdf`). O Claude Code só carrega instrução
+  automaticamente de `~/.claude/`, e essa pasta é do usuário, não do repositório: sem esta
+  cópia o gabarito fica parado no Git e **não muda comportamento nenhum**.
 
 ## 4. Instalar as dependências
 ```
