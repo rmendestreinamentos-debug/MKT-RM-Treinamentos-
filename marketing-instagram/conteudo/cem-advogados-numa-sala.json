@@ -1,0 +1,81 @@
+{
+  "arquivo_saida": "cem-advogados-numa-sala",
+  "tipo": "editorial",
+  "perfil": "rm-summit",
+  "barra": {
+    "esquerda": "O movimento",
+    "direita": "Julho 2026"
+  },
+  "slides": [
+    {
+      "capa": true,
+      "imagem": "FOTOS/DIA 1/0056_v2_96119dcc-dc7a-4ab3-b96c-6239082c299c.jpg",
+      "foco": "topo",
+      "titulo": "Um dia,\neram *100*\nadvogados.",
+      "texto": "Em uma sala no interior de Minas. Hoje, o movimento se tornou muito maior do que imaginávamos."
+    },
+    {
+      "tema": "claro",
+      "imagem": "FOTOS/DIA 1/0288_v2_a4755cec-7f06-469f-9f28-2fdc4da7a664.jpg",
+      "foco": "topo",
+      "titulo": "Tudo começou quando um advogado que já se considerava realizado profissionalmente começou a olhar para os outros.",
+      "texto": "Enquanto sua realidade já era confortável, muitos colegas ainda estavam desanimados com a advocacia e sem conseguir construir uma vida tranquila a partir do próprio escritório."
+    },
+    {
+      "tema": "escuro",
+      "imagem": "FOTOS/ALUNOS E OUTROS/v2_3ad0f6c0-c68b-4d34-9a00-7f44144bc225.jpg",
+      "titulo": "A ideia era mostrar que um advogado do interior também poderia construir algo grande.",
+      "lista": [
+        "Um escritório estruturado.",
+        "Uma empresa de verdade.",
+        "Uma atuação que não estivesse limitada à própria cidade."
+      ],
+      "marca_item": "seta",
+      "remate": "Foi assim que o primeiro encontro reuniu cerca de 100 pessoas. Depois vieram mais de 200, depois 300 e, então, *centenas de advogados reunidos pelo mesmo motivo*."
+    },
+    {
+      "tema": "claro",
+      "imagem": "FOTOS/DIA 1/0243_v2_88698c6a-930c-4bb9-8a3e-ccd0ee0ef365.jpg",
+      "foco": "topo",
+      "titulo": "Muitos deles carregavam histórias parecidas.",
+      "lista": [
+        "Advogados fechando um ou dois contratos por mês.",
+        "Passando meses sem dinheiro entrando.",
+        "Trabalhando sozinhos há anos.",
+        "Sem conseguir descansar porque tudo dentro do escritório dependia deles."
+      ],
+      "marca_item": "seta"
+    },
+    {
+      "tema": "escuro",
+      "imagem": "FOTOS/SEM ROSTO/v2_3521e946-e807-4149-8edf-bc41107387f5.jpg",
+      "titulo": "Boa parte desse problema começa ainda na formação.",
+      "texto": "A faculdade ensina Direito, mas quase nunca ensina a prospectar, vender, liderar, organizar uma equipe ou entender que um escritório também precisa ser tratado como uma empresa.",
+      "remate": "E, durante muito tempo, muitos advogados ainda aprenderam a enxergar a prospecção como algo errado, *mesmo quando feita dentro das regras*."
+    },
+    {
+      "tema": "accent",
+      "imagem": "FOTOS/RENAN/v2_334a2847-54bb-44ea-92de-06805cbb47ee.jpg",
+      "foco": "topo",
+      "titulo": "Quando essa visão muda, os resultados também podem mudar.",
+      "texto": "Existem advogados que saíram de um ou dois contratos por mês para 15, 20, 40 ou até 50.",
+      "remate": "Mas o resultado mais importante não está apenas nos números. Está em poder proporcionar uma vida melhor para a família, construir uma equipe e *deixar de carregar o escritório inteiro nas costas*."
+    },
+    {
+      "tema": "claro",
+      "imagem": "FOTOS/DIA 3/0146_v2_9b68f6a0-c5c7-4f71-9080-b6bb114f959c.jpg",
+      "foco": "topo",
+      "titulo": "Por isso, ambientes importam tanto.",
+      "texto": "Uma palestra pode trazer uma ideia, uma conversa pode trazer outra e uma conexão pode abrir uma porta que você nem sabia que existia.",
+      "remate": "Às vezes, um único insight muda completamente a forma como alguém conduz o escritório *pelos próximos anos*."
+    },
+    {
+      "tema": "escuro",
+      "imagem": "FOTOS/DIA 2/0033_v2_1bc63cc3-a703-42f0-8b6e-777a539d459d.jpg",
+      "foco": 26,
+      "titulo": "Talvez essa seja uma das coisas mais bonitas de tudo isso: ver pessoas que um dia estavam desanimadas, estagnadas e pensando em desistir crescerem, construírem equipes e enxergarem uma nova possibilidade para a própria advocacia.",
+      "texto": "No fim, o crescimento de uma pessoa pode abrir caminho para o crescimento de muitas outras.",
+      "remate": "E, independentemente de até onde esse caminho nos leve, uma coisa precisa permanecer: *a nossa essência.*"
+    }
+  ]
+}

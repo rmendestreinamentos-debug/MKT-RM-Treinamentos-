@@ -1,0 +1,103 @@
+{
+ "_leia": "Onde está o ROSTO dentro de cada recorte, em fração do PNG: cx = centro horizontal, y0 = topo da cabeça, y1 = queixo. Medido a olho na grade que motor/rostos.js desenha — a leitura automática erra em mão no queixo, cabelo solto e barba cheia. É isto que o line-up usa quando o slide pede 'alinhar': 'rosto', pra dar a todos a mesma cabeça, na mesma altura.",
+ "Anaísa Banhara (RM5).png": {
+  "cx": 0.47,
+  "y0": 0.06,
+  "y1": 0.32
+ },
+ "Daniel Collaço (RM5).png": {
+  "cx": 0.47,
+  "y0": 0.05,
+  "y1": 0.37
+ },
+ "Fabiano Coelho (RM5).png": {
+  "cx": 0.52,
+  "y0": 0.06,
+  "y1": 0.43
+ },
+ "Flávia Marinho (RM5).png": {
+  "cx": 0.43,
+  "y0": 0.05,
+  "y1": 0.27
+ },
+ "Gabriel Anício (RM5).png": {
+  "cx": 0.47,
+  "y0": 0.05,
+  "y1": 0.29
+ },
+ "Guilherme Lage (RM5).png": {
+  "cx": 0.38,
+  "y0": 0.03,
+  "y1": 0.34
+ },
+ "Gustavo Escobar (RM5).png": {
+  "cx": 0.57,
+  "y0": 0.05,
+  "y1": 0.38
+ },
+ "Henrique Goularte (RM5).png": {
+  "cx": 0.5,
+  "y0": 0.05,
+  "y1": 0.45
+ },
+ "Hermann Richard (RM5).png": {
+  "cx": 0.5,
+  "y0": 0.08,
+  "y1": 0.48
+ },
+ "Janaína Bastos (RM5).png": {
+  "cx": 0.52,
+  "y0": 0.05,
+  "y1": 0.45
+ },
+ "João Badari (RM5).png": {
+  "cx": 0.5,
+  "y0": 0.08,
+  "y1": 0.44
+ },
+ "João Ricardo (RM5).png": {
+  "cx": 0.5,
+  "y0": 0.08,
+  "y1": 0.62
+ },
+ "Paula Teodoro (RM5).png": {
+  "cx": 0.53,
+  "y0": 0.05,
+  "y1": 0.45
+ },
+ "Rafael Gonçalves (RM5).png": {
+  "cx": 0.47,
+  "y0": 0.07,
+  "y1": 0.45
+ },
+ "Rafael Mendes (estudio).png": {
+  "cx": 0.53,
+  "y0": 0.05,
+  "y1": 0.33
+ },
+ "Renato Barufi (RM5).png": {
+  "cx": 0.57,
+  "y0": 0.08,
+  "y1": 0.38
+ },
+ "Thassya Prado (RM5).png": {
+  "cx": 0.48,
+  "y0": 0.05,
+  "y1": 0.31
+ },
+ "Élisson Miessa (RM5).png": {
+  "cx": 0.5,
+  "y0": 0.05,
+  "y1": 0.38
+ },
+ "Flávia Marinho (SAUDE).png": {
+  "cx": 0.45,
+  "y0": 0.01,
+  "y1": 0.22
+ },
+ "Anaísa Banhara (SAUDE).png": {
+  "cx": 0.47,
+  "y0": 0.01,
+  "y1": 0.25
+ }
+}

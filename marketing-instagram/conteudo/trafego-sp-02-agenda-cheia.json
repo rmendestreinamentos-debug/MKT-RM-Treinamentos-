@@ -1,0 +1,23 @@
+{
+  "arquivo_saida": "tráfego pago/Correções/02-agenda-cheia",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "tipo": "lateral",
+      "foto": "FOTOS/DIA 1/0259_v2_52da08c8-a47c-4d42-9b53-0eb4d98b7b33.jpg",
+      "foco": 52,
+      "focox": 50,
+      "zoom": 1.25,
+      "lado": "esquerda",
+      "eyebrow": "Advogado de agenda cheia",
+      "titulo": "VOCÊ NÃO TEM TEMPO\nPARA CONTINUAR *ERRANDO*",
+      "virada": "O que fazer agora?",
+      "texto": "Cliente, prazo, audiência, equipe: a sua rotina não abre espaço para tentativa e erro. São *três dias* para ver o que os escritórios que já cresceram fizeram.",
+      "cta": {
+        "acao": "Clique em “SAIBA MAIS”",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      }
+    }
+  ]
+}

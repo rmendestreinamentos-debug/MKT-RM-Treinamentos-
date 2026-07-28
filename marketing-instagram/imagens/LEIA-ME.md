@@ -41,6 +41,31 @@ sairia inteiro sem imagem e você só descobriria olhando os PNGs.
 Imagem solta na raiz de `imagens/` continua funcionando: o motor procura primeiro
 na pasta da peça, depois na raiz.
 
+## Imagem gerada no Gemini cai aqui também
+Quando não existe foto da cena (um fato histórico, uma metáfora, um objeto), dá pra
+gerar — e o arquivo cai nesta mesma pasta, pronto pro slide:
+
+```
+node motor/imagem.js "sala de tribunal vazia ao amanhecer" copa-do-mundo/tribunal.png
+node motor/imagem.js "..." copa-do-mundo/taca.png pro       ← modelo melhor, mais caro
+```
+
+**Você escolhe o modelo.** `flash` é o padrão (rápido e barato), `pro` é o melhor e o
+mais caro, `lite` é pra rascunho. Passe o apelido no fim da linha, ou fixe de vez com
+`GEMINI_MODELO=pro` no `.env`. O cardápio com a serventia de cada um:
+`node motor/imagem.js modelos`.
+
+Sai em 4:5 (o formato do slide) e o prompt fica anotado em `<pasta>/_geradas.md`, pra
+daqui a um mês você saber qual imagem é gerada e com que texto. A chave da API mora em
+`marketing-instagram/.env` — pega em https://aistudio.google.com/apikey.
+
+⚠️ **Isso custa dinheiro.** Gerar imagem não entra na camada gratuita do Gemini: o
+projeto da chave precisa de faturamento ativo. É centavos por imagem, mas é cobrado.
+
+**Foto de verdade sempre ganha.** Gerado é a última fonte, não a primeira: o acervo é o
+que aconteceu, e é isso que a peça vende. E não se gera rosto de pessoa real, plateia,
+palco, print nem resultado de aluno — prova social gerada é prova social falsa.
+
 ## Não confundir com `fotos/`
 São duas pastas com papéis diferentes:
 

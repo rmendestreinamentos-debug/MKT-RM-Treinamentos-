@@ -1,0 +1,21 @@
+{
+  "arquivo_saida": "tráfego pago/09-inscricoes",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "tipo": "heroi",
+      "foto": "FOTOS/DIA 1/0275_v2_9cbe1e5a-e703-47cb-9d68-61e57e76f966.jpg",
+      "foco": 22,
+      "eyebrow": "Para advogados que faturam acima de R$ 100 mil por mês",
+      "titulo": "INSCRIÇÕES\n*ABERTAS*",
+      "texto": "Três dias com quem já construiu a operação que o seu escritório ainda está tentando montar.",
+      "cta": {
+        "acao": "GARANTA SEU INGRESSO",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      },
+      "zoom": 1.08,
+      "focox": 50
+    }
+  ]
+}

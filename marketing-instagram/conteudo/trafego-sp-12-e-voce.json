@@ -1,0 +1,23 @@
+{
+  "arquivo_saida": "tráfego pago/Correções/12-e-voce",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "tipo": "lateral",
+      "foto": "FOTOS/RENAN/v2_3b6dc08b-a4ce-484c-bb85-6382bda51111.jpg",
+      "foco": 42,
+      "lado": "esquerda",
+      "eyebrow": "Para quem quer crescer cercado de quem já cresceu",
+      "titulo": "CENTENAS DE\nADVOGADOS ESTARÃO\nEM SÃO PAULO\nEM *OUTUBRO*",
+      "virada": "E você?",
+      "texto": "Três dias para olhar sua operação e encontrar os gargalos que travam o seu próximo nível. *Com quem já esteve exatamente onde você está.*",
+      "cta": {
+        "acao": "Ingressos em “SAIBA MAIS”",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      },
+      "zoom": 1.2,
+      "focox": 50
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "arquivo_saida": "summit-sp-provocacao-gerir",
+  "tipo": "provocacao",
+  "slides": [
+    {
+      "_criativo": "Provocação — a formação que faltou. Dois realces em oposição: os anos estudando DIREITO × os anos estudando GESTÃO.",
+      "eyebrow": "RM SUMMIT SÃO PAULO",
+      "titulo": "Você estudou *10 anos* para advogar. E quantos para *gerir?*",
+      "foto": "FOTOS/DIA 1/0288_v2_a4755cec-7f06-469f-9f28-2fdc4da7a664.jpg",
+      "veu": "medio",
+      "foco": "baixo",
+      "cta": { "tipo": "organico", "acao": "Leia a legenda" }
+    }
+  ]
+}

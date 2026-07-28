@@ -1,0 +1,21 @@
+{
+  "arquivo_saida": "tráfego pago/08-jeito-dificil",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "tipo": "lateral",
+      "foto": "rafael-sorriso-estudio.jpg",
+      "foco": 30,
+      "focox": 62,
+      "zoom": 1,
+      "eyebrow": "Para quem faz tudo sozinho",
+      "titulo": "TRABALHAR\nMAIS NÃO É\n*CRESCER*",
+      "texto": "Sem processo e sem equipe, o escritório *para no seu limite*.",
+      "cta": {
+        "acao": "Ingressos em “SAIBA MAIS”",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      }
+    }
+  ]
+}

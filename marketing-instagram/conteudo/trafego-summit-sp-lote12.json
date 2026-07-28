@@ -1,0 +1,146 @@
+{
+  "_leia-me": "12 criativos de tráfego pago do RM Summit SP — um por roteiro entregue pelo dono. Saem em saida/trafego-summit-sp-lote12-01..12.png.",
+  "_so-os-tres": "REGRA DO DONO: em criativo de TRÁFEGO só entra foto do Rafael, do Renan ou do Gabriel. Nada de participante, plateia, mão em caderno ou detalhe. Quem vende é o rosto de quem sobe no palco. Não trocar por foto de aluno.",
+  "_tres-formatos": "O lote roda em TRÊS registros de propósito — 12 peças no mesmo layout viram uma peça repetida 12 vezes, e o Meta cansa a audiência mais rápido. 'provocacao' = tipografia display gigante sobre foto (a frase É a peça). 'caricato' = foto sangrando na arte inteira, texto só remata embaixo. 'anuncio' = o bloco de venda completo, com chips de data e local e botão dourado.",
+  "_foto-por-formato": "provocacao e caricato aceitam foto VERTICAL (ela sangra em 4:5). O 'anuncio' entra em FAIXA larga e baixa: ali só horizontal funciona — na vertical o rosto nunca cabe. Não trocar sem olhar o PNG.",
+  "arquivo_saida": "trafego-summit-sp-lote12",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "_criativo": "01 — O CUSTO DE CONTINUAR IGUAL · provocacao · RAFAEL",
+      "tipo": "provocacao",
+      "eyebrow": "RM SUMMIT SÃO PAULO",
+      "titulo": "Você travaria *3 dias* da sua agenda para mudar os próximos *5 anos* da sua advocacia?",
+      "foto": "FOTOS/DIA 1/0090_v2_1a30bdfe-eafd-483c-b3d5-698182cd07c5.jpg",
+      "veu": "forte",
+      "cta": {
+        "tipo": "link",
+        "acao": "GARANTA SEU INGRESSO",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      }
+    },
+    {
+      "_criativo": "02 — RECONHECIMENTO DA DOR · anuncio · RAFAEL (bastidor)",
+      "tipo": "anuncio",
+      "eyebrow": "RM SUMMIT",
+      "titulo": "SEU ESCRITÓRIO CRESCEU.\nMAS VOCÊ CONTINUA\n*RESOLVENDO TUDO.*",
+      "texto": "Sem gestão, mais clientes viram só mais trabalho.",
+      "foto": "FOTOS/DIA 1/0247_v2_3d3b2df8-7197-40f8-875a-90331f730664.jpg",
+      "veu": "medio",
+      "chips": [
+        { "icone": "calendario", "texto": "Dias *07, 08 e 09/10*" },
+        { "icone": "local", "texto": "Presencial em *São Paulo*" }
+      ],
+      "cta": { "acao": "GARANTA SEU INGRESSO" }
+    },
+    {
+      "_criativo": "03 — IDENTIDADE · caricato · RAFAEL (retrato mão no queixo)",
+      "tipo": "caricato",
+      "imagem": "FOTOS/DIA 1/0275_v2_9cbe1e5a-e703-47cb-9d68-61e57e76f966.jpg",
+      "apoio": "Existe uma advocacia antes e depois",
+      "titulo": "de você pensar\n*como empresário.*",
+      "cta": { "acao": "Clique em *Saiba Mais* e garanta seu ingresso." }
+    },
+    {
+      "_criativo": "04 — FUTURO · provocacao · RAFAEL (palco com a pauta)",
+      "tipo": "provocacao",
+      "eyebrow": "RM SUMMIT SÃO PAULO",
+      "titulo": "Onde seu escritório vai estar em *outubro* *de 2027*",
+      "foto": "FOTOS/DIA 1/0111_v2_71b00ccd-9919-456f-aaa6-366b88d53b4f.jpg",
+      "veu": "medio",
+      "cta": {
+        "tipo": "link",
+        "acao": "GARANTA SEU INGRESSO",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      }
+    },
+    {
+      "_criativo": "05 — CUSTO DA INÉRCIA · provocacao · RAFAEL (painel)",
+      "_nota-realce": "Realce em display só aguenta ~7 caracteres a 190px. 'DE QUALQUER JEITO' estourava a margem nos dois lados — o motor não quebra linha nesse bloco. Aqui o realce carrega o contraste da própria copy: os MESMOS gargalos × uma visão NOVA.",
+      "tipo": "provocacao",
+      "eyebrow": "RM SUMMIT SÃO PAULO",
+      "titulo": "O ano vai passar. No fim dele, os *mesmos* gargalos ou uma visão *nova*",
+      "foto": "FOTOS/DIA 1/0322_v2_752d6872-ad46-4137-8a36-c43eb8f76fed.jpg",
+      "veu": "forte",
+      "cta": {
+        "tipo": "link",
+        "acao": "GARANTA SEU INGRESSO",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      }
+    },
+    {
+      "_criativo": "06 — QUEBRA DE OBJEÇÃO DE TEMPO · caricato · RAFAEL (sentado na plateia)",
+      "tipo": "caricato",
+      "imagem": "FOTOS/DIA 2/0033_v2_1bc63cc3-a703-42f0-8b6e-777a539d459d.jpg",
+      "apoio": "\"Não posso parar meu escritório por 3 dias.\"",
+      "titulo": "Talvez esse seja\n*exatamente o problema.*",
+      "cta": { "acao": "Clique em *Saiba Mais* e garanta seu ingresso." }
+    },
+    {
+      "_criativo": "07 — AMBIÇÃO · caricato · RENAN (palco, cortina limpa)",
+      "tipo": "caricato",
+      "imagem": "FOTOS/RENAN/v2_334a2847-54bb-44ea-92de-06805cbb47ee.jpg",
+      "apoio": "Você não abriu um escritório",
+      "titulo": "para passar a vida\n*apagando incêndios.*",
+      "cta": { "acao": "Clique em *Saiba Mais* e garanta seu ingresso." }
+    },
+    {
+      "_criativo": "08 — CONFRONTO · anuncio · RAFAEL (apontando o slide — é a AULA que ele dá)",
+      "tipo": "anuncio",
+      "eyebrow": "RM SUMMIT",
+      "titulo": "TALVEZ NÃO ESTEJA\nFALTANDO MAIS UM\n*CURSO DE DIREITO.*",
+      "texto": "Talvez falte o que a faculdade nunca ensinou sobre fazer um escritório crescer.",
+      "foto": "FOTOS/DIA 1/0078_v2_2d295604-8f67-4a04-a555-7ea1612dd008.jpg",
+      "veu": "medio",
+      "chips": [
+        { "icone": "calendario", "texto": "Dias *07, 08 e 09/10*" },
+        { "icone": "local", "texto": "Presencial em *São Paulo*" }
+      ],
+      "cta": { "acao": "GARANTA SEU INGRESSO" }
+    },
+    {
+      "_criativo": "09 — NOVAS REFERÊNCIAS · anuncio · RAFAEL (abraço no palco)",
+      "tipo": "anuncio",
+      "eyebrow": "RM SUMMIT",
+      "titulo": "É DIFÍCIL CONSTRUIR\nUMA ADVOCACIA DIFERENTE\nCERCADO SEMPRE PELAS\n*MESMAS REFERÊNCIAS.*",
+      "texto": "Novas conversas mudam perspectivas. Novas perspectivas mudam decisões.",
+      "foto": "FOTOS/DIA 2/0129_v2_b33eaf8f-292e-49a7-a16f-c02095c8539e.jpg",
+      "veu": "medio",
+      "chips": [
+        { "icone": "calendario", "texto": "Dias *07, 08 e 09/10*" },
+        { "icone": "local", "texto": "Presencial em *São Paulo*" }
+      ],
+      "cta": { "acao": "GARANTA SEU INGRESSO" }
+    },
+    {
+      "_criativo": "10 — DESEJO · caricato · GABRIEL (em pé ao microfone)",
+      "tipo": "caricato",
+      "imagem": "FOTOS/GABRIEL/v2_34798cf7-ee97-40b8-a76e-0e84307ca8f6.jpg",
+      "apoio": "Imagine um escritório que cresce",
+      "titulo": "sem exigir\n*cada vez mais de você.*",
+      "cta": { "acao": "Clique em *Saiba Mais* e garanta seu ingresso." }
+    },
+    {
+      "_criativo": "11 — DECISÃO · caricato · GABRIEL (poltrona do palco)",
+      "tipo": "caricato",
+      "imagem": "FOTOS/GABRIEL/v2_2f7bc1df-e53e-4049-8610-ea4ddb4be889.jpg",
+      "apoio": "Todo escritório que você admira",
+      "titulo": "começou com decisões\n*que você não viu.*",
+      "cta": { "acao": "Clique em *Saiba Mais* e garanta seu ingresso." }
+    },
+    {
+      "_criativo": "12 — EXPERIÊNCIA · provocacao · RAFAEL (retrato, luz quente)",
+      "tipo": "provocacao",
+      "eyebrow": "RM SUMMIT SÃO PAULO",
+      "titulo": "3 dias podem não mudar sua advocacia. Mas podem *mudar* *você*",
+      "foto": "FOTOS/DIA 1/0029_v2_aa96ddb7-0e7f-4c1c-90c7-af7b3ff02fbb.jpg",
+      "veu": "medio",
+      "cta": {
+        "tipo": "link",
+        "acao": "GARANTA SEU INGRESSO",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      }
+    }
+  ]
+}

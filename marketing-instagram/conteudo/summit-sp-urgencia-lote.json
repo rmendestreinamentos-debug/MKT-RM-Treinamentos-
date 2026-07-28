@@ -1,0 +1,122 @@
+{
+  "_leia-me": "4 estáticos de URGÊNCIA do RM Summit SP. Escassez ancorada só no que é verdade: as datas (07, 08 e 09/10), os preços do lote em vigor (Master R$ 597 / Classic R$ 397) e a virada de lote. Nenhum '%esgotado' e nenhuma contagem de vagas — número inventado em peça de escassez é o que queima a lista.",
+  "_foto": "Peça de venda pede rosto alegre. As quatro fotos são do acervo, nunca usadas, sem cordão de Belo Horizonte. Título curto de propósito: até 50 caracteres o motor solta a fonte em 96px.",
+  "arquivo_saida": "summit-sp-urgencia-lote",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "tipo": "urgencia",
+  "slides": [
+    {
+      "_criativo": "01 — O PREÇO DE HOJE · Renan, sorriso aberto (a melhor foto alegre do acervo)",
+      "eyebrow": "RM SUMMIT SÃO PAULO",
+      "titulo": "O ingresso mais barato do Summit é o de *hoje.*",
+      "texto": "Todo lote que virou já foi o mais barato um dia.",
+      "foto": "FOTOS/RENAN/v2_13d3f917-fb7e-466d-b353-e13e0811fdba.jpg",
+      "veu": "medio",
+      "foco": "topo",
+      "cta": {
+        "tipo": "link",
+        "acao": "GARANTA SEU INGRESSO",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      }
+    },
+    {
+      "_criativo": "02 — O PREÇO NA CARA · Rafael sorrindo com aluno, fundo preto de estúdio (foto liberada na ampliação do catálogo)",
+      "eyebrow": "VIRADA DE LOTE",
+      "titulo": "Classic por *R$ 397.* Só até a virada.",
+      "texto": "Master por R$ 597. Depois da virada, os dois sobem.",
+      "foto": "FOTOS/DIA 2/0041_v2_9863b280-d7e0-4a4e-aa2d-ef468ac016ea.jpg",
+      "veu": "leve",
+      "foco": "topo",
+      "cta": {
+        "tipo": "link",
+        "acao": "GARANTA SEU INGRESSO",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      }
+    },
+    {
+      "_criativo": "03 — A JANELA · você sorrindo com participante. Título encurtado pra 2 linhas: com 4 linhas o texto cobria o rosto.",
+      "eyebrow": "SÃO PAULO · 3 DIAS",
+      "titulo": "São *3 dias* por ano.",
+      "texto": "E os próximos são em outubro. Quem perde, espera um ano inteiro.",
+      "foto": "FOTOS/DIA 1/0168_v2_838356ff-46bb-430c-a52c-41ff7062bd6a.jpg",
+      "veu": "medio",
+      "foco": "topo",
+      "cta": {
+        "tipo": "link",
+        "acao": "GARANTA SEU INGRESSO",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      }
+    },
+    {
+      "_criativo": "04 — O CUSTO DE ADIAR · Rafael sorrindo e APONTANDO pro leitor (o dedo já é o CTA)",
+      "eyebrow": "RM SUMMIT SÃO PAULO",
+      "titulo": "Adiar a decisão também *tem preço.*",
+      "texto": "Só que esse não aparece no boleto.",
+      "foto": "FOTOS/DIA 1/0276_v2_cdb0f01b-cbad-418a-91f8-335c825e83e5.jpg",
+      "veu": "medio",
+      "foco": "topo",
+      "cta": {
+        "tipo": "link",
+        "acao": "GARANTA SEU INGRESSO",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      }
+    },
+    {
+      "_criativo": "05 — O CALENDÁRIO · você sorrindo com palestrante no palco",
+      "eyebrow": "ÚLTIMAS SEMANAS",
+      "titulo": "Outubro chega *antes* do que você acha.",
+      "texto": "E a agenda de quem decide fecha primeiro.",
+      "foto": "FOTOS/DIA 1/0208_v2_325ed1b7-fc8b-4fe4-b380-80ab81cd63be.jpg",
+      "veu": "medio",
+      "foco": "topo",
+      "cta": {
+        "tipo": "link",
+        "acao": "GARANTA SEU INGRESSO",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      }
+    },
+    {
+      "_criativo": "06 — O HISTÓRICO · você sorrindo com aluno e o filho dele",
+      "eyebrow": "VIRADA DE LOTE",
+      "titulo": "Quem esperou o último lote *pagou mais.*",
+      "texto": "Sempre foi assim. Vai ser de novo.",
+      "foto": "FOTOS/DIA 2/0002_v2_5b1f3332-9b2d-46ee-a1a2-5b241d65279d.jpg",
+      "veu": "medio",
+      "foco": "topo",
+      "cta": {
+        "tipo": "link",
+        "acao": "GARANTA SEU INGRESSO",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      }
+    },
+    {
+      "_criativo": "07 — O RELÓGIO NÃO ESPERA · você abraçado ao William",
+      "eyebrow": "RM SUMMIT SÃO PAULO",
+      "titulo": "O lote vira com ou sem *você.*",
+      "texto": "A diferença é quanto você paga por isso.",
+      "foto": "FOTOS/DIA 1/0210_v2_c03e6c87-c9db-4c82-9168-42370392e61d.jpg",
+      "veu": "medio",
+      "foco": "topo",
+      "cta": {
+        "tipo": "link",
+        "acao": "GARANTA SEU INGRESSO",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      }
+    },
+    {
+      "_criativo": "08 — A MEMÓRIA · você abraçado a um aluno. Título cortado pra 3 linhas: a foto de premiação com a placa do MAT saiu (produto errado na peça do Summit).",
+      "eyebrow": "DECISÃO",
+      "titulo": "Você vai *lembrar* desta semana.",
+      "texto": "Ou porque foi, ou porque não foi.",
+      "foto": "FOTOS/DIA 1/0145_v2_b00a1ef8-2ab1-4e20-9ba3-4efa1e935ca7.jpg",
+      "veu": "medio",
+      "foco": "topo",
+      "cta": {
+        "tipo": "link",
+        "acao": "GARANTA SEU INGRESSO",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      }
+    }
+  ]
+}

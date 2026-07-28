@@ -1,0 +1,22 @@
+{
+  "arquivo_saida": "tráfego pago/13-ultimos-ingressos",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "tipo": "lateral",
+      "foto": "gabriel-sorriso.jpg",
+      "foco": 38,
+      "eyebrow": "Lote atual",
+      "titulo": "ÚLTIMOS INGRESSOS\nNO *LOTE ATUAL*",
+      "virada": "Depois sobe.",
+      "texto": "Quem já sabe o que é o RM Summit não está decidindo se vai. Está decidindo *por quanto*.",
+      "cta": {
+        "acao": "Ingressos em “SAIBA MAIS”",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      },
+      "zoom": 1,
+      "focox": 50
+    }
+  ]
+}

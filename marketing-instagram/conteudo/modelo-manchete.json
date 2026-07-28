@@ -1,0 +1,15 @@
+{
+  "arquivo_saida": "modelo-manchete",
+  "tipo": "editorial",
+  "perfil": "rm-summit",
+  "barra": { "esquerda": "Análise", "direita": "Julho 2026" },
+  "slides": [
+    {
+      "capa": true,
+      "imagem": "kv-plateia.jpg",
+      "foco": "topo",
+      "titulo": "Escritório não\ncresce no\n*improviso*.",
+      "texto": "O que trava a advocacia não é falta de técnica"
+    }
+  ]
+}

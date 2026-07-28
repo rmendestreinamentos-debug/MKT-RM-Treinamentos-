@@ -1,0 +1,22 @@
+{
+  "arquivo_saida": "tráfego pago/11-proximo-passo",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "tipo": "lateral",
+      "foto": "gabriel-alegre.jpg",
+      "lado": "esquerda",
+      "foco": 12,
+      "focox": 78,
+      "zoom": 1,
+      "eyebrow": "O próximo passo da sua carreira",
+      "titulo": "JORNADA DE\n*CRESCIMENTO*",
+      "texto": "Gestão, captação e liderança: *o que a faculdade não ensinou*.",
+      "cta": {
+        "acao": "QUERO PARTICIPAR",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      }
+    }
+  ]
+}

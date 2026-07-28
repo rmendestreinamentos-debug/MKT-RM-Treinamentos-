@@ -1,0 +1,21 @@
+{
+  "arquivo_saida": "tráfego pago/10-imersao",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "tipo": "heroi",
+      "foto": "FOTOS/RENAN/v2_3c2c9164-6cab-4a06-93f6-f09b19db4fdd.jpg",
+      "foco": 10,
+      "eyebrow": "Presencial · Coliseu Convenções, Alphaville",
+      "titulo": "IMERSÃO PRESENCIAL\nDE *3 DIAS*",
+      "texto": "Não é curso gravado nem webinário. É sala, palco e as mesmas pessoas por três dias.",
+      "cta": {
+        "acao": "QUERO MINHA VAGA",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      },
+      "zoom": 1.45,
+      "focox": 42
+    }
+  ]
+}

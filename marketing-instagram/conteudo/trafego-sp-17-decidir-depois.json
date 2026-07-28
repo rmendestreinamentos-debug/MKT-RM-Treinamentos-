@@ -1,0 +1,20 @@
+{
+  "arquivo_saida": "tráfego pago/17-decidir-depois",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "pasta": "cidade-sp",
+  "slides": [
+    {
+      "tipo": "caricato",
+      "imagem": "AdobeStock_542978542.webp",
+      "foco": 40,
+      "focox": 22,
+      "zoom": 1.45,
+      "apoio": "Todo lote fecha. O próximo nunca é mais barato.",
+      "titulo": "DECIDIR DEPOIS\n*CUSTA MAIS*",
+      "cta": {
+        "acao": "Toque em *SAIBA MAIS*."
+      }
+    }
+  ]
+}

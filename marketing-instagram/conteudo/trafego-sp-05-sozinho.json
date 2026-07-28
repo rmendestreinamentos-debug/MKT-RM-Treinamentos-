@@ -1,0 +1,23 @@
+{
+  "arquivo_saida": "tráfego pago/Correções/05-sozinho",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "tipo": "lateral",
+      "foto": "FOTOS/DIA 1/0259_v2_52da08c8-a47c-4d42-9b53-0eb4d98b7b33.jpg",
+      "foco": 52,
+      "lado": "esquerda",
+      "eyebrow": "Advogado de agenda cheia",
+      "titulo": "VOCÊ NÃO TEM\n*ANOS*\nPRA ERRAR",
+      "virada": "E agora?",
+      "texto": "Cliente, prazo, audiência, equipe: a rotina não abre espaço pra tentativa e erro. São três dias pra ver o que os escritórios que já cresceram fizeram, *sem descobrir tudo sozinho, errando por anos*.",
+      "cta": {
+        "acao": "Ingressos em “SAIBA MAIS”",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      },
+      "zoom": 1.25,
+      "focox": 50
+    }
+  ]
+}

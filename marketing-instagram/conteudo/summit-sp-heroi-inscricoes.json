@@ -1,0 +1,19 @@
+{
+  "arquivo_saida": "summit-sp-heroi-inscricoes",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "tipo": "heroi",
+      "foto": "FOTOS/GABRIEL/v2_630bcefe-b07c-443d-ae67-993e4c3c76ab.jpg",
+      "foco": "topo",
+      "eyebrow": "Para advogados que faturam acima de R$ 100 mil por mês",
+      "titulo": "INSCRIÇÕES\n*ABERTAS*",
+      "texto": "Eleve o nível do seu escritório no maior encontro de gestão da advocacia do Brasil.",
+      "cta": {
+        "acao": "GARANTA SEU INGRESSO",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      }
+    }
+  ]
+}

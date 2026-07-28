@@ -1,6 +1,10 @@
 # Dependências
 node_modules/
 
+# Cache do Python (gerar_imagem_genai.py)
+__pycache__/
+*.pyc
+
 # Saída gerada pelo motor (PNGs)
 saida/
 

@@ -123,13 +123,13 @@ if (cmd === "status") {
   const semCatalogo = todas.filter(f => !catalogo.has(f));
   const usadas = [...uso.keys()];
   const repetidas = [...uso.entries()].filter(([, p]) => p.length > 1);
-  const liberadas = [...catalogo.entries()].filter(([, c]) => c.serveSp === "sim");
+  const comBh = [...catalogo.entries()].filter(([, c]) => c.serveSp !== "sim");
 
   const medidas = todas.length - semTriagem.length;
   console.log(`\nACERVO  ${todas.length} fotos${copias ? `  (+${copias} cópias descartadas)` : ""}\n`);
   console.log(`  medidas (triagem técnica)   ${medidas}/${todas.length}  ${pct(medidas, todas.length)}`);
   console.log(`  catalogadas (conteúdo)      ${catalogo.size}/${todas.length}  ${pct(catalogo.size, todas.length)}`);
-  console.log(`  liberadas p/ São Paulo      ${liberadas.length} das catalogadas`);
+  console.log(`  com marca de BH visível     ${comBh.length} das catalogadas  (liberadas pelo dono)`);
   console.log(`  usadas em peça              ${usadas.length}`);
   if (repetidas.length) {
     console.log(`\n  REPETIDAS (mesma foto em mais de uma peça):`);
@@ -163,16 +163,23 @@ else if (cmd === "pendentes") {
   console.log(`  ${CABECALHO}\n`);
 }
 
+// A marca de BH NÃO barra mais nada (regra do dono, 2026-07-20): o RM Summit é o
+// mesmo produto nas duas cidades, e o acervo inteiro é dele. A coluna serve_sp
+// continua sendo escrita — ela ainda diz o que está visível na foto — mas virou
+// aviso, não filtro. Barrar por ela deixava 3/4 do catálogo parado na prateleira.
+// Todo o acervo é usável (regra do dono, 2026-07-21): não é preciso catalogar
+// nem medir uma foto pra escolhê-la. Aqui listamos QUALQUER foto que nunca entrou
+// numa peça — o catálogo/triagem, quando existem, só enriquecem a linha (cena, véu,
+// aviso de BH); a falta deles não barra mais nada.
 else if (cmd === "escolher") {
-  const livres = todas.filter(f => {
-    const c = catalogo.get(f);
-    return c && c.serveSp === "sim" && !uso.has(f) && casa(f);
-  });
-  if (!livres.length) return console.log("\nNenhuma foto livre e liberada" + (filtro ? ` em "${filtro}"` : "") + ". Catalogue mais.\n");
-  console.log(`\n${livres.length} foto(s) servem para SP e NUNCA foram usadas:\n`);
+  const livres = todas.filter(f => !uso.has(f) && casa(f));
+  if (!livres.length) return console.log("\nNenhuma foto livre" + (filtro ? ` em "${filtro}"` : "") + ".\n");
+  console.log(`\n${livres.length} foto(s) do acervo NUNCA usadas:\n`);
   for (const f of espacar(livres, n)) {
     const c = catalogo.get(f), t = triagem.get(f);
-    console.log(`  [${c.cena}] véu ${t ? t.veu : "?"}\n    "foto": "${f}"`);
+    const cena = c ? `[${c.cena}] ` : "";
+    const bh = c && c.serveSp !== "sim" ? "  ⚠ BH visível" : "";
+    console.log(`  ${cena}véu ${t ? t.veu : "?"}${bh}\n    "foto": "${f}"`);
   }
   console.log();
 }

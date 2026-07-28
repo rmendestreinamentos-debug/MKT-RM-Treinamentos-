@@ -1,0 +1,20 @@
+{
+  "arquivo_saida": "tráfego pago/15-preco-de-hoje",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "pasta": "cidade-sp",
+  "slides": [
+    {
+      "tipo": "caricato",
+      "imagem": "photo-1637028330542-4c27164165f4.avif",
+      "foco": 70,
+      "focox": 35,
+      "zoom": 1.35,
+      "apoio": "Ingresso de evento só anda numa direção.",
+      "titulo": "O PREÇO DE HOJE É O\n*MENOR* QUE VOCÊ VÊ",
+      "cta": {
+        "acao": "Toque em *SAIBA MAIS* e garanta o seu."
+      }
+    }
+  ]
+}

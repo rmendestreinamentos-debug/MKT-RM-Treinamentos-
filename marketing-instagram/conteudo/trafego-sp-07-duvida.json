@@ -1,0 +1,17 @@
+{
+  "arquivo_saida": "tráfego pago/07-duvida",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "pasta": "cidade-sp",
+  "slides": [
+    {
+      "tipo": "caricato",
+      "imagem": "av-faria-lima-teve-bolsao-de-resistencia-durante-a-sua-expansao-1772817644028_v2_3x4.jpg",
+      "apoio": "Sem teoria bonita no palco: como escritórios estão captando e estruturando comercial.",
+      "titulo": "DUVIDA QUE *3 DIAS*\nMUDAM ALGO?",
+      "cta": {
+        "acao": "Toque em *SAIBA MAIS*."
+      }
+    }
+  ]
+}

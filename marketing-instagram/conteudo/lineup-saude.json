@@ -1,0 +1,47 @@
+{
+  "arquivo_saida": "tráfego pago/Correções/line-up-saude",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "tipo": "palestrantes",
+      "eyebrow": "NOMES CONFIRMADOS",
+      "titulo": "Os nomes que estão transformando\na advocacia da *saúde.*",
+      "fundo": "kv-plateia.jpg",
+      "aperto": 0.62,
+      "palestrantes": [
+        {
+          "nome": "Flávia Marinho",
+          "foto": "Flávia Marinho (SAUDE).png"
+        },
+        {
+          "nome": "Rafael Mendes",
+          "foto": "Rafael Mendes (estudio).png",
+          "z": 14,
+          "destaque": 1.16
+        },
+        {
+          "nome": "Anaísa Banhara",
+          "foto": "Anaísa Banhara (SAUDE).png"
+        }
+      ],
+      "info": [
+        {
+          "icone": "calendario",
+          "texto": "07, 08 e 09 de Outubro"
+        },
+        {
+          "icone": "local",
+          "texto": "Alphaville — SP"
+        }
+      ],
+      "cta": {
+        "acao": "Garanta sua vaga",
+        "obs": "Toque em Saiba Mais"
+      },
+      "alinhar": "rosto",
+      "zoom": 1.15,
+      "margem": 200
+    }
+  ]
+}

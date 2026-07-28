@@ -1,0 +1,17 @@
+{
+  "arquivo_saida": "tráfego pago/14-mais-caro",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "pasta": "cidade-sp",
+  "slides": [
+    {
+      "tipo": "caricato",
+      "imagem": "AdobeStock_542978542.webp",
+      "apoio": "Virada de lote · RM Summit São Paulo · 07, 08 e 09 de outubro.",
+      "titulo": "VAI FICAR\n*MAIS CARO*",
+      "cta": {
+        "acao": "Garanta o lote atual em *SAIBA MAIS*."
+      }
+    }
+  ]
+}

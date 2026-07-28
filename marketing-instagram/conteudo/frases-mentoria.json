@@ -1,0 +1,161 @@
+{
+  "_leia-me": "As 20 frases do PDF em exemplos/COPY FRASES/. NÃO é carrossel: cada slide sai como um PNG avulso, um post estático por frase. O PDF tem 23 itens, mas 5/9/16 são a mesma frase e 4/17 também — as repetições não viraram arte.",
+  "_autoria": "Só leva aspas e assinatura quem tem o campo 'autor'. Foram 10 das 20, escolhidas por autoridade/experiência/posicionamento. As outras 10 falam do PRODUTO (a mentoria) ou são informativas — atribuir essas ao Rafael seria pôr promoção na boca dele.",
+  "_sem-marca": "Peça sem selo, sem logo, sem @ e sem data, por pedido do dono. O tipo 'frase' tem SELO null no motor; a única marca gráfica é a régua dourada, que dá unidade à série.",
+  "tipo": "frase",
+  "perfil": "rm-summit",
+  "arquivo_saida": "../exemplos/COPY FRASES/ARTES GERADAS/frase",
+  "slides": [
+    {
+      "_frase": "PDF 1 — sem autoria: fala do produto (a mentoria), é apresentação, não pensamento.",
+      "frase": "Não construí minha mentoria para ensinar apenas o que estudo. Construí para compartilhar o que já foi *validado na prática*.",
+      "estilo": "centro",
+      "_fundo": "Fundo NEUTRO por pedido do dono (2026-07-27): o cenario original era plateia (mulher de caderno) — gente de fora disputando a atencao com a frase."
+    },
+    {
+      "_frase": "PDF 2 — RAFAEL: experiência própria virando caminho pro outro. Fundo cinza chapado, o mais limpo do acervo: é a frase mais longa das vinte.",
+      "frase": "Durante muitos anos, o meu maior investimento foi aprender administrando o meu próprio escritório. Hoje, transformo essa experiência em um *caminho mais curto* para outros advogados.",
+      "autor": "Rafael Mendes",
+      "foto": "FOTOS/DIA 1/0343_v2_5e246114-4008-49fe-b4ea-52a01845d157.jpg",
+      "veu": "forte",
+      "estilo": "esq"
+    },
+    {
+      "_frase": "PDF 3 — sem autoria: origem do produto. Foto: caderno com 'Dificuldade na área do advogado' escrito à mão — o problema real, literal.",
+      "frase": "Minha mentoria não nasceu de uma ideia. Nasceu da necessidade de resolver *problemas reais* dentro da nossa própria empresa.",
+      "foto": "FOTOS/SEM ROSTO/v2_994be3e7-e6a9-48fa-a7b1-35021c755394.jpg",
+      "veu": "forte",
+      "estilo": "baixo"
+    },
+    {
+      "_frase": "PDF 4 (= 17) — sem autoria: é metodologia, informativa.",
+      "frase": "A melhor forma de validar uma metodologia é aplicá-la primeiro *na própria empresa*. Foi assim que construímos a nossa.",
+      "estilo": "centro",
+      "_fundo": "Fundo NEUTRO por pedido do dono (2026-07-27): o cenario original era dois homens sobre o notebook — gente de fora disputando a atencao com a frase."
+    },
+    {
+      "_frase": "PDF 5 (= 9 = 16) — RAFAEL: liderança e autoridade. Foto: ele no palco, corpo inteiro, conduzindo.",
+      "frase": "Antes de orientar outros escritórios, precisei aprender a *conduzir o meu*.",
+      "autor": "Rafael Mendes",
+      "foto": "FOTOS/DIA 1/0056_v2_96119dcc-dc7a-4ab3-b96c-6239082c299c.jpg",
+      "veu": "medio",
+      "foco": "topo",
+      "estilo": "esq"
+    },
+    {
+      "_frase": "PDF 6 — RAFAEL: posicionamento puro. A frase nega o palco, então a foto NÃO é de palco: é o retrato em pé, no salão.",
+      "frase": "Minha maior credencial como mentor não é o palco. São os *resultados* que continuo construindo todos os dias.",
+      "autor": "Rafael Mendes",
+      "foto": "FOTOS/DIA 1/0281_v2_3a3d24e6-4dd8-4336-8783-c4acd3884cb6.jpg",
+      "veu": "medio",
+      "foco": "topo",
+      "estilo": "baixo"
+    },
+    {
+      "_frase": "PDF 7 — sem autoria: fala do produto.",
+      "frase": "Tudo o que compartilho na mentoria já foi *colocado à prova* dentro da nossa própria operação.",
+      "estilo": "esq",
+      "_fundo": "Fundo NEUTRO por pedido do dono (2026-07-27): o cenario original era roda de conversa no lounge — gente de fora disputando a atencao com a frase."
+    },
+    {
+      "_frase": "PDF 8 — RAFAEL: aforismo forte, memorável.",
+      "frase": "Mentorar é encurtar caminhos. Mas isso só é possível quando você *já percorreu a estrada*.",
+      "autor": "Rafael Mendes",
+      "estilo": "esq",
+      "_fundo": "Fundo NEUTRO por pedido do dono (2026-07-27): o cenario original era duas mulheres caminhando — gente de fora disputando a atencao com a frase."
+    },
+    {
+      "_frase": "PDF 10 — RAFAEL: mentalidade, memorável. O caixa alta 'É SÓ' é ênfase do PRÓPRIO texto e foi preservado como veio. O realce dourado ficou só em 'inspiração': marcando 'É SÓ inspiração' inteiro, a linha rachava entre o 'É' e o 'SÓ' e partia a ênfase no meio.",
+      "frase": "A experiência me ensinou que teoria sem execução É SÓ *inspiração*.",
+      "autor": "Rafael Mendes",
+      "foto": "FOTOS/DIA 1/0090_v2_1a30bdfe-eafd-483c-b3d5-698182cd07c5.jpg",
+      "veu": "medio",
+      "foco": "topo",
+      "estilo": "centro"
+    },
+    {
+      "_frase": "PDF 11 — sem autoria: é 'nós', voz da empresa, não pensamento pessoal.",
+      "frase": "Nós não ensinamos gestão para descobrir se funciona. Ensinamos porque *já sabemos que funciona*.",
+      "estilo": "centro",
+      "_fundo": "Fundo NEUTRO por pedido do dono (2026-07-27): o cenario original era auditorio cheio — gente de fora disputando a atencao com a frase."
+    },
+    {
+      "_frase": "PDF 12 — RAFAEL: a tese de gestão da casa. Foto: ele apontando o clicker pro telão de contratações — construindo empresa, não processo.",
+      "frase": "Um escritório cresce quando o dono deixa de resolver apenas processos e passa a *construir uma empresa*.",
+      "autor": "Rafael Mendes",
+      "foto": "FOTOS/DIA 1/0077_v2_e91fe796-5485-4662-b8ba-023f47e1c630.jpg",
+      "veu": "medio",
+      "foco": "topo",
+      "estilo": "esq"
+    },
+    {
+      "_frase": "PDF 13 — RAFAEL: reflexão forte sobre gestão. Foto: retrato de perfil, mãos cruzadas, concentrado — peso de decisão.",
+      "frase": "Existem erros que custam dinheiro. *Outros custam anos*. Aprender a diferença faz parte da gestão.",
+      "autor": "Rafael Mendes",
+      "foto": "FOTOS/DIA 3/0014_v2_d193c830-af72-43ed-ae33-a3ba02f5258b.jpg",
+      "veu": "medio",
+      "foco": "topo",
+      "estilo": "centro"
+    },
+    {
+      "_frase": "PDF 14 — sem autoria: aforismo genérico de mercado. O caixa alta 'MAS' é do texto original e foi preservado. Foto: caderno e café sozinhos — reflexiva, sóbria.",
+      "frase": "O mercado muda o tempo todo, MAS alguns princípios *não deveriam mudar nunca*.",
+      "foto": "FOTOS/SEM ROSTO/v2_147cea55-c037-49cd-a0b9-56e42f939ac2.jpg",
+      "veu": "medio",
+      "estilo": "baixo"
+    },
+    {
+      "_frase": "PDF 15 — sem autoria: descreve o método, é informativa. Foto: estratégia sendo rascunhada à mão no iPad.",
+      "frase": "Antes de ensinar qualquer estratégia, fiz questão de descobrir se ela *sobrevivia à realidade*.",
+      "foto": "FOTOS/SEM ROSTO/v2_a7d3e229-c2db-460a-b34d-81b4c928afda.jpg",
+      "veu": "medio",
+      "estilo": "esq"
+    },
+    {
+      "_frase": "PDF 18 — RAFAEL: a frase de posicionamento mais forte do lote. Foto: retrato, mão no queixo, olhar firme, fundo preto.",
+      "frase": "Nunca achei que alguém devesse confiar em mim apenas porque eu ensinava. Preferi construir primeiro um escritório que *justificasse aquilo que eu dizia*.",
+      "autor": "Rafael Mendes",
+      "foto": "FOTOS/DIA 1/0275_v2_9cbe1e5a-e703-47cb-9d68-61e57e76f966.jpg",
+      "veu": "forte",
+      "foco": "topo",
+      "estilo": "centro"
+    },
+    {
+      "_frase": "PDF 19 — sem autoria: repete a tese da 3 em outra roupa, e fala do que ele ensina (produto).",
+      "frase": "Boa parte do que ensino não nasceu de um planejamento. Nasceu da necessidade de *resolver problemas reais*.",
+      "estilo": "esq",
+      "_fundo": "Fundo NEUTRO por pedido do dono (2026-07-27): o cenario original era homem no celular, corredor — gente de fora disputando a atencao com a frase."
+    },
+    {
+      "_frase": "PDF 20 — RAFAEL: reflexão de carreira, a mais pessoal do lote. Foto: sentado na plateia, contemplativo, luz quente.",
+      "frase": "Os maiores aprendizados da minha carreira não vieram quando tudo deu certo. Vieram quando alguma decisão precisava ser tomada, mesmo *sem garantia de que daria certo*.",
+      "autor": "Rafael Mendes",
+      "foto": "FOTOS/DIA 2/0033_v2_1bc63cc3-a703-42f0-8b6e-777a539d459d.jpg",
+      "veu": "forte",
+      "foco": "topo",
+      "estilo": "esq"
+    },
+    {
+      "_frase": "PDF 21 — RAFAEL: crença declarada, posicionamento. Foto: retrato de autoridade, olhar firme.",
+      "frase": "Sempre acreditei que quem ensina gestão deveria *continuar administrando* uma empresa.",
+      "autor": "Rafael Mendes",
+      "foto": "FOTOS/DIA 1/0029_v2_aa96ddb7-0e7f-4c1c-90c7-af7b3ff02fbb.jpg",
+      "veu": "medio",
+      "foco": "topo",
+      "estilo": "centro"
+    },
+    {
+      "_frase": "PDF 22 — sem autoria: aforismo genérico. ⚠️ O PDF traz esta frase SEM ponto final; o ponto foi acrescentado na revisão de pontuação.",
+      "frase": "Algumas ideias parecem excelentes até *encontrarem a realidade*.",
+      "estilo": "centro",
+      "_fundo": "Fundo NEUTRO por pedido do dono (2026-07-27): o cenario original era homem em pe com caderno — gente de fora disputando a atencao com a frase."
+    },
+    {
+      "_frase": "PDF 23 — sem autoria: é critério de método, informativa. Foto: caderno com números e prazos — a rotina do escritório que testa a estratégia.",
+      "frase": "Quando uma estratégia depende apenas de uma apresentação bonita, ela costuma durar pouco. Quando ela *sobrevive à rotina de um escritório*, vale a pena ser compartilhada.",
+      "foto": "FOTOS/SEM ROSTO/v2_bebed48e-ec36-4bd6-9f48-c3c2d5ccf31f.jpg",
+      "veu": "forte",
+      "estilo": "esq"
+    }
+  ]
+}

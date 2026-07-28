@@ -1,0 +1,26 @@
+{
+  "_leia-me": "A SEGUNDA PÁGINA das 20 frases (pedido do dono, 2026-07-27). É UMA só, padrão pra todas: no Instagram vira o 2º slide de qualquer uma das artes de conteudo/frases-mentoria.json. Por isso não tem foto e não fala de assunto nenhum — se falasse, deixaria de servir às outras 19.",
+  "_familia": "Mesmo tipo 'frase' das outras: mesma régua dourada, mesmo fundo neutro, mesmo @ no pé. É isso que faz o slide 2 parecer a continuação do slide 1, e não uma peça de outra campanha colada no fim.",
+  "_copy": "Texto meu, não do dono — ele pediu a CTA e não passou a frase. Trocar aqui e rodar de novo se a voz não for essa; a arte não muda.",
+
+  "tipo": "frase",
+  "perfil": "rm-summit",
+  "_nome": "O motor sempre numera a saída (-01). Por isso o nome já diz o que o arquivo é: '00-' o joga pro topo da pasta, e 'PAGINA-2' avisa que ele não é uma frase, é o fecho.",
+  "arquivo_saida": "../exemplos/COPY FRASES/ARTES GERADAS/00-PAGINA-2-LINK-NA-BIO",
+
+  "slides": [
+    {
+      "_copy-obs": "Copy do DONO (2026-07-27). Ele escreveu 'proximo'; corrigi só o acento, como pediu. 'Esse post' fala do slide 1 sem citá-lo — é o que mantém o card PADRÃO: qualquer palavra sobre o assunto (gestão, mentoria, escritório) o prenderia a uma das vinte e quebraria as outras dezenove.",
+      "frase": "Se esse post fez sentido, o próximo passo está no *link da bio*.",
+      "estilo": "centro",
+
+      "_foto": "Av. Faria Lima — a única foto de SP do acervo com resolução de feed FOLGADA (1707x2276, vertical). As outras três de cidade são horizontais ou pequenas e subiriam esticadas. O distrito financeiro também é o cenário certo pra 'próximo passo'.",
+      "_veu": "FORTE não é gosto: a foto é de dia claro, com céu branco no topo. No médio o texto branco encosta na nuvem e some.",
+      "_zoom": "Aproxima nas torres e na avenida e empurra o céu pra fora do quadro — é a faixa de meio-tom da foto, a única que aguenta texto branco por cima.",
+      "foto": "cidade-sp/av-faria-lima-teve-bolsao-de-resistencia-durante-a-sua-expansao-1772817644028_v2_3x4.jpg",
+      "veu": "forte",
+      "foco": 62,
+      "zoom": 1.3
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "arquivo_saida": "tam-3054-acidente-trabalho",
+  "tipo": "editorial",
+  "perfil": "rafael-mendes-advogados",
+  "pasta": "tam-3054",
+  "barra": { "esquerda": "Acidente de trabalho", "direita": "Julho 2026" },
+  "slides": [
+    {
+      "capa": true,
+      "imagem": "h-crash3.jpg",
+      "foco": "topo",
+      "titulo": "19 anos da\nmaior tragédia\naérea do *Brasil*.",
+      "texto": "E a maior lição talvez não esteja só na aviação"
+    },
+    {
+      "tema": "claro",
+      "imagem": "c-incendio-predio.jpg",
+      "titulo": "O que aconteceu em 17 de julho de 2007.",
+      "texto": "Naquela noite, o voo TAM 3054 tentou pousar em Congonhas, sob chuva. A aeronave não conseguiu parar, atravessou a pista, cruzou a Avenida Washington Luís e atingiu um prédio da própria companhia e um posto de combustível.",
+      "remate": "Morreram *199 pessoas*."
+    },
+    {
+      "tema": "escuro",
+      "titulo": "Tragédia raramente nasce de um único erro.",
+      "texto": "Grandes acidentes costumam ser resultado de uma soma de fatores.",
+      "label": "O que se acumula antes:",
+      "marca_item": "seta",
+      "lista": [
+        "Decisões anteriores.",
+        "Falhas de procedimento.",
+        "Estrutura inadequada.",
+        "Risco conhecido.",
+        "Medidas preventivas que não chegaram a tempo."
+      ],
+      "remate": "Quase nunca é apenas o *último segundo* antes do dano."
+    },
+    {
+      "tema": "claro",
+      "titulo": "No trabalho, a lógica é parecida.",
+      "texto": "Um acidente quase nunca começa no momento da queda, do corte, da explosão ou do esmagamento. Muitas vezes, ele começa antes.",
+      "label": "Onde ele começa de verdade:",
+      "marca_item": "seta",
+      "lista": [
+        "Na falta de treinamento.",
+        "No equipamento defeituoso.",
+        "Na pressa da produção.",
+        "No EPI inadequado.",
+        "No risco tratado como rotina."
+      ]
+    },
+    {
+      "tema": "escuro",
+      "imagem": "e-acidente.jpg",
+      "titulo": "Chamar de “fatalidade” pode esconder o problema.",
+      "texto": "Muita empresa tenta tratar acidente como azar, descuido do empregado ou algo imprevisível. Mas, quando o risco era conhecido e nada foi feito, a conversa muda.",
+      "remate": "Acidente de trabalho não pode ser analisado apenas pelo *momento exato* em que o trabalhador se machuca."
+    },
+    {
+      "tema": "accent",
+      "titulo": "Quem tinha o dever de evitar?",
+      "texto": "Essa é uma pergunta essencial.",
+      "label": "As perguntas que abrem o caso:",
+      "marca_item": "seta",
+      "lista": [
+        "Quem deveria treinar?",
+        "Quem deveria fiscalizar?",
+        "Quem deveria trocar o equipamento?",
+        "Quem deveria reduzir o risco?",
+        "Quem sabia do problema e deixou continuar?"
+      ],
+      "remate": "Em acidente de trabalho, a responsabilidade muitas vezes aparece nessa *cadeia*."
+    },
+    {
+      "tema": "claro",
+      "titulo": "A indenização não apaga o acidente.",
+      "texto": "Quando o trabalhador se machuca ou morre, a reparação pode envolver várias frentes.",
+      "label": "O que a reparação pode envolver:",
+      "marca_item": "seta",
+      "lista": [
+        "Dano moral e dano material.",
+        "Pensão.",
+        "Estabilidade.",
+        "Emissão de CAT.",
+        "Benefícios previdenciários."
+      ],
+      "remate": "Mas nenhuma indenização devolve saúde, tempo, capacidade de trabalho ou vida. Por isso, *prevenção vem antes de processo*."
+    },
+    {
+      "tema": "escuro",
+      "imagem": "d-a320.jpg",
+      "titulo": "Segurança não pode ser tratada como detalhe.",
+      "texto": "No avião, na fábrica, na obra, no hospital, no caminhão ou no escritório, segurança depende de procedimento, manutenção, fiscalização e cultura.",
+      "remate": "Quando a empresa normaliza risco, ela transforma o ambiente de trabalho em *espera pelo próximo acidente*."
+    },
+    {
+      "tema": "claro",
+      "imagem": "a-ex.jpg",
+      "titulo": "Acidente não é só o que acontece no fim.",
+      "texto": "O TAM 3054 marcou o Brasil porque mostrou, da forma mais dura possível, que falhas acumuladas podem custar vidas. No trabalho, a lógica também precisa ser levada a sério: muitas vezes, o acidente é o resultado de tudo que foi ignorado antes.",
+      "remate": "Se você sofreu acidente de trabalho ou conhece alguém que passou por isso, procure orientação e não trate como *“coisa normal da profissão”*.",
+      "cta": { "acao": "Comenta aqui se isso já aconteceu perto de você" }
+    }
+  ]
+}

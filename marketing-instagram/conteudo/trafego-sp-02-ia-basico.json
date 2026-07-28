@@ -1,0 +1,21 @@
+{
+  "arquivo_saida": "tráfego pago/Correções/02-ia-basico",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "tipo": "lateral",
+      "foto": "FOTOS/DIA 2/0065_v2_2a5ae89c-355e-4e59-b146-647c8c8f2fbf.jpg",
+      "foco": 20,
+      "focox": 60,
+      "zoom": 1.1,
+      "eyebrow": "Para quem quer crescer",
+      "titulo": "USAR IA VIROU\nO *BÁSICO*",
+      "texto": "A ferramenta é a mesma pra todo mundo. O escritório que cresce é o que tem *processo, equipe e comercial*.",
+      "cta": {
+        "acao": "Ingressos em “SAIBA MAIS”",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      }
+    }
+  ]
+}

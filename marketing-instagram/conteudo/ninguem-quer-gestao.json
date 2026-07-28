@@ -1,0 +1,64 @@
+{
+  "arquivo_saida": "ninguem-quer-gestao",
+  "tipo": "editorial",
+  "perfil": "rm-summit",
+  "barra": { "esquerda": "Gestão", "direita": "Julho 2026" },
+  "slides": [
+    {
+      "capa": true,
+      "imagem": "FOTOS/DIA 1/0322_v2_752d6872-ad46-4137-8a36-c43eb8f76fed.jpg",
+      "foco": "topo",
+      "titulo": "Ninguém quer\nassumir a\n*gestão*.",
+      "texto": "Todo mundo quer apenas ganhar mais dinheiro."
+    },
+    {
+      "tema": "claro",
+      "imagem": "FOTOS/SEM ROSTO/v2_2a354041-7402-4822-a631-35569258bae8.jpg",
+      "titulo": "Todo advogado quer um escritório mais lucrativo, com mais contratos, mais equipe e mais estrutura.",
+      "texto": "Só que, quando o escritório começa a crescer, aparece a parte que *quase ninguém quer fazer*: gerir pessoas, cobrar rotina, acompanhar entregas e transformar bagunça em processo."
+    },
+    {
+      "tema": "escuro",
+      "imagem": "FOTOS/RENAN/v2_23906eb7-0e3d-452b-b170-0a3ab724f9c7.jpg",
+      "titulo": "Crescer sem gestão parece bom no começo, porque tudo ainda depende do dono.",
+      "texto": "Ele resolve, confere, cobra, lembra, apaga incêndio e segura a operação no braço.",
+      "remate": "O problema é que isso não é crescimento. É *sobrecarga com faturamento maior*."
+    },
+    {
+      "tema": "claro",
+      "imagem": "FOTOS/SEM ROSTO/v2_a6ccf950-efd5-4225-acf4-a49718e471cb.jpg",
+      "titulo": "Muita gente confunde liderança com ser querido por todo mundo.",
+      "texto": "Só que líder que nunca cobra vira apenas uma pessoa agradável no meio de uma operação desorganizada.",
+      "remate": "Respeitar o time não é deixar cada um fazer do próprio jeito. É *dar direção, acompanhar e cobrar o combinado*."
+    },
+    {
+      "tema": "escuro",
+      "imagem": "FOTOS/SEM ROSTO/v2_147cea55-c037-49cd-a0b9-56e42f939ac2.jpg",
+      "foco": "baixo",
+      "titulo": "Gestão não aparece em frase bonita de evento.",
+      "texto": "Ela aparece na rotina: saber quem faz o quê, quando entrega, como presta conta, qual meta precisa bater e o que acontece quando algo sai do combinado.",
+      "remate": "Sem isso, o escritório até cresce, mas *cresce torto*."
+    },
+    {
+      "tema": "accent",
+      "imagem": "FOTOS/SEM ROSTO/v2_bebed48e-ec36-4bd6-9f48-c3c2d5ccf31f.jpg",
+      "titulo": "O líder bom não é o que evita pressão.",
+      "texto": "É o que sabe aplicar pressão com clareza, respeito e responsabilidade.",
+      "remate": "Porque resultado não nasce de boa intenção. Resultado nasce de *rotina produtiva, gente bem direcionada e cobrança feita do jeito certo*."
+    },
+    {
+      "tema": "claro",
+      "imagem": "Fotos RM Summit/PALESTRANTES RM/LUCCHI/RMDAY10345.jpg",
+      "titulo": "Esse é um dos assuntos que precisam entrar na mesa de quem quer construir um escritório de verdade.",
+      "texto": "No RM Summit São Paulo, gestão, liderança, comercial e crescimento não são tratados como teoria distante, mas como decisões práticas para advogados que querem *parar de crescer no improviso*."
+    },
+    {
+      "tema": "escuro",
+      "imagem": "FOTOS/SEM ROSTO/v2_a7d3e229-c2db-460a-b34d-81b4c928afda.jpg",
+      "titulo": "No fim, a pergunta não é se você quer ganhar mais dinheiro com o escritório.",
+      "texto": "Todo mundo quer.",
+      "remate": "A pergunta é se você está disposto a encarar a *gestão necessária* para sustentar esse crescimento.",
+      "cta": { "acao": "Comenta o que você acha" }
+    }
+  ]
+}

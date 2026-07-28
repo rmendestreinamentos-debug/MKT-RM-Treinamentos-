@@ -1,0 +1,22 @@
+{
+  "arquivo_saida": "tráfego pago/E4-vai-ficar-mais-caro",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "pasta": "cidade-sp",
+  "slides": [
+    {
+      "tipo": "caricato",
+      "topo": true,
+      "imagem": "av-faria-lima-teve-bolsao-de-resistencia-durante-a-sua-expansao-1772817644028_v2_3x4.jpg",
+      "foco": 20,
+      "focox": 50,
+      "zoom": 1,
+      "titulo": "VAI FICAR\nMAIS CARO",
+      "apoio": "Virada de lote · RM Summit São Paulo\n7, 8 e 9 de outubro de 2026",
+      "remate": "Garanta seu ingresso no *valor atual* antes da mudança de lote.",
+      "cta": {
+        "acao": "Clique em *SAIBA MAIS* para garantir o seu."
+      }
+    }
+  ]
+}

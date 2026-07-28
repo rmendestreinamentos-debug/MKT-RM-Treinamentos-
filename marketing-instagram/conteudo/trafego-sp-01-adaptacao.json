@@ -1,0 +1,21 @@
+{
+  "arquivo_saida": "tráfego pago/01-adaptacao",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "tipo": "lateral",
+      "foto": "FOTOS/RENAN/v2_13d3f917-fb7e-466d-b353-e13e0811fdba.jpg",
+      "foco": 62,
+      "eyebrow": "Para advogados com escritório rodando",
+      "titulo": "O QUE FUNCIONAVA\nHÁ 10 ANOS\n*ESTÁ ACABANDO*",
+      "texto": "Alguns escritórios aprenderam gestão, comercial e posicionamento. Outros continuam jogando pelas regras de dez anos atrás. *Não falta conhecimento jurídico. Falta adaptação.*",
+      "cta": {
+        "acao": "Ingressos em “SAIBA MAIS”",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      },
+      "zoom": 1.2,
+      "focox": 50
+    }
+  ]
+}

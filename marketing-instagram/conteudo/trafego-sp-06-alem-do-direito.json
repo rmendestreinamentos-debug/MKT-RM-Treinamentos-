@@ -1,0 +1,22 @@
+{
+  "arquivo_saida": "tráfego pago/06-alem-do-direito",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "tipo": "lateral",
+      "foto": "FOTOS/RENAN/v2_175ce20d-6081-491e-a597-943fe8cf32c5.jpg",
+      "foco": 44,
+      "eyebrow": "Para advogados que já são bons",
+      "titulo": "ELE NÃO SABE MAIS\n*DIREITO* QUE VOCÊ",
+      "virada": "Então o quê?",
+      "texto": "Posicionamento, captação, comercial, liderança e gestão. *É o que ele aprendeu além do Direito* — e o que a faculdade nunca ensinou a ninguém.",
+      "cta": {
+        "acao": "Ingressos em “SAIBA MAIS”",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      },
+      "zoom": 1.35,
+      "focox": 48
+    }
+  ]
+}

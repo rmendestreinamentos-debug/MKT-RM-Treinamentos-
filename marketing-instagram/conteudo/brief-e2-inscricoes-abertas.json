@@ -1,0 +1,20 @@
+{
+  "arquivo_saida": "tráfego pago/E2-inscricoes-abertas",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "tipo": "heroi",
+      "foto": "FOTOS/RENAN/v2_13d3f917-fb7e-466d-b353-e13e0811fdba.jpg",
+      "foco": 62,
+      "zoom": 1.2,
+      "eyebrow": "Para advogados que querem crescer além da técnica",
+      "titulo": "INSCRIÇÕES\n*ABERTAS*",
+      "texto": "Três dias de estratégia, gestão, posicionamento e crescimento.",
+      "cta": {
+        "acao": "GARANTA SEU INGRESSO AGORA",
+        "obs": "7, 8 e 9 de outubro de 2026 · Alphaville, São Paulo"
+      }
+    }
+  ]
+}

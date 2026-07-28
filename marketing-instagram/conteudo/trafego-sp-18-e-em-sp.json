@@ -1,0 +1,20 @@
+{
+  "arquivo_saida": "tráfego pago/18-e-em-sp",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "pasta": "cidade-sp",
+  "slides": [
+    {
+      "tipo": "caricato",
+      "imagem": "photo-1637028330542-4c27164165f4.avif",
+      "foco": 30,
+      "focox": 70,
+      "zoom": 1.55,
+      "apoio": "Três dias de gestão, comercial e posicionamento.",
+      "titulo": "A ADVOCACIA QUE CRESCE\n*SE ENCONTRA AQUI*",
+      "cta": {
+        "acao": "Toque em *SAIBA MAIS* e garanta seu ingresso."
+      }
+    }
+  ]
+}

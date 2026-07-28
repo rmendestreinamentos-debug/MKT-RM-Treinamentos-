@@ -1,0 +1,19 @@
+{
+  "arquivo_saida": "summit-sp-bom-advogado",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "tipo": "anuncio",
+      "eyebrow": "RM SUMMIT · SÃO PAULO",
+      "titulo": "Você se tornou um bom advogado.\nMas a advocacia que você construiu ainda te frustra.",
+      "texto": "Talvez não falte conhecimento jurídico — falte *enxergar a advocacia de outra forma.*",
+      "foto": "FOTOS/GABRIEL/v2_c866af58-c14e-449e-a220-27b73a43818a.jpg",
+      "foco": "topo",
+      "cta": {
+        "acao": "GARANTA SEU INGRESSO",
+        "obs": "07, 08 e 09 de outubro"
+      }
+    }
+  ]
+}

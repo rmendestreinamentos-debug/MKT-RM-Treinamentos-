@@ -1,0 +1,23 @@
+{
+  "arquivo_saida": "tráfego pago/04-contratar",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "tipo": "anuncio",
+      "eyebrow": "RM Summit · São Paulo",
+      "titulo": "VOCÊ NÃO SABE\n*CONTRATAR*",
+      "texto": "Você não contrata um cargo. Contrata uma função.",
+      "chips": [
+        { "icone": "equipe", "texto": "Para escritório *com equipe*" },
+        { "icone": "calendario", "texto": "Imersão presencial *3 dias em SP*" }
+      ],
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_3ad0f6c0-c68b-4d34-9a00-7f44144bc225.jpg",
+      "foco": "baixo",
+      "cta": {
+        "acao": "GARANTA SEU INGRESSO",
+        "obs": "07, 08 e 09 de outubro · São Paulo"
+      }
+    }
+  ]
+}

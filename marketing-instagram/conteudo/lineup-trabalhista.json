@@ -1,0 +1,55 @@
+{
+  "arquivo_saida": "line-up/trabalhista",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "tipo": "palestrantes",
+      "eyebrow": "NOMES CONFIRMADOS",
+      "titulo": "Os nomes que estão redesenhando\na advocacia *trabalhista.*",
+      "fundo": "kv-plateia.jpg",
+      "aperto": 0.62,
+      "palestrantes": [
+        {
+          "nome": "Fabiano Coelho",
+          "foto": "Fabiano Coelho (RM5).png"
+        },
+        {
+          "nome": "Janaína Bastos",
+          "foto": "Janaína Bastos (RM5).png"
+        },
+        {
+          "nome": "Rafael Mendes",
+          "foto": "Rafael Mendes (estudio).png",
+          "z": 14,
+          "destaque": 1.16
+        },
+        {
+          "nome": "Thassya Prado",
+          "foto": "Thassya Prado (RM5).png"
+        },
+        {
+          "nome": "Élisson Miessa",
+          "foto": "Élisson Miessa (RM5).png"
+        }
+      ],
+      "info": [
+        {
+          "icone": "calendario",
+          "texto": "07, 08 e 09 de Outubro"
+        },
+        {
+          "icone": "local",
+          "texto": "Alphaville — SP"
+        }
+      ],
+      "cta": {
+        "acao": "Garanta sua vaga",
+        "obs": "Toque em Saiba Mais"
+      },
+      "alinhar": "rosto",
+      "margem": 165,
+      "zoom": 0.92
+    }
+  ]
+}

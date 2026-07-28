@@ -8,31 +8,30 @@
       "eyebrow": "NOMES CONFIRMADOS",
       "titulo": "Os nomes que estão transformando o mercado\ne a advocacia estarão no *mesmo palco.*",
       "fundo": "kv-plateia.jpg",
+      "aperto": 0.62,
       "palestrantes": [
         {
           "nome": "Rafa Brito",
           "foto": "Rafa Brito.jpg",
-          "escala": 0.9
+          "x": 13.9
         },
         {
           "nome": "Lásaro Carmo",
-          "foto": "Lásaro Carmo.png",
-          "escala": 0.95
+          "foto": "Lásaro Carmo.png"
         },
         {
           "nome": "Rafael Mendes",
-          "foto": "Rafael Mendes.jpg",
-          "escala": 1
+          "foto": "Rafael Mendes (estudio).png",
+          "z": 12
         },
         {
-          "nome": "Rafael Gonçalves",
-          "foto": "Rafael Gonçalves.jpeg",
-          "escala": 0.95
+          "nome": "João Menna",
+          "foto": "João Menna (palco).png"
         },
         {
           "nome": "Samer Agi",
           "foto": "Samer Agi.jpeg",
-          "escala": 0.9
+          "x": 86.1
         }
       ],
       "info": [

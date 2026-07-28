@@ -1,0 +1,51 @@
+{
+  "arquivo_saida": "line-up/previdenciaria",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "tipo": "palestrantes",
+      "eyebrow": "NOMES CONFIRMADOS",
+      "titulo": "Os nomes que estão reescrevendo\na advocacia *previdenciária.*",
+      "fundo": "kv-plateia.jpg",
+      "aperto": 0.62,
+      "palestrantes": [
+        {
+          "nome": "Gustavo Escobar",
+          "foto": "Gustavo Escobar (RM5).png"
+        },
+        {
+          "nome": "João Badari",
+          "foto": "João Badari (RM5).png"
+        },
+        {
+          "nome": "Rafael Mendes",
+          "foto": "Rafael Mendes (estudio).png",
+          "z": 14,
+          "destaque": 1.16
+        },
+        {
+          "nome": "Hermann Richard",
+          "foto": "Hermann Richard (RM5).png"
+        }
+      ],
+      "info": [
+        {
+          "icone": "calendario",
+          "texto": "07, 08 e 09 de Outubro"
+        },
+        {
+          "icone": "local",
+          "texto": "Alphaville — SP"
+        }
+      ],
+      "cta": {
+        "acao": "Garanta sua vaga",
+        "obs": "Toque em Saiba Mais"
+      },
+      "alinhar": "rosto",
+      "margem": 180,
+      "zoom": 0.95
+    }
+  ]
+}

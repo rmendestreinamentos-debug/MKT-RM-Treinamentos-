@@ -1,0 +1,53 @@
+{
+  "_leia-me": "A MESMA urgência do RM Summit SP em quatro modos diferentes do motor. O lote summit-sp-urgencia-lote tem 8 peças no modo 'urgencia' — no feed isso vira uma peça repetida 8 vezes, e o Meta cansa a audiência mais rápido. Aqui muda o REGISTRO, não o argumento.",
+  "_contagem": "A contagem é a única peça do calendário que precisa ser regerada: 79 dias foi calculado em 20/07/2026 para 07/10/2026. Refazer o número a cada repostagem, ou a peça mente.",
+  "arquivo_saida": "summit-sp-urgencia-formatos",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "_criativo": "01 — CONTAGEM · o número é a peça. Plateia cheia de costas: quem olha vê a sala que ele ainda não está.",
+      "tipo": "contagem",
+      "prefixo": "Faltam",
+      "numero": "79",
+      "unidade": "dias",
+      "texto": "E o lote vira muito antes disso.",
+      "data": "07, 08 e 09 de outubro · São Paulo",
+      "foto": "FOTOS/DIA 1/0326_v2_c34c8d03-137f-4c9d-88de-00abefbe6bcd.jpg",
+      "veu": "forte",
+      "cta": { "tipo": "link", "acao": "GARANTA SEU INGRESSO" }
+    },
+    {
+      "_criativo": "02 — PROVOCAÇÃO · dois realces em oposição, que é o que esse modo faz melhor: o tempo de decidir contra o tempo de esperar. Cada realce vira uma linha display gigante.",
+      "tipo": "provocacao",
+      "eyebrow": "RM SUMMIT SÃO PAULO",
+      "titulo": "*79 dias* para decidir. *1 ano* para esperar de novo.",
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_faa576c0-9a14-4e72-93fc-4108bbff84fb.jpg",
+      "veu": "forte",
+      "foco": "topo",
+      "cta": { "tipo": "link", "acao": "GARANTA SEU INGRESSO", "obs": "07, 08 e 09 de outubro · São Paulo" }
+    },
+    {
+      "_criativo": "03 — CARICATO · a imagem É a peça e o texto só remata embaixo. É o modo que resolve o rosto coberto: aqui o título não mora em cima da cabeça.",
+      "tipo": "caricato",
+      "imagem": "FOTOS/DIA 1/0077_v2_e91fe796-5485-4662-b8ba-023f47e1c630.jpg",
+      "apoio": "Todo ano o ingresso mais barato é o de hoje",
+      "titulo": "e todo ano alguém\ndescobre isso *tarde.*",
+      "cta": { "acao": "Clique em *Saiba Mais* e garanta seu ingresso." }
+    },
+    {
+      "_criativo": "04 — ANÚNCIO · o bloco de venda completo. Os chips desqualificam antes do clique: quem não decide por si e quem não tem escritório não é o cliente.",
+      "tipo": "anuncio",
+      "eyebrow": "VIRADA DE LOTE",
+      "titulo": "O LOTE VIRA.\nO EVENTO ACONTECE.\n*A VAGA, NÃO ESPERA.*",
+      "texto": "Três dias de gestão para quem decide sozinho o rumo do próprio escritório.",
+      "foto": "FOTOS/DIA 1/0343_v2_5e246114-4008-49fe-b4ea-52a01845d157.jpg",
+      "veu": "medio",
+      "chips": [
+        { "icone": "calendario", "texto": "Dias *07, 08 e 09/10*" },
+        { "icone": "local", "texto": "Presencial em *São Paulo*" }
+      ],
+      "cta": { "acao": "GARANTA SEU INGRESSO", "obs": "Vagas limitadas ao lote atual." }
+    }
+  ]
+}

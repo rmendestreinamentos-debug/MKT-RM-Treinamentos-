@@ -1,0 +1,144 @@
+{
+  "_nota": "CHECKLIST DE AUDIÊNCIAS, refeito no motor a partir do PDF que o dono subiu (Downloads/CHECKLIST DE AUDIÊNCIAS.pdf). As imagens saíram do próprio PDF e foram recompostas em imagens/checklist-audiencias/. Os itens vieram encurtados: no layout 'lista' o item que passa de ~38 caracteres derruba o corpo da fonte pra 14pt.",
+  "tema": "mat",
+  "marca": "Mapa da Advocacia Trabalhista",
+  "logo": "mapa-trabalhista-sem-fundo.png",
+  "arquivo_saida": "checklist-audiencias",
+  "slides": [
+    {
+      "layout": "capa",
+      "foto": "checklist-audiencias/capa.jpg",
+      "titulo": "Checklist de\naudiências",
+      "texto": "Transforme sua advocacia\nem um negócio de verdade."
+    },
+    {
+      "layout": "lista",
+      "cenario": "checklist-audiencias/cenario.jpg",
+      "foto": "checklist-audiencias/s02.jpg",
+      "titulo": "Recebimento da\nnotificação",
+      "itens": [
+        "Lançar data e hora no *Advbox*",
+        "Avisar o *suporte* de audiências",
+        "Atualizar a *planilha* do Drive",
+        "Pedir *testemunha* ao cliente"
+      ],
+      "fecho": "Usuário do Advbox: Pauta RM."
+    },
+    {
+      "layout": "lista",
+      "cenario": "checklist-audiencias/cenario.jpg",
+      "foto": "checklist-audiencias/s03.jpg",
+      "titulo": "Contato com a\nparte contrária",
+      "intro": "Por que isso é essencial?",
+      "itens": [
+        "Evita que a reclamada *falte*",
+        "Abre canal para *acordo antecipado*"
+      ]
+    },
+    {
+      "layout": "lista",
+      "cenario": "checklist-audiencias/cenario.jpg",
+      "foto": "checklist-audiencias/s04.jpg",
+      "titulo": "Montagem da pauta\nde audiências",
+      "itens": [
+        "Filtrar audiências da *semana*",
+        "Cruzar com o *relatório* do Advbox",
+        "Ajustar *conflitos* de horário",
+        "Verificar os *cancelamentos*"
+      ],
+      "fecho": "Pauta desorganizada é processo que passa despercebido."
+    },
+    {
+      "layout": "lista",
+      "cenario": "checklist-audiencias/cenario.jpg",
+      "foto": "checklist-audiencias/s05.jpg",
+      "titulo": "Duas semanas antes",
+      "itens": [
+        "Reconfirmar data com o *cliente*",
+        "Pedir dados das *testemunhas*",
+        "Enviar a *carta convite*",
+        "Agendar o teste no *Zoom*"
+      ],
+      "fecho": "Quanto antes o cliente for lembrado, menor a chance de problema no dia."
+    },
+    {
+      "layout": "lista",
+      "cenario": "checklist-audiencias/cenario.jpg",
+      "foto": "checklist-audiencias/s06.jpg",
+      "titulo": "Uma semana antes",
+      "itens": [
+        "Revisar a pauta: *cancelamentos*",
+        "Definir o *advogado* de cada uma",
+        "Contratar *diligente* nas presenciais",
+        "Ler o processo e montar o *roteiro*"
+      ]
+    },
+    {
+      "layout": "lista",
+      "cenario": "checklist-audiencias/cenario.jpg",
+      "foto": "checklist-audiencias/s07.jpg",
+      "titulo": "Um dia antes",
+      "itens": [
+        "Confirmar cliente e *testemunhas*",
+        "Repassar horário, *link*, documentos",
+        "Testar *conexão* e equipamentos"
+      ]
+    },
+    {
+      "layout": "lista",
+      "cenario": "checklist-audiencias/cenario.jpg",
+      "foto": "checklist-audiencias/s08.jpg",
+      "titulo": "Dia da audiência",
+      "itens": [
+        "Orientar as partes *1h antes*",
+        "Explicar o *tipo* de audiência",
+        "Conferir documentos e *estratégia*"
+      ]
+    },
+    {
+      "layout": "lista",
+      "cenario": "checklist-audiencias/cenario.jpg",
+      "foto": "checklist-audiencias/s09.jpg",
+      "titulo": "Durante a audiência",
+      "itens": [
+        "Apresentar *proposta* de acordo",
+        "Demonstrar domínio do *rito*",
+        "Tomar notas para *impugnar*"
+      ]
+    },
+    {
+      "layout": "lista",
+      "cenario": "checklist-audiencias/cenario.jpg",
+      "foto": "checklist-audiencias/s10.jpg",
+      "titulo": "Pós-audiência",
+      "itens": [
+        "Explicar os *próximos passos*",
+        "Detalhar *valores* e prazos",
+        "Registrar o *resumo* no grupo"
+      ],
+      "fecho": "O cliente precisa sair com clareza do que esperar."
+    },
+    {
+      "layout": "lista",
+      "cenario": "checklist-audiencias/cenario.jpg",
+      "foto": "checklist-audiencias/s11.jpg",
+      "titulo": "Cliente não compareceu",
+      "itens": [
+        "Tentar *WhatsApp*, ChatGuru, e-mail",
+        "Falar com as *testemunhas*",
+        "Encaminhar a *multa* ao financeiro"
+      ]
+    },
+    {
+      "layout": "lista",
+      "cenario": "checklist-audiencias/cenario.jpg",
+      "foto": "checklist-audiencias/s12.jpg",
+      "titulo": "Resumo final",
+      "itens": [
+        "Checklist estruturado *evita erro*",
+        "Preparação antecipada *comunica* melhor",
+        "Pós-audiência *retém* o cliente"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "arquivo_saida": "mudar-de-ambiente",
+  "tipo": "editorial",
+  "perfil": "rm-summit",
+  "barra": {
+    "esquerda": "Ambiente",
+    "direita": "Julho 2026"
+  },
+  "slides": [
+    {
+      "capa": true,
+      "imagem": "FOTOS/ALUNOS E OUTROS/v2_48f17449-41e0-49b8-8082-39546044613d.jpg",
+      "foco": "topo",
+      "titulo": "Chega uma hora\nem que não é mais\nfalta de\n*conhecimento*.",
+      "texto": "É falta de direção, ambiente e conexão."
+    },
+    {
+      "tema": "claro",
+      "imagem": "FOTOS/ALUNOS E OUTROS/v2_74ea81e6-65aa-4801-b09a-46d6f91ac5fa.jpg",
+      "titulo": "Poderia ser só mais um evento virtual.",
+      "lista": [
+        "Cada um na sua casa.",
+        "Uma tela aberta.",
+        "Algumas horas de conteúdo."
+      ],
+      "marca_item": "x",
+      "remate": "E pronto."
+    },
+    {
+      "tema": "escuro",
+      "imagem": "FOTOS/ALUNOS E OUTROS/v2_7dceef0b-ea95-48a9-b144-65c7c9238db2.jpg",
+      "titulo": "Mas chega uma hora em que assistir mais uma aula não resolve tudo.",
+      "texto": "Porque talvez você já tenha informação suficiente. O que falta é conseguir entender:",
+      "remate": "*Qual é o próximo passo?*",
+      "foco": "topo"
+    },
+    {
+      "tema": "claro",
+      "imagem": "FOTOS/ALUNOS E OUTROS/v2_b39946ff-c135-4296-ba34-1a007c284e93.jpg",
+      "foco": 34,
+      "titulo": "Tem dúvida que você não consegue responder sozinho.",
+      "texto": "Tem medo que você não fala para qualquer pessoa.",
+      "remate": "Tem problema dentro do escritório que só entende *quem já passou pela mesma fase*."
+    },
+    {
+      "tema": "accent",
+      "imagem": "FOTOS/ALUNOS E OUTROS/v2_911552db-0e52-4e2e-86fd-b09265c39eb6.jpg",
+      "titulo": "E é justamente por isso que o ambiente importa.",
+      "texto": "Quando você se aproxima de pessoas que já chegaram onde deseja chegar, começa a perceber possibilidades que antes não enxergava."
+    },
+    {
+      "tema": "escuro",
+      "titulo": "Às vezes, uma resposta aparece em uma palestra.",
+      "label": "Mas também pode aparecer",
+      "lista": [
+        "No intervalo.",
+        "No almoço.",
+        "Em uma conversa de cinco minutos com alguém que enfrentou exatamente o problema que você está vivendo hoje."
+      ],
+      "marca_item": "seta"
+    },
+    {
+      "tema": "claro",
+      "imagem": "FOTOS/SEM ROSTO/v2_994be3e7-e6a9-48fa-a7b1-35021c755394.jpg",
+      "titulo": "Porque crescer um escritório não é apenas acumular conhecimento.",
+      "lista": [
+        "É aprender a tomar melhores decisões.",
+        "É encurtar caminhos.",
+        "É evitar erros que outras pessoas já cometeram."
+      ],
+      "marca_item": "seta"
+    },
+    {
+      "tema": "escuro",
+      "imagem": "FOTOS/ALUNOS E OUTROS/v2_1f8c6693-36e7-426c-b1cb-ce77f27fc182.jpg",
+      "foco": "topo",
+      "titulo": "E, principalmente, perceber que você não precisa descobrir tudo sozinho.",
+      "texto": "Existem pessoas enfrentando os mesmos desafios.",
+      "remate": "E existem pessoas que já encontraram *respostas para muitos deles*."
+    },
+    {
+      "tema": "claro",
+      "imagem": "FOTOS/ALUNOS E OUTROS/v2_faa576c0-9a14-4e72-93fc-4108bbff84fb.jpg",
+      "foco": 30,
+      "titulo": "Talvez uma das maiores mudanças aconteça quando você deixa de olhar apenas para dentro do próprio escritório.",
+      "remate": "E começa a enxergar como outros profissionais estão construindo *suas equipes, seus processos e suas empresas*."
+    },
+    {
+      "tema": "escuro",
+      "imagem": "FOTOS/ALUNOS E OUTROS/v2_13a4b0a7-b178-4914-a0fc-aa8fe9f554d7.jpg",
+      "foco": "topo",
+      "titulo": "Porque, no fim, conhecimento é importante. Mas o próximo nível dificilmente depende apenas daquilo que você sabe.",
+      "lista": [
+        "Também depende das conversas que você tem.",
+        "Das referências que você encontra.",
+        "E das conexões que constrói pelo caminho."
+      ],
+      "marca_item": "seta"
+    },
+    {
+      "tema": "claro",
+      "imagem": "FOTOS/DIA 1/0011_v2_6042f364-6680-4ca1-93ee-2ea90f420ce8.jpg",
+      "titulo": "Foi por isso que o RM Summit nasceu.",
+      "texto": "Não para ser apenas mais um lugar onde advogados assistem palestras.",
+      "remate": "Mas para criar um ambiente em que pessoas possam aprender, se conectar e perceber que *não precisam mais caminhar sozinhas*."
+    },
+    {
+      "tema": "escuro",
+      "titulo": "Porque algumas transformações começam quando você simplesmente *muda de ambiente*.",
+      "cta": {
+        "acao": "Comenta o que você acha"
+      }
+    }
+  ]
+}

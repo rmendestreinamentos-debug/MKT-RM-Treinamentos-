@@ -1,0 +1,308 @@
+{
+  "tema": "summit",
+  "marca": "Comercial 24hrs",
+  "logo": "comercial-24hrs-sem-fundo.png",
+  "aula": "Aula 12 · Treinamento para Closer",
+  "titulo": "Treinamento para Closer",
+  "arquivo_saida": "aula-12-treinamento-closer",
+  "slides": [
+    {
+      "layout": "capa",
+      "moldura": true,
+      "foto": "FOTOS/GABRIEL/v2_630bcefe-b07c-443d-ae67-993e4c3c76ab.jpg",
+      "foco": "topo",
+      "eyebrow": "Aula 12",
+      "titulo": "Treinamento\npara Closer",
+      "texto": "Como transformar confiança\nem contratos."
+    },
+    {
+      "layout": "texto",
+      "titulo": "A missão do Closer",
+      "linhas": [
+        "O Closer não vende contratos.",
+        "O Closer *conduz decisões*.",
+        "Seu papel é fazer o cliente ter segurança para contratar ainda durante o atendimento."
+      ]
+    },
+    {
+      "layout": "fluxo",
+      "titulo": "O impacto do Closer",
+      "etapas": ["Lead", "SDR", "Closer", "Contrato", "Documentação", "Processo"],
+      "por_fila": 3,
+      "linhas": [
+        "Um bom Closer *aumenta a conversão*, o ticket médio, as indicações e a fidelização."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "O perfil ideal do Closer",
+      "marca_item": "check",
+      "itens": [
+        "Boa comunicação", "Segurança", "Escuta ativa", "Inteligência emocional",
+        "Organização", "Autoridade", "Poder de condução", "Controle da conversa"
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Quem normalmente tem dificuldade",
+      "marca_item": "x",
+      "itens": [
+        "Espera o cliente conduzir.",
+        "Tem medo de perguntar.",
+        "Tem medo de ouvir \"não\".",
+        "Apenas apresenta informações.",
+        "Não conduz para uma decisão."
+      ]
+    },
+    {
+      "layout": "cards",
+      "titulo": "As 5 características do Closer campeão",
+      "itens": ["Autoridade", "Escuta", "Condução", "Segurança", "Controle"]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "O cliente não compra\num *processo*",
+      "linhas": [
+        "O cliente compra confiança.",
+        "Antes de decidir contratar, ele decide se acredita em você. Quanto maior a confiança, menor a resistência."
+      ]
+    },
+    {
+      "layout": "ranking",
+      "titulo": "A hierarquia do vínculo",
+      "itens": ["Presencial", "Chamada de vídeo", "Ligação", "Áudio", "Texto"]
+    },
+    {
+      "layout": "fluxo",
+      "titulo": "O fluxo do Closer",
+      "etapas": [
+        "Receber o cliente", "Criar conexão", "Confirmar a demanda",
+        "Demonstrar autoridade", "Apresentar honorários", "Quebrar objeções",
+        "Pré-fechamento", "Assinatura", "Documentação"
+      ],
+      "por_fila": 3
+    },
+    {
+      "layout": "lista",
+      "titulo": "Crie conexão antes de falar de contrato",
+      "intro": "O cliente precisa sentir que foi compreendido.",
+      "marca_item": "check",
+      "itens": ["Pergunte.", "Escute.", "Valide."],
+      "fecho": "Só depois conduza para a contratação."
+    },
+    {
+      "layout": "lista",
+      "titulo": "Demonstre autoridade",
+      "marca_item": "check",
+      "itens": [
+        "Mostre que existe método.",
+        "Mostre estrutura.",
+        "Mostre experiência.",
+        "Mostre como será o processo."
+      ],
+      "fecho": "Quanto maior a previsibilidade, menor a insegurança."
+    },
+    {
+      "layout": "fluxo",
+      "titulo": "A engenharia do fechamento",
+      "intro": "Todo atendimento deve seguir uma sequência.",
+      "etapas": [
+        "Conexão", "Diagnóstico", "Autoridade", "Honorários", "Benefícios",
+        "Objeções", "Assinatura", "Documentação", "Prospecção"
+      ],
+      "por_fila": 3
+    },
+    {
+      "layout": "lista",
+      "titulo": "Apresentando o contrato",
+      "intro": "Nunca apenas leia o contrato.",
+      "marca_item": "check",
+      "itens": ["Explique.", "Contextualize.", "Antecipe dúvidas."],
+      "fecho": "Conduza cada etapa até o cliente ter segurança para decidir."
+    },
+    {
+      "layout": "texto",
+      "titulo": "A regra do benefício",
+      "linhas": [
+        "Nunca fale apenas o que é cobrado.",
+        "Sempre explique imediatamente qual *benefício* aquilo gera.",
+        "O cliente lembra mais da última informação que recebe."
+      ]
+    },
+    {
+      "layout": "fluxo",
+      "titulo": "Como apresentar os honorários",
+      "intro": "Estrutura:",
+      "etapas": ["O que cobramos", "Por que cobramos", "Qual benefício gera"],
+      "por_fila": 3,
+      "linhas": ["Nunca pare na cobrança. Sempre termine no *benefício*."]
+    },
+    {
+      "layout": "colunas",
+      "titulo": "Exemplos na prática",
+      "grupos": [
+        { "titulo": "Honorários de êxito", "itens": [
+          "\"Cobramos honorários apenas no êxito.\"",
+          "→ Você não precisa desembolsar esse valor agora."
+        ] },
+        { "titulo": "Consulta + Cálculo de liquidação", "itens": [
+          "\"Cobramos a consulta inicial e o cálculo de liquidação.\"",
+          "→ O cálculo serve para aumentar o valor que você pode receber."
+        ] },
+        { "titulo": "Documentação", "itens": [
+          "\"Precisaremos reunir alguns documentos.\"",
+          "→ Assim iniciamos o processo mais rápido e evitamos atrasos."
+        ] }
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "O pré-fechamento",
+      "intro": "Antes da assinatura, confirme:",
+      "marca_item": "check",
+      "itens": ["Ficou alguma dúvida?", "Existe algum ponto a esclarecer?"],
+      "fecho": "Se estiver tudo certo, vamos iniciar sua contratação."
+    },
+    {
+      "layout": "fluxo",
+      "titulo": "Assinatura imediata",
+      "etapas": ["Contrato apresentado", "Ficha preenchida", "Assinatura", "Documentação"],
+      "por_fila": 4,
+      "linhas": ["Quanto menor o intervalo, *maior a conversão*."]
+    },
+    {
+      "layout": "texto",
+      "titulo": "A documentação faz parte do fechamento",
+      "linhas": [
+        "Não encerre a reunião.",
+        "Passe imediatamente para o responsável pela documentação.",
+        "A carga emocional do cliente ainda está alta. *Aproveite* esse momento."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "As 4 prospecções do Closer",
+      "intro": "Todo atendimento deve gerar novas oportunidades.",
+      "marca_item": "numero",
+      "itens": [
+        "Outros *vínculos trabalhistas*.",
+        "Oportunidade *previdenciária*.",
+        "Indicação de *colegas*.",
+        "*Testemunhas* para o processo."
+      ]
+    },
+    {
+      "layout": "citacao",
+      "titulo": "Script 01 · Outros vínculos",
+      "pergunta": "Você trabalhou em outro local nos últimos dois anos que também possamos analisar?"
+    },
+    {
+      "layout": "citacao",
+      "titulo": "Script 02 · Oportunidade previdenciária",
+      "pergunta": "Existe alguma limitação de saúde, acidente ou situação que possa gerar um benefício previdenciário para você ou para alguém próximo?"
+    },
+    {
+      "layout": "citacao",
+      "titulo": "Script 03 · Indicação de colegas",
+      "pergunta": "Você conhece algum colega que passou pela mesma situação e que também possa precisar dessa orientação?"
+    },
+    {
+      "layout": "citacao",
+      "titulo": "Script 04 · Testemunhas",
+      "pergunta": "Quem trabalhou com você e pode servir como testemunha?",
+      "objetivo": "Além de fortalecer o processo, muitas testemunhas podem se tornar *novos clientes*."
+    },
+    {
+      "layout": "fluxo",
+      "titulo": "O dia perfeito do Closer",
+      "etapas": [
+        "Receber cliente", "Criar conexão", "Diagnosticar", "Demonstrar autoridade",
+        "Apresentar honorários", "Conduzir assinatura", "Passar documentação",
+        "Prospectar", "Atualizar CRM"
+      ],
+      "por_fila": 3
+    },
+    {
+      "layout": "colunas",
+      "titulo": "Os indicadores do Closer",
+      "grupos": [
+        { "titulo": "Conversão", "itens": [
+          "Contratos fechados.", "Taxa de fechamento.", "Comparecimento.", "No Show."] },
+        { "titulo": "Eficiência", "itens": [
+          "Tempo médio de atendimento.", "Tempo até a assinatura."] },
+        { "titulo": "Expansão", "itens": [
+          "Novas oportunidades.", "Indicações.", "Demandas previdenciárias."] }
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "O placar do Closer",
+      "intro": "Acompanhe diariamente:",
+      "marca_item": "check",
+      "itens": [
+        "Contratos.", "Conversão.", "Indicações.", "Prospecções.",
+        "Tempo médio de atendimento."
+      ],
+      "fecho": "Quem acompanha diariamente melhora diariamente."
+    },
+    {
+      "layout": "lista",
+      "titulo": "O Closer é cobrado pelo processo",
+      "intro": "O Closer controla:",
+      "marca_item": "check",
+      "itens": [
+        "Condução.", "Autoridade.", "Quebra de objeções.",
+        "Apresentação dos honorários.", "Assinatura.", "Prospecção.", "CRM atualizado."
+      ],
+      "fecho": "O contrato é consequência de um processo bem conduzido."
+    },
+    {
+      "layout": "fluxo",
+      "titulo": "O ciclo do Closer campeão",
+      "etapas": [
+        "Receber", "Conectar", "Diagnosticar", "Gerar confiança",
+        "Apresentar honorários", "Fechar", "Documentar", "Prospectar", "Registrar"
+      ],
+      "por_fila": 3,
+      "linhas": ["Toda reunião deve terminar com um contrato ou um *próximo passo* claro."]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Os 10 mandamentos do Closer",
+      "marca_item": "numero",
+      "itens": [
+        "Conduza a conversa.",
+        "Escute antes de responder.",
+        "Demonstre autoridade.",
+        "Antecipe objeções.",
+        "Apresente o benefício após a cobrança.",
+        "Busque a assinatura no atendimento.",
+        "Nunca encerre sem prospectar.",
+        "Atualize o CRM.",
+        "Passe o bastão completo à documentação.",
+        "Sempre deixe claro o próximo passo."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Dever de casa",
+      "intro": "Durante uma semana, registre:",
+      "marca_item": "check",
+      "itens": [
+        "Taxa de fechamento.",
+        "Tempo médio dos atendimentos.",
+        "Tempo até a assinatura.",
+        "Quantidade de prospecções.",
+        "Novas demandas geradas.",
+        "Indicações obtidas."
+      ],
+      "fecho": "Identifique em qual etapa você perde mais clientes e faça um plano de melhoria."
+    },
+    {
+      "layout": "final",
+      "foto": "FOTOS/GABRIEL/v2_ee68e31e-2bc0-402b-b922-6e92db8111c3.jpg",
+      "foco": "topo",
+      "titulo": "O melhor Closer não convence o cliente. Ele conduz com tanta clareza que *contratar se torna natural*."
+    }
+  ]
+}

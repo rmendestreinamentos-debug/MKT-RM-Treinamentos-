@@ -1,12 +1,17 @@
 {
   "_leia-me": "Quem ASSINA um carrossel nativo (tipo 'thread'). No JSON da peça use o slug: \"perfil\": \"rm-summit\". O motor puxa nome/handle/avatar daqui. Handle com null = ainda não confirmado pelo dono; o motor para e pede. 'encaixe': 'contain' pra avatar que é LOGO (encaixa inteiro num disco preto); 'cover' pra foto de rosto.",
 
+  "_leia-me-cor": "'cor' é o ACENTO do perfil (regra do dono, 2026-07-16) e só o tipo 'editorial' lê: vira o --ed-accent (realce no claro + o slide chapado). 'cor_escuro' é o acento nos slides escuros, onde uma cor escura morreria de contraste — some ela e o motor cai na 'cor'. Cor null = ainda não definida pelo dono; o motor para e pede, como faz com o handle. O texto do slide chapado (preto ou branco) o motor calcula sozinho pelo contraste — não se declara aqui.",
+
   "rm-summit": {
     "nome": "RM Summit SP",
     "handle": "@rmsummit_",
     "avatar": "rm-summit-sp.png",
     "encaixe": "contain",
-    "verificado": false
+    "verificado": false,
+    "cor": "#f4b661",
+    "cor_escuro": "#f3c223",
+    "_obs-cor": "Dourado, os dois tons da casa: o quente no claro, o vibrante no escuro. Dourado lê bem no preto, então aqui o escuro NÃO cai no amarelo-creme do modelo."
   },
 
   "rafael-mendes": {
@@ -15,7 +20,10 @@
     "avatar": "avatar-rafael-mendes.png",
     "encaixe": "cover",
     "verificado": true,
-    "_obs": "O perfil pessoal é VERIFICADO no Instagram (selo azul) — por isso o selo aparece no card."
+    "cor": null,
+    "cor_escuro": null,
+    "_obs": "O perfil pessoal é VERIFICADO no Instagram (selo azul) — por isso o selo aparece no card.",
+    "_obs-cor": "A cor dele é AZUL, mas o dono ainda não passou o hex (2026-07-16). Até passar, 'editorial' assinado por ele para no motor. Não chutar um azul."
   },
 
   "rafael-mendes-advogados": {
@@ -23,7 +31,9 @@
     "handle": "@rafaelmendesadvogados",
     "avatar": "avatar-rm-advogados.png",
     "encaixe": "cover",
-    "verificado": false
+    "verificado": false,
+    "cor": "#d81f26",
+    "cor_escuro": "#eaf08a"
   },
 
   "joao-vitor": {
@@ -32,6 +42,8 @@
     "avatar": "avatar-joao-vitor.png",
     "encaixe": "cover",
     "verificado": true,
+    "cor": "#d81f26",
+    "cor_escuro": "#eaf08a",
     "_obs": "Conta PESSOAL do dono (confirmado por ele em 2026-07-14) — as outras três são do trabalho. É deste perfil que saiu o modelo do tipo 'thread' (ver exemplos/thread-x/). VERIFICADO no Instagram (selo azul) — confirmado por print do perfil em 2026-07-15; o avatar foi recortado dele."
   }
 }

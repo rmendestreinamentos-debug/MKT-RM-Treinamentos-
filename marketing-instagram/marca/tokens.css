@@ -18,4 +18,18 @@
      marketing. Grotesca de sistema, igual à do X. Ver CLAUDE.md.            */
   --nativo:  "Roboto", "Segoe UI", Helvetica, Arial, sans-serif;
   --marcador: #f4212e;                   /* vermelho do marca-texto na thread */
+
+  /* Carrossel EDITORIAL (tipo `editorial`) — modelo em exemplos/Carrossel/.
+     Paleta própria, e é de propósito: o modelo é revista, não peça de marca.
+     Ele não tem selo nem logo — quem assina é a barra do topo. O acento TROCA
+     com o fundo: acento em fundo preto morre de contraste, e é por isso que o
+     original vira amarelo-creme nos slides escuros. Não unificar os dois.      */
+  --ed-papel:  #f7f4f1;   /* off-white — o slide claro                        */
+  --ed-tinta:  #0b0b0f;   /* preto azulado — o slide escuro                   */
+  /* VERMELHO, não o laranja do modelo (#e8421a): é a identidade do dono, e ele
+     pediu a troca em 2026-07-16. É o único ponto onde a peça foge do original —
+     mudar aqui repinta realce, ❌, seta da capa e o slide chapado de uma vez.   */
+  --ed-accent: #d81f26;   /* vermelho — realce no claro E o slide chapado     */
+  --ed-creme:  #eaf08a;   /* amarelo-creme — realce no escuro                 */
+  --ed-condensada: "Barlow Condensed", "Oswald", sans-serif;  /* SÓ a capa    */
 }

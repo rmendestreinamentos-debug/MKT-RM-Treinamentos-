@@ -1,0 +1,55 @@
+{
+  "arquivo_saida": "home-office-gestao",
+  "tipo": "editorial",
+  "perfil": "rm-summit",
+  "barra": { "esquerda": "Gestão", "direita": "Julho 2026" },
+  "slides": [
+    {
+      "capa": true,
+      "imagem": "FOTOS/SEM ROSTO/v2_3521e946-e807-4149-8edf-bc41107387f5.jpg",
+      "foco": "baixo",
+      "titulo": "O home office\n*perdeu força?*",
+      "texto": "O que isso ensina sobre gestão do seu escritório?"
+    },
+    {
+      "tema": "claro",
+      "titulo": "Depois de anos tratando o home office como caminho sem volta, muitas empresas começaram a exigir mais presença física.",
+      "remate": "A justificativa costuma passar por produtividade, cultura, controle e *uso dos espaços alugados*."
+    },
+    {
+      "tema": "escuro",
+      "titulo": "Só que a discussão fica pobre quando vira apenas “remoto contra presencial”.",
+      "marca_item": "seta",
+      "lista": [
+        "Tem equipe que rende bem de casa.",
+        "Tem equipe que se perde mesmo estando todos os dias no escritório."
+      ],
+      "remate": "O modelo ajuda, mas *não substitui gestão*."
+    },
+    {
+      "tema": "claro",
+      "imagem": "FOTOS/SEM ROSTO/v2_ebfa405b-0da7-4b80-ae73-14c095bcaacd.jpg",
+      "titulo": "No escritório de advocacia, o problema aparece rápido.",
+      "texto": "Se não existe rotina clara, meta definida, liderança presente, distribuição de tarefas e acompanhamento, o time pode estar *presencialmente junto e operacionalmente perdido*."
+    },
+    {
+      "tema": "accent",
+      "titulo": "Muitos donos de escritório acham que trazer todo mundo de volta resolve a desorganização.",
+      "texto": "Mas presença física não corrige falta de processo, falta de comunicação, falta de treinamento e falta de cobrança bem feita.",
+      "remate": "Ela só deixa o problema *mais visível*."
+    },
+    {
+      "tema": "escuro",
+      "imagem": "FOTOS/DIA 2/0129_v2_b33eaf8f-292e-49a7-a16f-c02095c8539e.jpg",
+      "titulo": "É por isso que gestão virou uma das conversas mais importantes da advocacia.",
+      "texto": "O advogado que quer crescer precisa aprender a montar time, organizar rotina, liderar pessoas, melhorar o comercial e transformar o escritório em *um negócio mais previsível*."
+    },
+    {
+      "tema": "claro",
+      "imagem": "FOTOS/DIA 1/0243_v2_88698c6a-930c-4bb9-8a3e-ccd0ee0ef365.jpg",
+      "texto": "No RM Summit São Paulo, você vai passar 3 dias cercado por advogados e empresários discutindo crescimento, gestão, comercial, liderança e escala na prática.",
+      "remate": "Dias *07, 08 e 09 de outubro*, no Espaço Acelerador — Alphaville.",
+      "cta": { "acao": "Garanta seu ingresso pelo link da bio" }
+    }
+  ]
+}

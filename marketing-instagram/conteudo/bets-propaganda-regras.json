@@ -1,0 +1,77 @@
+{
+  "arquivo_saida": "bets-propaganda-regras",
+  "tipo": "editorial",
+  "perfil": "joao-vitor",
+  "pasta": "bets-propaganda-regras",
+  "barra": { "esquerda": "Análise", "direita": "Julho 2026" },
+  "slides": [
+    {
+      "capa": true,
+      "imagem": "capa-odds.jpg",
+      "titulo": "Aposta não é\n*renda extra*.",
+      "texto": "A partir de hoje essa frase é obrigação na propaganda das bets"
+    },
+    {
+      "tema": "claro",
+      "imagem": "logos-bets.jpg",
+      "encaixe": "contain",
+      "titulo": "A propaganda vendeu uma promessa.",
+      "texto": "Durante anos a aposta foi anunciada como oportunidade, e sempre no intervalo do jogo — onde estava todo mundo.",
+      "label": "O que se vendia:",
+      "marca_item": "seta",
+      "lista": [
+        "Renda.",
+        "Lucro.",
+        "Caminho rápido pra melhorar de vida."
+      ]
+    },
+    {
+      "tema": "escuro",
+      "imagem": "app-celular.jpg",
+      "titulo": "Ninguém ouve igual.",
+      "texto": "Quem está com o salário apertado, dívida acumulada ou medo de não fechar o mês não escuta essa promessa como alguém que aposta por lazer.",
+      "remate": "A mesma peça publicitária encontra duas pessoas *muito diferentes*."
+    },
+    {
+      "tema": "claro",
+      "imagem": "slot-celular.jpg",
+      "titulo": "Agora o anúncio avisa que você perde.",
+      "texto": "Todo anúncio passa a carregar uma das três frases do Ministério da Fazenda, ocupando no mínimo 10% da peça.",
+      "label": "As três advertências:",
+      "marca_item": "seta",
+      "lista": [
+        "Apostar pode causar dependência.",
+        "*Apostar faz você perder dinheiro.*",
+        "Aposta não é investimento."
+      ]
+    },
+    {
+      "tema": "escuro",
+      "titulo": "Muda quem pode falar, e como.",
+      "texto": "Casa de aposta, plataforma e influenciador entram na regra.",
+      "label": "O que a propaganda não pode mais dizer:",
+      "marca_item": "x",
+      "lista": [
+        "Aposta como investimento.",
+        "Aposta como fonte de renda.",
+        "Aposta como alternativa ao emprego.",
+        "Comentarista indicando aposta durante o jogo."
+      ],
+      "remate": "Quem descumprir pega multa de até *20% do faturamento*."
+    },
+    {
+      "tema": "accent",
+      "titulo": "O problema não está só na publicidade.",
+      "texto": "Está no desespero de um país onde muita gente olha pra aposta como saída porque o salário já não parece suficiente.",
+      "label": "A regra chega a nomear isso:",
+      "remate": "Ela proíbe, com essas palavras, vender aposta como *alternativa ao emprego*."
+    },
+    {
+      "tema": "claro",
+      "imagem": "cassino-tela.jpg",
+      "titulo": "Vira problema social.",
+      "texto": "Quando a propaganda promete dinheiro fácil pra quem já está vulnerável, o risco deixa de ser só individual.",
+      "cta": { "acao": "Comenta o que você acha" }
+    }
+  ]
+}

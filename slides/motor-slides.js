@@ -45,7 +45,7 @@ const TEMAS = {
   summit: { fonte: "Montserrat", leve: "Montserrat Light", forte: "Montserrat ExtraBold",
             display: "Montserrat Black", pesa: true, alta: false, largura: 0.78 },
   mat:    { fonte: "Rubik One", leve: "Rubik One", forte: "Rubik One",
-            display: "Rubik One", pesa: false, alta: true, largura: 0.72 },
+            display: "Rubik One", pesa: false, alta: true, largura: 0.68 },
 };
 let T = TEMAS.summit;                 // trocado em main() pelo "tema" do JSON
 let FONTE = T.fonte, FONTE_TIT = T.forte, FONTE_LEVE = T.leve;
@@ -351,7 +351,10 @@ function titulo(s, txt, y = 0.72, larg = 7.2){
   // A régua é dourada no summit e BRANCA no mat — é o que cada modelo faz. No deck do
   // MAT o ouro já está reservado pra palavra realçada do bullet; uma régua dourada
   // por cima dela roubaria o único ponto de cor da página.
-  const yr = y + alt + 0.06;
+  // A folga não é estética: `alt` conta linhas de altura CHEIA, e a última linha ainda
+  // desce o descendente (o Ç de NOTIFICAÇÃO) por fora dela. Com 0.06 a régua passava
+  // por dentro da cedilha.
+  const yr = y + alt + 0.13;
   s.addShape("rect", { x: 0, y: yr, w: MG + larg * 0.62, h: 0.018,
     fill: { color: T.pesa ? OURO : PAPEL }, line: { type: "none" } });
   return yr + 0.1;

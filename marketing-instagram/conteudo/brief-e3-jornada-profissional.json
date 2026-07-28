@@ -1,0 +1,20 @@
+{
+  "arquivo_saida": "tráfego pago/E3-jornada-profissional",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "tipo": "heroi",
+      "foto": "FOTOS/DIA 1/0259_v2_52da08c8-a47c-4d42-9b53-0eb4d98b7b33.jpg",
+      "foco": 52,
+      "zoom": 1.25,
+      "eyebrow": "O próximo passo da sua",
+      "titulo": "JORNADA\n*PROFISSIONAL*",
+      "texto": "Três dias de imersão para estruturar, posicionar e fazer o seu escritório crescer.",
+      "cta": {
+        "acao": "QUERO PARTICIPAR",
+        "obs": "7, 8 e 9 de outubro de 2026 · Alphaville, São Paulo"
+      }
+    }
+  ]
+}

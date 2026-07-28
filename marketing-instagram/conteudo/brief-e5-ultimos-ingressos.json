@@ -1,0 +1,18 @@
+{
+  "arquivo_saida": "tráfego pago/E5-ultimos-ingressos",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "tipo": "lateral",
+      "foto": "gabriel-sorriso.jpg",
+      "foco": 38,
+      "titulo": "*ÚLTIMOS INGRESSOS*\nNO *LOTE ATUAL*",
+      "texto": "Garanta sua vaga antes da próxima mudança de preço.",
+      "cta": {
+        "acao": "Clique em “SAIBA MAIS”",
+        "obs": "Alphaville — São Paulo · 7, 8 e 9 de outubro de 2026"
+      }
+    }
+  ]
+}

@@ -104,6 +104,50 @@
     line-height:1.14;letter-spacing:.01em;max-width:900px;text-wrap:balance;margin:14px 0}
   .slide.claro .provoca-num{color:var(--apoio)}
 
+  /* ---------- tipo: frase avulsa ----------
+     A frase é a peça. Sentence case de propósito: caixa alta num período de
+     cinco linhas vira paredão e ninguém lê — e aqui o texto é de terceiro, não
+     dá pra encurtar pra caber. A régua dourada é a ÚNICA marca gráfica da série:
+     é ela que amarra vinte artes de cenários diferentes como um conjunto só,
+     já que a peça não leva selo, @ nem data. */
+  /* O rodapé é reservado pro @: sem essa folga o texto desce em cima dele nas frases
+     longas, e o miolo fica opticamente baixo demais nas curtas. */
+  .slide.frase .corpo{padding:104px 100px 156px}
+  /* O @ é a assinatura da peça — dourado apagado: presente, mas atrás do texto na
+     hierarquia. Cheio ele briga com o realce, que é a única cor que deve saltar. */
+  .frase-arroba{position:absolute;left:0;right:0;bottom:60px;text-align:center;
+    font-family:var(--display);font-size:27px;font-weight:700;letter-spacing:.18em;
+    color:var(--acento);opacity:.62;z-index:2}
+  .frase-txt{font-family:var(--display);font-weight:700;line-height:1.3;
+    letter-spacing:-.015em;text-wrap:balance;max-width:900px}
+  .frase-txt .asp{color:var(--acento);font-weight:800}
+  .frase-txt .nq{white-space:nowrap}   /* palavra com hífen não racha em duas linhas */
+  .frase-risco{display:block;width:92px;height:5px;border-radius:3px;
+    background:var(--acento);margin-bottom:50px}
+  /* A assinatura é discreta por regra: ela credita, não anuncia. No corpo da
+     frase ela competiria com o texto — por isso corpo pequeno e cor apagada. */
+  .frase-autor{margin-top:52px;font-size:34px;font-weight:700;
+    letter-spacing:.05em;color:#dedbd2}
+
+  /* Fundo NEUTRO — a peça abre mão da foto de propósito (regra do dono, 2026-07-27):
+     gente de fora no cenário disputa a atenção com a frase, e a frase é a peça.
+     Não é preto chapado: um clarão quente no alto e a queda pro preto no pé dão
+     profundidade e mantêm o ar das peças com foto, senão a série racha em duas. */
+  .slide.frase.sem-foto{background:
+    radial-gradient(118% 78% at 50% 4%, #201d19 0%, #121110 42%, #060606 78%, #000 100%)}
+
+  /* O CTA da frase usa o dourado QUENTE, não o vibrante do `.cta.link` padrão: no card
+     de fecho o botão fica logo abaixo do realce, e dois dourados diferentes a 200px um
+     do outro leem como erro de arquivo, não como hierarquia. Um gold só na série. */
+  .slide.frase .cta.link .pill{background:var(--acento)}
+  .slide.frase .corpo .cta{margin-top:74px}
+
+  /* Os ritmos da série: mesma identidade, composições diferentes. Sem isso as
+     vinte peças saem todas com o bloco no meio e a série vira uma peça repetida. */
+  .slide.frase.esq .corpo{align-items:flex-start;text-align:left}
+  .slide.frase.baixo .corpo{align-items:flex-start;text-align:left;
+    justify-content:flex-end;padding-bottom:172px}
+
   /* ---------- tipo: carrossel de leitura ----------
      Texto longo pede LEITURA, não impacto: sentence case, corpo médio, alinhado
      à esquerda. Caixa alta gigante num parágrafo vira bloco grotesco e ninguém lê. */
@@ -114,6 +158,103 @@
   p.leitura{font-size:40px;line-height:1.46;color:#d6d3ca;font-weight:500;max-width:880px}
   p.leitura + p.leitura{margin-top:30px}
   .slide.carrossel .paginador{color:var(--acento)}
+
+  /* ---------- tipo: editorial (modelo em exemplos/Carrossel/) ----------
+     Revista, não peça de marca: paleta própria (--ed-*), sem selo, sem logo, sem
+     dourado. Quem assina é a barra do topo, e ela repete em TODOS os slides. */
+  .slide.editorial{background:var(--ed-papel);color:var(--ed-tinta)}
+  .slide.editorial.escuro{background:var(--ed-tinta);color:var(--ed-papel)}
+  .slide.editorial.accent{background:var(--ed-accent);color:#fff}
+  .slide.editorial .corpo{padding:0;justify-content:flex-start}
+
+  /* O acento TROCA com o fundo — laranja em fundo preto morre de contraste, e é por
+     isso que o modelo vira amarelo-creme no escuro. No slide chapado o realce inverte
+     pro preto: laranja sobre laranja não existe. */
+  .slide.editorial .destaque{color:var(--ed-accent)}
+  .slide.editorial.escuro .destaque{color:var(--ed-creme)}
+  .slide.editorial.accent .destaque{color:var(--ed-tinta)}
+
+  .ed-barra{display:flex;justify-content:space-between;align-items:center;flex:none;
+    padding:38px 56px;font-size:20px;font-weight:600;opacity:.6}
+  .slide.editorial.accent .ed-barra{opacity:.9}
+  .slide.editorial.capa .ed-barra{color:#fff;opacity:.85}
+
+  .ed-corpo{flex:1;display:flex;flex-direction:column;align-items:flex-start;
+    padding:34px 56px 64px}
+  .ed-titulo{font-weight:800;line-height:1.05;letter-spacing:-.025em;text-wrap:balance}
+  /* A régua hairline é o que dá cara de jornal em vez de post — não é enfeite. */
+  .ed-regua{align-self:stretch;height:1px;background:currentColor;opacity:.16;
+    margin:28px 0 32px;flex:none}
+  .ed-regua.alto{margin-top:38px}
+  .ed-texto{font-size:38px;line-height:1.36;font-weight:500}
+  /* Só a CAPA sangra. Aqui a imagem é uma caixa no meio do texto. */
+  /* A imagem SANGRA nas laterais. Caixa arredondada com margem dos dois lados flutuava
+     sobre o fundo e lia como figurinha colada por cima da arte — o modelo não tem esse
+     retângulo. Sangrando de borda a borda ela vira uma faixa da página, e a altura maior
+     dá ar suficiente pro queixo e pro ombro caberem no corte. */
+  .ed-img{width:calc(100% + 112px);margin-left:-56px;margin-right:-56px;
+    height:520px;object-fit:cover;display:block;margin-bottom:40px;flex:none}
+  /* `cover` recorta, e recorte DESTRÓI grade de logo, print e tabela — o corte come
+     as fileiras de cima e de baixo. Imagem que é pra ser LIDA inteira vai de contain. */
+  .ed-img.contain{object-fit:contain;background:rgba(0,0,0,.05)}
+  .slide.editorial.escuro .ed-img.contain{background:rgba(255,255,255,.05)}
+  /* A caixa é LARGA e a foto do acervo é quase toda RETRATO VERTICAL: em `cover` o
+     corte pega a faixa do MEIO e sai o peito, nunca o rosto. `foco` é o mesmo campo
+     que já governa a foto de fundo dos estáticos, e pela mesma razão — sem ele, foto
+     de gente em pé entra decapitada e só o olho pega. Padrão continua o centro. */
+  .ed-img.topo{object-position:50% 22%}
+  .ed-img.baixo{object-position:50% 88%}
+  .ed-img.esquerda{object-position:12% 50%}
+  .ed-img.direita{object-position:88% 50%}
+  /* Sublinhado marca o RÓTULO; negrito marca a frase. Trocar os dois embaralha a
+     leitura — no modelo o label nunca é negrito. */
+  /* O fecho gravita pro rodapé: o vão do modelo fica no MEIO do slide, não no pé. */
+  .ed-fecho{margin-top:auto;align-self:stretch;display:flex;flex-direction:column;
+    align-items:flex-start}
+  .ed-label{font-size:34px;font-weight:700;text-decoration:underline;
+    text-underline-offset:9px;text-decoration-thickness:2px;margin-bottom:26px}
+  .ed-lista{display:flex;flex-direction:column;gap:16px;font-size:34px;line-height:1.32}
+  .ed-item{display:flex;gap:18px;align-items:baseline;text-align:left}
+  .ed-bullet{flex:none;font-weight:800}
+  .ed-item.morto .ed-bullet{color:var(--ed-accent)}
+  .slide.editorial.accent .ed-item.morto .ed-bullet{color:var(--ed-tinta)}
+  .ed-remate{margin-top:32px;font-size:34px;line-height:1.36;font-weight:600}
+  /* Rótulo colado no que ele rotula: sem lista no meio, o remate É a frase do rótulo. */
+  .ed-label + .ed-remate{margin-top:0}
+  .ed-cta{padding-top:40px}
+  .ed-cta .pill{display:inline-block;border:2px solid currentColor;border-radius:999px;
+    padding:26px 44px;font-size:32px;font-weight:600}
+
+  /* ---------- editorial: a capa ----------
+     Único slide em caixa alta condensada. O resto do carrossel é sentence case, e é
+     o contraste entre a capa gritada e o corpo calmo que faz parecer reportagem. */
+  .ed-capa-foto{position:absolute;inset:0;background-size:cover;background-position:center;z-index:0}
+  .ed-capa-foto.topo{background-position:center top}
+  .ed-capa-foto.baixo{background-position:center bottom}
+  .ed-capa-foto.esquerda{background-position:left center}
+  .ed-capa-foto.direita{background-position:right center}
+  .ed-capa-veu{position:absolute;inset:0;z-index:1;
+    background:linear-gradient(180deg, rgba(0,0,0,.20) 0%, rgba(0,0,0,.30) 42%, rgba(0,0,0,.88) 78%, rgba(0,0,0,.96) 100%)}
+  .slide.editorial.capa .corpo{position:relative;z-index:2}
+  /* A foto e o véu são posicionados; barra e bloco, não. Sem subir os dois pra cima
+     do véu, o gradiente da base (quase preto opaco) engole o título inteiro — e o
+     slide sai só com a foto, sem uma palavra. */
+  .slide.editorial.capa .ed-barra,
+  .ed-capa-bloco{position:relative;z-index:2}
+  .ed-capa-bloco{margin-top:auto;padding:0 56px 78px;color:#fff}
+  .ed-capa-titulo{font-family:var(--ed-condensada);font-weight:900;text-transform:uppercase;
+    line-height:.90;letter-spacing:0;color:#fff}
+  .slide.editorial.capa .ed-capa-titulo .destaque{color:var(--ed-accent)}
+  .ed-capa-sub{display:flex;gap:14px;align-items:baseline;margin-top:26px;
+    font-size:29px;font-weight:700;text-transform:uppercase;line-height:1.28;color:#fff}
+  .ed-capa-sub .ed-bullet{color:var(--ed-accent)}
+  /* O crachá é uma pílula deitada — avatar, @ e selo azul numa linha. Não é o
+     cabeçalho da thread (lá o nome fica em cima do @). */
+  .ed-badge{display:inline-flex;align-items:center;gap:14px;margin-bottom:26px}
+  .ed-badge-av{width:56px;height:56px;border-radius:50%;object-fit:cover;flex:none}
+  .ed-badge-av.contain{object-fit:contain;background:#000}
+  .ed-badge-arroba{font-size:30px;font-weight:700;color:#fff}
+  .ed-badge .verificado{width:28px;height:28px}
 
   /* ---------- CTA ---------- */
   .cta{padding:0 90px 40px}
@@ -254,6 +395,121 @@
   .caricato-cta .chamada{font-weight:500;color:#e8e5dc;white-space:nowrap}
   .caricato-cta .destaque{color:#fff;font-weight:800}
 
+  /* ---------- variação: manchete NO TOPO (`"topo": true`) ----------
+     A referência "VAI FICAR MAIS CARO" grita a manchete no CÉU, não no rodapé — a parte
+     limpa da foto de cidade é em cima, e é lá que a urgência tem que bater primeiro. Com
+     isso o véu vira ao contrário (escuro em cima, aberto embaixo) e o selo sai da frente:
+     ele desce pro rodapé, senão disputaria o mesmo canto com o título. */
+  /* Escuro nas DUAS pontas, aberto só no meio. A manchete mora em cima e o trio
+     remate → "Saiba Mais" → selo mora embaixo: as duas pontas carregam texto e as duas
+     precisam de piso. Deixar o rodapé claro joga o remate em cima do asfalto da foto e
+     ninguém lê — foi o defeito da primeira versão. O meio fica limpo pra cidade aparecer. */
+  .slide.caricato.topo .caricato-veu{background:linear-gradient(180deg,
+    rgba(0,0,0,.9) 0%, rgba(0,0,0,.74) 20%, rgba(0,0,0,.32) 38%, rgba(0,0,0,.5) 58%,
+    rgba(0,0,0,.88) 74%, rgba(0,0,0,.97) 88%, #000 100%)}
+  .slide.caricato.topo .caricato-txt{margin-bottom:auto;padding-top:44px}
+  .slide.caricato.topo .selo{margin-bottom:0;padding:0 60px 30px;order:9}
+  .slide.caricato.topo .caricato-apoio{margin-bottom:0;margin-top:14px;order:2;color:#d8d5cc}
+  .slide.caricato.topo .caricato-titulo{order:1}
+  .slide.caricato.topo .caricato-txt{display:flex;flex-direction:column}
+  /* o remate é a linha de venda que a referência põe ACIMA do "Saiba Mais" — nem apoio
+     (que é setup) nem manchete. Só existe na variação de topo, onde o rodapé fica vago. */
+  .caricato-remate{position:relative;z-index:2;padding:0 66px;font-size:31px;font-weight:500;
+    line-height:1.35;color:#e8e5dc;margin-top:auto}
+  .caricato-remate .destaque{color:var(--acento);font-weight:800}
+
+  /* ---------- tipo: retrato-herói ----------
+     Retrato de UMA autoridade sangrando do topo; a pilha de venda mora embaixo, sobre
+     o degradê. Copia a ESTRUTURA das referências (SME, CSE, Revolution, ADV 10X) —
+     nunca a marca: logo, cor e "powered by" são RM Summit. */
+  .slide.heroi .corpo{padding:0}
+  .heroi-img{position:absolute;inset:0;z-index:0;background-size:cover;background-position:center}
+  .heroi-img.topo{background-position:center top}
+  .heroi-img.baixo{background-position:center bottom}
+  .heroi-img.esquerda{background-position:left center}
+  .heroi-img.direita{background-position:right center}
+  /* o brilho dourado da casa, no alto atrás da cabeça */
+  .slide.heroi::before{content:"";position:absolute;inset:0;z-index:1;
+    background:radial-gradient(92% 46% at 50% 14%, rgba(244,182,97,.18), transparent 60%)}
+  /* O SEGREDO DO MODELO: a foto ocupa só a METADE DE CIMA e vira PRETO SÓLIDO já embaixo
+     do rosto. É isso que "sobe a foto" e deixa a metade de baixo limpa pro texto — sem
+     isso a manchete cai sobre o torso/mão/microfone e fica jogada, ilegível. Rosto claro
+     no topo (a prova do evento), preto chapado do meio pra baixo (o palco do texto). */
+  .heroi-veu{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,
+    rgba(0,0,0,.32) 0%, transparent 16%, transparent 30%,
+    rgba(0,0,0,.85) 42%, #000 49%, #000 100%)}
+  /* a pilha de venda mora TODA no preto de baixo: logo (a virada foto→texto, como no
+     modelo) → qualificação → manchete → apoio → botão → data. Ancora no rodapé. */
+  .heroi-baixo{position:absolute;left:0;right:0;bottom:0;z-index:2;
+    display:flex;flex-direction:column;align-items:center;text-align:center;padding:0 64px 66px}
+  .selo.heroi{justify-content:center;margin-bottom:22px}
+  .slide.heroi .selo .logo-lockup{background:none;padding:0;border-radius:0;
+    filter:drop-shadow(0 4px 10px rgba(0,0,0,.9)) drop-shadow(0 10px 34px rgba(0,0,0,.7))}
+  /* a qualificação é o CHIP virado régua: desqualifica quem não é o cliente antes do clique */
+  .heroi-qualifica{font-size:25px;font-weight:600;letter-spacing:.15em;text-transform:uppercase;
+    color:var(--acento);line-height:1.35;max-width:860px;margin-bottom:20px}
+  /* manchete GIGANTE em caixa alta, dois tons: o *realce* vira o dourado */
+  .heroi-titulo{font-family:var(--display);font-weight:900;line-height:.98;letter-spacing:-.02em;
+    color:#fff;text-transform:uppercase;max-width:1000px}
+  .heroi-titulo .destaque{color:var(--acento)}
+  .heroi-sub{margin-top:22px;font-size:33px;font-weight:500;line-height:1.38;
+    color:#d6d3ca;max-width:840px;text-wrap:balance}
+  .heroi-sub .destaque{color:var(--acento);font-weight:700}
+  /* botão: o mesmo clique dourado do anúncio — não faz sentido ter dois desenhos */
+  .slide.heroi .botao{margin-top:34px}
+  .heroi-data{margin-top:22px;display:inline-flex;align-items:center;gap:14px;
+    font-size:29px;font-weight:600;color:#fff}
+  .heroi-data svg{width:32px;height:32px;flex:none;fill:none;stroke:var(--acento);
+    stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+
+  /* ---------- tipo: herói LATERAL ----------
+     A segunda montagem do retrato-herói, tirada das refs ADV 10X e A Nova Advocacia
+     ("ÚLTIMOS INGRESSOS"): o retrato sangra de UM LADO e o texto ocupa a coluna do
+     outro. Serve quando a foto boa é de meio corpo e não aguenta sangrar no topo —
+     e muda o RITMO do texto, que é o motivo de ela existir aqui: no herói vertical
+     tudo é centralizado e gritado; aqui a leitura é uma COLUNA alinhada à esquerda,
+     com parágrafo em caixa baixa. Duas peças com a mesma copy parecem anúncios de
+     campanhas diferentes só por causa disso. */
+  .lat-img{position:absolute;top:0;bottom:0;right:-2%;width:60%;z-index:0;
+    background-size:cover;background-position:center}
+  .lat-img.esq{left:-2%;right:auto}
+  /* o véu vem do lado do TEXTO e morre antes do rosto: preto sólido embaixo da coluna,
+     transparente em cima da cara. Gradiente reto (não radial) porque o corte é vertical. */
+  .lat-veu{position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,
+    #000 0%, #000 34%, rgba(0,0,0,.94) 46%, rgba(0,0,0,.55) 62%, rgba(0,0,0,.12) 78%, transparent 92%)}
+  .lat-veu.esq{background:linear-gradient(270deg,
+    #000 0%, #000 34%, rgba(0,0,0,.94) 46%, rgba(0,0,0,.55) 62%, rgba(0,0,0,.12) 78%, transparent 92%)}
+  .lat-col{position:absolute;top:0;bottom:0;left:0;width:64%;z-index:2;
+    display:flex;flex-direction:column;justify-content:center;align-items:flex-start;
+    text-align:left;padding:0 30px 0 76px}
+  .lat-col.dir{left:auto;right:0;padding:0 76px 0 30px}
+  .slide.lateral .selo{justify-content:flex-start;margin-bottom:26px}
+  .slide.lateral .selo .logo-lockup{background:none;padding:0;border-radius:0;
+    filter:drop-shadow(0 4px 10px rgba(0,0,0,.9))}
+  .lat-eyebrow{font-size:23px;font-weight:600;letter-spacing:.17em;text-transform:uppercase;
+    color:var(--acento);line-height:1.35;margin-bottom:16px}
+  /* manchete MENOR que a do herói vertical de propósito: aqui ela divide a peça com um
+     parágrafo, e display gigante numa coluna estreita racha em cinco linhas. */
+  .lat-titulo{font-family:var(--display);font-weight:900;line-height:1.02;
+    letter-spacing:-.015em;color:#fff;text-transform:uppercase}
+  .lat-titulo .destaque{color:var(--acento)}
+  /* a VIRADA é o "E VOCÊ?" da ref: uma pergunta curta, sublinhada, que separa o
+     diagnóstico da oferta. É o único sublinhado do projeto — e é dela que vem o ritmo. */
+  .lat-virada{margin-top:26px;font-family:var(--display);font-weight:900;font-size:62px;
+    line-height:1;color:#fff;text-transform:uppercase;
+    border-bottom:5px solid var(--acento);padding-bottom:8px}
+  .lat-texto{margin-top:26px;font-size:31px;font-weight:500;line-height:1.42;color:#d6d3ca;max-width:560px}
+  .lat-texto .destaque{color:#fff;font-weight:700}
+  /* pílula, não barrão: na coluna estreita o botão largo do herói vertical vira uma
+     faixa que compete com a manchete. A ref usa pílula justamente por isso. */
+  .lat-cta{margin-top:34px;display:inline-block;background:var(--acento);color:#101010;
+    font-size:27px;font-weight:800;padding:20px 38px;border-radius:999px;
+    box-shadow:0 10px 34px rgba(244,182,97,.28)}
+  .lat-obs{margin-top:20px;display:inline-flex;align-items:center;gap:12px;
+    font-size:25px;font-weight:600;color:#fff}
+  .lat-obs svg{width:28px;height:28px;flex:none;fill:none;stroke:var(--acento);
+    stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+
   /* ---------- tipo: line-up de palestrantes ----------
      É uma COLAGEM, não uma grade: os palestrantes se encostam ombro a ombro, como no
      KV do evento. O ativo da peça são os NOMES confirmados — o rosto só dá cara a eles.
@@ -340,16 +596,28 @@
      a ordem de profundidade que a peça já declara.
      Dose com a mão leve. O recuo tem um teto rígido: TODO palestrante precisa continuar
      RECONHECÍVEL — o nome dele é o que a peça vende, e nome sem rosto não vende nada. */
-  .pal-vulto.plano-meio img{filter:contrast(1.02) saturate(.92) brightness(.93)}
-  .pal-vulto.plano-fundo img{filter:contrast(1.0) saturate(.86) brightness(.85) blur(.5px)}
+  /* ⚠️ SEM DESFOQUE. A versão anterior punha `blur(.5px)` em quem estava atrás, pela
+     perspectiva atmosférica — e o dono leu exatamente o que estava lá: "tem muita foto
+     embaçada na arte final" (2026-07-28). Num line-up o ativo é o ROSTO de cada nome, e
+     rosto de propósito fora de foco é rosto entregue pior. A profundidade fica por conta
+     da luz (um tico mais escuro e menos saturado atrás), que separa os planos sem tirar
+     nitidez de ninguém. */
+  .pal-vulto.plano-meio img{filter:contrast(1.02) saturate(.95) brightness(.96)}
+  .pal-vulto.plano-fundo img{filter:contrast(1.0) saturate(.92) brightness(.92)}
 
   /* A CAMADA DE ACABAMENTO passa por cima de TODO MUNDO — é ela que dá a todos a mesma
      luz. Um brilho quente vindo do alto, e o pé afundando no escuro: como o véu é único,
      ele iguala as cinco temperaturas de cor. Fica abaixo dos nomes (z 40): o nome não
      se apaga. */
+  /* O PÉ FECHA EM PRETO, e isso não é gosto: com as pessoas alinhadas pelo rosto, quem
+     tem mais corpo sangra pela base da faixa, e o `overflow:hidden` corta o tronco numa
+     LINHA RETA que atravessa a arte inteira. A máscara de cada imagem não resolve (ela
+     dissolve a base do ARQUIVO, que nesse caso está fora do quadro). Fechando a faixa no
+     preto, o corte cai dentro do escuro e a fileira assenta no bloco de texto. */
   .pal-grade{position:absolute;inset:0;z-index:20;pointer-events:none;background:
     radial-gradient(ellipse 62% 46% at 50% 18%, rgba(244,182,97,.10), rgba(244,182,97,0) 68%),
-    linear-gradient(180deg, rgba(8,6,4,.22) 0%, rgba(8,6,4,0) 24%, rgba(6,5,4,0) 58%, rgba(4,3,2,.55) 100%)}
+    linear-gradient(180deg, rgba(8,6,4,.22) 0%, rgba(8,6,4,0) 24%, rgba(6,5,4,0) 52%,
+      rgba(4,3,2,.72) 88%, rgba(2,2,2,.96) 100%)}
 
   /* O NOME, no PEITO — a virada em relação ao KV. Acima da cabeça ele exigia um vão
      livre que a colagem cheia não tem, e acabava na testa de quem estava atrás. Aqui ele
@@ -373,10 +641,12 @@
   .pal-baixo{display:flex;flex-direction:column;align-items:center;width:100%;padding:0 56px 52px}
   .slide.palestrantes .eyebrow{font-size:26px;letter-spacing:.24em;color:#cfcabc;
     font-weight:600;margin-bottom:16px}
-  /* O ITÁLICO é do modelo, e ele trabalha: inclina a linha pra frente e dá pressa a uma
-     frase que, reta, seria só um cartaz. Caixa alta + peso 900 + entrelinha curta = a
-     linha vira um bloco sólido, que é o que aguenta os dois tons sem se esfarelar. */
-  .pal-titulo{font-family:var(--display);font-weight:900;font-style:italic;
+  /* SEM ITÁLICO (regra do dono, 2026-07-28). O modelo original inclina a linha, e a
+     inclinação dá pressa; mas numa frase longa, em caixa baixa, ela lê como fonte
+     "de esporte" e briga com a fileira de retratos, que é o ativo da peça. Reto, o
+     bloco fica sólido: peso 900 + entrelinha curta já aguentam os dois tons sozinhos.
+     ⚠️ Vale pra TODOS os line-ups — mexer aqui muda a série inteira, é o ponto. */
+  .pal-titulo{font-family:var(--display);font-weight:900;
     line-height:1.08;letter-spacing:-.02em;max-width:1000px;text-wrap:balance;color:#fff}
   /* A caixa alta é privilégio da frase curta (o motor decide). Na frase longa ela vira
      paredão: cada linha perde ~35% de largura, o corpo despenca pra caber, e o "título"

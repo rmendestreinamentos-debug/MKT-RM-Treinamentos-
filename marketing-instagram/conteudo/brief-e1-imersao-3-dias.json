@@ -1,0 +1,21 @@
+{
+  "arquivo_saida": "tráfego pago/E1-imersao-3-dias",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "slides": [
+    {
+      "tipo": "heroi",
+      "foto": "FOTOS/GABRIEL/v2_630bcefe-b07c-443d-ae67-993e4c3c76ab.jpg",
+      "foco": 42,
+      "zoom": 1.3,
+      "focox": 52,
+      "eyebrow": "Para advogados que querem uma empresa, não só um escritório",
+      "titulo": "IMERSÃO PRESENCIAL\nDE *3 DIAS*",
+      "texto": "Estruturada, lucrativa e preparada para crescer.",
+      "cta": {
+        "acao": "CLIQUE EM SAIBA MAIS",
+        "obs": "7, 8 e 9 de outubro de 2026 · Alphaville, São Paulo"
+      }
+    }
+  ]
+}

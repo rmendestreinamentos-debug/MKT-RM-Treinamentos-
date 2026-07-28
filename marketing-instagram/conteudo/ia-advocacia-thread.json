@@ -1,0 +1,38 @@
+{
+  "arquivo_saida": "ia-advocacia-thread",
+  "tipo": "thread",
+  "perfil": "rm-summit",
+  "pasta": "ia-advocacia",
+  "slides": [
+    {
+      "imagem": "cerebro-circuito.webp",
+      "texto": "No segundo semestre de 2026, a IA deixou de ser diferencial na advocacia.\n\nEla está virando o novo básico."
+    },
+    {
+      "imagem": "maos-teclado.jpg",
+      "texto": "Durante algum tempo, usar inteligência artificial fazia um escritório parecer muito à frente do mercado.\n\nAgora, isso começa a mudar. A tecnologia está entrando de vez na rotina jurídica e, em pouco tempo, quem não souber utilizá-la tende a sentir mais dificuldade para acompanhar a velocidade dos outros."
+    },
+    {
+      "imagem": "apps-ia.webp",
+      "texto": "Pesquisa, organização de informações, análise de documentos e automação de tarefas repetitivas já começam a fazer parte da rotina de muitos escritórios.\n\nE quando uma ferramenta passa a estar disponível para todo mundo, ela deixa de ser uma vantagem competitiva por si só."
+    },
+    {
+      "imagem": "caneta-e-robo.jpg",
+      "texto": "O diferencial não estará apenas em ter acesso à inteligência artificial.\n\nEstará em saber usar o tempo que ela economiza para melhorar o atendimento, a gestão, a estratégia e a capacidade de tomar decisões melhores dentro do escritório."
+    },
+    {
+      "imagem": "mao-robo-neon.jpg",
+      "texto": "Ao mesmo tempo, a própria transformação digital cria novas demandas para a advocacia.\n\nÁreas como proteção de dados, privacidade, crimes cibernéticos e regulação de novas tecnologias tendem a ganhar cada vez mais espaço nos próximos anos."
+    },
+    {
+      "texto": "Tudo isso acontece em um mercado com quase 1,5 milhão de advogados.\n\nPor isso, dominar o Direito continua sendo essencial, mas já não é suficiente para quem quer se destacar em um ambiente cada vez mais competitivo."
+    },
+    {
+      "imagem": "aperto-de-mao.jpg",
+      "texto": "O advogado que tende a crescer nos próximos anos será aquele que conseguir unir conhecimento jurídico com tecnologia, gestão, posicionamento e visão de negócio.\n\nNão porque precisa abandonar a advocacia tradicional, mas porque o mercado passou a exigir muito mais de quem quer crescer."
+    },
+    {
+      "texto": "Talvez a principal reflexão para o segundo semestre de 2026 seja simples:\n\na pergunta já não é mais se a inteligência artificial vai mudar a advocacia.\n\nA pergunta é se você está se preparando enquanto essa mudança acontece."
+    }
+  ]
+}

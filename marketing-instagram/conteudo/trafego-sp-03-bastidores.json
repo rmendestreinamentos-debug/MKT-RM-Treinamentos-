@@ -1,0 +1,17 @@
+{
+  "arquivo_saida": "tráfego pago/03-bastidores",
+  "marca": "RM Summit",
+  "logo": "rm-summit-sp-sem-fundo.png",
+  "pasta": "cidade-sp",
+  "slides": [
+    {
+      "tipo": "caricato",
+      "imagem": "photo-1637028330542-4c27164165f4.avif",
+      "apoio": "07, 08 e 09 de outubro, no Coliseu Convenções, em Alphaville.",
+      "titulo": "MESES PRA ENTREGAR\n*3 DIAS*",
+      "cta": {
+        "acao": "Toque em *SAIBA MAIS* e garanta seu ingresso."
+      }
+    }
+  ]
+}
