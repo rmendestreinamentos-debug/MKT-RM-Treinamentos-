@@ -22,9 +22,32 @@ foreach ($nome in $Decks) {
   New-Item -ItemType Directory -Force $dest | Out-Null
   Get-ChildItem $dest -Filter *.PNG -ErrorAction SilentlyContinue | Remove-Item -Force
   $d = $pp.Presentations.Open($src, $true, $false, $false)
-  $d.SaveCopyAs($dest, 18)     # 18 = ppSaveAsPNG
+  $total = $d.Slides.Count
+
+  # SaveCopyAs exporta o deck inteiro numa chamada só, e num deck longo ele às vezes aborta
+  # no meio com E_FAIL depois de uns trinta slides. O perigo não é a falha: é a falha PARCIAL,
+  # que deixa a pasta com 28 dos 61 e devolve uma contagem que passa batido — e aí se confere
+  # meio deck achando que se conferiu o deck. Quando a contagem não fecha, cai pro Export
+  # slide a slide, que é mais lento e não perde o resto por causa de um.
+  try { $d.SaveCopyAs($dest, 18) } catch { }     # 18 = ppSaveAsPNG
+  $n = (Get-ChildItem $dest -Filter *.PNG -ErrorAction SilentlyContinue | Measure-Object).Count
+
+  if ($n -lt $total) {
+    Write-Host "$nome -> lote saiu com $n de $total; refazendo slide a slide"
+    $falhas = @()
+    for ($i = 1; $i -le $total; $i++) {
+      $alvo = Join-Path $dest ("Slide{0}.PNG" -f $i)
+      try { $d.Slides.Item($i).Export($alvo, "PNG", 1280, 720) } catch { $falhas += $i }
+    }
+    $n = (Get-ChildItem $dest -Filter *.PNG -ErrorAction SilentlyContinue | Measure-Object).Count
+    if ($falhas.Count) { Write-Host ("  nao saiu: " + ($falhas -join ", ")) }
+  }
+
   $d.Close()
-  $n = (Get-ChildItem $dest -Filter *.PNG | Measure-Object).Count
-  Write-Host "$nome -> $n png em saida\png\$nome"
+  Write-Host "$nome -> $n de $total png em saida\png\$nome"
+  # A contagem faz parte da conferência: PNG faltando é slide que ninguém olhou.
+  # (Sem acento nem travessao DENTRO de string: o PS 5.1 le este arquivo como ANSI e o
+  # travessao dentro de aspas mata o parser. Em comentario passa, em string nao.)
+  if ($n -lt $total) { Write-Host "  ATENCAO: faltam $($total - $n): a folha de contato esta incompleta" }
 }
 $pp.Quit()
