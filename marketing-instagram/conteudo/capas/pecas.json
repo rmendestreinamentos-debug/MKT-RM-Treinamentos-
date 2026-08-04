@@ -1,0 +1,25 @@
+{
+  "_leia-me": "Capas DEITADAS do bloco de peças — 1088×680 (8:5), saem em 2× (2176×1360). Motor: node motor/capa.js conteudo/capas/pecas.json. Mesmo sistema visual das capas de módulo em pé (conteudo/capas/modulos.json), girado.",
+
+  "formato": "larga",
+  "logo": "rm-treinamentos-ouro.png",
+
+  "capas": [
+    {
+      "arquivo_saida": "capas/peca-01-simples",
+      "titulo": "PEÇAS\n*SIMPLES*",
+      "foto": "FOTOS/DIA 3/0047_v2_1b29ccbd-6fa7-4d19-a199-bb3aa4962284.jpg",
+      "focox": 58,
+      "foco": 30,
+      "_obs": "Palco, blazer verde-oliva, mão aberta num gesto leve. Rafael à direita do quadro e cortina preta à esquerda: o vão limpo cai onde o título vai."
+    },
+    {
+      "arquivo_saida": "capas/peca-02-complexas",
+      "titulo": "PEÇAS DE MAIOR\n*COMPLEXIDADE*",
+      "foto": "FOTOS/DIA 3/0041_v2_06cf4eb4-018a-4606-b081-5a3784feaf3d.jpg",
+      "focox": 55,
+      "foco": 30,
+      "_obs": "Mesma sessão, gesto mais elaborado. Roupa igual à da 01 de propósito: as duas são o par do mesmo bloco do curso, e o figurino repetido as amarra como conjunto."
+    }
+  ]
+}

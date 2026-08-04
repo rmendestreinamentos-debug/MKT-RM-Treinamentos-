@@ -1,0 +1,30 @@
+{
+  "_leia-me": "Capas de MÓDULO da área de membros (produto novo) — 680×1088, saem em 2× (1360×2176). Motor: node motor/capa.js conteudo/capas/modulos.json. Uma entrada por aula; título e foto mudam, o resto é a série. Módulo novo = mais um objeto no array, não um arquivo novo.",
+
+  "titulo": "",
+  "logo": "rm-treinamentos-ouro.png",
+
+  "capas": [
+    {
+      "arquivo_saida": "capas/01-kit",
+      "titulo": "ACESSE SEU KIT\n*POR AQUI*",
+      "foto": "FOTOS/DIA 2/0082_v2_3a908d1c-9b8a-4efc-b7ed-5471668341a2.jpg",
+      "focox": 46,
+      "_obs": "Palco: microfone numa mão, gesto de pinça na outra. Fundo preto com telão azul desfocado à direita."
+    },
+    {
+      "arquivo_saida": "capas/02-prospeccao",
+      "titulo": "FORMAS DE\n*PROSPECÇÃO*",
+      "foto": "FOTOS/DIA 2/0079_v2_afcfdbd4-60f4-43d7-a0fd-9db0fcf66072.jpg",
+      "focox": 50,
+      "_obs": "Palco, terno azul marinho, microfone, plano médio de frente. Fundo escuro com o telão apagado atrás."
+    },
+    {
+      "arquivo_saida": "capas/03-honorarios",
+      "titulo": "CONTRATO DE\nHONORÁRIOS MAIS\n*LUCRATIVOS*",
+      "foto": "FOTOS/DIA 2/0084_v2_570079c2-13f5-4fea-9eba-8634bbdafe7c.jpg",
+      "focox": 52,
+      "_obs": "Palco, de perfil, mão aberta em pleno gesto de explicação. O fundo mais escuro das três — é a que melhor aguenta o título de 3 linhas."
+    }
+  ]
+}

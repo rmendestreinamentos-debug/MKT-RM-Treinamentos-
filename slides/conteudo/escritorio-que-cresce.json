@@ -1,0 +1,136 @@
+{
+  "_leia-me": "Roteiro do dono (2026-08-03), palestra do Rafael na IMERSÃO MASTER MAT. Tema summit-bh (a FORMA do modelo de prospecção), acento trigo (o dourado). COPY: só o que está no roteiro dele — nenhuma etiqueta, chamada ou apoio inventado. Os rótulos Pilar 1..10 são do roteiro. As 15 ilustrações vieram de MATERIAIS MKT/FOTOS SLIDES RAFAEL na ordem que ele deu e estão em imagens/escritorio-que-cresce/ com o número do SLIDE no nome; são 16:9 exatas (1672x941) e sangram sem corte, com a moldura em fade da bandeira vinheta.",
+  "_sem-foto": "O slide 3 (A ARMADILHA DO PROFISSIONAL LIBERAL) é o único do miolo sem imagem: são 15 fotos para 16 páginas. A da papelada foi para o slide 2, onde o advogado quebrando é o SUJEITO da frase.",
+  "aula": "Como construir um escritório que cresce sem depender exclusivamente de você",
+  "arquivo_saida": "escritorio-que-cresce",
+  "tema": "summit-bh",
+  "acento": "trigo",
+  "marca": "Imersão Master MAT",
+  "logo": "imersao-master-mat-sem-fundo.png",
+  "perfil": "rafael-mendes",
+  "slides": [
+    {
+      "layout": "capa",
+      "titulo": "COMO CONSTRUIR UM\nESCRITÓRIO QUE *CRESCE*\nSEM DEPENDER\nEXCLUSIVAMENTE DE VOCÊ",
+      "foto": "escritorio-que-cresce/capa-rafael-palco.jpg",
+      "foco": "centro",
+      "veu": "leve"
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "POR QUE EXCELENTES\nADVOGADOS *QUEBRAM*?",
+      "foto": "escritorio-que-cresce/02-advogado-soterrado.png"
+    },
+    {
+      "layout": "secao",
+      "titulo": "A ARMADILHA DO\nPROFISSIONAL LIBERAL."
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "O MERCADO MUDOU.\nO ADVOGADO *NÃO*.",
+      "foto": "escritorio-que-cresce/04-do-antigo-ao-novo.png"
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "SE VOCÊS CONTINUAREM\nADMINISTRANDO O ESCRITÓRIO\nDA MESMA FORMA QUE\nAPRENDERAM NA FACULDADE,\nDAQUI A CINCO ANOS VOCÊS TERÃO\nEXATAMENTE OS MESMOS PROBLEMAS\nOU SERÃO APENAS *ESTATÍSTICA*.",
+      "foto": "escritorio-que-cresce/05-ampulheta-sala-vazia.png"
+    },
+    {
+      "layout": "secao",
+      "titulo": "10 PILARES",
+      "abaixo": "Para transformar seu escritório em uma empresa de verdade.",
+      "foto": "escritorio-que-cresce/06-pilares-do-predio.png"
+    },
+    {
+      "layout": "secao",
+      "linhas": [
+        "Pilar 1"
+      ],
+      "titulo": "PENSE COMO EMPRESA.",
+      "foto": "escritorio-que-cresce/07-tabuleiro-xadrez.png"
+    },
+    {
+      "layout": "secao",
+      "linhas": [
+        "Pilar 2"
+      ],
+      "titulo": "CONSTRUA UMA MÁQUINA\nDE PROSPECÇÃO.",
+      "abaixo": "Nunca dependa de uma única fonte de clientes.",
+      "foto": "escritorio-que-cresce/08-rede-de-clientes.png"
+    },
+    {
+      "layout": "secao",
+      "linhas": [
+        "Pilar 3"
+      ],
+      "titulo": "CONSTRUA UM COMERCIAL\nQUE VENDA TODOS OS DIAS.",
+      "foto": "escritorio-que-cresce/09-aperto-de-mao.png"
+    },
+    {
+      "layout": "secao",
+      "linhas": [
+        "Pilar 4"
+      ],
+      "titulo": "PARE DE SER O GARGALO\nDO SEU ESCRITÓRIO.",
+      "foto": "escritorio-que-cresce/10-todos-dependem-dele.png"
+    },
+    {
+      "layout": "secao",
+      "linhas": [
+        "Pilar 5"
+      ],
+      "titulo": "SETORIZAÇÃO.",
+      "foto": "escritorio-que-cresce/11-escritorio-setorizado.png"
+    },
+    {
+      "layout": "secao",
+      "linhas": [
+        "Pilar 6"
+      ],
+      "titulo": "INVISTAM PARA CRESCER.",
+      "foto": "escritorio-que-cresce/12-broto-dourado.png"
+    },
+    {
+      "layout": "secao",
+      "linhas": [
+        "Pilar 7"
+      ],
+      "titulo": "HORÁRIO COMERCIAL\nMORREU.",
+      "foto": "escritorio-que-cresce/13-trabalho-noturno.png"
+    },
+    {
+      "layout": "secao",
+      "linhas": [
+        "Pilar 8"
+      ],
+      "titulo": "ADMINISTRE PELOS\nNÚMEROS.",
+      "foto": "escritorio-que-cresce/14-painel-de-numeros.png"
+    },
+    {
+      "layout": "secao",
+      "linhas": [
+        "Pilar 9"
+      ],
+      "titulo": "FORME LÍDERES.",
+      "foto": "escritorio-que-cresce/15-mentoria.png"
+    },
+    {
+      "layout": "secao",
+      "linhas": [
+        "Pilar 10"
+      ],
+      "titulo": "EXECUÇÃO.",
+      "abaixo": [
+        "Conhecimento não muda empresas.",
+        "Execução muda."
+      ],
+      "foto": "escritorio-que-cresce/16-equipe-executando.png"
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "PLANO DE *AÇÃO*.",
+      "foto": "escritorio-que-cresce/17-plano-na-mesa.png"
+    }
+  ],
+  "_capa": "capa-rafael-palco.jpg = FOTOS/DIA 2/0065 (Rafael no palco, dedo na têmpora) montada em 16:9 por retrato-16x9.js 0.04 0.55 0.55 e DESSATURADA a 42%: o telão de LED atrás é colorido e claro, e competia com o título. Origem nunca tocada."
+}

@@ -1,0 +1,35 @@
+{
+  "arquivo_saida": "acervo-trabalhista",
+  "tipo": "thread",
+  "tema": "claro",
+  "perfil": "rafael-mendes",
+  "pasta": "menu-produtos",
+  "slides": [
+    {
+      "texto": "Um advogado me disse que passou o domingo inteiro escrevendo uma petição.\n\nNa segunda, procurando outra coisa no computador, achou a mesma peça pronta. Feita por ele, em março."
+    },
+    {
+      "texto": "Não é um caso isolado. É a rotina de quase todo escritório trabalhista que eu conheço.\n\nA peça existe. Está em algum lugar. Ninguém acha, então alguém escreve de novo."
+    },
+    {
+      "texto": "O tempo não se perde escrevendo. Se perde começando.\n\nA folha em branco é o pedaço mais caro do processo, e é o único que volta igual em toda peça nova."
+    },
+    {
+      "texto": "Três horas para montar uma peça, quatro peças na semana: doze horas.\n\nMeio expediente por semana remontando o que já estava montado."
+    },
+    {
+      "texto": "Talvez o seu escritório não tenha um problema de produtividade.\n\nTalvez ele esteja recomeçando do zero cinco vezes por semana, e chamando isso de trabalho."
+    },
+    {
+      "texto": "Isso não significa copiar peça dos outros.\n\nModelo não substitui tese, nem estratégia, nem leitura do caso. O que ele tira do caminho é a parte que nunca foi advocacia: lembrar a estrutura, formatar, refazer o cabeçalho."
+    },
+    {
+      "texto": "Foi por isso que montei o Acervo Trabalhista RM.\n\nMais de 500 peças processuais para o seu escritório começar do meio, não do zero.",
+      "imagem": "acervo-trabalhista-aparado.png",
+      "encaixe": "contain"
+    },
+    {
+      "texto": "Quem entrega rápido não escreve mais rápido que você. Só começa mais adiante.\n\nComente **ACERVO** e eu te mando o link."
+    }
+  ]
+}

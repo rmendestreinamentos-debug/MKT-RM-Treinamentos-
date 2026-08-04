@@ -1,0 +1,1104 @@
+{
+  "_leia-me": "COMERCIAL 365 — DIA 2, do Gabriel Anício. Roteiro do dono (2026-07-31): 50 slides de conteúdo + a cauda do pitch (cronograma, entregáveis, investimento, dúvidas) tirada do TEXTO de Modelos/COMERCIAL 365 - DIA 2.pdf, com a arte do tema c365 e os preços novos. Rode: node motor-slides.js conteudo/comercial-365-dia-2.json",
+  "_leia-me-preco": "Os DOIS parcelamentos usam o MESMO coeficiente (12x / à vista = 1,2411), então batem entre si: 413,39x12=4960,68 sobre 3997 · 1033,94x12=12407,28 sobre 9997. Os valores RISCADOS (8.000 / 20.000) são as âncoras do modelo do dono e não foram tocadas.",
+  "_leia-me-oferta": "REVISÃO 2026-08-04, a pedido do dono: (1) o plano BÁSICO foi excluído da oferta inteira — cartões, entregáveis, bônus e a frase 'o Básico vai até a Aula 10'; (2) o Individual passou de R$ 10.000 para R$ 9.997 e de 1 para 2 ingressos MASTER do RM Summit, sem ingresso Classic; (3) a palavra '(recomendado)' saiu do Avançado; (4) entrou a AULA DA SAUDADE, hotseat de encerramento depois da última aula, no Avançado e no Individual; (5) a última página virou 'contato', com QR da página de vendas e o WhatsApp do RM Treinamentos. Com dois planos em vez de três, o revelar progressivo caiu de seis páginas pra quatro.",
+  "_leia-me-qr": "O QR de imagens/c365/qr-comercial-24hrs.png é DINÂMICO: ele codifica qrto.org/0YuWG0, que em 2026-08-04 redirecionava 302 pra comercial24h.rafaelmendesmentoria.com. Duas consequências. A primeira é que a página de destino ainda anunciava a oferta ANTIGA (Básico a 1.997, 'Avançado (Recomendado)', Individual a 10.000): atualizar a página antes de projetar, senão o QR desmente o slide. A segunda é que o redirecionador é de terceiro (qrcodecreator.com) — se a conta expirar, o QR impresso morre.",
+  "_leia-me-datas": "O modelo trazia 'BÔNUS ESPECIAL (SOMENTE DIA 08/04)' e 'RM SUMMIT (MAIO/2025)'. As duas datas já passaram e sairiam impressas erradas num deck de 2026 — foram retiradas, não substituídas: a edição e o prazo novos só o dono sabe. Preencher antes de apresentar.",
+  "titulo": "Comercial 365 — Dia 2",
+  "arquivo_saida": "comercial-365-dia-2",
+  "tema": "c365",
+  "acento": "verde",
+  "marca": "Comercial 365",
+  "logo": "comercial-365-sem-fundo.png",
+  "perfil": "gabriel-anicio",
+  "slides": [
+    {
+      "layout": "capa",
+      "logo": null,
+      "titulo": "COMERCIAL *365*",
+      "texto": "Um contrato por dia.\nTodos os dias.",
+      "foto": "FOTOS/GABRIEL/v2_34798cf7-ee97-40b8-a76e-0e84307ca8f6.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "capa",
+      "eyebrow": "Dia 2",
+      "titulo": "DA CONVERSÃO À\n*PREVISIBILIDADE*",
+      "texto": "Como construir uma cultura comercial capaz\nde repetir resultados todos os meses.",
+      "foto": "FOTOS/GABRIEL/v2_2f7bc1df-e53e-4049-8610-ea4ddb4be889.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "titulo": "ONTEM NÓS CONSTRUÍMOS\nA *BASE*",
+      "marca_item": "check",
+      "itens": [
+        "Estrutura.",
+        "Funções.",
+        "Fluxo de vendas.",
+        "Gargalos.",
+        "Conversão.",
+        "Novas oportunidades."
+      ],
+      "fecho": "Hoje vamos transformar tudo isso em *consistência*.",
+      "foto": "FOTOS/GABRIEL/v2_090ea741-942e-4a8c-afc8-5b39e424f83e.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "cascata",
+      "titulo": "O QUE VAMOS\n*CONSTRUIR* HOJE",
+      "itens": [
+        "Cultura.",
+        "Metas.",
+        "Supermetas.",
+        "Rituais.",
+        "Treinamento.",
+        "Previsibilidade."
+      ],
+      "foto": "FOTOS/SEM ROSTO/v2_387d823e-dd16-40b6-8169-9c777dc9e9a9.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "texto",
+      "titulo": "RESULTADO ISOLADO X\n*PREVISIBILIDADE*",
+      "linhas": [
+        "Fechar contratos em um mês é diferente de possuir capacidade para repetir o resultado todos os meses.",
+        "Bater uma meta uma vez pode ser esforço.",
+        "Repetir exige *cultura e gestão*."
+      ],
+      "foto": "FOTOS/GABRIEL/v2_2b80c20c-e6be-45f6-812b-3736f41f1c13.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "vermelho",
+      "titulo": "POR QUE O RESULTADO\n*DESAPARECE*?",
+      "marca_item": "x",
+      "itens": [
+        "Dependência de uma pessoa.",
+        "Dependência de motivação.",
+        "Dependência de uma campanha.",
+        "Falta de padrão.",
+        "Falta de acompanhamento.",
+        "Falta de treinamento."
+      ],
+      "foto": "FOTOS/GABRIEL/v2_c2f72125-772c-4ae0-b89b-81c29547db70.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "texto",
+      "titulo": "O QUE É *CULTURA*\nDE VENDAS?",
+      "linhas": [
+        "Cultura é o conjunto de comportamentos que a equipe repete mesmo quando o gestor não está olhando.",
+        "É aquilo que se torna *normal* dentro da operação."
+      ],
+      "foto": "FOTOS/GABRIEL/v2_6fe2280f-4297-46d7-bc7a-dbc33977c7f3.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "laranja",
+      "titulo": "CULTURA NÃO É\nAPENAS *MOTIVAÇÃO*",
+      "intro": [
+        "Cultura não é somente:"
+      ],
+      "marca_item": "x",
+      "itens": [
+        "Gritar.",
+        "Tocar buzina.",
+        "Comemorar contratos.",
+        "Fazer reuniões motivacionais."
+      ],
+      "fecho": "Tudo isso fortalece o ambiente, mas não *sustenta resultado sozinho*.",
+      "foto": "FOTOS/GABRIEL/v2_ae8c17cd-00ca-4663-bf34-04a65c4cf748.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "titulo": "CULTURA É\n*COMPORTAMENTO*",
+      "marca_item": "check",
+      "itens": [
+        "Responder rápido.",
+        "Ligar.",
+        "Fazer Follow Up.",
+        "Conduzir o cliente.",
+        "Registrar no CRM.",
+        "Acompanhar a documentação.",
+        "Criar novas oportunidades.",
+        "Buscar a meta diariamente."
+      ],
+      "foto": "FOTOS/GABRIEL/v2_aeaf40b8-4c60-4f76-970b-043600e2e9af.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "cascata",
+      "titulo": "OS *5 PILARES* DA\nCULTURA COMERCIAL",
+      "itens": [
+        "Clareza.",
+        "Repetição.",
+        "Acompanhamento.",
+        "Reconhecimento.",
+        "Correção."
+      ],
+      "foto": "FOTOS/SEM ROSTO/v2_2a354041-7402-4822-a631-35569258bae8.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "cascata",
+      "titulo": "CLAREZA E *REPETIÇÃO*",
+      "itens": [
+        {
+          "titulo": "Clareza",
+          "texto": "Todos sabem o que fazer e qual resultado entregar."
+        },
+        {
+          "titulo": "Repetição",
+          "texto": "Os comportamentos importantes acontecem todos os dias."
+        }
+      ],
+      "fecho": "Cultura não é o que falamos uma vez. É o que *repetimos*.",
+      "foto": "FOTOS/GABRIEL/v2_bb39251f-c3c8-4f74-b35a-ffe59e07a376.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "cascata",
+      "titulo": "ACOMPANHAMENTO,\nRECONHECIMENTO E *CORREÇÃO*",
+      "itens": [
+        {
+          "titulo": "Acompanhar",
+          "texto": "Não é pressionar. É identificar problemas rapidamente."
+        },
+        {
+          "titulo": "Reconhecer",
+          "texto": "Fortalece as boas práticas."
+        },
+        {
+          "titulo": "Corrigir",
+          "texto": "Impede que o erro se transforme em padrão."
+        }
+      ],
+      "foto": "FOTOS/GABRIEL/v2_bcc88e7b-1f35-4ed1-97e9-b22c8ecd73b9.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "secao",
+      "acento": "ambar",
+      "titulo": "METAS E\nSUPERMETAS",
+      "linhas": [
+        "Bloco 2"
+      ],
+      "foto": "FOTOS/GABRIEL/v2_278eb372-1287-495d-9105-89923205dcfd.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "ambar",
+      "titulo": "META NÃO É UM\n*NÚMERO NA PAREDE*",
+      "intro": [
+        "A meta precisa orientar:"
+      ],
+      "marca_item": "check",
+      "itens": [
+        "A agenda.",
+        "As prioridades.",
+        "As ações.",
+        "O acompanhamento.",
+        "As correções.",
+        "A energia da equipe."
+      ],
+      "foto": "FOTOS/GABRIEL/v2_c7a59f14-7f85-4148-b018-16c35bb49bc7.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "vermelho",
+      "titulo": "O PROBLEMA DA META\n*MENSAL ISOLADA*",
+      "intro": [
+        "Quando a meta é acompanhada apenas no fim do mês:"
+      ],
+      "marca_item": "x",
+      "itens": [
+        "O erro é descoberto tarde.",
+        "A equipe perde o senso de urgência.",
+        "O gestor não corrige a rota.",
+        "O fechamento vira desespero."
+      ],
+      "foto": "FOTOS/GABRIEL/v2_cb0cabb0-71fc-4033-aa60-5308c320898d.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "cascata",
+      "acento": "ambar",
+      "titulo": "META EM *TRÊS CAMADAS*",
+      "itens": [
+        {
+          "titulo": "Meta mensal",
+          "texto": "Onde queremos chegar."
+        },
+        {
+          "titulo": "Meta semanal",
+          "texto": "Quanto precisamos avançar."
+        },
+        {
+          "titulo": "Meta diária",
+          "texto": "O que precisa ser executado hoje."
+        }
+      ],
+      "foto": "FOTOS/SEM ROSTO/v2_9fc7d508-f514-47b9-aaa7-9d2b8a572ffb.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "lista",
+      "acento": "ambar",
+      "titulo": "META *SEMANAL*",
+      "intro": [
+        "A meta semanal permite:"
+      ],
+      "marca_item": "check",
+      "itens": [
+        "Corrigir a rota antes do fim do mês.",
+        "Criar foco.",
+        "Acompanhar a evolução.",
+        "Evitar surpresas.",
+        "Manter a equipe em movimento."
+      ],
+      "foto": "FOTOS/GABRIEL/v2_d3a2c7c5-e2ca-4e17-9979-cbe2aff3aa33.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "ambar",
+      "titulo": "META *DIÁRIA*",
+      "intro": [
+        "A meta diária transforma um grande objetivo em execução. Exemplos:"
+      ],
+      "marca_item": "check",
+      "itens": [
+        "Ligações.",
+        "Agendamentos.",
+        "Atendimentos.",
+        "Follow Ups.",
+        "Contratos.",
+        "Documentações concluídas."
+      ],
+      "foto": "FOTOS/GABRIEL/v2_ddcf3f10-4754-4058-ab3f-2534f1676b2e.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "ambar",
+      "titulo": "SUPERMETA E *PLACAR*",
+      "intro": [
+        "A supermeta estimula resultado acima da média. O placar mostra:"
+      ],
+      "marca_item": "check",
+      "itens": [
+        "Onde a equipe está.",
+        "Quanto já avançou.",
+        "Quanto ainda falta.",
+        "Quem precisa de apoio."
+      ],
+      "fecho": "Um time *sem placar* não sabe se está ganhando.",
+      "foto": "FOTOS/GABRIEL/v2_ee68e31e-2bc0-402b-b922-6e92db8111c3.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "secao",
+      "acento": "ciano",
+      "titulo": "RITUAIS DA\nPREVISIBILIDADE",
+      "linhas": [
+        "Bloco 3"
+      ],
+      "foto": "FOTOS/GABRIEL/v2_4effb37f-d804-4b7c-be8d-61455f61c1f4.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "cascata",
+      "acento": "ciano",
+      "titulo": "OS *5 RITUAIS* DA\nPREVISIBILIDADE",
+      "intro": [
+        "Metas não criam resultados sozinhas. É preciso rotina de execução e acompanhamento."
+      ],
+      "itens": [
+        "Abertura da semana.",
+        "Alinhamento diário.",
+        "Parcial de resultados.",
+        "Treinamento.",
+        "Fechamento da semana."
+      ],
+      "foto": "FOTOS/GABRIEL/v2_f7131799-4112-4b78-b96c-9ccd0de87100.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "ciano",
+      "titulo": "RITUAL 1\n*ABERTURA* DA SEMANA",
+      "intro": [
+        "Objetivo:"
+      ],
+      "marca_item": "check",
+      "itens": [
+        "Apresentar a meta.",
+        "Mostrar o resultado atual.",
+        "Definir prioridades.",
+        "Alinhar campanhas.",
+        "Direcionar oportunidades."
+      ],
+      "fecho": "A semana precisa começar com *clareza*.",
+      "foto": "FOTOS/SEM ROSTO/v2_147cea55-c037-49cd-a0b9-56e42f939ac2.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "lista",
+      "acento": "ciano",
+      "titulo": "RITUAL 2\n*ALINHAMENTO* DIÁRIO",
+      "intro": [
+        "Objetivo:"
+      ],
+      "marca_item": "check",
+      "itens": [
+        "Verificar o volume.",
+        "Identificar gargalos.",
+        "Reforçar prioridades.",
+        "Distribuir demandas.",
+        "Gerar energia."
+      ],
+      "fecho": "Não precisa ser longo. Precisa ser *frequente*.",
+      "foto": "FOTOS/GABRIEL/v2_f927059a-f8e1-4bb1-a2f1-2b969cb785f1.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "ciano",
+      "titulo": "RITUAL 3\n*PARCIAL* DE RESULTADOS",
+      "intro": [
+        "Objetivo:"
+      ],
+      "marca_item": "check",
+      "itens": [
+        "Mostrar o placar.",
+        "Reconhecer quem está avançando.",
+        "Identificar quem precisa de apoio.",
+        "Corrigir desvios.",
+        "Evitar surpresas no fechamento."
+      ],
+      "foto": "FOTOS/GABRIEL/v2_ffb36765-7793-4f42-a3a7-d26e1f4d9487.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "ciano",
+      "titulo": "RITUAL 4\n*TREINAMENTO*",
+      "intro": [
+        "Objetivo:"
+      ],
+      "marca_item": "check",
+      "itens": [
+        "Trabalhar uma habilidade.",
+        "Simular uma situação.",
+        "Corrigir um erro recorrente.",
+        "Padronizar o atendimento.",
+        "Preparar a equipe para situações reais."
+      ],
+      "foto": "FOTOS/GABRIEL/v2_24c09096-0ce5-416f-851f-d2e013d5c2f6.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "ciano",
+      "titulo": "RITUAL 5\n*FECHAMENTO* DA SEMANA",
+      "marca_item": "check",
+      "itens": [
+        "Apresentar resultados.",
+        "Compartilhar aprendizados.",
+        "Reconhecer boas práticas.",
+        "Identificar erros.",
+        "Construir o plano da próxima semana."
+      ],
+      "fecho": "A *frequência* é mais importante do que a duração.",
+      "foto": "FOTOS/SEM ROSTO/v2_a7d3e229-c2db-460a-b34d-81b4c928afda.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "secao",
+      "acento": "azul",
+      "titulo": "TREINAMENTO\nCOMERCIAL",
+      "linhas": [
+        "Bloco 4"
+      ],
+      "foto": "FOTOS/GABRIEL/v2_45b9543b-9646-443f-8677-6b2807f3d8a0.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "azul",
+      "titulo": "O QUE PRECISA SER\nTREINADO NO *SDR*",
+      "marca_item": "check",
+      "itens": [
+        "Acolhimento.",
+        "Qualificação.",
+        "Agendamento.",
+        "Ligação.",
+        "Confirmação.",
+        "Follow Up.",
+        "Recuperação de leads.",
+        "Prospecção."
+      ],
+      "foto": "FOTOS/GABRIEL/v2_090ea741-942e-4a8c-afc8-5b39e424f83e.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "azul",
+      "titulo": "O QUE PRECISA SER\nTREINADO NO *CLOSER*",
+      "marca_item": "check",
+      "itens": [
+        "Conexão.",
+        "Autoridade.",
+        "Diagnóstico.",
+        "Condução.",
+        "Honorários.",
+        "Quebra de objeções.",
+        "Assinatura.",
+        "Novas oportunidades."
+      ],
+      "foto": "FOTOS/GABRIEL/v2_2b80c20c-e6be-45f6-812b-3736f41f1c13.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "azul",
+      "titulo": "O QUE PRECISA SER TREINADO\nNA *DOCUMENTAÇÃO*",
+      "marca_item": "check",
+      "itens": [
+        "Passagem de bastão.",
+        "Organização.",
+        "Clareza.",
+        "Solicitação de documentos.",
+        "Cobrança.",
+        "Conferência.",
+        "Conclusão."
+      ],
+      "foto": "FOTOS/SEM ROSTO/v2_3521e946-e807-4149-8edf-bc41107387f5.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "cascata",
+      "acento": "azul",
+      "titulo": "O *CICLO* DO\nTREINAMENTO COMERCIAL",
+      "itens": [
+        "Ensinar.",
+        "Demonstrar.",
+        "Simular.",
+        "Executar.",
+        "Analisar.",
+        "Corrigir."
+      ],
+      "foto": "FOTOS/GABRIEL/v2_c2f72125-772c-4ae0-b89b-81c29547db70.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "azul",
+      "titulo": "ENSINAR E *DEMONSTRAR*",
+      "intro": [
+        "Ensinar é explicar:"
+      ],
+      "marca_item": "check",
+      "itens": [
+        "O objetivo.",
+        "A lógica.",
+        "O contexto.",
+        "A execução.",
+        "O resultado esperado."
+      ],
+      "fecho": "Demonstrar é mostrar na prática. Script sem compreensão gera *robotização*.",
+      "foto": "FOTOS/GABRIEL/v2_6fe2280f-4297-46d7-bc7a-dbc33977c7f3.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "azul",
+      "titulo": "SIMULAR E *EXECUTAR*",
+      "intro": [
+        "Simule situações reais:"
+      ],
+      "marca_item": "check",
+      "itens": [
+        "Medo de golpe.",
+        "Objeção de honorários.",
+        "Distância geográfica.",
+        "“Vou pensar.”",
+        "Cliente que não quer realizar chamada."
+      ],
+      "fecho": "Depois, acompanhe a *execução real*.",
+      "foto": "FOTOS/GABRIEL/v2_ae8c17cd-00ca-4663-bf34-04a65c4cf748.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "azul",
+      "titulo": "*ANALISAR*",
+      "intro": [
+        "Após a execução, analise:"
+      ],
+      "marca_item": "check",
+      "itens": [
+        "O que foi bem realizado.",
+        "Onde houve insegurança.",
+        "Qual etapa foi esquecida.",
+        "Qual objeção não foi investigada.",
+        "Qual será o próximo foco."
+      ],
+      "foto": "FOTOS/SEM ROSTO/v2_994be3e7-e6a9-48fa-a7b1-35021c755394.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "lista",
+      "acento": "azul",
+      "titulo": "FEEDBACK COM\n*PLANO DE AÇÃO*",
+      "intro": [
+        "Todo feedback precisa terminar com:"
+      ],
+      "marca_item": "check",
+      "itens": [
+        "Um ponto forte.",
+        "Um ponto de melhoria.",
+        "Uma ação prática.",
+        "Um prazo.",
+        "Um novo acompanhamento."
+      ],
+      "fecho": "Feedback sem plano de ação não gera *evolução*.",
+      "foto": "FOTOS/GABRIEL/v2_aeaf40b8-4c60-4f76-970b-043600e2e9af.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "secao",
+      "acento": "vermelho",
+      "titulo": "O CUSTO DA FALTA\nDE TREINAMENTO",
+      "linhas": [
+        "Bloco 5"
+      ],
+      "foto": "FOTOS/GABRIEL/v2_56660412-519c-45c9-b7bc-e8ce7058fba7.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "vermelho",
+      "titulo": "QUANDO O TIME\n*NÃO É TREINADO*",
+      "marca_item": "x",
+      "itens": [
+        "Cada pessoa atende de um jeito.",
+        "A qualidade depende do talento individual.",
+        "As objeções se repetem.",
+        "Os mesmos erros continuam.",
+        "O cliente recebe experiências diferentes.",
+        "O resultado oscila."
+      ],
+      "foto": "FOTOS/GABRIEL/v2_bb39251f-c3c8-4f74-b35a-ffe59e07a376.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "texto",
+      "acento": "vermelho",
+      "titulo": "A EMPRESA SEMPRE PAGA\nPELO *TREINAMENTO*",
+      "linhas": [
+        "Ou paga para desenvolver a equipe.",
+        "Ou paga pelos erros de uma equipe despreparada."
+      ],
+      "fecho": "Quantos contratos já foram perdidos por *falta de preparação*?",
+      "foto": "FOTOS/GABRIEL/v2_bcc88e7b-1f35-4ed1-97e9-b22c8ecd73b9.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "vermelho",
+      "titulo": "O DONO SEMPRE PAGA\nA CONTA DO *IMPROVISO*",
+      "intro": [
+        "Quando o time não está preparado, o dono:"
+      ],
+      "_obs-marca": "bullet, não check: o acento é vermelho e os itens são o que o dono acaba FAZENDO, não o que deve fazer.",
+      "marca_item": "bullet",
+      "itens": [
+        "Atende.",
+        "Faz Follow Up.",
+        "Cobra documentos.",
+        "Confere contratos.",
+        "Resolve problemas.",
+        "Salva fechamentos.",
+        "Corrige a equipe."
+      ],
+      "foto": "FOTOS/SEM ROSTO/v2_bebed48e-ec36-4bd6-9f48-c3c2d5ccf31f.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "cascata",
+      "acento": "vermelho",
+      "titulo": "VOCÊ CRIOU UM ESCRITÓRIO\nOU UM *EMPREGO MAIS CANSATIVO*?",
+      "intro": [
+        "Se tudo depende de você:"
+      ],
+      "destaque": "nenhum",
+      "itens": [
+        "As decisões.",
+        "Os atendimentos.",
+        "Os fechamentos.",
+        "As cobranças.",
+        "Os resultados."
+      ],
+      "fecho": "Você não construiu uma operação. Construiu *dependência*.",
+      "foto": "FOTOS/GABRIEL/v2_c7a59f14-7f85-4148-b018-16c35bb49bc7.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "titulo": "O QUE A\n*PREVISIBILIDADE* MUDA",
+      "intro": [
+        "Previsibilidade permite:"
+      ],
+      "marca_item": "check",
+      "itens": [
+        "Contratar com segurança.",
+        "Investir em marketing.",
+        "Criar novas áreas.",
+        "Melhorar a estrutura.",
+        "Planejar o crescimento.",
+        "Reduzir a ansiedade."
+      ],
+      "foto": "FOTOS/GABRIEL/v2_cb0cabb0-71fc-4033-aa60-5308c320898d.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "cascata",
+      "titulo": "EXISTEM *DOIS CAMINHOS*",
+      "itens": [
+        {
+          "titulo": "Caminho 1",
+          "texto": "Continuar aprendendo por tentativa e erro."
+        },
+        {
+          "titulo": "Caminho 2",
+          "texto": "Seguir um método, receber direção e acelerar a implementação."
+        }
+      ],
+      "fecho": "Você não precisa descobrir tudo *sozinho*.",
+      "foto": "FOTOS/GABRIEL/v2_d3a2c7c5-e2ca-4e17-9979-cbe2aff3aa33.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "secao",
+      "logo": "comercial-24hrs-sem-fundo.png",
+      "_obs-logo": "daqui até o fim o lockup do topo é o do COMERCIAL 24 HORAS: é o produto que está sendo oferecido, e o do 365 (o evento) diria o nome errado na hora da oferta. É o que o modelo do dono faz.",
+      "titulo": "FOI POR ISSO\nQUE EU CRIEI O\n*COMERCIAL 24 HORAS*",
+      "_obs-titulo": "quebrado em três linhas de propósito: o `secao` dimensiona pela linha MAIS LONGA, e em duas linhas esta virava 21pt — metade do corpo das outras quatro divisórias, quebrando o ritmo do deck.",
+      "linhas": [
+        "O convite"
+      ],
+      "_obs-foto": "sorriso de propósito: é a virada do deck, onde ele para de diagnosticar e passa a convidar.",
+      "foto": "gabriel-sorriso.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "logo": "comercial-24hrs-sem-fundo.png",
+      "titulo": "PARA QUEM É O\n*COMERCIAL 24 HORAS*?",
+      "marca_item": "check",
+      "itens": [
+        "Para quem acabou de começar.",
+        "Para quem trabalha sozinho.",
+        "Para quem quer contratar a primeira pessoa.",
+        "Para quem já possui equipe.",
+        "Para quem perde muitos leads.",
+        "Para quem ainda não possui previsibilidade."
+      ],
+      "foto": "FOTOS/GABRIEL/v2_ddcf3f10-4754-4058-ab3f-2534f1676b2e.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "cascata",
+      "logo": "comercial-24hrs-sem-fundo.png",
+      "titulo": "A *TRANSFORMAÇÃO*",
+      "destaque": "nenhum",
+      "itens": [
+        {
+          "titulo": "Improviso",
+          "texto": "vira estrutura."
+        },
+        {
+          "titulo": "Atendimento sem padrão",
+          "texto": "vira processos claros."
+        },
+        {
+          "titulo": "Resultado dependente da sorte",
+          "texto": "vira comercial treinável e acompanhado."
+        }
+      ],
+      "foto": "FOTOS/GABRIEL/v2_ee68e31e-2bc0-402b-b922-6e92db8111c3.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "cascata",
+      "logo": "comercial-24hrs-sem-fundo.png",
+      "titulo": "A *JORNADA* DO\nCOMERCIAL 24 HORAS",
+      "itens": [
+        "Estrutura.",
+        "Prospecção e atendimento.",
+        "Funil, CRM e Follow Up.",
+        "Objeções.",
+        "SDR e Closer.",
+        "Previsibilidade e escala.",
+        "Gestão e inovação."
+      ],
+      "foto": "FOTOS/SEM ROSTO/v2_2b065a83-adc1-4505-9db0-b8b7a02c547e.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "lista",
+      "logo": "comercial-24hrs-sem-fundo.png",
+      "titulo": "APRENDIZADO *PRÁTICO*",
+      "marca_item": "check",
+      "itens": [
+        "Campo de Batalha.",
+        "Atendimentos reais.",
+        "Casos reais.",
+        "Objeções reais.",
+        "Treinamento para SDR.",
+        "Treinamento para Closer.",
+        "Scripts práticos."
+      ],
+      "fecho": "Não é apenas teoria. É *aplicação*.",
+      "foto": "FOTOS/GABRIEL/v2_f7131799-4112-4b78-b96c-9ccd0de87100.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "logo": "comercial-24hrs-sem-fundo.png",
+      "titulo": "MATERIAIS E\n*ACOMPANHAMENTO*",
+      "marca_item": "check",
+      "itens": [
+        "Playbook de vendas.",
+        "Planilha de CRM.",
+        "E-book de objeções.",
+        "Fichas de atendimento.",
+        "Scripts para SDR e Closer.",
+        "Modelos de Follow Up.",
+        "Grupo exclusivo.",
+        "Hotseats e correções de rota."
+      ],
+      "foto": "FOTOS/GABRIEL/v2_f927059a-f8e1-4bb1-a2f1-2b969cb785f1.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "logo": "comercial-24hrs-sem-fundo.png",
+      "titulo": "RESULTADOS DOS *ALUNOS*",
+      "_obs": "PLACEHOLDER. No roteiro do dono este slide diz 'Inserir depoimentos de alunos que:' — é instrução pra ele, não copy de palco. Os itens abaixo são os CRITÉRIOS do depoimento; trocar por print, foto ou vídeo real antes de apresentar.",
+      "intro": [
+        "Depoimentos de alunos que:"
+      ],
+      "marca_item": "check",
+      "itens": [
+        "Estruturaram o comercial.",
+        "Contrataram equipe.",
+        "Melhoraram o atendimento.",
+        "Aumentaram os contratos.",
+        "Organizaram o CRM.",
+        "Implantaram processos."
+      ],
+      "foto": "FOTOS/GABRIEL/v2_ffb36765-7793-4f42-a3a7-d26e1f4d9487.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "cascata",
+      "logo": "comercial-24hrs-sem-fundo.png",
+      "acento": "vermelho",
+      "titulo": "QUANTO CUSTA\n*CONTINUAR COMO ESTÁ*?",
+      "destaque": "nenhum",
+      "itens": [
+        "Quantos clientes você perde por mês?",
+        "Quanto cada contrato poderia representar?",
+        "Quantas indicações deixam de existir?",
+        "Quanto tempo você perde em tarefas operacionais?"
+      ],
+      "fecho": "O maior custo pode ser a *permanência do problema*.",
+      "foto": "FOTOS/SEM ROSTO/v2_a6ccf950-efd5-4225-acf4-a49718e471cb.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "cascata",
+      "logo": "comercial-24hrs-sem-fundo.png",
+      "acento": "ciano",
+      "titulo": "CRONOGRAMA · MÓDULO 1\n*FUNDAMENTOS* DO COMERCIAL",
+      "intro": [
+        "Aqui você para de improvisar e monta a base."
+      ],
+      "destaque": "nenhum",
+      "itens": [
+        {
+          "titulo": "Aula 1",
+          "texto": "Estrutura do Comercial: o esqueleto que sustenta tudo."
+        },
+        {
+          "titulo": "Aula 2",
+          "texto": "Prospecção e Atendimento: como tratar cada lead como ouro."
+        },
+        {
+          "titulo": "Aula 3",
+          "texto": "Funil Simplificado: sem complexidade, só o que converte."
+        },
+        {
+          "titulo": "Aula 4",
+          "texto": "CRM e Follow Up: o dinheiro que você está deixando na mesa."
+        },
+        {
+          "titulo": "Aula 5",
+          "texto": "Campo de Batalha: prática real, casos reais."
+        }
+      ],
+      "foto": "FOTOS/GABRIEL/v2_24c09096-0ce5-416f-851f-d2e013d5c2f6.jpg",
+      "foco": "topo",
+      "elo": "deitado"
+    },
+    {
+      "layout": "cascata",
+      "logo": "comercial-24hrs-sem-fundo.png",
+      "titulo": "CRONOGRAMA · MÓDULO 2\n*EXECUÇÃO E ESCALA*",
+      "intro": [
+        "Transformar conversa em contrato e parar de depender de sorte."
+      ],
+      "destaque": "nenhum",
+      "itens": [
+        {
+          "titulo": "Aula 6",
+          "texto": "Objeções: as 7 que todo cliente faz."
+        },
+        {
+          "titulo": "Aula 7",
+          "texto": "Cultura de Vendas: pensar como quem fecha."
+        },
+        {
+          "titulo": "Aula 8",
+          "texto": "SDR e Closer: dividir funções sendo um só."
+        },
+        {
+          "titulo": "Aula 9",
+          "texto": "Previsibilidade e Escala: o número que muda tudo."
+        },
+        {
+          "titulo": "Aula 10",
+          "texto": "Consolidação: o comercial no automático."
+        },
+        {
+          "titulo": "Aula 11",
+          "texto": "Treinamento para SDR."
+        },
+        {
+          "titulo": "Aula 12",
+          "texto": "Treinamento para Closer."
+        },
+        {
+          "titulo": "Aula 13",
+          "texto": "Futuras inovações do comercial do RM Advogados."
+        },
+        {
+          "titulo": "Aula da Saudade",
+          "texto": "Hotseat de encerramento, depois da última aula."
+        }
+      ],
+      "_obs-fecho": "o fecho antigo dizia 'O Básico vai até a Aula 10. O Avançado leva as treze' e caiu junto com o plano Básico: sem ele a frase compara a oferta com uma coisa que não existe mais. Não entrou substituto — a Aula da Saudade já é o último elo da corrente, e repeti-la no fecho diria a mesma coisa duas vezes na mesma página. Assim as duas páginas irmãs de cronograma ficam iguais: nenhuma tem fecho.",
+      "foto": "FOTOS/GABRIEL/v2_34798cf7-ee97-40b8-a76e-0e84307ca8f6.jpg",
+      "foco": "topo",
+      "elo": "deitado"
+    },
+    {
+      "layout": "colunas",
+      "logo": "comercial-24hrs-sem-fundo.png",
+      "titulo": "O QUE VOCÊ *RECEBE*",
+      "_obs": "os entregáveis vêm em DUAS páginas (núcleo e bônus). Numa só, as colunas do modelo não cabiam nem a 10pt — e o motor avisa quando isso acontece.",
+      "grupos": [
+        {
+          "titulo": "Avançado",
+          "acento": "ambar",
+          "itens": [
+            "13 aulas ao vivo, gravadas",
+            "Hotseat tira-dúvidas ao vivo",
+            "Aula da Saudade: hotseat de encerramento",
+            "Grupo exclusivo no WhatsApp por 6 meses",
+            "Acesso vitalício ao conteúdo"
+          ]
+        },
+        {
+          "titulo": "Individual",
+          "acento": "vermelho",
+          "_obs-saudade": "a Aula da Saudade NÃO se repete aqui: a primeira linha da coluna já é 'Tudo do plano Avançado', e o item aparece logo ao lado, na coluna do Avançado. Repetido embaixo da linha de herança, ele lê como erro de revisão.",
+          "itens": [
+            "Tudo do plano Avançado",
+            "3 encontros individuais com o Gabriel",
+            "Raio-X completo do seu comercial",
+            "Direcionamento estratégico personalizado",
+            "Grupo de WhatsApp com o Gabriel, você e sua equipe",
+            "Aulas com professores convidados"
+          ]
+        }
+      ]
+    },
+    {
+      "layout": "colunas",
+      "logo": "comercial-24hrs-sem-fundo.png",
+      "titulo": "OS BÔNUS DE *HOJE*",
+      "_obs-heranca": "o Avançado dizia 'Tudo do Básico' e herdava dali quatro materiais e o ingresso. Com o Básico fora, a herança apontava pro vazio: os itens foram ESCRITOS por extenso, não apagados junto com a coluna.",
+      "grupos": [
+        {
+          "titulo": "Avançado",
+          "acento": "ambar",
+          "_obs-pares": "os dez itens (os cinco do Avançado mais os cinco herdados do Básico) não cabiam nem a 10pt e o motor reprovou. Os PARES naturais foram unidos numa linha só — as duas fichas de atendimento, os dois treinamentos —, que é o corte que não perde entregável nenhum. Cortar item seria encurtar a oferta pra caber no slide.",
+          "itens": [
+            "E-book de objeções e planilha de CRM",
+            "Fichas de atendimento: trabalhista e previdenciário",
+            "Playbook de vendas completo",
+            "Treinamento para SDR e para Closers",
+            "Aula das inovações do RM Advogados",
+            "Raio-X do comercial em call individual",
+            "2 ingressos Classic do RM Summit"
+          ]
+        },
+        {
+          "titulo": "Individual",
+          "acento": "vermelho",
+          "_obs-ingresso": "o Individual NÃO leva ingresso Classic: os 2 Master entram no lugar deles, não somados. Sem o parêntese, 'Tudo do Avançado' + '2 ingressos Master' promete quatro ingressos e vira discussão na entrega.",
+          "itens": [
+            "Tudo do Avançado",
+            "2 ingressos Master RM Summit (no lugar dos Classic)",
+            "Visita ao comercial do RM Advogados",
+            "1 dia de atendimentos comigo (7h às 22h)"
+          ]
+        }
+      ],
+      "fecho": "Amanhã o curso continua. Os *bônus, não*.",
+      "_obs": "o prazo é o que faz decidir agora em vez de pensar em casa: ele aparece aqui, na intro e no fecho, e de novo na faixa BÔNUS SÓ HOJE de cada cartão de preço."
+    },
+    {
+      "layout": "planos",
+      "logo": "comercial-24hrs-sem-fundo.png",
+      "titulo": "*INVESTIMENTO*",
+      "intro": "Escolha o nível ideal para o momento do seu escritório.",
+      "_obs-degraus": "com o Básico fora, o revelar progressivo caiu de SEIS páginas pra QUATRO: âncora do Avançado, Avançado, âncora do Individual, Individual. A mecânica não muda — quem ancora agora é o Avançado, que virou a porta de entrada.",
+      "planos": [
+        {
+          "nome": "Avançado",
+          "acento": "ambar",
+          "revelado": "ancora",
+          "de": "R$ 8.000,00"
+        },
+        {
+          "nome": "Individual",
+          "acento": "vermelho",
+          "revelado": false
+        }
+      ]
+    },
+    {
+      "layout": "planos",
+      "logo": "comercial-24hrs-sem-fundo.png",
+      "titulo": "*INVESTIMENTO*",
+      "intro": "Escolha o nível ideal para o momento do seu escritório.",
+      "planos": [
+        {
+          "nome": "Avançado",
+          "acento": "ambar",
+          "de": "R$ 8.000,00",
+          "por": "R$ 3.997",
+          "parcelas": "12x de R$ 413,39",
+          "bonus": {
+            "rotulo": "Bônus só hoje",
+            "texto": "2 ingressos Classic do RM Summit"
+          },
+          "revelado": true
+        },
+        {
+          "nome": "Individual",
+          "acento": "vermelho",
+          "revelado": false
+        }
+      ]
+    },
+    {
+      "layout": "planos",
+      "logo": "comercial-24hrs-sem-fundo.png",
+      "titulo": "*INVESTIMENTO*",
+      "intro": "Escolha o nível ideal para o momento do seu escritório.",
+      "planos": [
+        {
+          "nome": "Avançado",
+          "acento": "ambar",
+          "de": "R$ 8.000,00",
+          "por": "R$ 3.997",
+          "parcelas": "12x de R$ 413,39",
+          "bonus": {
+            "rotulo": "Bônus só hoje",
+            "texto": "2 ingressos Classic do RM Summit"
+          },
+          "revelado": true
+        },
+        {
+          "nome": "Individual",
+          "acento": "vermelho",
+          "revelado": "ancora",
+          "de": "R$ 20.000,00"
+        }
+      ]
+    },
+    {
+      "layout": "planos",
+      "logo": "comercial-24hrs-sem-fundo.png",
+      "titulo": "*INVESTIMENTO*",
+      "intro": "Escolha o nível ideal para o momento do seu escritório.",
+      "_obs-parcela": "1.033,94 x 12 = 12.407,28 sobre 9.997 — o mesmo coeficiente 1,2411 do Avançado (413,39 x 12 = 4.960,68 sobre 3.997). Os dois cartões precisam bater entre si: parcela calculada por fora denuncia a conta na hora que alguém divide.",
+      "planos": [
+        {
+          "nome": "Avançado",
+          "acento": "ambar",
+          "de": "R$ 8.000,00",
+          "por": "R$ 3.997",
+          "parcelas": "12x de R$ 413,39",
+          "bonus": {
+            "rotulo": "Bônus só hoje",
+            "texto": "2 ingressos Classic do RM Summit"
+          },
+          "revelado": true
+        },
+        {
+          "nome": "Individual",
+          "acento": "vermelho",
+          "de": "R$ 20.000,00",
+          "por": "R$ 9.997",
+          "parcelas": "12x de R$ 1.033,94",
+          "selo": "Apenas 5 vagas",
+          "bonus": {
+            "rotulo": "Bônus só hoje",
+            "texto": "2 ingressos Master do RM Summit"
+          },
+          "revelado": true
+        }
+      ]
+    },
+    {
+      "layout": "contato",
+      "logo": "comercial-24hrs-sem-fundo.png",
+      "titulo": "*DÚVIDAS?*",
+      "_obs": "era 'declaracao' e virou 'contato' quando o QR chegou (2026-08-04). O QR entra INTEIRO, sobre chapa BRANCA e sem recorte: o motor não corta, e a chapa é o que a câmera precisa pra achar as três âncoras. Recortar come os módulos da borda e a câmera para de ler.",
+      "_obs-branco": "a linha vazia é UM ESPAÇO, não string vazia: em \"\" o `realce` devolve zero run, o `paragrafos` tenta marcar `breakLine` no último e o motor morre com 'Cannot read properties of undefined' — sem gerar arquivo nenhum e sem dizer em que slide.",
+      "linhas": [
+        "Aponte a câmera e garanta a sua vaga.",
+        " ",
+        "RM Treinamentos, no WhatsApp",
+        "(31) 99366-2629"
+      ],
+      "_obs-arroba": "o @gabrielanicioadv saiu do CORPO da página: o rodapé já o imprime em todo slide, e nesta, que é vazia, os dois apareciam à vista um do outro e liam como erro de revisão. Aqui a ação é o QR e o WhatsApp; o @ continua assinando no canto.",
+      "fortes": [3],
+      "qr": "c365/qr-comercial-24hrs.png"
+    }
+  ],
+  "_leia-me-revelar": "O preço sai em QUATRO degraus, como no modelo do dono: cada plano aparece primeiro só com o valor RISCADO (revelado: 'ancora') e só depois com o preço real. O riscado sozinho entra grande e branco; ao lado do preço real ele encolhe e apaga. Sem esse passo, âncora e preço aparecem juntos e o desconto vira decoração. Eram seis degraus enquanto o Básico existia.",
+  "_leia-me-fotos": "Dia 2 só leva o Gabriel SOZINHO no quadro, mais detalhes sem rosto (pedido do dono, 2026-07-31: nenhum rosto de terceiro). A pasta fotos/FOTOS/GABRIEL tem 47 arquivos e só 14 estavam catalogados; 23 são dele sozinho e entraram aqui. Com 59 slides e 24 fotos dele, cada uma volta no máximo duas vezes, sempre a 24+ slides de distância. (Eram 61 antes de os dois degraus do plano Básico saírem; os degraus de preço não levam foto.)"
+}

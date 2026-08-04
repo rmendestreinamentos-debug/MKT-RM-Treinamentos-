@@ -15,8 +15,11 @@
 
   /* Carrossel nativo (thread / foto com legenda): NÃO usa a fonte da casa de
      propósito — a peça só funciona se parecer print de verdade, não peça de
-     marketing. Grotesca de sistema, igual à do X. Ver CLAUDE.md.            */
-  --nativo:  "Roboto", "Segoe UI", Helvetica, Arial, sans-serif;
+     marketing. É a fonte do X: CHIRP (regra do dono, 2026-07-30).
+     ⚠️ Chirp é proprietária e não vem instalada: quem a embute é o motor, lendo
+     marca/fontes/ (ver o LEIA-ME de lá). Faltando o arquivo, a cadeia cai na
+     grotesca de sistema e o motor AVISA no console. Ver CLAUDE.md.          */
+  --nativo:  "Chirp", "Roboto", "Segoe UI", Helvetica, Arial, sans-serif;
   --marcador: #f4212e;                   /* vermelho do marca-texto na thread */
 
   /* Carrossel EDITORIAL (tipo `editorial`) — modelo em exemplos/Carrossel/.

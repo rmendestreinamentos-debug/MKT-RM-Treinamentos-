@@ -21,11 +21,22 @@ const BASE = path.resolve(__dirname, "..");
     console.error('uso: node motor/recortar.js "<foto em fotos/>" <x> <y> <larg> <alt> <nome.jpg>');
     process.exit(1);
   }
-  const origem = path.join(BASE, "fotos", rel);
-  if(!fs.existsSync(origem)){ console.error(`erro: ${rel} não existe em fotos/`); process.exit(1); }
+  // Procura em fotos/ e depois em imagens/, na mesma ordem que o campo `foto` do motor:
+  // recorte de recorte é caso real (a foto de perfil saiu de um retrato que já morava em
+  // imagens/), e exigir que a origem estivesse no acervo obrigava a copiar arquivo à toa.
+  const origem = [path.join(BASE, "fotos", rel), path.join(BASE, "imagens", rel)]
+    .find(p => fs.existsSync(p));
+  if(!origem){ console.error(`erro: ${rel} não existe em fotos/ nem em imagens/`); process.exit(1); }
 
+  // MIME errado no data-URI = imagem que não decodifica e não reclama. O material bruto
+  // do dono chega em tudo que a web serve (.webp de portal, .avif de CDN), e travar o
+  // recorte em png/jpeg obrigava a converter antes — ou, pior, a desistir do recorte e
+  // deixar no quadro o que devia sair. O Chromium abre todos estes.
   const ext = path.extname(origem).toLowerCase();
-  const mime = ext === ".png" ? "image/png" : "image/jpeg";
+  const mime = ext === ".png" ? "image/png"
+             : ext === ".webp" ? "image/webp"
+             : ext === ".avif" ? "image/avif"
+             : ext === ".gif" ? "image/gif" : "image/jpeg";
   const src = `data:${mime};base64,${fs.readFileSync(origem).toString("base64")}`;
   const caixa = [x, y, w, h].map(Number);
 

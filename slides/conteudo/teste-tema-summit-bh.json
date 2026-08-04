@@ -1,0 +1,26 @@
+{
+  "_leia-me": "Reprodução das páginas 16 e 3 de 'múltiplas formas de prospecção de clientes.pptx' (Modelos/Modelos PPTX Rafael/), pra comparar o tema summit-bh com o modelo.",
+  "aula": "Múltiplas formas de prospecção — reprodução do modelo",
+  "arquivo_saida": "teste-tema-summit-bh",
+  "tema": "summit-bh",
+  "acento": "trigo",
+  "marca": "RM Summit",
+  "logo": "rm-summit-bh-sem-fundo.png",
+  "slides": [
+    {
+      "layout": "chamada",
+      "titulo": "INTEGRAÇÃO DAS\n*ESTRATÉGIAS*",
+      "linha": "Nenhuma forma funciona sozinha.",
+      "abre": "A combinação estratégica garante:",
+      "foto": "rafael/sala-xadrez.png",
+      "foco": "direita"
+    },
+    {
+      "layout": "chamada",
+      "titulo": "INTRA\n*EMPREENDEDORISMO*",
+      "abre": "Sensação de **pertencimento** e maior **retenção da equipe**.",
+      "foto": "rafael/sala-xadrez.png",
+      "foco": "direita"
+    }
+  ]
+}

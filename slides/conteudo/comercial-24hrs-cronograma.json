@@ -1,0 +1,117 @@
+{
+  "_leia-me": "COMERCIAL 24 HORAS — CRONOGRAMA das 13 aulas, do Gabriel Anício. Datas passadas pelo dono em 2026-08-03. Arte do tema c365 (o mesmo do Comercial 365), logo do 24hrs no topo direito. Rode: node motor-slides.js conteudo/comercial-24hrs-cronograma.json",
+  "_leia-me-datas": "As 15 quartas-feiras foram conferidas uma a uma: 19/08 a 25/11/2026, todas caem em QUARTA, e 07/10 e 14/10 são as duas datas bloqueadas. Por isso a peça pode prometer 'toda quarta' sem ressalva — se alguma data mudar, a promessa cai junto.",
+  "_leia-me-modulos": "A divisão em MÓDULO 1 (aulas 1-5) e MÓDULO 2 (aulas 6-13) é a mesma de conteudo/comercial-365-dia-2.json, pra os dois decks contarem a mesma história. O fecho do módulo 2 (Básico até a aula 10, Avançado as treze) veio de lá — se os planos mudarem, muda nos dois.",
+  "titulo": "Comercial 24 Horas — Cronograma",
+  "arquivo_saida": "comercial-24hrs-cronograma",
+  "tema": "c365",
+  "acento": "verde",
+  "marca": "Comercial 24hrs",
+  "logo": "comercial-24hrs-sem-fundo.png",
+  "perfil": "gabriel-anicio",
+  "slides": [
+    {
+      "layout": "capa",
+      "eyebrow": "13 aulas ao vivo",
+      "titulo": "CRONOGRAMA\n*COMPLETO*",
+      "texto": "Toda quarta-feira, às 19h30.\nDe 19 de agosto a 25 de novembro de 2026.",
+      "foto": "FOTOS/GABRIEL/v2_bb39251f-c3c8-4f74-b35a-ffe59e07a376.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "cascata",
+      "titulo": "MÓDULO 1 · *FUNDAMENTOS*",
+      "intro": [
+        "Aqui você para de improvisar e monta a base."
+      ],
+      "destaque": "nenhum",
+      "elo": "deitado",
+      "itens": [
+        {
+          "titulo": "01 · 19/08",
+          "texto": "Estrutura do Comercial: o esqueleto que sustenta tudo."
+        },
+        {
+          "titulo": "02 · 26/08",
+          "texto": "Prospecção e Atendimento: como tratar cada lead como ouro."
+        },
+        {
+          "titulo": "03 · 02/09",
+          "texto": "Funil Simplificado: sem complexidade, só o que converte."
+        },
+        {
+          "titulo": "04 · 09/09",
+          "texto": "CRM e Follow-up: o dinheiro que você está deixando na mesa."
+        },
+        {
+          "titulo": "05 · 16/09",
+          "texto": "Campo de Batalha: prática real, casos reais."
+        }
+      ],
+      "fecho": "Todas às *19h30*, ao vivo."
+    },
+    {
+      "layout": "cascata",
+      "titulo": "MÓDULO 2 · *EXECUÇÃO E ESCALA*",
+      "intro": [
+        "Sem aula em 07/10 e 14/10. A aula 8 volta no dia 21 de outubro."
+      ],
+      "destaque": "nenhum",
+      "elo": "deitado",
+      "itens": [
+        {
+          "titulo": "06 · 23/09",
+          "texto": "Objeções: as 7 que todo cliente faz, e como quebrar cada uma."
+        },
+        {
+          "titulo": "07 · 30/09",
+          "texto": "Cultura de Vendas: pensar como quem fecha, não quem torce."
+        },
+        {
+          "titulo": "08 · 21/10",
+          "texto": "SDR e Closer: como dividir funções, mesmo sendo sozinho."
+        },
+        {
+          "titulo": "09 · 28/10",
+          "texto": "Previsibilidade e Escala: o número que muda tudo."
+        },
+        {
+          "titulo": "10 · 04/11",
+          "texto": "Consolidação: seu comercial rodando no automático."
+        }
+      ],
+      "fecho": "Até aqui vai o *Básico*."
+    },
+    {
+      "layout": "cascata",
+      "titulo": "MÓDULO 2 · *TREINAMENTO E INOVAÇÃO*",
+      "intro": [
+        "As três últimas aulas: o que você entrega pra equipe e o que vem depois."
+      ],
+      "destaque": "nenhum",
+      "elo": "deitado",
+      "itens": [
+        {
+          "titulo": "11 · 11/11",
+          "texto": "Treinamento para SDR: pra treinar seus SDRs ou futuros contratados."
+        },
+        {
+          "titulo": "12 · 18/11",
+          "texto": "Treinamento para Closer: pra treinar seus closers ou futuros contratados."
+        },
+        {
+          "titulo": "13 · 25/11",
+          "texto": "Futuras Inovações: as que já rodam no comercial do Rafael Mendes Advogados."
+        }
+      ],
+      "fecho": "Estas três são exclusivas do *Avançado*."
+    },
+    {
+      "layout": "final",
+      "titulo": "13 AULAS.\nTODA QUARTA, *19H30*.\nAO VIVO.",
+      "_obs-foto": "A do palco (v2_3d9a21a1) foi testada e REPROVADA: o LED atrás dele sai legível ('COMANDOS 3 E 4 · CONTROLE DA CONVERSA E CLAREZA') e a página fica com duas manchetes, uma delas de outro deck.",
+      "foto": "FOTOS/GABRIEL/v2_dbb51ae1-fc5a-442b-94db-a8d3c1a39592.jpg",
+      "foco": "esquerda"
+    }
+  ]
+}

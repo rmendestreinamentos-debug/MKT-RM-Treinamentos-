@@ -1,0 +1,225 @@
+{
+  "_nota": "Palestra do João Vitor sobre COMUNICAÇÃO COM O CLIENTE (roteiro do dono de 2026-07-31, 22 slides). Copy dele; eu escolhi layout, quebra de linha, realce e foto. As marcações de direção do roteiro (os minutos de cada bloco, 'essa frase pode virar a tese', 'aqui está a parte mais forte') NÃO entram em slide nenhum: são instrução pra ele. Acrescentei 3 slides de VIRADA DE BLOCO (as máscaras 'BLOCO 1/2/3' que ele escreveu no roteiro) e 1 slide pro contraponto 'eu responderia: segurança', que na fala precisa de pausa própria. Fotos: os 7 retratos de estúdio dele. Os retratos são VERTICAIS e o slide é 16:9 — os fundos hero-*.jpg saíram do retrato-16x9.js, com a pessoa à direita e o fundo do próprio estúdio borrado à esquerda, que é onde mora o texto.",
+  "tema": "mat",
+  "acento": "azul",
+  "marca": "Imersão Master MAT",
+  "logo": "imersao-master-mat-sem-fundo.png",
+  "perfil": "joao-vitor",
+  "arquivo_saida": "jv-comunicacao-cliente",
+  "slides": [
+    {
+      "layout": "capa",
+      "foto": "jv-comunicacao/hero-capa.jpg",
+      "foco": "centro",
+      "eyebrow": "Comunicação com o cliente",
+      "titulo": "O que o cliente\nrealmente *compra*\nde um advogado?",
+      "texto": "A maioria responderia: conhecimento."
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "Eu responderia:\n*segurança*."
+    },
+    {
+      "layout": "texto",
+      "titulo": "Segurança é uma\n*sensação*",
+      "linhas": [
+        "E ela é construída na comunicação.",
+        "Não apenas nas decisões judiciais."
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "Um bom advogado\nnão comunica fatos.\nEle traduz *realidades*."
+    },
+    {
+      "layout": "capa",
+      "foto": "jv-comunicacao/hero-bloco1.jpg",
+      "foco": "centro",
+      "eyebrow": "Bloco 1",
+      "titulo": "As más *notícias*"
+    },
+    {
+      "layout": "citacao",
+      "titulo": "Como comunicar\numa *improcedência*",
+      "pergunta": "O juiz julgou improcedente nesta primeira fase. Nós já identificamos os fundamentos utilizados e estamos avaliando a viabilidade do recurso.",
+      "rotulo": "Não fale",
+      "objetivo": "“Perdemos.”",
+      "fecho": "O cliente recebe contexto, direção e *segurança*."
+    },
+    {
+      "layout": "fluxo",
+      "titulo": "A regra dos\n*três passos*",
+      "etapas": [
+        "O que aconteceu",
+        "O que isso significa",
+        "*O que acontece agora*"
+      ],
+      "fecho": "Essa regra serve para praticamente tudo."
+    },
+    {
+      "layout": "texto",
+      "titulo": "Exemplo",
+      "linhas": [
+        "Não fale: “o processo foi extinto”.",
+        "Fale: “o juiz extinguiu o processo por uma questão processual. Isso não significa que você perdeu seu direito. Agora vamos analisar a melhor estratégia para prosseguir”."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "A pior frase que um\nadvogado pode dizer",
+      "intro": "“Vamos aguardar.” O cliente não sabe:",
+      "marca_item": "x",
+      "itens": [
+        "Esperar o quê",
+        "Até quando",
+        "Por quê"
+      ],
+      "fecho": "Todo advogado fala isso. O cliente odeia ouvir isso."
+    },
+    {
+      "layout": "citacao",
+      "titulo": "Troque “vamos\naguardar” por *direção*",
+      "pergunta": "O próximo passo depende da manifestação da empresa. Normalmente isso leva entre 20 e 40 dias. Assim que houver qualquer movimentação relevante, entraremos em contato.",
+      "fecho": "Veja como muda completamente."
+    },
+    {
+      "layout": "capa",
+      "foto": "jv-comunicacao/hero-bloco2.jpg",
+      "foco": "centro",
+      "eyebrow": "Bloco 2",
+      "titulo": "As boas *notícias*"
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "Até boas notícias\npodem ser mal\n*comunicadas*"
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "“Seu processo foi\n*distribuído*.”",
+      "linhas": [
+        "Legal.",
+        "Mas o cliente nem sabe o que isso significa."
+      ]
+    },
+    {
+      "layout": "citacao",
+      "titulo": "Como eu\n*comunicaria*",
+      "pergunta": "O processo acabou de ser distribuído. Isso significa que ele entrou oficialmente na Justiça. Agora aguardaremos a definição do juiz responsável e, depois disso, a empresa será notificada para apresentar sua defesa.",
+      "fecho": "Sempre existe: fato, tradução e *próximo passo*."
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "O cliente não quer\na *movimentação*",
+      "linhas": [
+        "Ele quer saber:",
+        "“O que isso muda na minha vida?”"
+      ]
+    },
+    {
+      "layout": "capa",
+      "foto": "jv-comunicacao/hero-bloco3.jpg",
+      "foco": "centro",
+      "eyebrow": "Bloco 3",
+      "titulo": "Comunicação como\n*prospecção*"
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "Toda dúvida de\num *cliente*",
+      "linhas": [
+        "É também a dúvida de centenas de pessoas."
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "O PDF não é\nsobre o *PDF*",
+      "linhas": [
+        "O PDF é só o veículo."
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "A intenção\ndo *PDF*",
+      "linhas": [
+        "Não é ensinar Direito.",
+        "É gerar confiança."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Como escolher\num bom *PDF*",
+      "intro": "Ele precisa responder perguntas que:",
+      "marca_item": "check",
+      "itens": [
+        "Muita gente faz",
+        "Pouca gente responde bem",
+        "Levam naturalmente ao seu serviço"
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "O erro mais\n*comum*",
+      "linhas": [
+        "Produzir um PDF para todo mundo.",
+        "Quem fala para todo mundo não conversa com ninguém."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Quem eu quero *atrair*?",
+      "intro": "Antes de disparar um PDF, pergunte:",
+      "marca_item": "bullet",
+      "itens": [
+        "Empregada gestante",
+        "Motorista",
+        "Metalúrgico",
+        "Professor",
+        "Auxiliar administrativo"
+      ],
+      "fecho": "Quanto mais específico, mais forte o *resultado*."
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "O PDF não vende.\nEle *qualifica*.",
+      "linhas": [
+        "Quem baixa um PDF está dizendo:",
+        "“Esse problema me interessa.”"
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "cenario": "jv-comunicacao/jv-summit-plateia.jpg",
+      "veu": "forte",
+      "titulo": "O marketing não\ncomeça no *Instagram*",
+      "linhas": [
+        "Começa na primeira conversa com o cliente."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "É dali que *surgem*",
+      "marca_item": "bullet",
+      "itens": [
+        "Dúvidas",
+        "Objeções",
+        "Conteúdos",
+        "PDFs",
+        "Vídeos",
+        "Autoridade"
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "O melhor advogado",
+      "linhas": [
+        "Não é aquele que conhece mais leis.",
+        "É aquele que consegue transformar segurança jurídica em segurança para o cliente."
+      ]
+    },
+    {
+      "layout": "final",
+      "foto": "jv-comunicacao/jv-sorriso-cinza.jpg",
+      "foco": "topo",
+      "titulo": "O cliente esquece o\nnúmero do processo.\nMas nunca esquece\ncomo você o\n*fez sentir*."
+    }
+  ]
+}

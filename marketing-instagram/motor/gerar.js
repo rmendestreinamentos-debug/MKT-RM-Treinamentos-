@@ -51,9 +51,17 @@ function esc(s){
 // Realce curto ("3 dias") não pode rachar entre duas linhas: o destaque perde
 // a força se o número fica numa linha e a unidade na outra. Realce longo pode
 // quebrar à vontade — travar ele estouraria a margem.
+// `**palavra**` é NEGRITO, e vem antes do realce de um asterisco só: sem isso a regex
+// de baixo casaria o miolo e sobrariam dois asteriscos soltos na arte. Existe pela
+// palavra-chave de comentário ("Comente **365**") — no carrossel de CTA por comentário é
+// ela que a pessoa precisa achar em um segundo. ⚠️ No `thread` isso é um DESVIO
+// consciente do modelo (print de tweet é peso 400 do começo ao fim); usar só onde a copy
+// pede a palavra em destaque, nunca em frase inteira.
 function realce(t){
-  return esc(t).replace(/\*([^*]+)\*/g, (_, m) =>
-    `<span class="destaque${m.length <= 14 ? " junto" : ""}">${m}</span>`);
+  return esc(t)
+    .replace(/\*\*([^*]+)\*\*/g, (_, m) => `<strong class="forte">${m}</strong>`)
+    .replace(/\*([^*]+)\*/g, (_, m) =>
+      `<span class="destaque${m.length <= 14 ? " junto" : ""}">${m}</span>`);
 }
 // No anúncio a quebra de linha é DECISÃO DE COPY, não sobra de largura: é ela que
 // separa o problema ("Improviso custa caro") do agravante ("em escritório que já
@@ -87,6 +95,52 @@ function dataURI(p){                              // arquivo -> data-URI (setCon
              : ext === ".avif" ? "image/avif"
              : ext === ".gif" ? "image/gif" : "image/png";
   return `data:${mime};base64,${fs.readFileSync(p).toString("base64")}`;
+}
+
+// ---------- a fonte do X (Chirp) ----------
+// Chirp é a fonte do próprio X, e é PROPRIETÁRIA: não está no Google Fonts nem vem
+// instalada no Windows. Declarar "Chirp" no CSS e esperar o melhor é o pior caminho —
+// o Chromium cai no fallback CALADO, e a peça sai na grotesca de sistema com todo mundo
+// achando que saiu na fonte do X. Por isso o motor embute o arquivo (data-URI: setContent
+// não carrega caminho relativo) e AVISA quando não encontra.
+// Os arquivos vão em marca/fontes/ (ver o LEIA-ME de lá). Nomes aceitos: qualquer coisa
+// que comece com "chirp" — o peso sai do resto do nome.
+const PESOS_FONTE = [
+  [/(black|heavy)/i, 900], [/extrabold|extra-bold/i, 800], [/bold/i, 700],
+  [/semibold|semi-bold/i, 600], [/medium/i, 500], [/(regular|book|normal)/i, 400],
+  [/light/i, 300],
+];
+// Kit de webfont chega com o MESMO peso em três formatos (.eot, .ttf, .woff2 — o
+// stylesheet.css que vem na pasta lista os três em cascata, pro IE). Embutir os três
+// em base64 seria ~1 MB de HTML por slide pra nada: o Chromium lê woff2, e .eot é
+// formato de IE que ele ignora. Um arquivo por peso, o menor e mais moderno primeiro.
+const ORDEM_FORMATO = [".woff2", ".woff", ".ttf", ".otf"];
+function fontesChirp(){
+  const dir = path.join(BASE, "marca", "fontes");
+  if(!fs.existsSync(dir)) return { css: "", achou: [] };
+  const formato = ext => ({ ".woff2":"woff2", ".woff":"woff", ".ttf":"truetype", ".otf":"opentype" })[ext];
+  const candidatos = fs.readdirSync(dir).filter(f =>
+    /^chirp/i.test(f) && ORDEM_FORMATO.includes(path.extname(f).toLowerCase()));
+
+  // um por peso+estilo: quem chega num formato melhor substitui o anterior
+  const porCorte = new Map();
+  for(const f of candidatos){
+    const peso = (PESOS_FONTE.find(([re]) => re.test(f)) || [null, 400])[1];
+    const estilo = /italic|oblique/i.test(f) ? "italic" : "normal";
+    const chave = `${peso}-${estilo}`;
+    const rank = ORDEM_FORMATO.indexOf(path.extname(f).toLowerCase());
+    const atual = porCorte.get(chave);
+    if(!atual || rank < atual.rank) porCorte.set(chave, { f, peso, estilo, rank });
+  }
+
+  const css = [...porCorte.values()].map(({ f, peso, estilo }) => {
+    const ext = path.extname(f).toLowerCase();
+    const mime = ext === ".woff2" ? "font/woff2" : ext === ".woff" ? "font/woff" : "font/" + formato(ext);
+    const b64 = fs.readFileSync(path.join(dir, f)).toString("base64");
+    return `@font-face{font-family:"Chirp";font-weight:${peso};font-style:${estilo};`
+         + `font-display:block;src:url("data:${mime};base64,${b64}") format("${formato(ext)}")}`;
+  }).join("\n");
+  return { css, achou: [...porCorte.values()].map(v => v.f) };
 }
 
 function dimensoesPNG(p){                         // {w,h} do IHDR — sem decodificar a imagem
@@ -178,6 +232,25 @@ function resolveImagem(nome, pasta){
   const alvo = pasta ? `imagens/${pasta}/` : "imagens/";
   console.warn(`aviso: imagem '${nome}' não encontrada em ${alvo} — slide sai sem ela`);
   return null;
+}
+// O corte da faixa é o que faz a imagem MENTIR. A faixa tem a largura do card e a altura
+// que SOBRA depois do texto, então ela muda de proporção a cada slide; em `cover` o que
+// sai do quadro é justamente o que o texto prometeu (a corrente embaixo do punho, a
+// página escrita da lei, o rosto de quem trabalha). `foco` decide o que fica, e aceita:
+//   "topo" · "baixo" · "esquerda" · "direita"  os quatro atalhos
+//   34                                          a % de object-position vertical (menor = mais topo)
+//   ["topo", 70]                                UM POR IMAGEM, quando o slide tem duas
+// A lista existe porque duas fotos lado a lado quase nunca têm o assunto na mesma altura:
+// um foco só pro par conserta uma e estraga a outra.
+const ATALHO_FOCO = { topo: "center top", baixo: "center bottom", centro: "center center",
+                      esquerda: "left center", direita: "right center" };
+function focoImagem(v){
+  if(v === undefined || v === null || v === "") return "";
+  const s = String(v).trim();
+  if(s in ATALHO_FOCO) return `object-position:${ATALHO_FOCO[s]};`;
+  if(/^-?\d+(\.\d+)?$/.test(s)) return `object-position:center ${s}%;`;
+  erro(`foco '${v}' desconhecido no slide 'thread' — use topo · baixo · esquerda · direita, `
+     + `ou um número (a % da altura: menor mostra o TOPO da foto).`);
 }
 // Uma imagem, ou duas lado a lado. No modelo do X o normal é UMA (e muitos slides,
 // nenhuma) — duas é exceção, pro contraste "antes × depois".
@@ -362,6 +435,26 @@ function corpoCarrossel(d){
 
 // ---------- carrossel: thread do X ----------
 const SELO_VERIFICADO = `<svg class="verificado" viewBox="0 0 22 22" aria-hidden="true"><path fill="#1d9bf0" d="M20.4 11c0-1-.5-1.9-1.3-2.5.3-1 .1-2-.5-2.8-.7-.8-1.7-1.1-2.6-1-.4-.9-1.3-1.5-2.4-1.5-.9 0-1.8.4-2.3 1.2-.6-.4-1.3-.6-2-.5-1 .1-1.9.7-2.3 1.6-1-.1-2 .3-2.6 1.1-.6.8-.7 1.8-.4 2.7-.8.6-1.3 1.6-1.3 2.6 0 1 .5 1.9 1.3 2.5-.3 1-.1 2 .5 2.8.7.8 1.7 1.1 2.6 1 .4.9 1.3 1.5 2.4 1.5.9 0 1.8-.4 2.3-1.2.6.4 1.3.6 2 .5 1-.1 1.9-.7 2.3-1.6 1 .1 2-.3 2.6-1.1.6-.8.7-1.8.4-2.7.8-.6 1.3-1.5 1.3-2.6z"></path><path fill="#fff" d="m9.8 14.9-2.7-2.7 1.3-1.3 1.4 1.4 3.8-3.8 1.3 1.3-5.1 5.1z"></path></svg>`;
+// São DOIS selos, de duas plataformas, e trocar um pelo outro é o detalhe que denuncia
+// a peça: o do X (acima) é um círculo serrilhado desenhado em SVG e assina o card da
+// `thread`, que imita print de tweet; o do Instagram é uma ESTRELA de 12 pontas, num azul
+// mais claro, e assina o crachá do `editorial`, que imita o perfil do Instagram. Este
+// segundo não se redesenha à mão — é o PNG que o dono subiu em marca/ (2026-08-03).
+const SELO_IG_ARQ = path.join(BASE, "marca", "Selo Verificado.png");
+let seloIG;                                       // lê o PNG uma vez só, não a cada slide
+function seloInstagram(){
+  if(seloIG !== undefined) return seloIG;
+  if(fs.existsSync(SELO_IG_ARQ)){
+    seloIG = `<img class="verificado" src="${dataURI(SELO_IG_ARQ)}" alt="">`;
+  }else{
+    // Cair no selo do X é melhor que sair sem selo (um perfil verificado sem selo lê
+    // como perfil que não é verificado), mas é o desenho errado — por isso avisa.
+    console.warn("aviso: 'marca/Selo Verificado.png' não encontrado — o crachá do editorial "
+      + "saiu com o selo do X, que tem outro desenho. Reponha o PNG em marca/.");
+    seloIG = SELO_VERIFICADO;
+  }
+  return seloIG;
+}
 function perfilHTML(p){
   if(!p || !p.nome) erro("carrossel 'thread' precisa de 'perfil': quem assina? Use o slug — \"perfil\": \"rm-summit\" | \"rafael-mendes\" | \"rafael-mendes-advogados\" (ver marca/perfis.json).");
   const av = resolveImagem(p.avatar);
@@ -1098,13 +1191,14 @@ function edBarra(d, perfil){
 }
 // O crachá da capa não é o cabeçalho da `thread`: lá o nome fica em cima do @, aqui
 // é uma pílula deitada — avatar, @ e selo azul numa linha só, sobre a foto.
+// O selo aqui é o do INSTAGRAM (o crachá imita o perfil de lá), não o do X.
 function edBadge(perfil){
   if(!perfil) return "";
   const av = resolveImagem(perfil.avatar);
   return `<div class="ed-badge">
     ${av ? `<img class="ed-badge-av ${perfil.encaixe === "contain" ? "contain" : ""}" src="${av}" alt="">` : ""}
     <span class="ed-badge-arroba">${esc(perfil.handle || "")}</span>
-    ${perfil.verificado === false ? "" : SELO_VERIFICADO}
+    ${perfil.verificado === false ? "" : seloInstagram()}
   </div>`;
 }
 const ED_BULLET = { seta: "→", x: "✕", numero: null, nenhum: "" };
@@ -1233,6 +1327,14 @@ function slideHTML(d, marca, perfil, pasta){
   const foto = (!nativo && !fecha) ? resolveFoto(d.foto) : null;
   const imagens = tipo === "thread" ? resolveImagens(d.imagem, pasta) : [];
   const semImg = tipo === "thread" && !imagens.length;   // card centrado no preto
+  // ⚠️ A imagem PREENCHE o bloco, com canto arredondado, e é assim em todo frame de
+  // exemplos/thread-x/ — é o desenho do X e não se mexe (regra do dono, 2026-08-03).
+  // Cabendo inteira ela sobrava dentro da caixa, e o fundo em volta virava uma moldura:
+  // a foto do dono "enfiada dentro de uma montagem", que foi como ele descreveu. O que
+  // resolve a proporção é RECORTAR o arquivo pra faixa do slide (ver imagens/LEIA-ME.md),
+  // não afrouxar o layout. `"encaixe": "contain"` fica pro caso raro do print/lockup que
+  // precisa ser lido inteiro, e aí a moldura é o preço assumido.
+  const encaixa = tipo === "thread" && imagens.length && d.encaixe === "contain";
   const variante = tipo === "estreia" ? varianteEstreia(d)
                  : tipo === "editorial" ? `${d.tema === "accent" ? "accent" : ""} ${d.capa ? "capa" : ""}`
                  // caricato com `"topo": true` grita a manchete no CÉU da foto de cidade,
@@ -1250,7 +1352,7 @@ function slideHTML(d, marca, perfil, pasta){
   // slide que perdeu a imagem, e é o que o motor faria sozinho.
   const semFoto = tipo === "frase" && !foto;
 
-  return `<div class="slide ${tema} ${tipo} ${variante} ${impacto ? "impacto" : ""} ${nativo ? "nativo" : ""} ${semImg ? "sem-img" : ""} ${semFoto ? "sem-foto" : ""}">
+  return `<div class="slide ${tema} ${tipo} ${variante} ${impacto ? "impacto" : ""} ${nativo ? "nativo" : ""} ${semImg ? "sem-img" : ""} ${encaixa ? "encaixa" : ""} ${semFoto ? "sem-foto" : ""}">
     ${foto ? `<div class="foto ${["topo","baixo","esquerda","direita"].includes(d.foco) ? d.foco : ""}"
                    style="${enquadra(d)}background-image:url('${foto}')"></div>
              <div class="veu ${["leve","medio","forte"].includes(d.veu) ? d.veu : "medio"}"></div>` : ""}
@@ -1262,8 +1364,13 @@ function slideHTML(d, marca, perfil, pasta){
       ${impacto ? ctaHTML(d.cta) : ""}
     </div>
     ${tipo === "frase" ? arrobaFrase(perfil) : ""}
-    ${imagens.length ? `<div class="thread-imgs ${imagens.length === 2 ? "duas" : ""} ${["topo","baixo","esquerda","direita"].includes(d.foco) ? d.foco : ""}">
-      ${imagens.map(src => `<img src="${src}" alt="">`).join("")}
+    ${imagens.length ? `<div class="thread-imgs ${imagens.length === 2 ? "duas" : ""} ${encaixa ? "contain" : ""}">
+      ${imagens.map((src, i) => {
+          // foco em lista = um por imagem; foco único vale pras duas (ver focoImagem).
+          // Só serve quando a imagem PREENCHE: cabendo inteira não há corte pra dirigir.
+          const f = Array.isArray(d.foco) ? d.foco[i] : d.foco;
+          return `<img src="${src}" style="${encaixa ? "" : focoImagem(f)}" alt="">`;
+        }).join("")}
     </div>` : ""}
     ${selo === "rodape" ? seloHTML(marca, "rodape")
       : (!impacto && !nativo && !fecha) ? ctaHTML(d.cta) : ""}
@@ -1287,6 +1394,17 @@ function slideHTML(d, marca, perfil, pasta){
   const css = fs.readFileSync(path.join(BASE, "motor/template.html"), "utf8")
                 .match(/<style>([\s\S]*?)<\/style>/)[1];
   const tokens = fs.readFileSync(path.join(BASE, "marca/tokens.css"), "utf8");
+
+  // Chirp: só interessa a quem imita print (thread/legenda). Peça da casa é Montserrat.
+  const usaNativo = dados.slides.some(s => NATIVOS.includes(s.tipo || dados.tipo || "padrao"));
+  const chirp = usaNativo ? fontesChirp() : { css: "", achou: [] };
+  if(usaNativo && !chirp.achou.length)
+    console.warn("aviso: Chirp não encontrada em marca/fontes/ — o carrossel nativo saiu na "
+      + "grotesca de sistema (fallback). É a fonte do X e é proprietária: ponha os arquivos "
+      + "(ex.: Chirp-Regular.woff2 e Chirp-Bold.woff2) em marca/fontes/. Ver o LEIA-ME de lá.");
+  else if(usaNativo && !chirp.achou.some(f => /bold/i.test(f)))
+    console.warn("aviso: Chirp sem o peso BOLD em marca/fontes/ — o nome do perfil no cabeçalho "
+      + "vai sair em negrito sintético (o navegador engrossa a Regular na força).");
 
   // Uma pasta por carrossel: `"pasta": "copa-do-mundo"` -> imagens/copa-do-mundo/.
   // Erra o nome da pasta e a peça sairia inteira sem imagem, sem ninguém notar até
@@ -1323,9 +1441,13 @@ function slideHTML(d, marca, perfil, pasta){
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&family=Roboto:wght@400;500;700;900&family=Barlow+Condensed:wght@600;700;800;900&display=swap">
-      <style>${tokens}\n${css}</style>${corPerfilCSS(perfil, slide.tipo || dados.tipo)}${slideHTML({
+      <style>${chirp.css}\n${tokens}\n${css}</style>${corPerfilCSS(perfil, slide.tipo || dados.tipo)}${slideHTML({
         ...slide,
         tipo: slide.tipo || dados.tipo,
+        // Claro ou escuro é decisão do CARROSSEL, não de cada slide: metade dos slides
+        // no lights out e metade no branco não lê como uma thread, lê como erro. Mora no
+        // topo do arquivo; o slide ainda pode divergir se o dono pedir um só diferente.
+        tema: slide.tema || dados.tema,
         // A barra do editorial assina a peça e repete em TODOS os slides: ela mora no
         // topo do arquivo, não em cada slide. O slide pode sobrescrever se precisar.
         barra: slide.barra || dados.barra,

@@ -1,0 +1,235 @@
+{
+  "_nota": "Palestra do João Vitor na Imersão Master MAT: transformar atualização processual em prospecção (copy do dono, 2026-08-03, 20 slides). A copy é dele, verbatim e na ordem; eu escolhi layout, quebra de linha, realce e foto. Dois desvios, os dois declarados: (1) o SLIDE 8 virou DOIS slides — a mensagem do Jorge tem 430 caracteres e numa página só sairia a 14pt em caixa alta, ilegível do fundo da sala; ela quebra na virada natural do texto, entre 'a decisão do juiz' e 'nesta etapa do processo', e a pergunta final ganha o destaque de rótulo, que é o ponto da aula inteira. (2) A direção de cena que ele escreveu entre parênteses ('pode dar uma descontraída para quebrar o clima') NÃO entra em slide: é instrução pro palestrante, como as marcações de bloco do roteiro de comunicação. Fotos: os retratos de estúdio dele; o hero da capa saiu do retrato SENTADO (o único ainda não usado em deck), pelo retrato-16x9.js. Duas escolhas de foto que não são aleatórias: a página 'O CLIENTE NÃO É UM PROCESSO' leva o retrato SÉRIO porque metade da lista é desgraça ('foi demitido', 'sofreu um acidente') e rosto sorrindo ali diz o contrário do slide; e o fecho ficou SEM foto porque a única imagem de evento dele no acervo tem o cordão e o painel do RM SUMMIT legíveis ao fundo, e a última página de um deck da Imersão Master MAT é justamente a que vira print.",
+  "tema": "mat",
+  "acento": "azul",
+  "marca": "Imersão Master MAT",
+  "logo": "imersao-master-mat-sem-fundo.png",
+  "perfil": "joao-vitor",
+  "arquivo_saida": "jv-prospeccao-atualizacoes",
+  "slides": [
+    {
+      "layout": "capa",
+      "foto": "jv-prospeccao/hero-capa.jpg",
+      "foco": "centro",
+      "eyebrow": "Prospecção",
+      "titulo": "Como transformar\natualizações processuais\nem oportunidades de\n*prospecção*"
+    },
+    {
+      "layout": "cascata",
+      "titulo": "A maioria dos\nadvogados pensa assim",
+      "destaque": "nenhum",
+      "itens": [
+        "Movimentação no processo",
+        "Informar o cliente",
+        "Fim da conversa"
+      ]
+    },
+    {
+      "layout": "cascata",
+      "titulo": "Eu acredito nisso",
+      "itens": [
+        "Movimentação no processo",
+        "Informar o cliente",
+        "Conversar",
+        "Descobrir novas dores",
+        "Novas demandas"
+      ]
+    },
+    {
+      "layout": "texto",
+      "titulo": "O maior erro\ndos escritórios",
+      "linhas": [
+        "Gastam milhares de reais tentando falar com quem nunca ouviu falar deles.",
+        "Enquanto deixam de conversar com quem já confia no seu trabalho."
+      ]
+    },
+    {
+      "layout": "lista",
+      "foto": "jv-comunicacao/hero-bloco1.jpg",
+      "foco": "centro",
+      "titulo": "O cliente não é\num processo",
+      "intro": [
+        "Enquanto o processo está parado...",
+        "A vida dele continua."
+      ],
+      "marca_item": "bullet",
+      "itens": [
+        "Mudou de emprego",
+        "Foi promovido",
+        "Foi demitido",
+        "Sofreu um acidente",
+        "Vira pai/mãe"
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "Toda movimentação processual\né uma desculpa para\nvoltar a *conversar*",
+      "linhas": [
+        "Não desperdice esse contato."
+      ]
+    },
+    {
+      "layout": "numeros",
+      "titulo": "A fórmula",
+      "itens": [
+        "Atualize",
+        "Tranquilize",
+        "*Pergunte*"
+      ],
+      "fecho": "Simples."
+    },
+    {
+      "layout": "citacao",
+      "titulo": "Exemplo",
+      "pergunta": "Jorge, tivemos uma decisão do Juiz aqui de Coronel Fabriciano no seu processo, não foi muito boa pra gente, ganhamos algumas coisas mas perdemos muita coisa. Agora iremos recorrer para ganhar aquilo que não ganhamos e o processo vai para BH e deve ficar uns 90 dias aguardando a decisão do juiz."
+    },
+    {
+      "layout": "citacao",
+      "titulo": "Exemplo",
+      "pergunta": "Nesta etapa do processo não temos mais audiência, e agora é aguardar.",
+      "rotulo": "E aí vem a pergunta",
+      "objetivo": "Aproveitando a nossa conversa, como vão as coisas contigo meu amigo?"
+    },
+    {
+      "layout": "lista",
+      "titulo": "Uma pergunta\npode revelar",
+      "marca_item": "bullet",
+      "itens": [
+        "Nova rescisão",
+        "Horas extras",
+        "Acidente de trabalho",
+        "Assédio",
+        "Doença ocupacional",
+        "Falta de FGTS",
+        "Vínculo sem registro"
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "O objetivo não é vender.\nÉ *escutar*.",
+      "linhas": [
+        "Quem escuta descobre problemas.",
+        "Quem descobre problemas cria oportunidades."
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "O advogado não prospecta\napenas novas demandas",
+      "linhas": [
+        "Ele prospecta em cada conversa que mantém com a sua base de clientes."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "A melhor base\nde prospecção",
+      "marca_item": "check",
+      "itens": [
+        "Clientes ativos",
+        "Ex-clientes",
+        "Leads antigos",
+        "Pessoas que já confiaram no escritório"
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "A atualização é apenas\no início da conversa",
+      "intro": [
+        "Depois de informar o processo, não encerre o contato."
+      ],
+      "marca_item": "check",
+      "itens": [
+        "Pergunte",
+        "Escute",
+        "Investigue"
+      ]
+    },
+    {
+      "layout": "lista",
+      "foto": "jv-comunicacao/hero-bloco3.jpg",
+      "foco": "centro",
+      "titulo": "Não faça uma\npergunta por fazer",
+      "intro": [
+        "A pergunta precisa ter intenção."
+      ],
+      "marca_item": "bullet",
+      "itens": [
+        "Como está a situação atual?",
+        "Continua na mesma empresa?",
+        "Aconteceu algum problema novo?",
+        "Você conseguiu outro emprego?",
+        "Está tudo certo com seus direitos?"
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "Perguntas genéricas geram\nrespostas *genéricas*",
+      "linhas": [
+        "“Está tudo bem?”",
+        "“Tudo.”",
+        "Prefira perguntas que ajudem o cliente a contar o que está acontecendo."
+      ]
+    },
+    {
+      "layout": "colunas",
+      "titulo": "Mude a pergunta\nde acordo com\no cliente",
+      "grupos": [
+        {
+          "titulo": "Cliente empregado",
+          "itens": [
+            "“E você ainda está fazendo a mesma função meu amigo? Como estão as coisas ai na nova empresa?”"
+          ]
+        },
+        {
+          "titulo": "Cliente demitido",
+          "itens": [
+            "“Como está o novo emprego meu amigo, está tudo?”"
+          ]
+        },
+        {
+          "titulo": "Ex-cliente",
+          "itens": [
+            "“Meu amigo, depois que encerramos seu processo, chegou a trabalhar em outra empresa?”"
+          ]
+        }
+      ]
+    },
+    {
+      "layout": "citacao",
+      "titulo": "Quando surgir uma\npossível *demanda*",
+      "pergunta": "Entendi. Pelo que você me contou, precisamos analisar isso com mais cuidado. Me envie os documentos para verificarmos se existe alguma medida que podemos tomar.",
+      "fecho": "Não tente resolver tudo naquela mensagem."
+    },
+    {
+      "layout": "lista",
+      "foto": "jv-comunicacao/hero-bloco2.jpg",
+      "foco": "centro",
+      "titulo": "O contato precisa\nter continuidade",
+      "intro": [
+        "Não basta descobrir o problema. É preciso:"
+      ],
+      "marca_item": "check",
+      "itens": [
+        "Registrar a oportunidade",
+        "Pedir os documentos",
+        "Marcar o retorno",
+        "Acompanhar a resposta",
+        "Direcionar para o atendimento"
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "Prospecção não é\nforçar uma *venda*",
+      "linhas": [
+        "É não deixar passar um problema que o próprio cliente revelou.",
+        "Oportunidade sem acompanhamento vira conversa esquecida."
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "O processo abre a conversa.\nA escuta revela a demanda.\nO acompanhamento\ntransforma em *contrato*.",
+      "linhas": [
+        "Quem conversa com intenção encontra oportunidades onde outros advogados enxergam apenas movimentações processuais."
+      ]
+    }
+  ]
+}

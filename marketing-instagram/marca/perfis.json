@@ -1,6 +1,8 @@
 {
   "_leia-me": "Quem ASSINA um carrossel nativo (tipo 'thread'). No JSON da peça use o slug: \"perfil\": \"rm-summit\". O motor puxa nome/handle/avatar daqui. Handle com null = ainda não confirmado pelo dono; o motor para e pede. 'encaixe': 'contain' pra avatar que é LOGO (encaixa inteiro num disco preto); 'cover' pra foto de rosto.",
 
+  "_leia-me-selo": "'verificado' liga o selo azul. Ausente = true; só o false tira. São DOIS desenhos, e quem escolhe é o TIPO da peça, não este arquivo: no 'thread' (card que imita o X) sai o selo do X, desenhado em SVG no motor; no 'editorial' (crachá que imita o perfil do Instagram) sai a estrela de 12 pontas de marca/Selo Verificado.png, o PNG que o dono subiu em 2026-08-03. Trocar um pelo outro é o detalhe que denuncia a peça.",
+
   "_leia-me-cor": "'cor' é o ACENTO do perfil (regra do dono, 2026-07-16) e só o tipo 'editorial' lê: vira o --ed-accent (realce no claro + o slide chapado). 'cor_escuro' é o acento nos slides escuros, onde uma cor escura morreria de contraste — some ela e o motor cai na 'cor'. Cor null = ainda não definida pelo dono; o motor para e pede, como faz com o handle. O texto do slide chapado (preto ou branco) o motor calcula sozinho pelo contraste — não se declara aqui.",
 
   "rm-summit": {
@@ -17,9 +19,10 @@
   "rafael-mendes": {
     "nome": "Rafael Mendes",
     "handle": "@rafaelmendesadv",
-    "avatar": "avatar-rafael-mendes.png",
+    "avatar": "avatar-rafael-mendes-perfil.png",
     "encaixe": "cover",
     "verificado": true,
+    "_obs-avatar": "É o disco do print marca/Perfil Rafael Mendes.png, recortado exatamente como está no Instagram (63,61,163x163) — pedido do dono, 2026-07-30: a foto de perfil da peça tem que ser a do perfil de verdade. Ficam na pasta o avatar-rafael-mendes.png antigo (topo da cabeça cortado no arquivo) e o -estudio.jpg (recorte de imagens/rafael-sorriso.jpg, alta resolução, mas outra foto).",
     "cor": null,
     "cor_escuro": null,
     "_obs": "O perfil pessoal é VERIFICADO no Instagram (selo azul) — por isso o selo aparece no card.",
@@ -34,6 +37,18 @@
     "verificado": false,
     "cor": "#d81f26",
     "cor_escuro": "#eaf08a"
+  },
+
+  "gabriel-anicio": {
+    "nome": "Gabriel Anício",
+    "handle": "@gabrielanicioadv",
+    "avatar": "avatar-gabriel-anicio-perfil.png",
+    "encaixe": "cover",
+    "verificado": false,
+    "cor": "#00bf63",
+    "cor_escuro": "#14ff00",
+    "_obs": "Head Comercial do Rafael Mendes Advogados. Cadastrado em 2026-07-31 pro deck COMERCIAL 365, onde o @ dele assina TODA página. O avatar é o disco do print do perfil real (marca/Captura de tela 2026-07-31 165206.png, caixa 66 70 135x135), trocado em 2026-07-31 a pedido do dono — a peça imita print, e quem olha o perfil dele reconhece a foto. O antigo (avatar-gabriel-anicio.png, recorte de FOTOS/GABRIEL/v2_93cfc5fd) fica na pasta.",
+    "_obs-cor": "O verde do COMERCIAL 365, medido nos pixels do PDF do dono: #14FF00 é o vibrante (usar no escuro) e #00BF63 o fechado (usar no claro, onde o vibrante estoura)."
   },
 
   "joao-vitor": {

@@ -1,0 +1,376 @@
+{
+  "_nota": "Imersão Master MAT — 'Os sete infernos do advogado'. Copy do dono (2026-07-30), integral: eu escolhi layout, quebra de linha, realce e imagem. Fundo preto, letra branca, acento AZUL REAL, @ do dono em todo slide (sai de marca/perfis.json pelo slug 'joao-vitor'). As ilustrações vieram do lote que ele subiu em Desktop/SLIDES JV e moram em slides/imagens/imersao-master-mat/.",
+  "tema": "mat",
+  "acento": "azul",
+  "marca": "Imersão Master MAT",
+  "logo": "imersao-master-mat-sem-fundo.png",
+  "arquivo_saida": "master-mat-sete-infernos",
+  "slides": [
+    {
+      "layout": "capa",
+      "eyebrow": "Imersão Master MAT",
+      "titulo": "Os sete *infernos*\ndo advogado",
+      "texto": "A travessia entre a competência\ntécnica e o reconhecimento.",
+      "foto": "imersao-master-mat/inferno-gravura.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "lista",
+      "titulo": "Todo advogado foi\ntreinado para a *guerra*",
+      "marca_item": "bullet",
+      "itens": [
+        "Petição",
+        "Audiência",
+        "Prazo",
+        "Estratégia",
+        "Conflito"
+      ],
+      "fecho": "Mas poucos foram preparados para construir uma *carreira*.",
+      "cenario": "imersao-master-mat/iliada-vaso-grego.jpg"
+    },
+    {
+      "layout": "texto",
+      "titulo": "A advocacia é a\nnossa *Ilíada*",
+      "linhas": [
+        "Aquiles era o melhor guerreiro.",
+        "Seu conflito não era a falta de força,",
+        "mas o *reconhecimento* do seu valor."
+      ],
+      "cenario": "imersao-master-mat/iliada-colera-aquiles.jpg"
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "Ser bom não garante\nser *escolhido*",
+      "linhas": [
+        "O advogado pode estudar, trabalhar, entregar",
+        "e resolver problemas sem ser percebido,",
+        "lembrado ou escolhido."
+      ]
+    },
+    {
+      "layout": "citacao",
+      "titulo": "A promessa incompleta\nda advocacia",
+      "pergunta": "Seja muito bom tecnicamente e o reconhecimento virá naturalmente.",
+      "rotulo": "O que ela esconde",
+      "objetivo": "A técnica é indispensável, mas não fala sozinha para quem ainda não conhece você.",
+      "cenario": "imersao-master-mat/iliada-embarque.jpg"
+    },
+    {
+      "layout": "texto",
+      "titulo": "No meio da carreira, o\nadvogado se *perde*",
+      "linhas": [
+        "Ele não está parado.",
+        "Está caminhando sem direção."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Movimento\nnão é *direção*",
+      "marca_item": "bullet",
+      "itens": [
+        "Trabalhar mais não significa construir mais",
+        "Estudar mais nem sempre resolve",
+        "Publicar mais não é estratégia"
+      ],
+      "cenario": "imersao-master-mat/iliada-vaso-grego.jpg"
+    },
+    {
+      "layout": "colunas",
+      "titulo": "A selva escura\ndo advogado",
+      "grupos": [
+        {
+          "titulo": "Muito",
+          "itens": [
+            "Trabalho",
+            "Conhecimento",
+            "Responsabilidades"
+          ]
+        },
+        {
+          "titulo": "Pouca",
+          "itens": [
+            "Direção",
+            "Percepção de valor",
+            "Construção"
+          ]
+        }
+      ],
+      "cenario": "imersao-master-mat/inferno-gravura.jpg"
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "Abandonai a ilusão de que\na técnica falará sozinha",
+      "linhas": [
+        "“Meu trabalho fala por mim.”",
+        "A pergunta é: *para quem?*"
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Os sete infernos\ndo advogado",
+      "marca_item": "numero",
+      "itens": [
+        "Limbo da indefinição",
+        "Vendaval da comparação",
+        "Lama do excesso",
+        "Peso da improdutividade",
+        "Pântano da amargura",
+        "Muralha do juridiquês",
+        "Gelo da invisibilidade"
+      ],
+      "cenario": "imersao-master-mat/inferno-circulos.jpg"
+    },
+    {
+      "layout": "texto",
+      "titulo": "1 · O limbo\nda *indefinição*",
+      "linhas": [
+        "O advogado sabe fazer muitas coisas,",
+        "mas não é associado a nenhuma.",
+        "Quem tenta ser lembrado por tudo",
+        "termina não sendo lembrado por nada."
+      ],
+      "cenario": "imersao-master-mat/inferno-gravura.jpg"
+    },
+    {
+      "layout": "texto",
+      "titulo": "2 · O vendaval\nda *comparação*",
+      "linhas": [
+        "Ele observa tanto a rota dos outros",
+        "que perde a própria direção.",
+        "Copia formatos, muda de posicionamento",
+        "e abandona a própria identidade."
+      ],
+      "cenario": "imersao-master-mat/iliada-colera-aquiles.jpg"
+    },
+    {
+      "layout": "lista",
+      "titulo": "3 · A lama\ndo *excesso*",
+      "marca_item": "bullet",
+      "itens": [
+        "Cursos",
+        "Livros",
+        "Pós-graduações",
+        "Aulas",
+        "Conteúdos salvos"
+      ],
+      "fecho": "Muito conhecimento acumulado. Pouco transformado em *ação*.",
+      "cenario": "imersao-master-mat/inferno-circulos.jpg"
+    },
+    {
+      "layout": "texto",
+      "titulo": "4 · O peso da\n*improdutividade*",
+      "linhas": [
+        "O advogado trabalha todos os dias,",
+        "mas recomeça sempre do zero.",
+        "Responde às mesmas perguntas, recria as",
+        "mesmas orientações, resolve os mesmos problemas."
+      ],
+      "cenario": "imersao-master-mat/mapa-do-inferno-botticelli.jpg"
+    },
+    {
+      "layout": "lista",
+      "titulo": "Todo trabalho deveria\ndeixar um *rastro*",
+      "marca_item": "check",
+      "itens": [
+        "Uma dúvida pode virar conteúdo",
+        "Um erro pode virar checklist",
+        "Uma orientação pode virar processo",
+        "Uma experiência pode virar treinamento"
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "5 · O pântano\nda *amargura*",
+      "marca_item": "bullet",
+      "itens": [
+        "“Ele não é tão bom.”",
+        "“Ela só sabe aparecer.”",
+        "“Hoje ninguém valoriza técnica.”"
+      ],
+      "fecho": "Ele se irrita por não ser visto, mas rejeita toda forma de se tornar visível.",
+      "cenario": "imersao-master-mat/inferno-circulos.jpg"
+    },
+    {
+      "layout": "colunas",
+      "titulo": "6 · A muralha\ndo *juridiquês*",
+      "grupos": [
+        {
+          "titulo": "De um lado",
+          "itens": [
+            "Prescrição",
+            "Competência",
+            "Ônus da prova",
+            "Estabilidade provisória"
+          ]
+        },
+        {
+          "titulo": "Do outro",
+          "itens": [
+            "Vou receber?",
+            "Posso ser dispensado?",
+            "Quanto tempo vai demorar?",
+            "O que faço agora?"
+          ]
+        }
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "Clareza não empobrece\no *conhecimento*",
+      "linhas": [
+        "Clareza revela domínio.",
+        "O cliente não precisa conhecer o Direito para",
+        "perceber que você conhece o problema dele."
+      ]
+    },
+    {
+      "layout": "texto",
+      "titulo": "7 · O gelo da\n*invisibilidade*",
+      "linhas": [
+        "O advogado sabe, trabalha e entrega.",
+        "Mas não ocupa espaços, não comunica,",
+        "não demonstra e não constrói memória."
+      ],
+      "cenario": "imersao-master-mat/inferno-gravura.jpg"
+    },
+    {
+      "layout": "texto",
+      "titulo": "Ele espera\nser *lembrado*",
+      "linhas": [
+        "Enquanto faz tudo para não ser visto.",
+        "A invisibilidade também é uma escolha,",
+        "ainda que nem sempre seja consciente."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Qual dos sete\ninfernos aprisiona\nsua *carreira*?",
+      "marca_item": "bullet",
+      "itens": [
+        "Indefinição?",
+        "Comparação?",
+        "Excesso?",
+        "Improdutividade?",
+        "Amargura?",
+        "Juridiquês?",
+        "Invisibilidade?"
+      ],
+      "cenario": "imersao-master-mat/mapa-do-inferno-botticelli.jpg"
+    },
+    {
+      "layout": "texto",
+      "titulo": "O problema não é\nfalta de *valor*",
+      "linhas": [
+        "É valor sem direção, organização e percepção.",
+        "Você já possui conhecimento, experiência,",
+        "histórias, documentos e aprendizados."
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "Sair do inferno\nnão *basta*",
+      "linhas": [
+        "É preciso saber para onde ir.",
+        "Todo advogado precisa de uma Ítaca."
+      ],
+      "cenario": "imersao-master-mat/iliada-embarque.jpg"
+    },
+    {
+      "layout": "lista",
+      "titulo": "Qual é a\nsua *Ítaca*?",
+      "marca_item": "check",
+      "itens": [
+        "Um território claro de atuação",
+        "Uma reputação coerente",
+        "Um escritório organizado",
+        "Clientes compatíveis",
+        "Previsibilidade e liberdade profissional"
+      ],
+      "cenario": "imersao-master-mat/iliada-colera-aquiles.jpg"
+    },
+    {
+      "layout": "colunas",
+      "titulo": "Para cada inferno,\numa *saída*",
+      "grupos": [
+        {
+          "titulo": "Inferno",
+          "itens": [
+            "Indefinição",
+            "Comparação",
+            "Excesso",
+            "Improdutividade",
+            "Amargura",
+            "Juridiquês",
+            "Invisibilidade"
+          ]
+        },
+        {
+          "titulo": "Saída",
+          "itens": [
+            "Direção",
+            "Identidade",
+            "Aplicação",
+            "Organização",
+            "Responsabilidade",
+            "Clareza",
+            "Presença"
+          ]
+        }
+      ],
+      "cenario": "imersao-master-mat/mapa-do-inferno-botticelli.jpg"
+    },
+    {
+      "layout": "lista",
+      "titulo": "O mapa\nda *autoridade*",
+      "marca_item": "numero",
+      "itens": [
+        "Defina pelo que deseja ser lembrado",
+        "Transforme técnica em entendimento",
+        "Ocupe espaços com intenção",
+        "Demonstre antes de declarar",
+        "Organize o conhecimento da rotina"
+      ],
+      "cenario": "imersao-master-mat/iliada-embarque.jpg"
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "Autoridade não é o que\nvocê *diz* sobre você",
+      "linhas": [
+        "É o que as pessoas concluem depois",
+        "de observar como você pensa."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Uma situação.\nVárias *possibilidades*.",
+      "intro": "Um problema jurídico pode se transformar em:",
+      "marca_item": "check",
+      "itens": [
+        "Orientação",
+        "Conteúdo",
+        "Checklist",
+        "Triagem",
+        "Treinamento",
+        "Processo interno",
+        "Autoridade"
+      ],
+      "cenario": "imersao-master-mat/iliada-vaso-grego.jpg"
+    },
+    {
+      "layout": "cards",
+      "titulo": "Três livros,\ntrês *lições*",
+      "itens": [
+        "A Ilíada ensina a *lutar*",
+        "O inferno revela a *desordem*",
+        "A Odisseia ensina a não esquecer o *destino*"
+      ]
+    },
+    {
+      "layout": "final",
+      "titulo": "Você já aprendeu\na vencer batalhas.\nAgora precisa\ndecidir qual *Ítaca*\npretende construir.",
+      "foto": "imersao-master-mat/joao-vitor-sorriso.jpg",
+      "foco": "topo"
+    }
+  ],
+  "perfil": "joao-vitor"
+}

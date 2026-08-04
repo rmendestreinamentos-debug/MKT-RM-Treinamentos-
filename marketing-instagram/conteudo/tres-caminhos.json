@@ -1,0 +1,30 @@
+{
+  "arquivo_saida": "tres-caminhos",
+  "tipo": "thread",
+  "tema": "claro",
+  "perfil": "rafael-mendes",
+  "pasta": "menu-produtos",
+  "slides": [
+    {
+      "texto": "Separei 3 caminhos para quem quer fazer o escritório crescer com mais estrutura, estratégia e velocidade."
+    },
+    {
+      "texto": "🎯 Comercial 365: dois dias de workshop ao vivo para organizar o setor comercial, melhorar o atendimento, estruturar o follow-up e aumentar a conversão de clientes.\n\nComente **365**.",
+      "imagem": "comercial-365-aparado.png",
+      "encaixe": "contain"
+    },
+    {
+      "texto": "🎤 RM Summit SP: três dias de imersão, networking e estratégias de gestão, marketing e vendas para advogados que querem levar o escritório a outro nível.\n\nComente **RM SUMMIT**.",
+      "imagem": "rm-summit-sp-aparado.png",
+      "encaixe": "contain"
+    },
+    {
+      "texto": "📚 Acervo Trabalhista RM: banco com mais de 500 peças processuais para você deixar de começar tudo do zero e produzir com mais segurança, agilidade e qualidade.\n\nComente **ACERVO**.",
+      "imagem": "acervo-trabalhista-aparado.png",
+      "encaixe": "contain"
+    },
+    {
+      "texto": "Cada escritório está em um momento diferente.\n\n**365** para vender melhor.\n**RM SUMMIT** para pensar e crescer maior.\n**ACERVO** para produzir com mais velocidade.\n\nComente a palavra do que seu escritório mais precisa hoje."
+    }
+  ]
+}

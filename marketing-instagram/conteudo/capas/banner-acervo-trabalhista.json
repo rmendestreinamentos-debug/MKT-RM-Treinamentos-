@@ -1,0 +1,28 @@
+{
+  "_leia-me": "Banner do topo da área de membros — 16:9, 1280×720 de régua, sai em 2× (2560×1440). Motor: node motor/capa.js conteudo/capas/banner-acervo-trabalhista.json. Duas versões da mesma faixa, mudando só a foto.",
+
+  "formato": "banner",
+  "titulo": "ACERVO *TRABALHISTA* RM",
+  "logo": "rm-treinamentos-ouro.png",
+
+  "capas": [
+    {
+      "arquivo_saida": "capas/banner-A-painel",
+      "foto": "FOTOS/DIA 1/0329_v2_0d17e918-9695-47f0-9d4d-b31fdc778f8b.jpg",
+      "foco": 42,
+      "_obs": "O pedido ao pé da letra: painel de 7 sentados no palco, plateia cheia de costas na frente, um em pé na lateral. ⚠️ O LED atrás diz RM SUMMIT BELO HORIZONTE — a mancha central do véu existe pra rebaixar isso a textura. Conferir com o olho se ainda dá pra LER: marca do evento maior que a do curso é o defeito desta peça."
+    },
+    {
+      "arquivo_saida": "capas/banner-B-plateia",
+      "foto": "Fotos RM Summit/FAMILIA RAFAEL/RMDAY10245.jpg",
+      "foco": 50,
+      "_obs": "Plateia cheia vista de lado, luz quente laranja na parede — a única foto de sala cheia sem marca nenhuma legível, e a cor dela já é o dourado da casa. Menos 'palco' que a A, mas sem disputa de marca."
+    },
+    {
+      "arquivo_saida": "capas/banner-C-equipe-palco",
+      "foto": "FOTOS/DIA 3/0123_v2_55f7f18d-1990-4c83-83ae-8109fb267bd8.jpg",
+      "foco": 62,
+      "_obs": "A foto oficial da equipe inteira NO PALCO: uma fileira em pé atrás, outra sentada na beira do palco, Rafael ao centro com microfone. É a mais próxima de 'todos no palco' que o acervo tem catalogado — mas NÃO tem placa levantada. ⚠️ O LED atrás fica na altura das cabeças e não sai por enquadramento nenhum."
+    }
+  ]
+}

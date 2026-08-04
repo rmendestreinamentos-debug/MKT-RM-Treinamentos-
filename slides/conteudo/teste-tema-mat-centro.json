@@ -1,0 +1,43 @@
+{
+  "_leia-me": "Reprodução da página 6 de 'Contrato de Honorários Duas Vezes Mais Rentável.pptx' (Modelos/Modelos PPTX Rafael/), pra comparar o tema mat-centro com o modelo. A tabela aqui é NATIVA; no modelo do dono ela é um PNG colado.",
+  "aula": "Contrato de Honorários — reprodução do modelo",
+  "arquivo_saida": "teste-tema-mat-centro",
+  "tema": "mat-centro",
+  "acento": "ocre",
+  "marca": "Mapa da Advocacia Trabalhista",
+  "logo": "mapa-trabalhista-sem-fundo.png",
+  "slides": [
+    {
+      "layout": "tabela",
+      "titulo": "QUARTA FORMA\nDE COBRANÇA",
+      "subtitulo": "Pró-labore – cálculo da inicial",
+      "cabecalho": ["Faixa", "Valor"],
+      "linhas": [
+        ["Até R$ 5.000,00", "R$ 100,00"],
+        ["De R$ 5.000,00 a R$ 20.000,00", "R$ 200,00"],
+        ["De R$ 20.000,00 a R$ 50.000,00", "R$ 500,00"],
+        ["De R$ 50.000,00 a R$ 100.000,00", "R$ 1.000,00"],
+        ["Acima de R$ 100.000,00", "R$ 1.500,00"]
+      ],
+      "foto": "rafael/escritorio.png",
+      "veu": "leve"
+    },
+    {
+      "layout": "tabela",
+      "titulo": "FORMA DE COBRANÇA",
+      "subtitulo": "Valores fixos conforme o valor da causa",
+      "cabecalho": ["Faixa", "Valor"],
+      "linhas": [
+        ["Até 5 salários mínimos", "R$ 100,00"],
+        ["De 5 a 10 salários mínimos", "R$ 200,00"],
+        ["De 10 a 20 salários mínimos", "R$ 500,00"],
+        ["De 20 a 30 salários mínimos", "R$ 800,00"],
+        ["De 30 a 50 salários mínimos", "R$ 1.000,00"],
+        ["Acima de 50 salários mínimos", "1 salário mínimo"]
+      ],
+      "fecho": "Estratégia: o cliente paga de acordo com a *vantagem obtida*",
+      "foto": "rafael/escritorio.png",
+      "veu": "leve"
+    }
+  ]
+}

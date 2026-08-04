@@ -1,0 +1,192 @@
+{
+  "_nota": "Imersão Master MAT — a palestra em TRÊS ATOS (versão do dono de 2026-07-30, que substitui o roteiro de 30 slides em master-mat-sete-infernos.json). Copy dele; eu escolhi layout, quebra de linha, realce e ilustração. As notas de direção do roteiro ('esse é o gancho', 'aqui eu mudaria', a marcação dos atos e os minutos) NÃO entram em slide nenhum: são instrução pra ele, não texto de tela. Fundo preto, letra branca, acento AZUL REAL, @ do dono em todo slide.",
+  "tema": "mat",
+  "acento": "azul",
+  "marca": "Imersão Master MAT",
+  "logo": "imersao-master-mat-sem-fundo.png",
+  "perfil": "joao-vitor",
+  "arquivo_saida": "master-mat-palestra",
+  "slides": [
+    {
+      "layout": "capa",
+      "foto": "imersao-master-mat/inferno-gravura.jpg",
+      "foco": "centro",
+      "eyebrow": "Imersão Master MAT",
+      "titulo": "Os sete *infernos*\ndo advogado",
+      "texto": "A competência não garante\nreconhecimento."
+    },
+    {
+      "layout": "lista",
+      "cenario": "imersao-master-mat/iliada-vaso-grego.jpg",
+      "titulo": "Todo advogado foi\ntreinado para a *guerra*",
+      "intro": "Ilíada",
+      "marca_item": "bullet",
+      "itens": [
+        "Processo",
+        "Audiência",
+        "Recursos",
+        "Conflitos"
+      ],
+      "fecho": "Mas ninguém ensinou a construir uma *carreira*.",
+      "veu": "forte"
+    },
+    {
+      "layout": "citacao",
+      "cenario": "imersao-master-mat/iliada-embarque.jpg",
+      "titulo": "A maior mentira\nda *advocacia*",
+      "pergunta": "Se eu for tecnicamente excelente, o mercado naturalmente me reconhecerá."
+    },
+    {
+      "layout": "lista",
+      "titulo": "O mercado não enxerga\nsua *competência*",
+      "marca_item": "bullet",
+      "itens": [
+        "O cliente não lê sua petição",
+        "Não assiste sua audiência",
+        "Não conhece seu raciocínio"
+      ],
+      "fecho": "Ele decide com base naquilo que consegue *perceber*."
+    },
+    {
+      "layout": "lista",
+      "cenario": "imersao-master-mat/mapa-do-inferno-botticelli.jpg",
+      "titulo": "Os sete infernos\ndo advogado",
+      "marca_item": "numero",
+      "itens": [
+        "Indefinição",
+        "Comparação",
+        "Excesso",
+        "Improdutividade",
+        "Amargura",
+        "Juridiquês",
+        "Invisibilidade"
+      ],
+      "fecho": "Hoje, apenas os *quatro* que mais destroem carreiras."
+    },
+    {
+      "layout": "citacao",
+      "cenario": "imersao-master-mat/inferno-gravura.jpg",
+      "titulo": "1º inferno\nO limbo da\n*indefinição*",
+      "pergunta": "Quem tenta ser conhecido por tudo não é lembrado por nada."
+    },
+    {
+      "layout": "citacao",
+      "cenario": "imersao-master-mat/inferno-circulos.jpg",
+      "titulo": "2º inferno\nO vendaval da\n*comparação*",
+      "pergunta": "A comparação faz você abandonar sua própria rota."
+    },
+    {
+      "layout": "citacao",
+      "cenario": "imersao-master-mat/mapa-do-inferno-botticelli.jpg",
+      "titulo": "3º inferno\nO peso da\n*improdutividade*",
+      "pergunta": "Você trabalha muito. Mas constrói pouco."
+    },
+    {
+      "layout": "lista",
+      "titulo": "Todo atendimento\ndeveria *gerar*",
+      "marca_item": "check",
+      "itens": [
+        "Conteúdo",
+        "Processo",
+        "Treinamento",
+        "Autoridade"
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "cenario": "imersao-master-mat/inferno-gravura.jpg",
+      "titulo": "4º inferno · O gelo\nda *invisibilidade*",
+      "linhas": [
+        "O pior inferno não é fracassar.",
+        "É possuir valor e ninguém perceber."
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "O verdadeiro *problema*",
+      "linhas": [
+        "O advogado não sofre por falta de competência.",
+        "Ele sofre porque sua competência permanece invisível."
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "cenario": "imersao-master-mat/inferno-gravura.jpg",
+      "titulo": "Dante ensina como descer\nA Odisseia ensina como *voltar*"
+    },
+    {
+      "layout": "declaracao",
+      "cenario": "imersao-master-mat/iliada-embarque.jpg",
+      "titulo": "Todo advogado precisa\nde uma *Ítaca*",
+      "linhas": [
+        "Todo advogado possui um destino.",
+        "Mas poucos possuem uma rota."
+      ]
+    },
+    {
+      "layout": "colunas",
+      "cenario": "imersao-master-mat/iliada-colera-aquiles.jpg",
+      "titulo": "O *mapa*",
+      "grupos": [
+        {
+          "titulo": "Direção",
+          "itens": [
+            "Quem você quer ser?"
+          ]
+        },
+        {
+          "titulo": "Clareza",
+          "itens": [
+            "As pessoas entendem o valor que você gera?"
+          ]
+        },
+        {
+          "titulo": "Demonstração",
+          "itens": [
+            "Como o mercado descobre isso?"
+          ]
+        }
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "*Autoridade*",
+      "linhas": [
+        "Não é aquilo que você fala sobre você.",
+        "É aquilo que as pessoas concluem",
+        "ao observar como você pensa."
+      ]
+    },
+    {
+      "layout": "fluxo",
+      "cenario": "imersao-master-mat/iliada-vaso-grego.jpg",
+      "titulo": "*Exemplo*",
+      "intro": "Pegue um caso trabalhista",
+      "etapas": [
+        "Atendimento",
+        "Conteúdo",
+        "*Autoridade*"
+      ],
+      "veu": "forte"
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "O *resumo*",
+      "linhas": [
+        "A Ilíada ensina a lutar.",
+        "Dante ensina a reconhecer o que aprisiona.",
+        "A Odisseia lembra que nenhuma jornada faz sentido sem um destino."
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "Qual é o\nseu *inferno*?"
+    },
+    {
+      "layout": "final",
+      "foto": "imersao-master-mat/joao-vitor-sorriso.jpg",
+      "foco": "topo",
+      "titulo": "Você já aprendeu\na vencer batalhas.\nAgora precisa decidir\nqual *carreira*\ndeseja construir."
+    }
+  ]
+}

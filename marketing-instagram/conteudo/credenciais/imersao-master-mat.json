@@ -1,0 +1,50 @@
+{
+  "_nota": "CREDENCIAL FÍSICA da Imersão Master MAT — 10 × 14 cm, retrato, PAPEL BRANCO com os detalhes em dourado. A peça é MAJORITARIAMENTE A LOGO, e o nome do participante NÃO é impresso: vem depois, numa etiqueta colada no campo branco. Por isso a tiragem é uma arte por TIPO de credencial, não uma por pessoa. Roda com: node motor/credencial.js conteudo/credenciais/imersao-master-mat.json. Sai em saida/credenciais/, JÁ COM 3mm DE SANGRIA (10,6 × 14,6 cm) — é o arquivo que vai pra gráfica. Os _PROVA são conferência de olho e NÃO se manda imprimir.",
+  "marca": "Imersão Master MAT",
+  "_fundo": "claro = papel branco (pedido do dono, 2026-07-31); escuro = a versão preta original. Trocar aqui muda a liga do dourado, o blend dos ornamentos, a cor de cada tarja e o ARQUIVO do logo — no branco o motor exige a versão `-claro`, gerada por `node motor/logo-fundo-claro.js <logo>.png`, porque o PNG original traz o preto dentro e o MASTER é prata.",
+  "fundo": "claro",
+  "logo": "imersao-master-mat.png",
+  "logo_selo": "master-mat.png",
+  "_acento": "OURO, e o hex saiu dos pixels do próprio logo: ele é um metálico do bronze (#774915) ao amarelo (#ffe172), com o MASTER em prata. Os ornamentos usam o GRADIENTE, não um dourado chapado — chapado ao lado desse logo lê como uma segunda marca. No papel branco o motor usa a liga rebaixada da mesma família, senão o fio de 0,75pt não sobrevive à impressão.",
+  "acento": "ouro",
+  "_composicao": "`lockup` = o arquivo imersao-master-mat.png INTACTO — é a logo da Imersão como ela é (pedido do dono, 2026-07-31). `empilhado` = IMERSÃO remontado no metal sobre o selo Master MAT grande: ocupa mais peça, mas é arranjo novo. Apagar este campo faz o motor gerar as duas pra comparar.",
+  "composicao": "lockup",
+  "logo_largura": 86,
+  "evento": "Ipatinga · Agosto de 2026",
+  "microtexto": "Imersão Master MAT",
+  "site": "rmtreinamentos.com.br",
+  "_etiqueta": "TRÊS ESTADOS. `null` (o de agora, pedido do dono em 2026-07-31) = área RESERVADA e NÃO impressa: a etiqueta com o nome é colada direto no branco do papel, sem quadrado desenhado. No fundo claro o campo era moldura em volta de nada — o retângulo branco só existia porque o crachá era preto. Um OBJETO ({largura, altura, topo, fundo, dica}, em mm) volta a desenhar o campo. `false` imprime o nome e a tiragem passa a ser por PESSOA (lista `pessoas`). Nos três casos a medida abaixo continua valendo pra prova: é ela que diz a quem cola a etiqueta onde a área fica, e sem isso as 300 saem com o nome em 300 alturas. 80 × 32 aceita a Pimaco 6081/A4348 (66,7 × 25,4 mm) com folga.",
+  "etiqueta": null,
+  "_area_nome": "Só a cota da prova, já que `etiqueta` é null. Em milímetros.",
+  "area_nome": {
+    "largura": 80,
+    "altura": 32,
+    "topo": 74
+  },
+  "_tarja": "A letra do rótulo subiu de 17 pra 34px (pedido do dono, 2026-07-31: maior a LETRA, não o espaço), e a faixa foi de 16 pra 18mm pra ela não encostar nas bordas. `tarja_corpo` e `tarja_altura` mexem nisso; o motor ainda mede e encolhe se um rótulo custom não couber.",
+  "tarja_corpo": 34,
+  "tarja_altura": 18,
+  "_tipos": "Uma arte por tipo. A COR da tarja é o que identifica alguém a três metros — ninguém lê a palavra. No PAPEL BRANCO: participante (ouro metálico, a marca) · palestrante (preto) · convidado (azul do acento da Imersão, escurecido) · staff (vermelho) · imprensa (grafite claro, pra não virar gêmeo do palestrante).",
+  "tipos": [
+    "participante",
+    "palestrante",
+    "convidado",
+    "staff",
+    "imprensa"
+  ],
+  "_verso": "O verso é UM só, impresso atrás de todas. `verso_itens` aceita \"rótulo | texto\" — o que vem antes da barra sai em dourado e negrito.",
+  "verso_titulo": "Programação",
+  "verso_itens": [
+    "08h30 | Credenciamento e café",
+    "09h00 | Bloco 1 — Posicionamento",
+    "11h00 | Bloco 2 — Captação",
+    "13h00 | Almoço",
+    "14h30 | Bloco 3 — Precificação",
+    "16h30 | Bloco 4 — Operação",
+    "18h30 | Plano de 90 dias",
+    "Wi-Fi | imersao-mat · senha: mastermat"
+  ],
+  "qr": "",
+  "guias": true,
+  "hd": 2
+}

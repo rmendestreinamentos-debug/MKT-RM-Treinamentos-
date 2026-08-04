@@ -1,0 +1,59 @@
+{
+  "_leia-me": "Imagem só entra quando responde à frase DAQUELE slide; cinco das doze foram DESCARTADAS (motivos em imagens/escravidao/LEIA-ME.md). Os arquivos 's<NN>-' são recortes feitos na PROPORÇÃO EXATA da faixa daquele slide, pra imagem preencher com canto arredondado, sem sobra e sem corte automático. Mudou o texto de um slide, a faixa muda de altura e o recorte tem que ser refeito.",
+  "arquivo_saida": "escravidao/trabalho-escravo-rs",
+  "tipo": "thread",
+  "perfil": "joao-vitor",
+  "tema": "claro",
+  "pasta": "escravidao",
+  "slides": [
+    {
+      "texto": "Dois trabalhadores foram resgatados de uma fazenda no Rio Grande do Sul.\n\nEles estavam sem carteira, sem descanso semanal e dormiam em um galpão onde o esgoto podia invadir o ambiente em dias de chuva.\n\nMas essa história não começa em 2026.",
+      "imagem": "s01-alojamento.jpg"
+    },
+    {
+      "texto": "Em 1888, o Brasil assinou a Lei Áurea e colocou fim, formalmente, à escravidão.\n\nSó que acabar com uma prática no papel não significa apagar, de uma vez, a lógica que sustentava aquela exploração.",
+      "imagem": "s02-lei-aurea.jpg"
+    },
+    {
+      "texto": "Por isso, mais de um século depois, o próprio Estado brasileiro reconheceu que o trabalho escravo ainda existia no país.\n\nEm 1995, o Brasil passou a estruturar mecanismos específicos para combater essa violação."
+    },
+    {
+      "texto": "A diferença é que a escravidão moderna nem sempre aparece com corrente, senzala ou ameaça armada.\n\nHoje, ela pode aparecer em forma de jornada exaustiva, condição degradante, dívida, retenção de documentos, vigilância ou restrição de liberdade.",
+      "imagem": [
+        "s04-corrente.jpg",
+        "s04-cozinha.jpg"
+      ]
+    },
+    {
+      "texto": "E esse é o ponto que muita gente ainda não entende.\n\nTrabalho análogo à escravidão não é só quando alguém impede fisicamente o trabalhador de sair.\n\nÀs vezes, é quando a dignidade vai sendo retirada aos poucos, até sobrar apenas sobrevivência.",
+      "imagem": "s05-maos.jpg"
+    },
+    {
+      "texto": "Foi nesse contexto que a fiscalização chegou a uma fazenda de pecuária em Santana do Livramento, no Rio Grande do Sul.\n\nAs vítimas eram um brasileiro de 44 anos e um uruguaio de 29.\n\nNenhum dos dois tinha carteira assinada.",
+      "imagem": "s06-paineis.jpg"
+    },
+    {
+      "texto": "O alojamento foi interditado por risco grave à saúde.\n\nSegundo a fiscalização, o local tinha umidade constante, infiltrações, madeira deteriorada, frestas, fiação exposta e sanitários degradados."
+    },
+    {
+      "texto": "O detalhe mais chocante era a fossa.\n\nO alojamento ficava abaixo do nível da fossa séptica e, em dias de chuva, o esgoto transbordava para o ambiente onde os trabalhadores dormiam.\n\nNão era apenas irregularidade trabalhista.\n\nEra abandono humano."
+    },
+    {
+      "texto": "Os trabalhadores dormiam em um galpão que também servia como depósito de arreios, selas, cordas, ração e ferramentas.\n\nCães e ovelhas circulavam pelos cômodos, e produtos químicos usados na atividade rural ficavam perto do local de descanso.",
+      "imagem": "s09-galpao.jpg"
+    },
+    {
+      "texto": "Além disso, eles não receberam treinamento, não tinham equipamentos de proteção e cumpriam jornadas exaustivas, sem descanso semanal remunerado.\n\nParte das ferramentas usadas no trabalho precisava ser comprada pelos próprios trabalhadores."
+    },
+    {
+      "texto": "Depois do resgate, os fiscais determinaram o pagamento de mais de R$ 23 mil em verbas equivalentes à dispensa sem justa causa.\n\nTambém foi informado que os trabalhadores poderão acessar o seguro-desemprego destinado a vítimas resgatadas."
+    },
+    {
+      "texto": "Quando alguém chama isso de trabalho análogo à escravidão, não é força de expressão.\n\nÉ porque o trabalhador perdeu registro, descanso, segurança, higiene, proteção e condições mínimas de vida.\n\nA escravidão mudou de forma.\n\nMas ainda existe.",
+      "imagem": "s12-pelourinho.jpg"
+    },
+    {
+      "texto": "Se você conhece alguém trabalhando sem carteira, sem descanso, sem proteção e vivendo em alojamento indigno, não trate como “normal da roça”.\n\nCompartilhe este post.\n\nE denuncie."
+    }
+  ]
+}

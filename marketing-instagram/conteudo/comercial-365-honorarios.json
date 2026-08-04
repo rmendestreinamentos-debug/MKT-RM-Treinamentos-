@@ -1,0 +1,112 @@
+{
+  "arquivo_saida": "comercial-365-honorarios",
+  "tipo": "editorial",
+  "perfil": "gabriel-anicio",
+  "barra": { "esquerda": "Comercial 365", "direita": "Julho 2026" },
+  "slides": [
+    {
+      "capa": true,
+      "imagem": "FOTOS/GABRIEL/v2_93cfc5fd-4d00-4c51-89e2-3af7168e1074.jpg",
+      "foco": "topo",
+      "titulo": "Pare de decidir\npelo bolso do\nseu *cliente*.",
+      "texto": "Aprenda a apresentar honorários sem insegurança."
+    },
+    {
+      "tema": "escuro",
+      "imagem": "FOTOS/ALUNOS E OUTROS/v2_b6e77c13-3b75-460b-a9ac-bd84e1566ce8.jpg",
+      "foco": 30,
+      "titulo": "Muitos vendedores criam a objeção antes do cliente.",
+      "texto": "O vendedor olha para os honorários e pensa: “eu não pagaria tudo isso”. A partir daí, apresenta o valor com receio, tenta se justificar e oferece desconto antes mesmo de ouvir uma objeção.",
+      "remate": "E o cliente *percebe essa insegurança*."
+    },
+    {
+      "tema": "claro",
+      "imagem": "FOTOS/ALUNOS E OUTROS/v2_4c860cb2-163f-4377-ab88-ba6182f2cc63.jpg",
+      "foco": 28,
+      "titulo": "Não use o seu bolso para medir o do cliente.",
+      "texto": "Você pode considerar o serviço caro e, ainda assim, o cliente entender que o investimento faz sentido.",
+      "remate": "Ele pode valorizar experiência, estrutura, acompanhamento, rapidez e segurança *muito mais do que o menor preço*."
+    },
+    {
+      "tema": "escuro",
+      "imagem": "FOTOS/ALUNOS E OUTROS/v2_8383950a-0e37-41af-a9bd-32402e5ecc0b (1).jpg",
+      "foco": 35,
+      "titulo": "Um preço solto sempre parece maior.",
+      "texto": "Antes de falar dos honorários, explique:",
+      "lista": [
+        "Como será o atendimento",
+        "Quem acompanhará o caso",
+        "Quais serão os próximos passos",
+        "Quais diferenciais o escritório oferece"
+      ],
+      "remate": "Assim o cliente entende o que vai receber *antes de avaliar quanto vai pagar*."
+    },
+    {
+      "tema": "claro",
+      "imagem": "FOTOS/DIA 1/0251_v2_c19f3297-28a1-492d-adf4-58c838fa8b4a.jpg",
+      "foco": 32,
+      "titulo": "Descubra o que o cliente realmente valoriza.",
+      "texto": "Antes de apresentar os honorários, pergunte:",
+      "lista": [
+        "Qual é a sua maior preocupação com essa contratação?",
+        "Você já teve alguma experiência ruim com outro escritório?",
+        "O que você espera do nosso acompanhamento?"
+      ],
+      "remate": "As respostas mostram *quais pontos precisam ser reforçados* durante o fechamento."
+    },
+    {
+      "tema": "escuro",
+      "imagem": "FOTOS/ALUNOS E OUTROS/v2_7365b7e0-6b30-4805-8808-7f3283cc5b04.jpg",
+      "foco": 40,
+      "titulo": "Use as respostas durante a apresentação.",
+      "texto": "Se o cliente tem medo de ficar sem retorno, explique como funciona o acompanhamento. Se tem medo de golpe, demonstre autoridade, estrutura e avaliações. Se está inseguro com a distância, mostre como o atendimento virtual funciona na prática.",
+      "remate": "O valor precisa responder ao *que preocupa aquele cliente*."
+    },
+    {
+      "tema": "accent",
+      "imagem": "FOTOS/ALUNOS E OUTROS/v2_6d49ed34-3f45-466e-ac62-e599c55eb633.jpg",
+      "foco": 42,
+      "titulo": "Apresente os honorários e deixe o cliente responder.",
+      "label": "Depois da explicação, pergunte:",
+      "lista": [
+        "Ficou claro como funcionam os nossos honorários?",
+        "Podemos avançar com a contratação dessa forma?"
+      ],
+      "remate": "Não ofereça desconto ou outra condição *antes de o cliente apresentar uma dificuldade concreta*."
+    },
+    {
+      "tema": "claro",
+      "imagem": "FOTOS/ALUNOS E OUTROS/v2_47b28a8e-77ab-455c-85af-a1688fdbad2f.jpg",
+      "foco": 30,
+      "titulo": "“Está caro” pode ter diferentes significados.",
+      "texto": "O cliente pode não ter percebido o valor, estar comparando com outro escritório ou realmente não conseguir pagar naquele formato. Pergunte:",
+      "lista": [
+        "Quando você diz que ficou caro, a sua dificuldade está no valor do serviço ou na forma de pagamento?"
+      ],
+      "remate": "Sem entender a objeção, você pode oferecer *a solução errada*."
+    },
+    {
+      "tema": "escuro",
+      "imagem": "FOTOS/ALUNOS E OUTROS/v2_d1adc36c-c9d7-429a-974c-6cefafc79af4.jpg",
+      "foco": 34,
+      "titulo": "Antes de apresentar os honorários:",
+      "marca_item": "numero",
+      "lista": [
+        "Entenda o que o cliente valoriza",
+        "Explique como será o acompanhamento",
+        "Conecte os diferenciais às preocupações dele",
+        "Apresente o valor com segurança",
+        "Escute a objeção antes de oferecer uma alternativa"
+      ]
+    },
+    {
+      "tema": "claro",
+      "imagem": "FOTOS/GABRIEL/v2_40ef7bf8-737d-439f-927c-2e01aec30bfe.jpg",
+      "foco": 20,
+      "titulo": "Quer aprender a conduzir o atendimento até o fechamento?",
+      "texto": "No Workshop Comercial 365 eu vou mostrar como estruturar o atendimento, apresentar valor, trabalhar objeções e aumentar os fechamentos do seu escritório.",
+      "label": "Dias 3 e 4 de agosto.",
+      "cta": { "acao": "Comente **365** para receber as informações" }
+    }
+  ]
+}

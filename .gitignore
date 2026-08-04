@@ -17,6 +17,11 @@ marketing-instagram/fotos/*
 marketing-instagram/imagens/*
 !marketing-instagram/imagens/LEIA-ME.md
 
+# Fonte licenciada (Chirp, do X) — arquivo de fonte proprietária não se redistribui,
+# e um repositório é distribuição. Fica na máquina; o LEIA-ME diz como repor.
+marketing-instagram/marca/fontes/*
+!marketing-instagram/marca/fontes/LEIA-ME.md
+
 # Segredos — NUNCA versionar
 .env
 *.env
@@ -33,6 +38,14 @@ gabriel gay/
 # Config local do Claude Code. skills/ traz repos git aninhados (gitlink quebrado).
 .claude/settings.local.json
 .claude/skills/
+# worktrees/ é checkout do próprio repo; commitar aqui duplicaria a árvore inteira.
+.claude/worktrees/
+
+# PDFs dos decks do Comercial 365 (~135 MB cada). O GitHub rejeita arquivo acima
+# de 100 MB, então estes dois não sobem nem com força. São material de consulta:
+# o motor lê o JSON em slides/conteudo/, não o PDF. Ficam só na máquina.
+slides/Modelos/COMERCIAL 365 - DIA 1.pdf
+slides/Modelos/COMERCIAL 365 - DIA 2.pdf
 
 # Sistema operacional
 Thumbs.db

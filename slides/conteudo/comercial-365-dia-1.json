@@ -1,0 +1,765 @@
+{
+  "_leia-me": "COMERCIAL 365 — DIA 1, do Gabriel Anício. Roteiro do dono (2026-07-31), 53 slides. Tema 'c365': o terceiro dialeto, tirado de Modelos/COMERCIAL 365 - DIA 1.pdf — logo no topo DIREITO, sem régua sob o título, foto no painel da direita. O acento é VERDE por padrão e muda por BLOCO, como no modelo: azul na estrutura, ciano no fluxo, vermelho nos gargalos. Rode: node motor-slides.js conteudo/comercial-365-dia-1.json",
+
+  "titulo": "Comercial 365 — Dia 1",
+  "arquivo_saida": "comercial-365-dia-1",
+  "tema": "c365",
+  "acento": "verde",
+  "marca": "Comercial 365",
+  "logo": "comercial-365-sem-fundo.png",
+  "perfil": "gabriel-anicio",
+
+  "slides": [
+    {
+      "layout": "capa",
+      "logo": null,
+      "_obs-logo": "Único slide sem o lockup no topo: aqui o TÍTULO é o lockup. Os dois juntos escreveriam COMERCIAL 365 duas vezes na mesma página.",
+      "titulo": "COMERCIAL *365*",
+      "texto": "Um contrato por dia.\nTodos os dias.",
+      "foto": "FOTOS/GABRIEL/v2_630bcefe-b07c-443d-ae67-993e4c3c76ab.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "capa",
+      "eyebrow": "Dia 1",
+      "titulo": "DA IMPROVISAÇÃO\nÀ *CONVERSÃO*",
+      "texto": "Como estruturar o comercial, identificar gargalos\ne transformar mais atendimentos em contratos.",
+      "foto": "FOTOS/GABRIEL/v2_348880e9-3554-4ffe-a1a2-c36dac7a3934.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "cascata",
+      "titulo": "O QUE VAMOS\n*CONSTRUIR* HOJE",
+      "itens": [
+        "Entender o comercial.",
+        "Organizar as funções.",
+        "Construir o fluxo de vendas.",
+        "Identificar os gargalos.",
+        "Ampliar as oportunidades."
+      ],
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_3ad0f6c0-c68b-4d34-9a00-7f44144bc225.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "lista",
+      "titulo": "ORIENTAÇÕES DO\n*WORKSHOP*",
+      "marca_item": "check",
+      "itens": [
+        "Anote os principais insights.",
+        "Participe das interações.",
+        "Tire fotos e marque o @gabrielanicioadv.",
+        "Permaneça até o final para receber os bônus.",
+        "Esteja presente também no segundo dia."
+      ],
+      "foto": "FOTOS/SEM ROSTO/v2_387d823e-dd16-40b6-8169-9c777dc9e9a9.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "lista",
+      "titulo": "QUEM É\n*GABRIEL ANÍCIO*?",
+      "marca_item": "check",
+      "itens": [
+        "11 anos de experiência com vendas.",
+        "Advogado, mentor e palestrante.",
+        "Head Comercial do Rafael Mendes Advogados.",
+        "Liderança de um time comercial com mais de 20 pessoas.",
+        "Participação em uma operação com mais de 550 contratos por mês."
+      ],
+      "foto": "FOTOS/GABRIEL/v2_93cfc5fd-4d00-4c51-89e2-3af7168e1074.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "cascata",
+      "titulo": "ESTE WORKSHOP\nÉ *PARA VOCÊ*",
+      "itens": [
+        "Que acabou de se formar.",
+        "Que trabalha sozinho.",
+        "Que já possui equipe, mas ainda perde oportunidades.",
+        "Que vende, mas não possui previsibilidade."
+      ],
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_f5e65ad7-b2c5-4d85-9780-afd7639b022a.jpg",
+      "foco": "topo"
+    },
+
+    {
+      "layout": "secao",
+      "titulo": "ENTENDENDO\nO COMERCIAL",
+      "linhas": ["Bloco 1"],
+      "_obs-foto": "as cinco divisórias de bloco levam o GABRIEL (pedido do dono): é ele que abre cada capítulo, e é o que faz o deck ser dele e não um genérico de plateia.",
+      "foto": "FOTOS/GABRIEL/v2_4330044c-f060-4c93-8ead-d2987f71fea0.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "titulo": "QUEBRA DE *CRENÇA*",
+      "intro": ["Escritório de advocacia precisa vender. Não para transformar o Direito em mercadoria, mas para:"],
+      "marca_item": "check",
+      "itens": [
+        "Alcançar mais pessoas.",
+        "Gerar mais transformações.",
+        "Construir um escritório sustentável.",
+        "Crescer com segurança."
+      ],
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_105524f5-3432-410c-a291-8d8c631ca3ab.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "titulo": "TODO ESCRITÓRIO JÁ\nTEM UM *COMERCIAL*",
+      "marca_item": "bullet",
+      "itens": [
+        "Quando alguém responde o WhatsApp, existe comercial.",
+        "Quando o advogado atende, existe comercial.",
+        "Quando os honorários são apresentados, existe comercial."
+      ],
+      "fecho": "A diferença é: comercial *estruturado* ou comercial improvisado.",
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_e0406cc5-7210-44c3-8bbb-5e62a08181a4.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "titulo": "ATENDER CLIENTES NÃO\nÉ TER UM *COMERCIAL*",
+      "intro": ["Atendimento é uma etapa. Comercial é a operação responsável por:"],
+      "marca_item": "check",
+      "itens": [
+        "Criar oportunidades.",
+        "Acolher.",
+        "Qualificar.",
+        "Conduzir.",
+        "Gerar confiança.",
+        "Transformar conversa em contrato."
+      ],
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_94fcced4-82e2-47d7-b13e-fd1a2f43cc17.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "cascata",
+      "acento": "vermelho",
+      "titulo": "A REALIDADE DO\nCOMERCIAL *IMPROVISADO*",
+      "itens": [
+        "Atende quando consegue.",
+        "Responde entre uma atividade e outra.",
+        "Não possui rotina.",
+        "Esquece de retornar.",
+        "Envia o contrato e espera.",
+        "Não sabe quantos clientes perdeu."
+      ],
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_b39946ff-c135-4296-ba34-1a007c284e93.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "cascata",
+      "titulo": "OS *5 ESTÁGIOS*\nDE UM COMERCIAL",
+      "itens": [
+        { "titulo": "Estágio 1", "texto": "O dono vende." },
+        { "titulo": "Estágio 2", "texto": "O dono vende com ajuda." },
+        { "titulo": "Estágio 3", "texto": "Existe uma equipe comercial." },
+        { "titulo": "Estágio 4", "texto": "Existe gestão comercial." },
+        { "titulo": "Estágio 5", "texto": "Existe previsibilidade." }
+      ],
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_df898299-3a99-4366-a2a2-112da19fe5cb.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "titulo": "O OBJETIVO NÃO É\nAPENAS *VENDER MAIS*",
+      "intro": ["O objetivo é construir um comercial que:"],
+      "marca_item": "check",
+      "itens": [
+        "Não dependa exclusivamente do dono.",
+        "Não dependa de uma pessoa talentosa.",
+        "Não dependa de motivação.",
+        "Não dependa de sorte.",
+        "Consiga repetir resultados."
+      ],
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_7dceef0b-ea95-48a9-b144-65c7c9238db2.jpg",
+      "foco": "topo"
+    },
+
+    {
+      "layout": "secao",
+      "acento": "azul",
+      "titulo": "ESTRUTURA\nDO COMERCIAL",
+      "linhas": ["Bloco 2"],
+      "foto": "FOTOS/GABRIEL/v2_40ef7bf8-737d-439f-927c-2e01aec30bfe.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "azul",
+      "titulo": "AS *FUNÇÕES* DE\nUM COMERCIAL",
+      "marca_item": "check",
+      "itens": [
+        "SDR.",
+        "Closer.",
+        "Documentação.",
+        "Back Office.",
+        "Social Seller.",
+        "Pós-venda.",
+        "Gestão comercial."
+      ],
+      "fecho": "Cada função participa de uma *etapa da jornada*.",
+      "foto": "FOTOS/DIA 2/0001_v2_aa80e6a5-3599-41e5-9bf0-60c1fb525d76.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "cascata",
+      "acento": "azul",
+      "titulo": "CRIADORES DE\n*OPORTUNIDADES*",
+      "itens": [
+        { "titulo": "SDR", "texto": "Acolhe, qualifica e agenda." },
+        { "titulo": "Social Seller", "texto": "Cria relacionamento e oportunidades nas redes sociais." },
+        { "titulo": "Back Office", "texto": "Reativa a base e identifica novas possibilidades." }
+      ],
+      "foto": "FOTOS/DIA 1/0191_v2_6e74c929-a11a-4356-b250-78cd2515e260.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "lista",
+      "acento": "azul",
+      "titulo": "QUEM TRANSFORMA\nATENDIMENTO EM *CONTRATO*",
+      "intro": ["Closer. Responsável por:"],
+      "marca_item": "check",
+      "itens": [
+        "Realizar o atendimento.",
+        "Criar conexão.",
+        "Demonstrar autoridade.",
+        "Apresentar a solução.",
+        "Conduzir a decisão.",
+        "Fechar o contrato."
+      ],
+      "foto": "FOTOS/DIA 1/0322_v2_752d6872-ad46-4137-8a36-c43eb8f76fed.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "azul",
+      "titulo": "DOCUMENTAÇÃO E\n*PASSAGEM DE BASTÃO*",
+      "intro": ["A documentação é responsável por:"],
+      "marca_item": "check",
+      "itens": [
+        "Organizar a assinatura.",
+        "Solicitar documentos.",
+        "Conferir informações.",
+        "Acompanhar pendências.",
+        "Concluir a passagem para o operacional."
+      ],
+      "fecho": "Contrato sem documentação ainda está *em risco*.",
+      "foto": "FOTOS/SEM ROSTO/v2_147cea55-c037-49cd-a0b9-56e42f939ac2.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "lista",
+      "acento": "azul",
+      "titulo": "*PÓS-VENDA*",
+      "intro": ["A contratação não encerra o relacionamento comercial. O pós-venda pode gerar:"],
+      "marca_item": "check",
+      "itens": [
+        "Novas demandas.",
+        "Indicações.",
+        "Avaliações.",
+        "Autoridade.",
+        "Relacionamento de longo prazo."
+      ],
+      "foto": "FOTOS/DIA 3/0146_v2_9b68f6a0-c5c7-4f71-9080-b6bb114f959c.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "lista",
+      "acento": "azul",
+      "titulo": "*GESTÃO* COMERCIAL",
+      "intro": ["A gestão é responsável por:"],
+      "marca_item": "check",
+      "itens": [
+        "Definir prioridades.",
+        "Acompanhar indicadores.",
+        "Treinar pessoas.",
+        "Corrigir gargalos.",
+        "Fortalecer a cultura.",
+        "Criar previsibilidade."
+      ],
+      "foto": "Fotos RM Summit/ALUNOS RAFAEL/COMUNIDADE/Cópia de RMDAY10685.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "lista",
+      "acento": "azul",
+      "titulo": "E QUEM É *EUQUIPE*?",
+      "intro": ["Você pode realizar todas as funções, mas não pode tentar fazer todas ao mesmo tempo. Separe momentos para:"],
+      "marca_item": "check",
+      "itens": [
+        "Prospecção.",
+        "Qualificação.",
+        "Atendimento.",
+        "Follow Up.",
+        "Documentação.",
+        "Gestão."
+      ],
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_47b28a8e-77ab-455c-85af-a1688fdbad2f.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "cascata",
+      "acento": "azul",
+      "titulo": "A REGRA DA *ESTRUTURA*",
+      "intro": ["Toda pessoa precisa saber:"],
+      "itens": [
+        "Quem faz.",
+        "O que faz.",
+        "Quando faz.",
+        "Como entrega.",
+        "Para quem passa a próxima etapa."
+      ],
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_8383950a-0e37-41af-a9bd-32402e5ecc0b (1).jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "cascata",
+      "acento": "azul",
+      "titulo": "O *MAPA* DA OPERAÇÃO",
+      "itens": [
+        "Criação de oportunidades.",
+        "SDR.",
+        "Closer.",
+        "Documentação.",
+        "Setor operacional.",
+        "Pós-venda e novas oportunidades."
+      ],
+      "foto": "FOTOS/DIA 1/0329_v2_0d17e918-9695-47f0-9d4d-b31fdc778f8b.jpg",
+      "foco": "centro"
+    },
+
+    {
+      "layout": "secao",
+      "acento": "ciano",
+      "titulo": "FLUXO\nDE VENDAS",
+      "linhas": ["Bloco 3"],
+      "foto": "FOTOS/GABRIEL/v2_15fcc296-28f2-4749-8a73-3c7b7b5f4b34.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "cascata",
+      "acento": "ciano",
+      "titulo": "O FLUXO *COMPLETO*",
+      "intro": ["Agora que sabemos quem participa da operação, o caminho percorrido pelo cliente:"],
+      "itens": [
+        "Cliente chega.",
+        "Acolhimento.",
+        "Qualificação.",
+        "Agendamento e confirmação.",
+        "Atendimento.",
+        "Fechamento.",
+        "Assinatura e documentação.",
+        "Operacional.",
+        "Pós-venda."
+      ],
+      "foto": "FOTOS/DIA 1/0195_v2_9dd0e62e-161c-40b2-838d-fdd2471fe7e6.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "cascata",
+      "acento": "rosa",
+      "titulo": "ACOLHIMENTO E\n*QUALIFICAÇÃO*",
+      "itens": [
+        { "titulo": "Acolhimento", "texto": "Fazer o cliente perceber que foi ouvido." },
+        { "titulo": "Qualificação", "texto": "Entender a demanda e verificar a viabilidade inicial." }
+      ],
+      "fecho": "Qualificar não é fazer uma *consulta completa* por WhatsApp.",
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_faa576c0-9a14-4e72-93fc-4108bbff84fb.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "cascata",
+      "acento": "ciano",
+      "titulo": "AGENDAMENTO E\n*CONFIRMAÇÃO*",
+      "itens": [
+        { "titulo": "Agendamento", "texto": "Transformar interesse em compromisso." },
+        { "titulo": "Confirmação", "texto": "Fortalecer o compromisso e aumentar a percepção de importância." }
+      ],
+      "fecho": "Não basta colocar o nome *na agenda*.",
+      "foto": "FOTOS/SEM ROSTO/v2_2a354041-7402-4822-a631-35569258bae8.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "lista",
+      "acento": "azul",
+      "titulo": "*ATENDIMENTO*",
+      "intro": ["Compreender a situação, apresentar um caminho e gerar segurança para a decisão. Um bom atendimento une:"],
+      "marca_item": "check",
+      "itens": [
+        "Conexão.",
+        "Autoridade.",
+        "Clareza.",
+        "Condução."
+      ],
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_70a2db12-511d-440e-8466-7771508b4e99 (1).jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "ambar",
+      "titulo": "*FECHAMENTO*",
+      "intro": ["O cliente precisa compreender:"],
+      "marca_item": "check",
+      "itens": [
+        "Qual é o problema.",
+        "Qual é o caminho.",
+        "Como o escritório atuará.",
+        "Quais são os honorários.",
+        "Qual é o próximo passo."
+      ],
+      "foto": "Fotos RM Summit/ALUNOS RAFAEL/COMUNIDADE/Cópia de RMDAY10678.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "cascata",
+      "acento": "ambar",
+      "titulo": "ASSINATURA E\n*DOCUMENTAÇÃO*",
+      "intro": ["Quanto menor o intervalo entre:"],
+      "itens": [
+        "Atendimento.",
+        "Assinatura.",
+        "Documentação."
+      ],
+      "fecho": "Maior a chance de *concluir a contratação*.",
+      "foto": "FOTOS/SEM ROSTO/v2_9fc7d508-f514-47b9-aaa7-9d2b8a572ffb.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "lista",
+      "acento": "ambar",
+      "titulo": "PASSAGEM PARA\nO *OPERACIONAL*",
+      "intro": ["O cliente precisa saber:"],
+      "marca_item": "check",
+      "itens": [
+        "O que acontece depois da contratação.",
+        "Quem será o responsável.",
+        "Quais documentos ainda são necessários.",
+        "Como receberá atualizações.",
+        "Qual é o próximo passo."
+      ],
+      "foto": "FOTOS/SEM ROSTO/v2_3521e946-e807-4149-8edf-bc41107387f5.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "lista",
+      "titulo": "O COMERCIAL NÃO\nTERMINA NA *ASSINATURA*",
+      "intro": ["O cliente contratado pode gerar:"],
+      "marca_item": "check",
+      "itens": [
+        "Novas demandas.",
+        "Indicações.",
+        "Avaliações no Google.",
+        "Autoridade.",
+        "Recorrência."
+      ],
+      "fecho": "A assinatura encerra uma venda, mas pode iniciar *novas oportunidades*.",
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_2775d713-bc09-47f8-ad4a-312aec738151.jpg",
+      "foco": "topo"
+    },
+
+    {
+      "layout": "secao",
+      "acento": "vermelho",
+      "titulo": "OS GARGALOS\nDO COMERCIAL",
+      "linhas": ["Bloco 4"],
+      "_obs-foto": "a P&B é de propósito: é a divisória mais dura do deck e a única foto sem cor. A primeira escolhida tinha a pessoa SORRINDO embaixo de OS GARGALOS, em vermelho, e a foto dizia o contrário do título.",
+      "foto": "FOTOS/GABRIEL/v2_13d1b795-0126-448e-afd2-b56ca441b30b.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "vermelho",
+      "titulo": "ONDE OS CONTRATOS\nESTÃO *MORRENDO*?",
+      "marca_item": "bullet",
+      "itens": [
+        "Entrada e primeiro contato.",
+        "Qualificação.",
+        "Agendamento e comparecimento.",
+        "Atendimento.",
+        "Fechamento.",
+        "Assinatura.",
+        "Documentação.",
+        "Follow Up."
+      ],
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_ccf043af-aab3-4e77-8089-b4e126d197e6.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "vermelho",
+      "titulo": "GARGALO 1\nENTRADA E *QUALIFICAÇÃO*",
+      "marca_item": "x",
+      "itens": [
+        "Demora para responder.",
+        "Atendimento robotizado.",
+        "Perguntas em excesso.",
+        "Perguntas insuficientes.",
+        "Lead viável descartado.",
+        "WhatsApp transformado em consulta."
+      ],
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_a4e12f7d-3ff0-4971-b6f7-c56c75b7117f.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "titulo": "COMO MELHORAR\nO *PRIMEIRO CONTATO*",
+      "marca_item": "check",
+      "itens": [
+        "Responda com velocidade.",
+        "Demonstre atenção.",
+        "Identifique a dor principal.",
+        "Faça apenas as perguntas necessárias.",
+        "Crie um próximo passo."
+      ],
+      "fecho": "O primeiro contato não precisa resolver tudo, precisa *fazer o cliente avançar*.",
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_9b44513b-c1c2-4945-9e7d-2e0e2923acf2.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "vermelho",
+      "titulo": "GARGALO 2\nAGENDAMENTO E *NO SHOW*",
+      "intro": ["O No Show geralmente nasce de:"],
+      "marca_item": "x",
+      "itens": [
+        "Agendamento distante.",
+        "Falta de conexão.",
+        "Falta de expectativa.",
+        "Falta de valor percebido.",
+        "Falta de confirmação."
+      ],
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_9f0f6936-f6cb-43af-9657-be8a8487906d.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "ciano",
+      "titulo": "O NO SHOW COMEÇA\nNO *AGENDAMENTO*",
+      "intro": ["O comparecimento precisa ser construído antes da reunião. Uma boa confirmação deve gerar:"],
+      "marca_item": "check",
+      "itens": [
+        "Compromisso.",
+        "Expectativa.",
+        "Proximidade.",
+        "Percepção de importância.",
+        "Clareza sobre o atendimento."
+      ],
+      "foto": "FOTOS/SEM ROSTO/v2_a7d3e229-c2db-460a-b34d-81b4c928afda.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "lista",
+      "acento": "vermelho",
+      "titulo": "GARGALO 3\n*CANAL* DE ATENDIMENTO",
+      "intro": ["O texto facilita o contato, mas também facilita:"],
+      "marca_item": "x",
+      "itens": [
+        "Distanciamento.",
+        "Comparação.",
+        "Demora.",
+        "Interpretação errada.",
+        "Desaparecimento."
+      ],
+      "fecho": "Nem toda venda deve ser conduzida *por texto*.",
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_225980af-880f-4c20-abb3-a68ab0ca531e.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "cascata",
+      "titulo": "A HIERARQUIA\nDO *VÍNCULO*",
+      "destaque": "primeiro",
+      "_obs-destaque": "esta cascata DESCE (do melhor vínculo ao pior). Com o realce no último elo, o ponto verde caía em 'Texto' e a página dizia o contrário do fecho.",
+      "itens": [
+        "Presencial.",
+        "Chamada de vídeo.",
+        "Ligação.",
+        "Áudio.",
+        "Texto."
+      ],
+      "fecho": "Quanto maior o vínculo, maior a capacidade de gerar *confiança*.",
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_b8df4ed8-08a2-4ece-938c-0233712f3967.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "titulo": "LIGAÇÃO E\nCHAMADA DE *VÍDEO*",
+      "intro": ["A ligação reduz o tempo do cliente no comercial. A chamada de vídeo aumenta conexão e autoridade. As duas ajudam a:"],
+      "marca_item": "check",
+      "itens": [
+        "Identificar inseguranças.",
+        "Reduzir objeções.",
+        "Acelerar decisões.",
+        "Gerar confiança."
+      ],
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_48837737-fafa-4ce3-959b-c60cb9a71256.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "lista",
+      "acento": "vermelho",
+      "titulo": "GARGALO 4\nATENDIMENTO SEM *CONDUÇÃO*",
+      "intro": ["O cliente não conhece:"],
+      "marca_item": "x",
+      "itens": [
+        "O processo.",
+        "O contrato.",
+        "Os próximos passos.",
+        "Os riscos.",
+        "A melhor decisão."
+      ],
+      "fecho": "Quem tem medo de conduzir cria *clientes indecisos*.",
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_1f8c6693-36e7-426c-b1cb-ce77f27fc182.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "titulo": "A REGRA DA\n*DECISÃO ASSISTIDA*",
+      "intro": ["O cliente precisa terminar o atendimento sabendo:"],
+      "marca_item": "bullet",
+      "itens": [
+        "Qual é o problema.",
+        "Qual é o caminho.",
+        "Como o escritório atuará.",
+        "Quais são os honorários.",
+        "Qual é o próximo passo."
+      ],
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_48f115b1-2e3e-40f8-a68d-e0d4e4f51eae.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "vermelho",
+      "titulo": "O “VOU PENSAR” NEM SEMPRE\nÉ A *OBJEÇÃO REAL*",
+      "intro": ["Pode significar:"],
+      "marca_item": "x",
+      "itens": [
+        "Não entendi.",
+        "Não confiei.",
+        "Não percebi valor.",
+        "Estou com medo.",
+        "Quero comparar.",
+        "Não sei o que acontece depois."
+      ],
+      "fecho": "*Investigue* antes de aceitar.",
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_341d1a69-f7e5-4d15-95ec-cc2f776c9349.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "vermelho",
+      "titulo": "GARGALO 5\nASSINATURA E *DOCUMENTAÇÃO*",
+      "intro": ["Quando a conclusão fica para depois:"],
+      "marca_item": "x",
+      "itens": [
+        "A carga emocional diminui.",
+        "Novas dúvidas aparecem.",
+        "Outras pessoas interferem.",
+        "O cliente compara.",
+        "Os documentos não chegam."
+      ],
+      "foto": "FOTOS/SEM ROSTO/v2_994be3e7-e6a9-48fa-a7b1-35021c755394.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "cascata",
+      "acento": "ambar",
+      "titulo": "ASSINATURA E\nDOCUMENTAÇÃO *AO VIVO*",
+      "intro": ["O melhor momento para concluir é quando a decisão foi construída:"],
+      "itens": [
+        "Atendimento.",
+        "Assinatura.",
+        "Passagem de bastão.",
+        "Documentação."
+      ],
+      "fecho": "Quanto menor o intervalo, *maior a conclusão*.",
+      "foto": "FOTOS/SEM ROSTO/v2_bebed48e-ec36-4bd6-9f48-c3c2d5ccf31f.jpg",
+      "foco": "centro"
+    },
+    {
+      "layout": "lista",
+      "acento": "vermelho",
+      "titulo": "GARGALO 6\nFOLLOW UP SEM *ESTRATÉGIA*",
+      "intro": ["Follow Up não é mandar “oi, tudo bem?”. Um bom Follow Up precisa:"],
+      "_obs-marca": "bullet, não check: nesta página o acento é VERMELHO (é um gargalo) e os itens são o que FAZER. Um ✓ vermelho diz as duas coisas ao mesmo tempo e não diz nenhuma.",
+      "marca_item": "bullet",
+      "itens": [
+        "Retomar o contexto.",
+        "Reforçar valor.",
+        "Resolver inseguranças.",
+        "Criar um próximo passo.",
+        "Manter a oportunidade visível."
+      ],
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_ebd4215a-d659-46a8-9065-444de04273b0.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "acento": "vermelho",
+      "titulo": "WHATSAPP *NÃO É CRM*",
+      "intro": ["No WhatsApp as conversas descem; no CRM as oportunidades permanecem visíveis. Sem organização, você não sabe:"],
+      "marca_item": "x",
+      "itens": [
+        "Quem precisa de retorno.",
+        "Quem não assinou.",
+        "Quem não enviou documentos.",
+        "Quem precisa ser reativado."
+      ],
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_911552db-0e52-4e2e-86fd-b09265c39eb6.jpg",
+      "foco": "topo"
+    },
+
+    {
+      "layout": "secao",
+      "titulo": "AMPLIAÇÃO DE\nOPORTUNIDADES",
+      "linhas": ["Bloco 5"],
+      "_obs-foto": "o bloco que abre é o de crescer: aqui ele entra SORRINDO, e é a única divisória alegre.",
+      "foto": "gabriel-alegre.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "cascata",
+      "titulo": "AS *4 PROSPECÇÕES*\nEM CADA ATENDIMENTO",
+      "itens": [
+        "Outros vínculos de trabalho.",
+        "Possíveis demandas previdenciárias.",
+        "Indicação de colegas.",
+        "Mapeamento de testemunhas."
+      ],
+      "fecho": "Você não precisa depender só de *novos leads* para crescer.",
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_db569589-ad96-4d72-980d-dff07c900547.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "citacao",
+      "titulo": "A PERGUNTA\nDE *EXPANSÃO*",
+      "pergunta": "Existe mais alguma oportunidade que pode transformar a vida deste cliente ou de alguém próximo a ele?",
+      "rotulo": "Antes de encerrar",
+      "objetivo": "Um bom atendimento não encerra oportunidades. Ele *revela* oportunidades.",
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_ecdedefa-b013-49ef-9f9f-c9456b920292.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "lista",
+      "titulo": "O QUE *CONSTRUÍMOS* HOJE",
+      "marca_item": "check",
+      "itens": [
+        "Entendemos o comercial.",
+        "Organizamos as funções.",
+        "Construímos o fluxo.",
+        "Identificamos os gargalos.",
+        "Conhecemos princípios de conversão.",
+        "Ampliamos as oportunidades."
+      ],
+      "fecho": "Amanhã: cultura, metas, rituais, treinamento e *previsibilidade*.",
+      "foto": "FOTOS/ALUNOS E OUTROS/v2_f8ff247f-2b52-4912-b9f3-b619aa1dcf71.jpg",
+      "foco": "topo"
+    },
+    {
+      "layout": "final",
+      "titulo": "ANTES DE BUSCAR\nMAIS CLIENTES,\nPARE DE *PERDER*\nAS OPORTUNIDADES\nQUE JÁ CHEGAM\nATÉ VOCÊ.",
+      "foto": "FOTOS/GABRIEL/v2_995723e5-0743-4d04-9ca2-32598ed09487.jpg",
+      "foco": "topo"
+    }
+  ]
+}

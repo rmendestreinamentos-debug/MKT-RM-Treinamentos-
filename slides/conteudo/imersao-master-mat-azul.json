@@ -1,0 +1,118 @@
+{
+  "_nota": "PROVA DE COR do acento azul real (#4169E1) no deck da Imersão Master MAT. A copy aqui é ESQUELETO — serve pra mostrar onde o azul pousa em cada layout, e sai inteira quando o dono mandar o texto da aula. As fotos são as que já existiam em marketing-instagram/imagens/; as dele entram em slides/imagens/imersao-master-mat/.",
+  "tema": "mat",
+  "acento": "azul",
+  "marca": "Imersão Master MAT",
+  "logo": "imersao-master-mat-sem-fundo.png",
+  "arquivo_saida": "imersao-master-mat-azul",
+  "slides": [
+    {
+      "layout": "capa",
+      "foto": "FOTOS/DIA 1/0281_v2_3a3d24e6-4dd8-4336-8783-c4acd3884cb6.jpg",
+      "foco": "direita",
+      "eyebrow": "Imersão Master MAT",
+      "titulo": "O mapa completo\nda advocacia *trabalhista*",
+      "texto": "Dois dias pra sair com o escritório\nredesenhado, não com anotações."
+    },
+    {
+      "layout": "lista",
+      "cenario": "kv-plateia.jpg",
+      "foto": "rafael-sorriso-estudio.jpg",
+      "foco": "direita",
+      "titulo": "O que trava\na maioria dos escritórios",
+      "marca_item": "check",
+      "itens": [
+        "Captação sem *processo*",
+        "Preço decidido por *chute*",
+        "Time que depende do *dono*",
+        "Cliente que some no *meio*"
+      ],
+      "fecho": "Nenhum deles é problema de conhecimento jurídico."
+    },
+    {
+      "layout": "cards",
+      "cenario": "FOTOS/DIA 1/0055_v2_1b203060-9940-4320-b34e-1183d23027c9.jpg",
+      "titulo": "Os quatro pilares\nda imersão",
+      "itens": [
+        "Posicionamento",
+        "Captação",
+        "Precificação",
+        "Operação"
+      ],
+      "fecho": "Um pilar por bloco, e cada bloco sai com entregável."
+    },
+    {
+      "layout": "numeros",
+      "titulo": "Como o dia\nse organiza",
+      "itens": [
+        "Diagnóstico do escritório *hoje*",
+        "Desenho do modelo *novo*",
+        "Plano dos *90 dias*"
+      ],
+      "fecho": "Você não sai com ideia. Sai com plano datado."
+    },
+    {
+      "layout": "fluxo",
+      "titulo": "O caminho\ndo cliente",
+      "intro": "Do primeiro contato até o contrato assinado",
+      "etapas": [
+        "Anúncio",
+        "Primeira conversa",
+        "Diagnóstico",
+        "Proposta",
+        "*Contrato*"
+      ],
+      "fecho": "Cada etapa tem um responsável e um prazo."
+    },
+    {
+      "layout": "ranking",
+      "titulo": "Onde mexer\nprimeiro",
+      "itens": [
+        "Preço",
+        "Processo de captação",
+        "Time",
+        "Marca"
+      ],
+      "fecho": "Na ordem. Marca sem preço certo só acelera o prejuízo."
+    },
+    {
+      "layout": "colunas",
+      "titulo": "Os dois dias",
+      "grupos": [
+        {
+          "titulo": "Dia 1 · Diagnóstico",
+          "itens": [
+            "Onde o dinheiro entra",
+            "Onde o dinheiro vaza",
+            "Quem faz o quê",
+            "O que parar de fazer"
+          ]
+        },
+        {
+          "titulo": "Dia 2 · Construção",
+          "itens": [
+            "Oferta redesenhada",
+            "Tabela de preço nova",
+            "Roteiro de captação",
+            "Plano de 90 dias"
+          ]
+        }
+      ],
+      "fecho": "Sai pronto da sala, não do voo de volta."
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "Escritório não cresce\npor *esforço*",
+      "linhas": [
+        "Cresce por estrutura.",
+        "E estrutura se desenha em dois dias."
+      ]
+    },
+    {
+      "layout": "final",
+      "foto": "rafael-sorriso.jpg",
+      "foco": "topo",
+      "titulo": "Agora o mapa\né *seu*."
+    }
+  ]
+}

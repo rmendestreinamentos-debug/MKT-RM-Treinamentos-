@@ -1,0 +1,603 @@
+{
+  "_nota": "Palestra do GABRIEL ANÍCIO na Imersão Master MAT — 'O Método de Oportunidades'. Copy do dono, 48 páginas, distribuída 1:1 (nada foi resumido nem acrescentado). Tema c365 pela caixa BAIXA do corpo (a copy tem citação de cliente e lista de 9 itens: maiúscula viraria paredão), pelo logo discreto no topo direito e pela foto em PAINEL com a borda esquerda dissolvida — o pedido era que imagem nenhuma parecesse recortada e colada. Acento ouro, que é a tinta do próprio lockup da Imersão. As seis fotos são do acervo (FOTOS/GABRIEL), escolhidas pelo crivo imagem × texto.",
+  "tema": "c365",
+  "acento": "ouro",
+  "marca": "Imersão Master MAT",
+  "logo": "imersao-master-mat-sem-fundo.png",
+  "perfil": "gabriel-anicio",
+  "titulo": "O Método de Oportunidades",
+  "arquivo_saida": "gabriel-metodo-oportunidades",
+  "slides": [
+    {
+      "layout": "capa",
+      "foto": "FOTOS/GABRIEL/v2_ee68e31e-2bc0-402b-b922-6e92db8111c3.jpg",
+      "foco": "centro",
+      "eyebrow": "Imersão Master MAT",
+      "titulo": "O MÉTODO DE\n*OPORTUNIDADES*",
+      "texto": "Como aumentar a conversão, gerar novas\noportunidades e construir um comercial\nque não dependa apenas de novos leads."
+    },
+    {
+      "layout": "lista",
+      "titulo": "QUANTOS CONTRATOS\nVOCÊ PERDEU ESTE MÊS?",
+      "intro": ["Não por falta de conhecimento jurídico.", "Mas porque:"],
+      "marca_item": "bullet",
+      "itens": [
+        "O cliente demorou para ser atendido.",
+        "Não compareceu à reunião.",
+        "Não percebeu segurança.",
+        "Ficou de pensar.",
+        "Não assinou.",
+        "Não enviou os documentos.",
+        "Ou simplesmente foi esquecido."
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "ANTES DE BUSCAR\nMAIS CLIENTES…",
+      "linhas": ["Pare de *perder* as oportunidades que já chegam até você."]
+    },
+    {
+      "layout": "texto",
+      "titulo": "O PROBLEMA NEM SEMPRE\nESTÁ NO *MARKETING*",
+      "linhas": [
+        "Marketing gera atenção.",
+        "O comercial transforma atenção em contrato.",
+        "Quando o comercial está desorganizado, aumentar o investimento em marketing pode significar apenas perder mais leads em maior velocidade."
+      ]
+    },
+    {
+      "layout": "cascata",
+      "foto": "FOTOS/GABRIEL/v2_c7bc11a6-1dfe-462e-b59e-1e91d72fc82a.jpg",
+      "foco": "centro",
+      "titulo": "NÓS NÃO COMEÇAMOS COM\nUMA GRANDE *OPERAÇÃO*",
+      "itens": [
+        "Processo.",
+        "Treinamento.",
+        "Erros.",
+        "Correções.",
+        "Repetição.",
+        "Escala."
+      ],
+      "destaque": "ultimo"
+    },
+    {
+      "layout": "fluxo",
+      "titulo": "CONVERSÃO NÃO É\nAPENAS FECHAMENTO",
+      "intro": "Conversão acontece em todas as etapas:",
+      "por_fila": 4,
+      "aceso": 0,
+      "etapas": [
+        "Resposta.",
+        "Qualificação.",
+        "Agendamento.",
+        "Comparecimento.",
+        "Atendimento.",
+        "Decisão.",
+        "Assinatura.",
+        "Documentação."
+      ]
+    },
+    {
+      "layout": "cascata",
+      "titulo": "O MAPA COMPLETO\nDA *CONVERSÃO*",
+      "itens": [
+        "Cliente chega.",
+        "Acolhimento.",
+        "Qualificação.",
+        "Agendamento e confirmação.",
+        "Atendimento.",
+        "Fechamento.",
+        "Assinatura e documentação.",
+        "Operacional.",
+        "Pós-venda."
+      ],
+      "destaque": "ultimo"
+    },
+    {
+      "layout": "lista",
+      "titulo": "ONDE OS CONTRATOS\nESTÃO *MORRENDO*?",
+      "marca_item": "bullet",
+      "itens": [
+        "Entrada e primeiro contato.",
+        "Qualificação.",
+        "Agendamento.",
+        "Comparecimento.",
+        "Atendimento.",
+        "Fechamento.",
+        "Assinatura.",
+        "Documentação.",
+        "Follow Up."
+      ]
+    },
+    {
+      "layout": "lista",
+      "_nota": "Título em DUAS linhas de propósito. Em três, o bloco descia 0,8\" e o fecho ('Mas pode ser apenas...') encostava no último item da lista — os dois viravam um parágrafo só e o remate sumia.",
+      "titulo": "O GARGALO MAIS CARO É\nAQUELE QUE VOCÊ NÃO *MEDE*",
+      "intro": "Sem indicadores, todo problema parece ser:",
+      "marca_item": "bullet",
+      "itens": [
+        "“Lead ruim.”",
+        "“Cliente sem interesse.”",
+        "“Preço.”",
+        "“Mercado.”",
+        "“Equipe fraca.”"
+      ],
+      "fecho": "Mas pode ser apenas um processo mal executado."
+    },
+    {
+      "layout": "lista",
+      "titulo": "ESTRATÉGIA 1 —\nVELOCIDADE COM *DIREÇÃO*",
+      "intro": ["Responder rápido não significa atender de qualquer maneira.", "O primeiro contato precisa:"],
+      "marca_item": "check",
+      "itens": [
+        "Acolher.",
+        "Identificar a dor principal.",
+        "Fazer apenas as perguntas necessárias.",
+        "Criar o próximo passo."
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "O PRIMEIRO CONTATO\nNÃO PRECISA\nRESOLVER TUDO",
+      "linhas": ["Precisa fazer o cliente *avançar*."]
+    },
+    {
+      "layout": "lista",
+      "titulo": "WHATSAPP NÃO É\n*CONSULTÓRIO*",
+      "intro": "Quando você tenta resolver toda a situação por mensagem:",
+      "marca_item": "bullet",
+      "itens": [
+        "A conversa fica longa.",
+        "O cliente demora.",
+        "A percepção de valor diminui.",
+        "O advogado trabalha antes da contratação.",
+        "A oportunidade não avança."
+      ]
+    },
+    {
+      "layout": "cascata",
+      "titulo": "O OBJETIVO DO SDR\nNÃO É EXPLICAR TUDO",
+      "itens": [
+        "Acolher.",
+        "Qualificar.",
+        "Gerar confiança.",
+        "Agendar.",
+        "Confirmar.",
+        "Fazer o cliente chegar ao atendimento."
+      ],
+      "destaque": "ultimo"
+    },
+    {
+      "layout": "cascata",
+      "foto": "gabriel-metodo/vinculo-conversa.jpg",
+      "foco": "centro",
+      "titulo": "ESTRATÉGIA 2 — TIRE\nO CLIENTE DO *TEXTO*",
+      "itens": [
+        "Presencial.",
+        "Chamada de vídeo.",
+        "Ligação.",
+        "Áudio.",
+        "Texto."
+      ],
+      "destaque": "primeiro",
+      "fecho": "Quanto maior o vínculo, maior a capacidade de gerar confiança e condução."
+    },
+    {
+      "layout": "lista",
+      "titulo": "A LIGAÇÃO REDUZ O TEMPO\nDO CLIENTE NO COMERCIAL",
+      "intro": "Em poucos minutos, uma ligação permite:",
+      "marca_item": "bullet",
+      "itens": [
+        "Identificar a situação.",
+        "Perceber inseguranças.",
+        "Corrigir interpretações.",
+        "Gerar proximidade.",
+        "Criar um próximo passo."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "A CHAMADA DE VÍDEO\nAUMENTA A *CONVERSÃO*",
+      "intro": "A chamada de vídeo aumenta:",
+      "marca_item": "check",
+      "itens": [
+        "Conexão.",
+        "Autoridade.",
+        "Clareza.",
+        "Confiança.",
+        "Capacidade de condução."
+      ]
+    },
+    {
+      "layout": "colunas",
+      "titulo": "O CLIENTE QUER SER\nATENDIDO QUANDO A\nDOR ESTÁ *ALTA*",
+      "grupos": [
+        { "titulo": "Primeira tentativa:", "itens": ["Ofereça o atendimento imediato."] },
+        { "titulo": "Segunda tentativa:", "itens": ["Apresente dois horários próximos."] },
+        { "titulo": "Terceira tentativa:", "itens": ["Pergunte qual é o melhor dia e horário."] }
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "O NO SHOW COMEÇA\nNO *AGENDAMENTO*",
+      "intro": ["Agendar não é apenas colocar um nome na agenda.", "É construir:"],
+      "marca_item": "bullet",
+      "itens": [
+        "Compromisso.",
+        "Expectativa.",
+        "Proximidade.",
+        "Valor percebido.",
+        "Clareza sobre o atendimento."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "CONFIRMAÇÃO NÃO É\nAPENAS *LEMBRETE*",
+      "intro": "Uma boa confirmação precisa reforçar:",
+      "marca_item": "bullet",
+      "itens": [
+        "Quem realizará o atendimento.",
+        "O que será analisado.",
+        "Quanto tempo será reservado.",
+        "A importância de estar em um local adequado.",
+        "O que o cliente deve ter em mãos."
+      ]
+    },
+    {
+      "layout": "lista",
+      "foto": "FOTOS/GABRIEL/v2_2b80c20c-e6be-45f6-812b-3736f41f1c13.jpg",
+      "foco": "centro",
+      "titulo": "ESTRATÉGIA 3 —\n*DECISÃO ASSISTIDA*",
+      "intro": "O cliente não conhece:",
+      "marca_item": "bullet",
+      "itens": [
+        "O processo.",
+        "O contrato.",
+        "Os riscos.",
+        "Os próximos passos.",
+        "A melhor decisão."
+      ],
+      "fecho": "O vendedor que tem medo de conduzir cria clientes indecisos."
+    },
+    {
+      "layout": "lista",
+      "titulo": "O CLIENTE PRECISA\nTERMINAR O ATENDIMENTO\n*SABENDO*",
+      "marca_item": "bullet",
+      "itens": [
+        "Qual é o problema.",
+        "Qual é o caminho.",
+        "Como o escritório atuará.",
+        "Quais são os honorários.",
+        "Qual é o próximo passo."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "“VOU PENSAR”\nNÃO É *DIAGNÓSTICO*",
+      "intro": "“Vou pensar” pode significar:",
+      "marca_item": "bullet",
+      "itens": [
+        "Não entendi.",
+        "Não confiei.",
+        "Não percebi valor.",
+        "Estou com medo.",
+        "Quero comparar.",
+        "Não sei o que acontecerá depois."
+      ]
+    },
+    {
+      "layout": "texto",
+      "titulo": "NÃO QUEBRE UMA OBJEÇÃO\nQUE VOCÊ NÃO *ENTENDEU*",
+      "linhas": [
+        "Pergunte:",
+        "“Além dessa questão, existe algum outro ponto que está deixando você inseguro?”",
+        "“Quando você diz que precisa pensar, sobre qual ponto exatamente gostaria de refletir?”",
+        "“O que precisaria ficar mais claro para você tomar uma decisão com segurança?”"
+      ]
+    },
+    {
+      "layout": "cascata",
+      "titulo": "ESTRATÉGIA 4 — CONCLUA\nENQUANTO A DECISÃO\nESTÁ *VIVA*",
+      "itens": [
+        "Atendimento.",
+        "Assinatura.",
+        "Passagem de bastão.",
+        "Documentação."
+      ],
+      "destaque": "ultimo",
+      "fecho": "Quanto menor o intervalo, maior a chance de conclusão."
+    },
+    {
+      "layout": "lista",
+      "titulo": "QUANDO A CONCLUSÃO\nFICA PARA DEPOIS…",
+      "marca_item": "bullet",
+      "itens": [
+        "A carga emocional diminui.",
+        "Novas dúvidas aparecem.",
+        "Outras pessoas interferem.",
+        "O cliente começa a comparar.",
+        "Os documentos não chegam.",
+        "A contratação fica em risco."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "ASSINATURA E\nDOCUMENTAÇÃO AO *VIVO*",
+      "intro": "Antes de encerrar o atendimento:",
+      "marca_item": "check",
+      "itens": [
+        "Envie o contrato.",
+        "Acompanhe a assinatura.",
+        "Apresente o responsável pela documentação.",
+        "Solicite os documentos principais.",
+        "Explique o próximo passo."
+      ],
+      "fecho": "Contrato sem documentação ainda está em risco."
+    },
+    {
+      "layout": "lista",
+      "titulo": "ESTRATÉGIA 5 —\nFOLLOW UP COM *CONTEXTO*",
+      "intro": ["Follow Up não é enviar: “Oi, tudo bem?”", "Um bom Follow Up precisa:"],
+      "marca_item": "check",
+      "itens": [
+        "Retomar o contexto.",
+        "Reforçar valor.",
+        "Resolver inseguranças.",
+        "Criar um próximo passo.",
+        "Manter a oportunidade visível."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "VOCÊ NÃO PRECISA\nDEPENDER APENAS DE\nNOVOS *LEADS*",
+      "intro": "Todo atendimento pode gerar:",
+      "marca_item": "bullet",
+      "itens": [
+        "O contrato principal.",
+        "Uma nova demanda do mesmo cliente.",
+        "Uma oportunidade previdenciária.",
+        "Uma indicação.",
+        "Uma testemunha.",
+        "Uma avaliação.",
+        "Um novo relacionamento."
+      ]
+    },
+    {
+      "layout": "texto",
+      "titulo": "A MAIOR MUDANÇA\nDA NOSSA *OPERAÇÃO*",
+      "linhas": [
+        "Deixamos de perguntar apenas:",
+        "“Como fechamos este contrato?”",
+        "E passamos a perguntar:",
+        "“Quantas *oportunidades* podem ser geradas a partir deste atendimento?”"
+      ]
+    },
+    {
+      "layout": "cards",
+      "titulo": "AS QUATRO *PROSPECÇÕES*\nEM CADA ATENDIMENTO",
+      "itens": [
+        "Outros vínculos de trabalho.",
+        "Possíveis demandas previdenciárias.",
+        "Indicação de colegas.",
+        "Mapeamento de testemunhas."
+      ]
+    },
+    {
+      "layout": "texto",
+      "titulo": "PROSPECÇÃO 1 —\nOUTROS VÍNCULOS\nDE TRABALHO",
+      "linhas": [
+        "Antes de finalizar, pergunte:",
+        "“Além desse vínculo que analisamos, você trabalhou em algum outro local do qual tenha saído há menos de dois anos?”",
+        "“Existe alguma situação nesse outro emprego que também gostaria que analisássemos?”"
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "O QUE PODE EXISTIR\nEM OUTRO *VÍNCULO*?",
+      "marca_item": "bullet",
+      "itens": [
+        "Trabalho sem registro.",
+        "Acerto incorreto.",
+        "Horas extras.",
+        "Intervalos.",
+        "Comissões.",
+        "Assédio.",
+        "Irregularidades na rescisão.",
+        "Outros direitos descumpridos."
+      ]
+    },
+    {
+      "layout": "texto",
+      "titulo": "PROSPECÇÃO 2 —\nPOSSÍVEIS DEMANDAS\nPREVIDENCIÁRIAS",
+      "linhas": [
+        "Pergunte:",
+        "“Você já sofreu algum acidente ou possui alguma sequela que tenha reduzido sua capacidade para o trabalho?”",
+        "“Conhece alguém próximo que tenha passado por uma situação assim?”"
+      ]
+    },
+    {
+      "layout": "texto",
+      "titulo": "PROSPECÇÃO 3 —\nINDICAÇÃO\nDE COLEGAS",
+      "linhas": [
+        "Pergunte:",
+        "“Existem outros colegas que passaram pela mesma situação que você?”",
+        "“Você conseguiria nos conectar com essas pessoas para que também possamos analisar o caso delas?”"
+      ]
+    },
+    {
+      "layout": "lista",
+      "foto": "gabriel-metodo/indicacao-gratidao.jpg",
+      "foco": "centro",
+      "titulo": "A INDICAÇÃO NASCE\nDA *TRANSFORMAÇÃO*",
+      "intro": "O cliente indica quando percebe:",
+      "marca_item": "check",
+      "itens": [
+        "Acolhimento.",
+        "Clareza.",
+        "Segurança.",
+        "Autoridade.",
+        "Interesse verdadeiro em ajudar.",
+        "Relacionamento."
+      ]
+    },
+    {
+      "layout": "texto",
+      "titulo": "PROSPECÇÃO 4 —\nMAPEAMENTO\nDE *TESTEMUNHAS*",
+      "linhas": [
+        "Pergunte:",
+        "“Quem acompanhava essa situação dentro da empresa?”",
+        "“Essa pessoa também passou por alguma irregularidade?”",
+        "“Ela ainda trabalha no local?”",
+        "“Você consegue nos conectar?”"
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "A TESTEMUNHA TAMBÉM PODE\nPOSSUIR UMA *DEMANDA*",
+      "intro": ["Não enxergue a testemunha apenas como alguém que poderá ajudar no processo.", "Ela também pode ter:"],
+      "marca_item": "bullet",
+      "itens": [
+        "Direitos descumpridos.",
+        "Uma demanda própria.",
+        "Colegas na mesma situação.",
+        "Novas oportunidades para o escritório."
+      ]
+    },
+    {
+      "layout": "texto",
+      "titulo": "A PERGUNTA\nDE *EXPANSÃO*",
+      "linhas": [
+        "Antes de encerrar qualquer atendimento, pense:",
+        "“Existe mais alguma oportunidade que pode transformar a vida deste cliente ou de alguém próximo a ele?”",
+        "Um bom atendimento não encerra oportunidades.",
+        "Ele *revela* oportunidades."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "PROSPECÇÃO ATIVA NÃO É\nAPENAS FALAR COM\n*DESCONHECIDOS*",
+      "intro": "Prospecção ativa também é:",
+      "marca_item": "bullet",
+      "itens": [
+        "Reativar antigos atendimentos.",
+        "Analisar clientes da base.",
+        "Retomar pessoas que não contrataram.",
+        "Mapear novas demandas.",
+        "Solicitar indicações.",
+        "Conversar com testemunhas.",
+        "Trabalhar oportunidades que já possuem vínculo com o escritório."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "A BASE PODE SER O MAIOR\nATIVO DO *ESCRITÓRIO*",
+      "marca_item": "bullet",
+      "itens": [
+        "Clientes atendidos.",
+        "Clientes contratados.",
+        "Clientes que não contrataram.",
+        "Pessoas que não enviaram documentos.",
+        "Leads antigos.",
+        "Indicações não trabalhadas.",
+        "Testemunhas.",
+        "Relacionamentos construídos."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "O COMERCIAL NÃO TERMINA\nNA *ASSINATURA*",
+      "intro": "O cliente contratado pode gerar:",
+      "marca_item": "bullet",
+      "itens": [
+        "Novas demandas.",
+        "Indicações.",
+        "Avaliações no Google.",
+        "Autoridade.",
+        "Relacionamento de longo prazo."
+      ],
+      "fecho": "A assinatura encerra uma venda. Mas pode iniciar várias novas oportunidades."
+    },
+    {
+      "layout": "lista",
+      "titulo": "SEM PROCESSO,\nA ESTRATÉGIA DEPENDE\nDA *MEMÓRIA*",
+      "marca_item": "bullet",
+      "itens": [
+        "Quem precisa de retorno?",
+        "Quem não compareceu?",
+        "Quem não assinou?",
+        "Quem não enviou documentos?",
+        "Quem pode ser reativado?",
+        "Quem pode gerar uma nova oportunidade?"
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "WHATSAPP\nNÃO É *CRM*",
+      "linhas": [
+        "No WhatsApp, as conversas descem.",
+        "No CRM, as oportunidades permanecem visíveis.",
+        "Oportunidade esquecida também é oportunidade perdida."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "NÃO ACOMPANHE\nAPENAS *CONTRATOS*",
+      "intro": "Acompanhe os comportamentos que produzem contratos:",
+      "marca_item": "bullet",
+      "itens": [
+        "Tempo de resposta.",
+        "Ligações.",
+        "Agendamentos.",
+        "Comparecimento.",
+        "Atendimentos.",
+        "Follow Ups.",
+        "Assinaturas.",
+        "Documentações.",
+        "Novas oportunidades geradas."
+      ]
+    },
+    {
+      "layout": "colunas",
+      "titulo": "META MENSAL\nÉ *TARDE DEMAIS*",
+      "grupos": [
+        { "titulo": "Meta mensal:", "itens": ["Onde queremos chegar."] },
+        { "titulo": "Meta semanal:", "itens": ["Quanto precisamos avançar."] },
+        { "titulo": "Meta diária:", "itens": ["O que precisa ser executado hoje."] }
+      ]
+    },
+    {
+      "layout": "cards",
+      "titulo": "OS CINCO RITUAIS\nDA *PREVISIBILIDADE*",
+      "itens": [
+        "Abertura da semana.",
+        "Alinhamento diário.",
+        "Parcial de resultados.",
+        "Treinamento.",
+        "Fechamento da semana."
+      ]
+    },
+    {
+      "layout": "cascata",
+      "foto": "FOTOS/GABRIEL/v2_630bcefe-b07c-443d-ae67-993e4c3c76ab.jpg",
+      "foco": "centro",
+      "titulo": "VOCÊ NÃO PRECISA\nDESCOBRIR TUDO *SOZINHO*",
+      "itens": [
+        "Método.",
+        "Direção.",
+        "Implementação.",
+        "Acompanhamento.",
+        "Correção de rota."
+      ],
+      "destaque": "ultimo"
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "NÃO BUSQUE APENAS\nMAIS *CLIENTES*",
+      "linhas": [
+        "Aproveite melhor cada oportunidade.",
+        "Crie novas oportunidades em cada atendimento.",
+        "E construa um comercial capaz de repetir resultados."
+      ]
+    }
+  ]
+}

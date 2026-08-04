@@ -1,0 +1,211 @@
+{
+  "_nota": "A palestra do RENAN BONELA ('Palestra_Produto.pptx', mandada em 2026-08-04), passada pro motor da casa. ⚠️ A COPY É DELE E NÃO SE MEXE: cada frase aqui está igual à do arquivo original, com a mesma pontuação (o '+', o '=', o travessão do James Clear, o 'antes de tudo'). O que muda é só o DESENHO — fundo preto, Rubik One, acento AZUL (a cor da Imersão Master MAT), logo no rodapé e as fotos dele. Quebra de linha ('\\n') e realce ('*palavra*') são layout, não texto: quebram onde a coluna manda e realçam onde o modelo pede. Os prints e o QR saíram do próprio .pptx, em slides/imagens/renan-acordos/. O deck não declara 'perfil': o @ do Renan ainda não está em marketing-instagram/marca/perfis.json, e @ não se digita à mão.",
+  "tema": "mat",
+  "acento": "azul",
+  "marca": "Imersão Master MAT",
+  "logo": "imersao-master-mat-sem-fundo.png",
+  "arquivo_saida": "renan-engenharia-de-caixa",
+  "titulo": "A engenharia de caixa do escritório trabalhista",
+  "slides": [
+    {
+      "layout": "capa",
+      "moldura": true,
+      "foto": "FOTOS/RENAN/v2_13d3f917-fb7e-466d-b353-e13e0811fdba.jpg",
+      "foco": "topo",
+      "titulo": "A engenharia\nde *caixa*",
+      "texto": "do escritório trabalhista",
+      "fecho": "Imersão Master MAT · Renan Bonela"
+    },
+    {
+      "_nota": "'cards' e não 'fluxo' porque o original NUMERA os cinco pilares (1 a 5) e não põe seta entre eles; o fluxo apagaria os números, que fazem parte do que ele escreveu. O terceiro sai realçado, como no arquivo dele.",
+      "layout": "cards",
+      "titulo": "O mapa\nque vocês já\npercorreram aqui",
+      "itens": ["Marketing", "Vendas", "*Entrega*", "Custos", "Lucro"],
+      "fecho": "Hoje: o pilar da *entrega*. O que financia todos os outros."
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "O produto do escritório\nnão é a *vitória*.",
+      "linhas": ["É resultado no bolso + experiência do cliente."]
+    },
+    {
+      "layout": "secao",
+      "cenario": "kv-plateia.jpg",
+      "veu": "forte",
+      "linhas": ["O produto que antecipa o resultado tem nome:"],
+      "titulo": "Acordo.",
+      "abaixo": ["E produto se gerencia:", "prazo, processo, meta e número."]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "O escritório de êxito\nfinancia o *cliente*.",
+      "linhas": ["Você paga o custo hoje para receber anos depois. Se receber."]
+    },
+    {
+      "_nota": "sem 'subtitulo': o gráfico já traz 'Da distribuição ao dinheiro na conta' impresso dentro do PNG, e repetir põe a mesma frase duas vezes na página.",
+      "layout": "print",
+      "titulo": "Quanto tempo\naté o dinheiro chegar",
+      "print": "renan-acordos/grafico-tempo-ate-o-dinheiro.png"
+    },
+    {
+      "layout": "lista",
+      "titulo": "E mesmo ganhando,\nvocê ainda não recebeu",
+      "marca_item": "numero",
+      "itens": [
+        "Recurso *adia* tudo",
+        "Entendimento *muda*",
+        "Execução volta *vazia*",
+        "Empresa *quebra* no meio do caminho",
+        "Até acordo tem *inadimplência*"
+      ],
+      "fecho": "Gestão de escritório trabalhista é, antes de tudo, gestão de *risco de recebimento*."
+    },
+    {
+      "layout": "metricas",
+      "titulo": "O acordo na nossa\noperação,\nem proporções",
+      "metricas": [
+        { "numero": "2-3 de 10", "texto": "encerramentos terminam em acordo" },
+        { "numero": "38%", "texto": "do valor do ano veio do setor dedicado de acordos" },
+        { "numero": "nº 1", "texto": "origem em volume: nosso canal virtual" }
+      ],
+      "fecho": "Ter um *setor* de acordo muda o jogo: acordo vira rotina, não sorte."
+    },
+    {
+      "layout": "metricas",
+      "titulo": "Regra da casa: ticket\nmínimo de parceria",
+      "metricas": [
+        { "numero": "R$ 5 mil", "texto": "abaixo disso (bruto), não há repasse de prospecção" }
+      ],
+      "rotulo": "Por que a regra existe:",
+      "itens": [
+        "Caso pequeno tem o mesmo custo de esteira que caso grande",
+        "Repasse em caso pequeno é trabalhar no prejuízo",
+        "Combinada antes, em contrato, protege as duas partes"
+      ],
+      "fecho": "A margem também se defende na *regra de parceria*."
+    },
+    {
+      "layout": "metricas",
+      "titulo": "O risco que sobra:\nno acordo\nhá inadimplência",
+      "metricas": [
+        { "numero": "2 em 5", "texto": "acordos atrasa ou não paga" }
+      ],
+      "rotulo": "Por isso o desenho do acordo importa:",
+      "itens": [
+        "Parcela realista, que cabe no bolso da ré",
+        "Cláusula penal séria para o atraso",
+        "Vencimentos acompanhados um a um no financeiro"
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "Acordo parcelado =\nano *provisionado*.",
+      "linhas": ["Previsibilidade é o que deixa o dono dormir."]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "“Você não sobe ao nível\ndas suas metas. Você cai\nao nível dos seus *sistemas*.”",
+      "linhas": ["James Clear – Hábitos Atômicos"]
+    },
+    {
+      "layout": "contato",
+      "titulo": "Baixe agora.\nÉ de *vocês*.",
+      "linhas": [
+        "Aponte a câmera para o QR code.",
+        "O arquivo abre em modo leitura:",
+        "faça a sua cópia.",
+        " ",
+        "Planilha de Gestão de Acordos"
+      ],
+      "qr": "renan-acordos/qr-planilha-acordos.png"
+    },
+    {
+      "layout": "print",
+      "titulo": "Isso não é teoria\nde palestra.",
+      "subtitulo": "A planilha que roda no nosso escritório agora é sua.",
+      "print": "renan-acordos/planilha-dashboard-geral.png"
+    },
+    {
+      "layout": "print",
+      "titulo": "Passo 1",
+      "subtitulo": "Faça a sua cópia",
+      "print": "renan-acordos/passo-1-fazer-copia.png"
+    },
+    {
+      "layout": "print",
+      "titulo": "Passo 2",
+      "subtitulo": "Lance o acordo após a homologação",
+      "print": "renan-acordos/passo-2-lancamento.png"
+    },
+    {
+      "layout": "print",
+      "titulo": "Passo 3",
+      "subtitulo": "Escolha nas listas, não digite",
+      "print": "renan-acordos/passo-3-listas.png"
+    },
+    {
+      "layout": "print",
+      "titulo": "Passo 4",
+      "subtitulo": "Uma vez por semana, olhe o DASHBOARD",
+      "print": "renan-acordos/passo-4-dashboard.png"
+    },
+    {
+      "layout": "print",
+      "titulo": "Passo 5",
+      "subtitulo": ["Observe as métricas", "Acordo por advogado"],
+      "print": "renan-acordos/passo-5-acordo-por-advogado.png"
+    },
+    {
+      "layout": "print",
+      "titulo": "Passo 5",
+      "subtitulo": ["Observe as métricas", "Origem do cliente"],
+      "print": "renan-acordos/passo-5-origem-do-cliente.png"
+    },
+    {
+      "layout": "print",
+      "titulo": "Passo 5",
+      "subtitulo": ["Observe as métricas", "Setor de origem"],
+      "print": "renan-acordos/passo-5-setor-de-origem.png"
+    },
+    {
+      "_nota": "pedido do dono (2026-08-04): os desafios em BULLETS, e o fundo é a plateia GERAL do Summit (salão cheio, plano aberto, ninguém em foco) — não uma foto que puxa o olho pra uma pessoa. A foto é clara (madeira e luz quente), então pede véu forte, senão o texto branco some.",
+      "layout": "lista",
+      "cenario": "FOTOS/ALUNOS E OUTROS/v2_3ad0f6c0-c68b-4d34-9a00-7f44144bc225.jpg",
+      "foco_cenario": "centro",
+      "veu": "forte",
+      "titulo": "Desafio dos\n*30 dias*",
+      "marca_item": "bullet",
+      "itens": [
+        "Um mês de lançamentos.",
+        "Uma reunião de resultado com a equipe.",
+        "Em 30 dias você vê seu pilar de acordos em números pela primeira vez.",
+        "Sugestão de meta, o dobro da sua média anterior"
+      ]
+    },
+    {
+      "layout": "contato",
+      "titulo": "Baixe agora.\nÉ de *vocês*.",
+      "linhas": [
+        "Aponte a câmera para o QR code.",
+        "O arquivo abre em modo leitura:",
+        "faça a sua cópia.",
+        " ",
+        "Planilha de Gestão de Acordos"
+      ],
+      "qr": "renan-acordos/qr-planilha-acordos.png"
+    },
+    {
+      "layout": "final",
+      "foto": "FOTOS/RENAN/v2_bf1200b7-6333-4744-afae-a26f1ccf8fd7.jpg",
+      "foco": "topo",
+      "titulo": "O produto do escritório\nnão é a *vitória*.",
+      "linhas": [
+        "É resultado no bolso",
+        "+ experiência do cliente.",
+        " ",
+        "Obrigado.",
+        "Renan Bonela · Imersão Master MAT"
+      ]
+    }
+  ]
+}

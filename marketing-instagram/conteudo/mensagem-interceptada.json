@@ -1,0 +1,47 @@
+{
+  "arquivo_saida": "mensagem-interceptada",
+  "tipo": "thread",
+  "perfil": "joao-vitor",
+  "tema": "claro",
+  "pasta": "mensagem-interceptada",
+  "slides": [
+    {
+      "texto": "Esta mensagem não era para você.\n\nEra para uma pessoa que morreu antes de perceber que passou a vida inteira presente no trabalho e ausente em casa.",
+      "imagem": "01-mesa-noite.png"
+    },
+    {
+      "texto": "No dia do próprio enterro, ela estava ali, de pé, olhando para o caixão e tentando entender por que havia tão pouca gente ao redor.\n\nA ausência que mais doía não era a dos colegas. Era a da própria família.",
+      "imagem": "02-cemiterio-cadeiras-vazias.png"
+    },
+    {
+      "texto": "Ela perguntou por que quase ninguém tinha ido ao funeral.\n\nEntão ouviu uma resposta simples: “Antes de perguntar quem veio, responda com honestidade quem você esperava encontrar aqui.”",
+      "imagem": "03-cemiterio-perto.png"
+    },
+    {
+      "texto": "Ela disse que esperava ver a família: quem amava, quem convivia com ela e quem deveria ter sido prioridade.\n\nE, quando perguntaram se aquelas eram as pessoas mais importantes da sua vida, respondeu sem hesitar que sempre foram.",
+      "imagem": "04-familia-ao-longe.png"
+    },
+    {
+      "texto": "Então veio a pergunta que ela não conseguiu responder de imediato:\n\n“Se eram tão importantes, por que quase nunca ocupavam o primeiro lugar no seu dia?”"
+    },
+    {
+      "texto": "Quando acordava, pensava na tarefa atrasada, na cobrança do chefe, na mensagem que ainda não tinha respondido e no medo de cometer algum erro.\n\nQuando ia dormir, a cabeça continuava no mesmo lugar.",
+      "imagem": "06-cama-notificacoes.png"
+    },
+    {
+      "texto": "Aos poucos, ela entendeu que dizia amar a família, mas entregava a ela apenas o que sobrava.\n\nSobrava pouca paciência, pouca presença, pouca escuta e quase nenhum tempo inteiro.",
+      "imagem": "07-familia-jantando-ao-fundo.png"
+    },
+    {
+      "texto": "Ela passou a vida tentando provar valor para pessoas que não estavam ali no dia do enterro.\n\nEnquanto isso, as pessoas que dizia amar aprenderam a viver recebendo só os restos da sua atenção.",
+      "imagem": "08-pilha-de-processos.png"
+    },
+    {
+      "texto": "Se você trabalha e sente que nunca consegue desligar de verdade, talvez essa história doa um pouco mais.\n\nNo papel o expediente tem hora para acabar. Na prática, o grupo do trabalho continua apitando, a cobrança continua chegando e a sua cabeça nunca sai de lá.",
+      "imagem": "05-sozinha-no-escuro.png"
+    },
+    {
+      "texto": "Essa mensagem não chegou a tempo para aquela pessoa.\n\nMas chegou até você.\n\nA pergunta é simples: quem está recebendo a sua melhor versão, e quem está ficando apenas com o que sobra?"
+    }
+  ]
+}

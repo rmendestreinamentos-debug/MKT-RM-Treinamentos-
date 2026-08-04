@@ -336,6 +336,11 @@ Nascem escuros. Modelo pronto pra copiar: `conteudo/trafego-proximo-nivel.json`.
 original tem o fundo preto chapado dentro do arquivo, e sobre foto ele vira um
 retângulo preto. `node motor/logo-sem-fundo.js <logo>.png` gera a versão recortada
 (ver `marca/LOGOS.md`). Nos outros tipos o selo cai em fundo escuro e o original serve.
+⚠️ **Logo de tinta ESCURA sobre BRANCO é outro caso e pede outra ferramenta.** O
+`logo-sem-fundo.js` calcula `alpha = brilho`: nele apagaria as letras e deixaria o fundo
+opaco. `node motor/logo-tinta.js <logo>.png ouro|branco|cor` tira o branco, **apara a
+margem** (logo de editor chega com metade do arquivo em branco) e pinta monocromático pro
+fundo escuro. É o caso da RM Treinamentos — o único da casa.
 
 ⚠️ **Botão desenhado e "Toque em Saiba Mais" imitam a interface do Meta.** É o que as
 duas referências fazem, e funciona; mas é também a categoria de criativo que o Meta
@@ -366,15 +371,52 @@ reprova com mais frequência. Se um anúncio for recusado, o botão é o primeir
 ## Os dois carrosséis — peças NATIVAS (sem marca, de propósito)
 Carrossel não leva logo, nem dourado, nem Montserrat. Ele imita conteúdo orgânico:
 carimbar a marca mataria o efeito. A assinatura é o **perfil**, não o produto.
-Fonte: `--nativo` (grotesca de sistema). Não "consertar" isso.
+Fonte: `--nativo`, que é a fonte do próprio X — **Chirp** (regra do dono, 2026-07-30).
+Não "consertar" isso.
+⚠️ **Chirp é proprietária: não está no Google Fonts nem vem no Windows.** Quem a coloca
+na peça é o motor, embutindo o arquivo de `marca/fontes/` (data-URI — `setContent` não
+carrega caminho relativo). Sem o arquivo a peça sai na grotesca de sistema e **o motor
+avisa no console**: fonte errada é o defeito que ninguém vê no PNG e qualquer um vê ao
+lado de um print de verdade. Como repor: `marca/fontes/LEIA-ME.md`. Ela fica fora do
+Git (licença) — máquina nova gera peça nativa com o aviso até o arquivo voltar.
 
-5. **`thread`** — print de tweet do X, dark mode. `perfil` em todo slide (ver
-   "Quem assina" abaixo). Slides: `texto` (linha em branco separa parágrafo) +
-   `imagem` opcional — uma (o normal do modelo) ou **duas lado a lado** numa lista:
-   `"imagem": ["antes.jpg", "depois.jpg"]`. **Fundo preto e texto em peso normal
-   são o padrão** — negrito ou cor entregam que é arte, não print. Slide com
-   `imagem` ancora o card no topo e a imagem preenche o resto; slide sem `imagem`
-   centra o card no preto — é o **remate**.
+5. **`thread`** — print de tweet do X. `perfil` em todo slide (ver "Quem assina"
+   abaixo). Slides: `texto` (linha em branco separa parágrafo) + `imagem` opcional —
+   uma (o normal do modelo) ou **duas lado a lado** numa lista:
+   `"imagem": ["antes.jpg", "depois.jpg"]`. Slide com `imagem` ancora o card no topo e
+   a imagem preenche o resto; slide sem `imagem` centra o card no fundo — é o **remate**.
+   ⚠️ **Fundo claro ou escuro se PERGUNTA** (regra do dono, 2026-07-30) — o X tem os
+   dois modos e um print é fiel a um deles. `"tema": "escuro"` (o *lights out*, padrão
+   do modelo) ou `"tema": "claro"`, **no topo do arquivo**: claro/escuro é decisão do
+   carrossel inteiro, e metade dos slides em cada fundo lê como erro de montagem, não
+   como thread. No claro o @ troca pro cinza fechado do X (`#536471`) — o `#71767b` do
+   escuro clareia demais no branco e a assinatura desaparece.
+   **Texto em peso normal em qualquer tema** — negrito ou cor entregam que é arte, não
+   print. O tema muda o fundo, não essa regra. A exceção é `**palavra**` (negrito, regra
+   do dono 2026-07-30): num carrossel de **CTA por comentário**, a palavra que a pessoa
+   precisa digitar tem que ser achada num relance. Só ela; frase inteira em negrito é o
+   defeito que a regra evita.
+   ⚠️ **A imagem PREENCHE o bloco, com o canto arredondado do X** (regra do dono,
+   2026-08-03) — é assim em todo frame de `exemplos/thread-x/` e não se mexe. Duas formas
+   de errar, as duas já reprovadas: a **FATIA** (deixar o motor cortar a altura, e como o
+   bloco tem a altura que sobra do texto sai um pedaço de telhado) e a **MOLDURA** (fazer
+   caber inteira, sobrando fundo em volta: "minha imagem enfiada dentro de uma montagem").
+   O que se ajusta é **o arquivo**: `node motor/faixa.js saida/<pasta>` mede a proporção do
+   bloco de cada slide, e `motor/recortar.js` corta a imagem nela, escolhendo a região que
+   responde à frase. Nomear `s07-<nome>.jpg`: o recorte serve àquele slide e a mais nenhum.
+   `foco` (atalho, número, ou **lista** num par) só pra corte pequeno; `"encaixe":
+   "contain"` só pro print que precisa ser lido inteiro. O CRIVO completo está em
+   `imagens/LEIA-ME.md`; um julgamento inteiro em `imagens/escravidao/`.
+   ⚠️ **LOGO ou print anexado pede `"encaixe": "contain"`.** O padrão é `cover`, que
+   preenche a faixa recortando as bordas — e a altura da faixa depende de quantas linhas
+   o texto do slide tem, então o mesmo lockup passa num slide e perde uma letra no
+   seguinte, sem nada no console. Com `contain` a imagem cabe inteira, o bloco fica na
+   altura dela (encolhendo quando o texto é longo, senão cortaria o cabeçalho) e o
+   conjunto centra no slide, como no remate.
+   ⚠️ **Lockup chega com um oceano de fundo em volta**, e aí ele entra 3x menor do que
+   poderia. `node motor/aparar-imagem.js "<pasta>/<arquivo>.png" [folga %]` apara a
+   margem chapada (preta ou branca) e salva `-aparado` ao lado, sem tocar no original.
+   Não confundir com `aparar.js`, que mede transparência de recorte de pessoa.
    Modelo canônico + roteiro da copy: `exemplos/thread-x/`.
    (`titulo`/`gancho` e o `*asterisco*` como marca-texto vermelho continuam
    disponíveis, mas fora do padrão — usar só se o dono pedir.)
@@ -432,6 +474,9 @@ crachá do @ e headline gritada. O motor não liga pra quantidade de slides. Mod
 - ⚠️ **A copy tem que ser CURTA e quebrada à mão** com `\n`: a régua cobra ~17 caracteres
   por linha a 132px. Linha longa não estoura a margem — ela **racha**, e a quebra que você
   escreveu vira uma linha a mais. Título de 3 linhas curtas é o formato.
+- ⚠️ **O selo azul do crachá é o do INSTAGRAM** (`marca/Selo Verificado.png`, estrela de 12
+  pontas), não o do X — este é o crachá do perfil de lá. O do X (círculo serrilhado, SVG no
+  motor) é do cabeçalho da `thread`. Liga/desliga em `"verificado"` de `marca/perfis.json`.
 - ⚠️ **Crachá com logo por extenso vira borrão**: ele é um disco de 56px, feito pra foto
   de rosto. Perfil cujo avatar é lockup (`rm-summit-sp.png`) fica ilegível ali — é fiel ao
   que o Instagram mostra, mas se a marca precisa ser LIDA, use um estático com selo.
@@ -456,6 +501,12 @@ ainda não confirmou; o motor para e pede.
 Pasta onde o dono despeja o que quiser (pintura, print, meme, render) — sem triagem,
 sem catálogo, pode repetir. **Não confundir com o acervo `fotos/`**, que é o banco do
 evento e só entra como foto de FUNDO de estático, com regra de não repetir.
+
+⚠️ **A pasta é material BRUTO, não lista de tarefas** (regra do dono, 2026-08-03: "quando
+a imagem não for boa para utilizar, não utilize, apenas a descarte; não force algo, quero
+que tenha senso crítico"). Ele junta o que achou; **separar o que serve é o trabalho**.
+Imagem que não responde à frase do slide fica de fora, e o slide vai sem imagem — que é
+layout previsto. Anotar as descartadas e o motivo. O crivo: `imagens/LEIA-ME.md`.
 
 Cada carrossel ganha sua subpasta, e a peça declara ela **uma vez** no topo:
 `"pasta": "copa-do-mundo"` → o motor procura em `imagens/copa-do-mundo/`, e cada slide
@@ -518,7 +569,19 @@ node motor/recortar.js "FOTOS/DIA 3/0017_....jpg" <x> <y> <larg> <alt> rafael-so
 
 Sai em `imagens/` (o acervo não se mexe) e a peça aponta pro nome do recorte — o campo
 `foto` procura em `fotos/` **e depois em `imagens/`**, justamente pra achar o recorte.
+A ORIGEM também pode estar em `imagens/`: recorte de recorte é caso real (foi assim que
+saiu o avatar do Rafael, de `rafael-sorriso.jpg`).
 Deixe **ar no topo** se a peça tiver selo no alto (`caricato`) — senão o logo bate na testa.
+⚠️ **O avatar é a foto de perfil DE VERDADE, recortada do disco** (regra do dono,
+2026-07-30). Não é uma foto bonita escolhida por nós: a peça imita print, e quem olha o
+perfil dele reconhece a foto. Ele sobe o print do perfil em `marca/` e o disco se recorta
+com `recortar.js` (o do Rafael: `Perfil Rafael Mendes.png`, caixa 63 61 163 163). Trocar
+o caminho em `marca/perfis.json`; o avatar antigo fica na pasta.
+⚠️ O disco de um print tem ~163px e o card usa 208px em 2×, então a foto entra **um
+pouco ampliada**. É o preço de ser fiel; se um dia chegar o arquivo original da foto de
+perfil, recortar dele. Foto cujo topo do cabelo já vem cortado (era o caso do avatar
+antigo) vira um chanfro reto na testa dentro do círculo, e o `cover` não devolve o que
+não está no arquivo.
 
 ## O acervo é um REPOSITÓRIO vivo (regra do dono, 2026-07-13)
 `fotos/` não é uma pasta que se lê uma vez: o dono joga foto nova lá sempre que
@@ -563,6 +626,11 @@ Envolva em `*asteriscos*` o trecho que deve saltar dentro da frase:
 `"O Summit foi um *divisor de águas* na minha vida."` Vale em `titulo`, `citacao`
 e `texto`. Uma frase, duas cores — é o que dá o impacto de 1 segundo. Não abusar:
 um destaque por peça.
+
+⚠️ **`**dois asteriscos**` é outra coisa: NEGRITO, e vale em qualquer tipo.** Não é cor,
+não é tamanho, é peso — existe pra palavra-chave de **comentário** ("Comente **365**"),
+que a pessoa precisa achar num relance pra digitar. O motor lê o duplo antes do simples;
+sem isso a regex do realce comeria o miolo e sobrariam asteriscos soltos na arte.
 
 O mesmo `*asterisco*` rende diferente por tipo — mesma escrita, cada peça no seu
 registro. **Conferir o modelo em `exemplos/` antes de mexer:**
@@ -619,6 +687,123 @@ Ver `exemplos/LEIA-ME.md`.
 
 Falta um modelo virar modo do motor: **institucional** (patrocinador confirmado,
 moldura de crachá).
+
+## Capa de MÓDULO (área de membros) — motor próprio
+`node motor/capa.js conteudo/capas/<arquivo>.json` → `saida/capas/`. **680×1088**, sai em
+2× (1360×2176). Não é peça de feed e não passa pelo `gerar.js`: o motor de feed é travado
+em 1080×1350 e parametrizar o viewport dele mudaria toda peça de Instagram sem querer.
+Lê os mesmos `marca/tokens.css`, `imagens/`, `fotos/` e `marca/` (logo).
+Campos: `titulo` (com `*realce*` → dourado metálico, `\n` quebra de verdade), `foto`,
+`foco`/`focox`/`zoom`, `eyebrow`, `texto`, `logo` **ou** `wordmark`, `altura_foto`.
+`"capas": [...]` no topo gera a série inteira de módulos numa rodada.
+⚠️ **`altura_foto` menor que 100 é pra foto HORIZONTAL.** Prender um retrato vertical numa
+faixa de 66% faz uma janela mais larga que alta, o `cover` passa a escalar pela largura e
+o retrato vira close-up — a cabeça come metade da arte e o corpo some. Foto vertical sangra
+na arte inteira (o padrão), onde 0.625 é quase a proporção do arquivo.
+⚠️ Sem `focox` útil em foto vertical: não sobra folga horizontal pra deslocar. Só o `zoom`
+abre essa margem, e ele corta o topo junto.
+⚠️ **Cada linha do `titulo` é `nowrap` e o motor MEDE se coube**, em LARGURA e em ALTURA,
+encolhendo a fonte até caber (piso 26px, e ele avisa no console quando encolhe ou quando
+nem no piso coube). A régua por contagem de caractere é só o palpite inicial: "PROSPECÇÃO"
+tem 10 letras e é largo, "ILUMINADAS" tem 10 e é estreito. Não confundir com o autofit
+proibido do PowerPoint — lá a conta refaz na máquina de quem abre; aqui ela acontece antes
+do print. A checagem de ALTURA mede o CONTEÚDO do bloco, não a caixa: no banner a caixa é
+flex com `inset:0` e mediria a arte inteira, derrubando todo título até o piso.
+⚠️ Foto **horizontal** vira close-up aqui, mesmo problema da faixa curta: o `cover` escala
+pela altura e o rosto estoura. Capa pede foto vertical, ou recorte antes com `recortar.js`.
+
+**`"formato": "banner"`** troca a régua pra **1280×720 (16:9)** — a faixa do topo da área
+de membros, também em 2× (2560×1440). O que muda além do tamanho: o bloco de texto vai pro
+**centro** (a faixa é recortada nas laterais conforme a largura da tela de quem abre, e o
+miolo é o único pedaço que sobrevive a todo recorte), o **logo vem ANTES do título** (na
+faixa quem assina é a casa e o curso é o assunto; na capa do módulo é o contrário) e o véu
+ganha uma **mancha central** — degradê vertical sozinho ou apaga a foto inteira ou deixa o
+miolo legível demais atrás da letra. Aqui a foto é horizontal por natureza.
+**`"formato": "larga"`** é a capa de módulo DEITADA — **1088×680 (8:5)**, em 2× (2176×1360).
+Mesmo layout da capa em pé (bloco no rodapé, logo embaixo do título): é isso que faz as duas
+lerem como a mesma série. Muda só a margem lateral (72px, porque 56 numa peça de 1088 seria
+5% e o título encostaria) e a folga de baixo (46px, porque os 62 da capa em pé virariam 9%
+dos 680 de altura). Peça: `conteudo/capas/pecas.json`.
+⚠️ **Numa peça deitada quem estoura primeiro é a ALTURA, não a largura.** "PEÇAS SIMPLES"
+cabe folgado nos 944px úteis e ainda assim, no corpo que a régua sugere, tapava o rosto e
+comia metade dos 680px de altura. Em pé isso nunca aparecia porque lá sobra altura. Por
+isso o ajuste do título mede as duas coisas, com teto de bloco em 44% da arte na deitada.
+
+⚠️ **Backdrop de OUTRA marca é o defeito desta peça, e o véu não resolve.** Metade do
+acervo de plateia e painel tem o LED escrito "RM SUMMIT BELO HORIZONTE" em letra garrafal,
+e ele fica no canto — fora da mancha central, que só cobre o meio. Numa faixa que carrega o
+nome de outro produto, o resultado é a marca do evento maior que a do curso. Foto de sala
+cheia sem marca legível é rara no acervo: `Fotos RM Summit/FAMILIA RAFAEL/RMDAY10245.jpg`
+é a que existe, e a luz quente laranja dela ainda casa com o dourado da casa.
+
+## CREDENCIAL de evento (crachá físico) — motor próprio
+`node motor/credencial.js conteudo/credenciais/<arquivo>.json` → `saida/credenciais/`.
+**10 × 14 cm** (pedido do dono, 2026-07-30), retrato, em 2× (~305 DPI). Motor separado
+porque aqui o veículo é PAPEL, e papel tem três exigências que tela não tem:
+- **Sangria de 3mm** — a arte sai em 10,6 × 14,6 cm e o fundo invade a faixa. Sem isso o
+  corte (tolerância ~1mm) deixa fio branco na borda em parte da tiragem.
+- **Margem de segurança de 6mm** e **moldura a 4mm** do corte. Fio mais perto da
+  guilhotina sai torto, e o olho pega desalinho numa peça de 10cm na hora.
+- **Zona do cordão: os 14mm do topo ficam VAZIOS** — é onde entra o furo/ilhós.
+
+Campos: `pessoas: [{ nome (com `\n`), detalhe, tipo }]` gera **uma credencial por pessoa**
+(sem a lista sai só o MODELO em branco, que também é entregável — evento tem inscrição de
+última hora). `tipo` pinta a tarja sangrada do rodapé, e ela não é enfeite: num corredor,
+a **cor da tarja** é a única coisa lida a três metros: `participante` · `palestrante` ·
+`convidado` · `staff` · `imprensa`. O **verso é UM só** pra todo mundo (`verso_titulo` +
+`verso_itens`, no formato `"08h30 | Bloco 1"`, e `qr` opcional).
+`acento`: `ouro` (a Imersão Master MAT) ou `azul`.
+
+⚠️ **`"fundo": "claro"` é o crachá de PAPEL BRANCO com detalhes dourados** (pedido do dono,
+2026-07-31; `escuro` é a versão preta). Não é um filtro por cima da mesma arte — trocar o
+campo muda quatro coisas de uma vez, e cada uma quebraria sozinha:
+- **a liga do dourado**. Sobre branco, o #E9B356 é claro demais pra fio de 0,75pt e o
+  #FFE172 do brilho simplesmente não existe. O acento tem uma segunda liga, rebaixada.
+- **o blend dos ornamentos**: `screen` clareia (serve ao preto), `multiply` escurece (serve
+  ao branco). Trocado, o guilhoché some sem erro nenhum no console. ⚠️ E o erro do outro
+  lado tem nome: **PERGAMINHO**. Multiply cobre a folha inteira, e trama na intensidade da
+  versão preta vira bege de diploma — no claro todo valor é ~metade do equivalente escuro.
+- **a cor de cada tarja**, que é definida CONTRA o fundo: no preto o palestrante é PRATA,
+  no branco a mesma prata some e quem salta é o PRETO. Idem imprensa, que clareia pra não
+  virar gêmeo do palestrante.
+- **o ARQUIVO do logo**. Ver abaixo — é o ponto que mais custa se passar batido.
+
+⚠️ **Logo de fundo escuro não vai pra papel branco: gera-se a versão `-claro`.**
+`node motor/logo-fundo-claro.js <logo>.png` (feito pra `imersao-master-mat.png` e
+`master-mat.png`). O PNG da marca traz o preto DENTRO do arquivo, e sobre branco o `screen`
+devolveria branco: o logo inteiro sumiria. O `-sem-fundo` também não serve — nele o "MASTER"
+é prata, sai quase 100% opaco de branco e desaparece no papel (abrir
+`marca/imersao-master-mat-sem-fundo.png` sobre branco pra ver). O script separa por **croma**:
+o que é dourado mantém a cor exata do arquivo, o que é neutro INVERTE (brilho vira opacidade
+de tinta escura) e o "MASTER" volta em preto. Sem o arquivo `-claro`, o motor para e diz o
+comando. Não é o `logo-tinta.js` (aquele é tinta escura sobre branco, e pintaria tudo numa
+cor só, matando o metálico do MAT).
+
+⚠️ **A LETRA da tarja é grande** (pedido do dono, 2026-07-31: "maior a letra em si, não o
+espaço"): 34px, contra os 17 da primeira versão, com o tracking caindo de .30 pra .18em —
+é o tracking que paga a conta, senão "PARTICIPANTE" encostaria nas duas margens. A faixa foi
+de 16 pra 18mm pra a letra não tocar as bordas, e a moldura acompanha. `tarja_corpo` e
+`tarja_altura` ajustam; o motor ainda MEDE e encolhe (piso 14px) se um rótulo custom não
+couber — tarja é uma linha só, não tem quebra possível.
+
+⚠️ **O campo do nome tem TRÊS estados, e eles mudam o que a tiragem é:**
+- `"etiqueta": null` — **área RESERVADA e não impressa** (o de agora, pedido do dono em
+  2026-07-31): a etiqueta é colada direto no branco do papel. No fundo claro o quadrado
+  branco virou moldura em volta de nada — ele só existia porque o crachá era preto. A
+  medida migra pro `area_nome` e continua saindo na PROVA: sem ela, quem cola a etiqueta
+  na produção não tem referência e as 300 saem com o nome em 300 alturas.
+- `"etiqueta": { largura, altura, topo, fundo, dica }` — o campo **desenhado**, com fio
+  dourado em volta. Uma arte por TIPO, como o null.
+- `"etiqueta": false` — o nome **IMPRESSO**, e aí a tiragem passa a ser uma arte por PESSOA
+  (lista `pessoas`).
+
+⚠️ **`"guias": true` gera uma PROVA ao lado** (`_PROVA-*`) com linha de corte, margem e
+furo desenhados. Os arquivos **sem `_PROVA` no nome** é que vão pra gráfica.
+⚠️ **Avisar a gráfica: preto RICO** (algo como C40 M30 Y30 K100) na conversão pra CMYK.
+100% K chapado em área grande sai acinzentado no offset e marca o verso.
+⚠️ O nome é **medido e encolhido** pra caber (piso 18px, e o motor avisa). Em papel isso
+importa mais que em tela: nome estourando a margem sai raspado, e não tem refazer sem
+reimprimir a tiragem.
 
 ## Formatos
 - Feed retrato: 1080×1350 é a RÉGUA do layout (fonte, margem e enquadramento são pensados

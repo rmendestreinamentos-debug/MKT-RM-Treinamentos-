@@ -1,0 +1,371 @@
+{
+  "tema": "summit",
+  "marca": "Comercial 24hrs",
+  "logo": "comercial-24hrs-sem-fundo.png",
+  "aula": "Aula 13 · Gestão e Escala do Comercial",
+  "titulo": "Gestão e Escala do Comercial",
+  "arquivo_saida": "aula-13-gestao-escala-comercial",
+  "slides": [
+    {
+      "layout": "capa",
+      "moldura": true,
+      "foto": "FOTOS/GABRIEL/v2_93cfc5fd-4d00-4c51-89e2-3af7168e1074.jpg",
+      "foco": "topo",
+      "eyebrow": "Aula 13",
+      "titulo": "Gestão e Escala\ndo Comercial",
+      "texto": "Como preparar seu escritório\npara crescer com previsibilidade."
+    },
+    {
+      "layout": "fluxo",
+      "titulo": "Os 5 estágios de um comercial",
+      "etapas": [
+        "O dono vende",
+        "O dono vende com ajuda",
+        "Existe equipe comercial",
+        "Existe gestão comercial",
+        "Existe previsibilidade"
+      ],
+      "por_fila": 3,
+      "linhas": [
+        "O objetivo não é vender mais.",
+        "É criar um comercial que continue vendendo sem depender exclusivamente do *dono*."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "O papel do Head Comercial",
+      "intro": [
+        "O Head Comercial não vende. Ele constrói um ambiente onde a equipe vende todos os dias.",
+        "Sua função é desenvolver:"
+      ],
+      "marca_item": "check",
+      "itens": ["Pessoas.", "Processos.", "Tecnologia.", "Indicadores.", "Cultura."]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Onde o gestor deve gastar o tempo",
+      "intro": "Pare de gastar tempo com tarefas operacionais. Invista seu tempo em:",
+      "marca_item": "check",
+      "itens": [
+        "Contratar.",
+        "Treinar.",
+        "Desenvolver líderes.",
+        "Analisar indicadores.",
+        "Criar processos.",
+        "Corrigir gargalos."
+      ]
+    },
+    {
+      "layout": "cards",
+      "titulo": "Os 4 pilares da escala",
+      "itens": ["Pessoas", "Processos", "Tecnologia", "Gestão"],
+      "fecho": "Quando um desses pilares falha, o crescimento desacelera."
+    },
+    {
+      "layout": "texto",
+      "titulo": "Tecnologia não substitui pessoas",
+      "linhas": [
+        "A tecnologia deve eliminar tarefas.",
+        "As pessoas devem fortalecer *relacionamentos*."
+      ],
+      "fecho": "Automatize tarefas. Nunca automatize o vínculo com o cliente."
+    },
+    {
+      "layout": "fluxo",
+      "titulo": "Como funciona a nossa IA SDR",
+      "etapas": [
+        "Cliente chega",
+        "IA acolhe",
+        "IA qualifica",
+        "IA verifica a viabilidade",
+        "IA agenda o atendimento",
+        "SDR supervisiona",
+        "SDR realiza ligações",
+        "Closer"
+      ],
+      "por_fila": 3
+    },
+    {
+      "layout": "lista",
+      "titulo": "O objetivo da IA",
+      "intro": [
+        "Nossa IA não substituiu SDRs. Ela aumentou a capacidade operacional da equipe.",
+        "Hoje nossas SDRs dedicam mais tempo para:"
+      ],
+      "marca_item": "check",
+      "itens": [
+        "Ligações.",
+        "Conexão.",
+        "Recuperação de leads.",
+        "Follow Up.",
+        "Atendimento humanizado."
+      ]
+    },
+    {
+      "layout": "colunas",
+      "titulo": "Não é economia. É reposicionamento.",
+      "grupos": [
+        {
+          "titulo": "Antes",
+          "itens": [
+            "A SDR gastava horas respondendo mensagens.",
+            "O tempo ia todo para a tarefa repetitiva."
+          ]
+        },
+        {
+          "titulo": "Hoje",
+          "itens": [
+            "A IA executa as tarefas repetitivas.",
+            "A SDR dedica seu tempo ao relacionamento e à conversão."
+          ]
+        }
+      ],
+      "fecho": "Tecnologia deve elevar o nível da equipe, não reduzir sua importância."
+    },
+    {
+      "layout": "fluxo",
+      "titulo": "IA para feedback dos Closers",
+      "etapas": [
+        "Google Workspace",
+        "Transcrição automática",
+        "Claude",
+        "Análise da reunião",
+        "Relatório",
+        "Plano de ação",
+        "Feedback individual"
+      ],
+      "por_fila": 4
+    },
+    {
+      "layout": "lista",
+      "titulo": "O que a IA consegue analisar",
+      "marca_item": "check",
+      "itens": [
+        "Acolhimento.",
+        "Autoridade.",
+        "Apresentação dos honorários.",
+        "Quebra de objeções.",
+        "Assinatura.",
+        "Prospecções.",
+        "Documentação.",
+        "Próximo passo."
+      ],
+      "fecho": "Ao final, gera uma nota e um plano de melhoria para cada atendimento."
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "O que não é medido\nnão *evolui*",
+      "linhas": [
+        "Toda decisão deve nascer dos indicadores.",
+        "Percepções geram opiniões. Dados geram decisões."
+      ]
+    },
+    {
+      "layout": "texto",
+      "titulo": "Dashboards",
+      "linhas": [
+        "Os dashboards permitem enxergar a operação em *tempo real*.",
+        "Eles mostram onde estão os gargalos e onde existem oportunidades de crescimento."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Os indicadores que acompanhamos",
+      "marca_item": "check",
+      "itens": [
+        "Origem dos clientes.",
+        "Canal de aquisição.",
+        "Conversão por canal.",
+        "Conversão por Closer.",
+        "Agendamentos por SDR.",
+        "Comparecimento.",
+        "No Show.",
+        "Tempo até a primeira ligação.",
+        "Tempo médio de atendimento.",
+        "Contratos por unidade."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Como identificar o gargalo",
+      "marca_item": "bullet",
+      "itens": [
+        "Poucos agendamentos? Analise o *SDR*.",
+        "Muito agendamento e pouco comparecimento? Analise a *confirmação*.",
+        "Muito comparecimento e pouco fechamento? Analise o *Closer*.",
+        "Muito fechamento e pouca documentação? Analise o *Back Office*.",
+        "Poucas indicações? Analise a *experiência do cliente*."
+      ]
+    },
+    {
+      "layout": "texto",
+      "titulo": "Estrutura de remuneração",
+      "linhas": [
+        "Cada função possui responsabilidades diferentes.",
+        "Por isso, estruturas salariais diferentes."
+      ],
+      "fecho": "A remuneração acompanha a responsabilidade e a expectativa de entrega."
+    },
+    {
+      "layout": "colunas",
+      "titulo": "Nossa estrutura",
+      "grupos": [
+        {
+          "titulo": "SDR",
+          "itens": ["Assistente Jurídico.", "Salário base.", "Comissões.", "Meta e supermeta."]
+        },
+        {
+          "titulo": "Closer",
+          "itens": ["Advogado.", "Salário base.", "Comissões.", "Meta e supermeta."]
+        },
+        {
+          "titulo": "Documentação",
+          "itens": ["Assistente Administrativo.", "Salário base.", "Meta e supermeta."]
+        }
+      ]
+    },
+    {
+      "layout": "fluxo",
+      "titulo": "Plano de carreira",
+      "etapas": [
+        "Assistente Jurídico",
+        "SDR",
+        "Closer",
+        "Coordenador Comercial",
+        "Head Comercial"
+      ],
+      "por_fila": 5,
+      "linhas": ["As pessoas permanecem onde conseguem enxergar *crescimento*."]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "Remuneração é diferente\nde *motivação*",
+      "linhas": [
+        "Salário atrai. Plano de carreira retém. Reconhecimento desenvolve.",
+        "Nenhuma comissão substitui uma boa liderança."
+      ]
+    },
+    {
+      "layout": "texto",
+      "titulo": "Metas semanais",
+      "linhas": [
+        "A meta semanal permite corrigir a rota antes do *fechamento do mês*.",
+        "Ela mantém a equipe focada e evita surpresas no resultado."
+      ]
+    },
+    {
+      "layout": "declaracao",
+      "titulo": "Supermeta não é\numa *meta maior*",
+      "linhas": [
+        "Ela cria um ambiente de alta performance e recompensa quem entrega acima da média.",
+        "É uma ferramenta de cultura."
+      ]
+    },
+    {
+      "layout": "colunas",
+      "titulo": "Meta × Comissão",
+      "grupos": [
+        {
+          "titulo": "Meta",
+          "itens": ["Define a direção.", "Organiza o caminho."]
+        },
+        {
+          "titulo": "Comissão",
+          "itens": ["Recompensa o resultado.", "Incentiva a performance."]
+        }
+      ]
+    },
+    {
+      "layout": "texto",
+      "titulo": "A importância das cobranças",
+      "linhas": [
+        "Cobrar não é pressionar.",
+        "Cobrar é *acompanhar*."
+      ],
+      "fecho": "Quanto mais frequente o acompanhamento, mais cedo os problemas aparecem."
+    },
+    {
+      "layout": "lista",
+      "titulo": "Reuniões de alinhamento",
+      "intro": "Crie uma rotina de gestão:",
+      "marca_item": "check",
+      "itens": [
+        "Alinhamentos.",
+        "Feedbacks.",
+        "Correções de rota.",
+        "Compartilhamento de resultados."
+      ],
+      "fecho": "A frequência é mais importante do que a duração."
+    },
+    {
+      "layout": "colunas",
+      "titulo": "A rotina do gestor",
+      "grupos": [
+        {
+          "titulo": "Segunda-feira",
+          "itens": ["Planejamento.", "Definição das prioridades da semana."]
+        },
+        {
+          "titulo": "Durante a semana",
+          "itens": ["Acompanhamento dos indicadores.", "Feedbacks."]
+        },
+        {
+          "titulo": "Sexta-feira",
+          "itens": ["Resultados.", "Aprendizados.", "Plano de ação para a próxima semana."]
+        }
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "Os maiores erros dos gestores",
+      "marca_item": "x",
+      "itens": [
+        "Crescer sem processo.",
+        "Não acompanhar indicadores.",
+        "Cobrar apenas no fim do mês.",
+        "Não treinar continuamente.",
+        "Centralizar todas as decisões."
+      ]
+    },
+    {
+      "layout": "lista",
+      "titulo": "O comercial do futuro",
+      "intro": "Os escritórios que mais crescerão serão os que conseguirem unir:",
+      "marca_item": "check",
+      "itens": ["Pessoas.", "Tecnologia.", "Dados.", "Gestão.", "Cultura."],
+      "fecho": "Nenhum desses pilares, sozinho, sustenta a alta performance."
+    },
+    {
+      "layout": "lista",
+      "titulo": "Os 10 mandamentos do Head Comercial",
+      "marca_item": "numero",
+      "itens": [
+        "Contrate comportamento antes da técnica.",
+        "Automatize tarefas, nunca relacionamentos.",
+        "Desenvolva pessoas continuamente.",
+        "Meça tudo o que for importante.",
+        "Tome decisões baseadas em dados.",
+        "Faça reuniões de alinhamento frequentes.",
+        "Corrija problemas semanalmente.",
+        "Crie metas claras e acompanhadas.",
+        "Forme novos líderes.",
+        "Evolua o comercial todos os meses."
+      ]
+    },
+    {
+      "layout": "texto",
+      "titulo": "O objetivo final",
+      "linhas": [
+        "O maior patrimônio de um escritório não é o número de contratos.",
+        "É a capacidade de gerar contratos de forma *previsível*, todos os meses."
+      ],
+      "fecho": "Um comercial organizado permite crescer com controle e segurança."
+    },
+    {
+      "layout": "final",
+      "foto": "FOTOS/GABRIEL/v2_4330044c-f060-4c93-8ead-d2987f71fea0.jpg",
+      "foco": "topo",
+      "titulo": "Alta performance não nasce por acaso. É resultado de decisão estratégica, gestão consistente e *evolução contínua*."
+    }
+  ]
+}
